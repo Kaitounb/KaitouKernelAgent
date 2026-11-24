@@ -1,79 +1,94 @@
 # KaitouKernelAgent
 
-基于成熟组件的 NVIDIA CUDA 算子优化 Agent：真实模型提案、受控编译、正确性与硬件反馈、配对测量、独立裁决和可回退部署。
+面向 NVIDIA GPU 的 CUDA 算子优化 Agent，将模型提案、受控工具执行、硬件分析和发布回退连成可追溯工作流。
 
-本仓库是已完成工程交付的源码快照，包含 CUDA/Python 实现、测试、固定上游来源、工作负载合同及选定验收摘要。生产资格只覆盖实际验收过的固定实现与 GPU/驱动/镜像组合。
+**技术栈：** CUDA C++ · WMMA / Tensor Core · cuBLAS · PyTorch C++/CUDA Extension · DeepSeek · Nsight Compute · CUDA Graph / Event · Docker
 
-## 已验证的交付
+## 项目解决的问题
 
-| 内容 | 实际验收 |
+模型产生的 CUDA 修改需要经过真实编译和运行才能判断效果；GPU 测量还会受到主机发射开销、缓存状态和设备波动影响。部署阶段则需要保证失败候选能够被隔离，运行版本可以校验和恢复。
+
+项目围绕这些问题实现了候选提案、执行反馈、可信评测和版本管理，让优化过程具备明确的输入、工具边界、裁决依据和回退路径。
+
+## 核心实现
+
+### Agent 编排与反馈
+
+- 将 DeepSeek 的结构化提案解析为受约束的 CUDA 源码补丁或算子配置，绑定父版本与候选身份。
+- 串联编译、正确性检查、性能测量和发布裁决，按阶段记录输入、输出、错误与状态。
+- 将编译错误、执行结果和硬件指标组织为反馈，支持执行反馈与硬件反馈的对照实验。
+- 使用候选去重、调用预算和停止条件控制搜索成本；评测器独立决定候选是否满足晋升条件。
+
+代码入口：[候选流水线](kernel_agent/optimization/pipeline.py) · [反馈通道](kernel_agent/optimization/feedback_channels.py) · [身份与去重](kernel_agent/optimization/identity.py) · [预算控制](kernel_agent/optimization/call_budget.py)
+
+### CUDA 算子与 PyTorch 接入
+
+- 通过 PyTorch C++/CUDA Extension 接入 GEMM，提供 WMMA Tensor Core 模板与 cuBLAS 路径。
+- 对齐输入精度、张量形状、内存布局和地址对齐条件；不满足模板条件时切换到可信实现。
+- 使用设备 guard 与当前 CUDA stream 发射 kernel，保证与 PyTorch 调用侧的设备、流语义一致。
+- 接通 Attention 与 MLA Decode 计算后端，用任务合同约束各自的数据布局与运行配置。
+
+代码入口：[WMMA 模板](kernels/gemm/wmma_sm86.cu) · [cuBLAS 接入](kernels/gemm/cublas_sm86.cu) · [算子后端](kernel_agent/operators/)
+
+### 硬件分析与可信测量
+
+- 用 Nsight Compute 采集 warp 占用、Tensor Core 活动、显存吞吐、缓存命中和等待原因，解析为可供提案使用的硬件事实。
+- 通过 CUDA Graph 降低主机发射开销的影响，使用 CUDA Event 交替配对测量，区分重复输入和输入环场景。
+- 先检查候选自身的 A/A 稳定性，再与当前版本做 A/B 对照；正确性、稳定性和收益分别判定。
+- 结合独立数值参考、输入保护和 Sanitizer 检查约束候选，保留原始报告、日志和裁决记录。
+
+代码入口：[配对评测流水线](kernel_agent/optimization/pair_pipeline.py) · [配对裁决](kernel_agent/optimization/pair_decision.py) · [正确性评测](kernel_agent/optimization/evaluate.py) · [NCU 运行说明](docs/RTX3060_NCU.md)
+
+### 隔离执行与可回退部署
+
+- 将构建与 GPU 执行放入受控 worker，使用低权限身份、只读挂载、网络隔离和资源约束限定执行边界。
+- 对运行时间和日志大小设限；异常或超时后清理 worker，清理状态未确认时停止继续执行。
+- 通过源码和产物指纹校验版本身份，维护候选、当前版本及可信后备版本。
+- 使用版本注册与原子切换实现回滚，交付 wheel/CLI、运行记录及恢复备份。
+
+代码入口：[版本注册](kernel_agent/registry.py) · [执行与回退](kernel_agent/deployment.py) · [有界进程控制](kernel_agent/bounded_io.py) · [GEMM CLI](kernel_agent/cdi_cli.py)
+
+## 已交付能力
+
+| 模块 | 已完成的工程能力 |
 |---|---|
-| RTX3060 GEMM / v0.1.3 | FP16输入、FP32输出的固定可信cuBLAS；320公开正确性、32 Sanitizer检查、独立16/16输出；三轮A/A与A/B共1728段 |
-| GEMM测量稳定性 | A/A最大单对偏差0.657401%，最大组偏差0.251983%，最低A/B保护项0.999578594×；通过预先冻结的3% / 1.5% / 0.97部署门槛 |
-| RTX3070 Attention / MLA / v0.1.1 | 已验收的固定FlashInfer Attention与page16/split1 MLA core，保留原限定生产资格 |
-| RTX3060 Nsight Compute | 3次真实cuBLAS kernel，每次19项指标有效；原报告重导出与固定KernelAgent parser解析一致；三输出FP64复核通过 |
-| 交付与恢复 | wheel/CLI、版本与产物校验、低权限worker、有界日志/超时、可信回退、实际包回滚和镜像恢复验证 |
+| GEMM | CUDA 模板与 cuBLAS 接入，正确性和稳定性评测，可信实现的部署、回退与恢复 |
+| Attention / MLA Decode | 固定 SDK 后端集成、任务合同、受控配置实验与已验收版本运行入口 |
+| 硬件反馈 | 真实 GPU 上的 NCU 采集、指标解析、原报告读取与输出复核 |
+| 优化 Agent | 真实模型提案、受约束源码/配置修改、失败反馈、候选去重和外置裁决 |
+| 工程交付 | 受控 worker、可安装命令行、版本校验、实际包切换和可追溯运行记录 |
 
-部署成绩不代表新的算法提速。正式A/B/C消融完成54组搜索、221个提案、158次模型调用：没有候选通过完整晋升门槛，默认保留可信实现。包含先前工程调用的新预算累计190/700（历史3次另计）。未建立硬件反馈优于其他方法的收益结论。
+性能候选只有在正确性、稳定性和收益门槛均满足后才晋升。当前部署默认保持已验收的可信实现，生产范围绑定对应的 GPU、驱动、镜像和输入合同。
 
-[工程结项与延期范围](docs/PROJECT_CLOSEOUT.md) · [正式实验结果](docs/FORMAL_STUDY_RESULTS.md) · [3060验收汇总](docs/RTX3060_GEMM_RELEASE.md) · [NCU指标与原始CSV](docs/RTX3060_NCU.md)
+## 运行与代码阅读
 
-## Agent 与可信执行流程
-
-```text
-冻结合同与工作负载
-  → DeepSeek提出受控CUDA源码/配置
-  → 变更范围与身份检查
-  → 独立构建与CUDA正确性/Sanitizer
-  → 候选自身A/A稳定性
-  → 与当前参照配对A/B测量
-  → 外置门槛裁决与证据留档
-  → 只允许已验收固定产物进入部署/回退目录
-```
-
-硬件反馈由Nsight Compute原报告与CSV提供，复用固定KernelAgent指标解析。模型提案与发布裁决分离；未通过、重复、超时或退化的候选均有记录。GEMM源码和MLA SDK配置采用不同受控变更范围。
-
-生产GEMM worker使用UID/GID65534、零cap、NoNewPrivs、只读根目录、私有PID/network边界、两个只读产物/输入挂载、2GiB内存和有界输出。管理员NCU诊断通道单独受控，不执行任意模型生成源码。可信控制器与worker职责见[执行边界](docs/BOUNDED_BUILDER.md)及[运行说明](docs/RTX3060_GEMM_RUNTIME.md)。
-
-## 代码结构
-
-| 目录 | 职责 |
-|---|---|
-| `kernel_agent/` | 可安装CLI、registry、执行/回退、优化与算子后端 |
-| `kernels/` | CUDA GEMM基线、可信WMMA模板及教学kernel |
-| `evaluators/`, `workloads/` | 合同、正确性/测量适配、固定工作负载 |
-| `experiments/` | 参数/源码提案、NCU、正式消融和一次性验收控制器 |
-| `tests/` | CPU gate、协议、发布、回退与适配测试 |
-| `provenance/` | 上游commit、采用接口、修改范围、原始许可和来源锁 |
-| `releases/` | 各目标的限定发行/资格清单与工程结项声明 |
-| `evidence/` | 选定审计摘要和NCU CSV；完整原始档案保存在原本地工作区 |
-
-## 本地安装与CPU回归
-
-Python3.12或更新版本；GPU运行另外需要匹配的CUDA/PyTorch/Docker/NVIDIA环境。
+Python 环境中安装源码：
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install -e .
-python -m pip install pandas==2.3.3  # 仅NCU离线解析需要
 kernel-agent-3060 --help
-
-PYTHONPATH=tests python -m unittest   test_registry test_deployment_policy test_qualified_channel   test_sm89_runtime test_sm89_qualified test_operator_qualification   test_gemm_deployment_policy test_gemm_target_binding test_cdi_release
 ```
 
-以上54项CPU回归不代替GPU验收。模型provider的可选依赖通过`pip install -e '.[model]'`安装；密钥仅从本机环境变量注入，仓库不含模型或SSH凭据。
+模型 provider 的可选依赖：
 
-GPU部署的镜像和资格绑定原验收环境。在另一块卡上安装源码不会自动获得生产资格；请先构建/核对自己的依赖环境，再以新目录建立对应目标的正确性、稳定性与隔离证据。不要重跑历史一次性stage/freeze/qualification/independent/install脚本来覆盖既有结果。
+```bash
+python -m pip install -e '.[model]'
+```
 
-## 主要复用来源
+NCU 离线解析另外需要 pandas。GPU 执行需要匹配的 CUDA、PyTorch、Docker 和 NVIDIA 环境；另一块卡或不同运行环境需要建立自己的资格，不能直接继承原目标的生产结论。
 
-复用/适配PyTorch KernelAgent的profiler/provider，KernelBench的CUDA评测路径，以及KDA/ForgeKernel/FlashInfer-Bench的既定流程、保护和数据接口。算子后端按硬件支持核对现成CUDA SDK。各组件的实际集成范围有单独记录，并非五套框架全部直接集成。
+建议按以下顺序阅读：
 
-[上游采用表](provenance/UPSTREAM_REUSE.md) · [版本锁](provenance/upstream-lock.json) · [第三方许可](THIRD_PARTY_NOTICES.md)
+1. `kernel_agent/optimization/pipeline.py`：候选在不同工具阶段之间如何流转。
+2. `kernel_agent/optimization/identity.py` 与 `feedback_channels.py`：如何约束模型输出和反馈信息。
+3. `kernels/gemm/`：CUDA kernel、张量合同和 PyTorch 接入。
+4. `kernel_agent/optimization/pair_pipeline.py`：如何测量并裁决性能结果。
+5. `kernel_agent/registry.py` 与 `deployment.py`：如何校验、执行和回退已验收版本。
 
-## 数据与发布范围
+[GPU 运行与回退](docs/RTX3060_GEMM_RUNTIME.md) · [源码发布范围](docs/GITHUB_PUBLICATION.md)
 
-公开的是工程源码、测试、上游归属及选定验收摘要。SSH/API凭据、私有独立验收清单、大型Docker/SDK/工具恢复归档、完整原始运行档案及未明确再分发许可的参考材料不进入Git。链接到这些未分发本地材料的历史路径用于记录审计来源，在线仓库中可能不可直接下载。
+## 数据与许可
 
-[源码发布范围](docs/GITHUB_PUBLICATION.md)说明目录选择；[完整结项声明](docs/PROJECT_CLOSEOUT.md)列出延期项。3070 GEMM最终资格、原4090目标C完整跨卡研究、通用源码生产执行和学习复盘保持各自未验收/延期状态。
+仓库提供实现、测试及选定工程记录。模型/SSH 凭据、私有独立验收清单和大型运行环境归档保存在本机，不进入版本控制。随代码分发的版权、许可证和署名见 [第三方声明](THIRD_PARTY_NOTICES.md) 及各文件附带许可。
