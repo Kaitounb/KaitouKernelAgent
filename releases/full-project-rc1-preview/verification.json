@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope": "Offline preview artifact/proof/ledger/legacy freeze/provenance hash verification; not production acceptance",
+  "artifacts_verified": 3,
+  "proofs_verified": 18,
+  "ledger_calls": 190,
+  "legacy_freeze": {
+    "status": "PASS",
+    "candidate_id": "gemm-sm86-rc1",
+    "freeze_id": "1756bace31e202585de4164d3f4dd68d53eee5da22c8f364e06334495f615549",
+    "protocol_sha256": "99a9c9fc385bb8ff3f609caccf38bc57061ccb4af8c92c9590079d687244137f",
+    "heldout_read": false,
+    "production_release": false
+  },
+  "provenance": {
+    "status": "PROVENANCE_PASS",
+    "evidence_type": "STATIC_HASH_AUDIT",
+    "reference_files": 61,
+    "locked_files": 87,
+    "historical_evidence_files": 107,
+    "reference_tree_sha256": "0ca1a5d22da2abe8b602172fd048183b64892e3bf2e119c75c7299f36f5568d6",
+    "gpu_run": false
+  },
+  "production_release": false
+}

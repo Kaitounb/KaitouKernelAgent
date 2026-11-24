@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "executed_gpu_calls": 16,
+  "correct_outputs": 16,
+  "manifest_count": 4,
+  "manifest_sha256": "aeef09f38b1c7aef156ea1d49f0d72cc7fbd8f62c8909f4541e930a905d0d951",
+  "protocol_sha256": "d31ef5e96ce0aa5fd824bf17f4053faadf7862b4c92f437829b30b84f2573bae",
+  "wheel_sha256": "5b45358a5dd5b8608760faedf3442546bc51fa48db87680db95095db33190412",
+  "old_private_manifest_read": false,
+  "exact_values_exposed_to_model": false,
+  "new_model_calls": 0,
+  "new_event_samples": 0,
+  "production_release": false,
+  "max_abs_error": 9.5367431640625e-06,
+  "private_archive_sha256": "ed737a42578c3410bea55b53e6c3e68c144f300b0e3fabb97454bcb04b8f5365",
+  "private_files_preserved": 220
+}

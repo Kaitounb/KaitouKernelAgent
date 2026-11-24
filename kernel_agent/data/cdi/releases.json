@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "default": "sm86-cublas-container",
+  "fallback": "sm86-cublas-original",
+  "versions": {
+    "sm86-cublas-original": {
+      "version": "sm86-cublas-original",
+      "binary_sha256": "93fb2f4344521b7e9b246b54d1c30d4b1a8facf731e6385e18f6119e9c49c72c",
+      "contract_sha256": "6d6afee515a4e8ef4564da228de7598b7b1596cf2860f10fb13a17afae3dfe31",
+      "image_id": "sha256:6ce2012265c68b8553adf8d7807dcf47972a9156d1c7f0a2a64db11f9827e55a",
+      "torch": "2.14.0+cu130",
+      "cuda": "13.0",
+      "device": "sm86",
+      "backend": "cublas",
+      "status": "3060-development-preview",
+      "production_release": false,
+      "evidence": "evidence/20261124-3060-next-qualification/verification.json"
+    },
+    "sm86-cublas-container": {
+      "version": "sm86-cublas-container",
+      "binary_sha256": "66fcc80f9122c919f92c72e37a01794a792c91a58b71d5705b160e0bc979dfc3",
+      "contract_sha256": "6d6afee515a4e8ef4564da228de7598b7b1596cf2860f10fb13a17afae3dfe31",
+      "image_id": "sha256:6ce2012265c68b8553adf8d7807dcf47972a9156d1c7f0a2a64db11f9827e55a",
+      "torch": "2.14.0+cu130",
+      "cuda": "13.0",
+      "device": "sm86",
+      "backend": "cublas",
+      "status": "3060-development-preview",
+      "production_release": false,
+      "evidence": "evidence/20261124-3060-next-qualification/verification.json"
+    }
+  },
+  "target": "rtx3060-reviewed-cdi"
+}

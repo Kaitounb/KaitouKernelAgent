@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "version": "0.1.0rc1",
+  "status": "UNRELEASED_PREVIEW_ACCEPTANCE_BLOCKED",
+  "artifacts": {
+    "artifacts/wheels/nvidia_kernel_agent-0.1.0rc1-py3-none-any.whl": "d5b9ae9e1141b8b91bd937807918b11b5d46e467764c031115700e85bef6f7c4",
+    "artifacts/wheels/nvidia_kernel_agent-0.1.0.dev6-py3-none-any.whl": "d5f4bbf83dc050271af66baf35738f3800d02c2592b6fec101457122edc4fb38",
+    "artifacts/operator-runtime/sm86-cfae38ce5c0fac56545207fe93588c1193646886fc5952f113fab487ef0be6eb.zip": "939bf2d6d71a8d47fff652f944addb16857167e9f4ffbabd83c37a7e9a5ae5fa"
+  },
+  "proofs": {
+    "evidence/20261123-formal-study-v1/protocol.json": "56b6bdbe1ba587c9dac3b84d59f81146e120767787db9c8529de129fdc698e7f",
+    "evidence/20261123-formal-study-v1/protocol.freeze.json": "520c8737db8bdd6a0d48d185fe31c1db7206bf102d7a734d549893d42a73bd94",
+    "evidence/20261123-formal-study-v1/verification.json": "914109dfc51f083c71887f0e2f5b5b242d50b2aac16f241911556b82ee4d6def",
+    "evidence/20261123-formal-study-v1/report-final/manifest.json": "5585eb38bea2aeb7cc6b1a7e8c45ab292049e21c5f5c55caf8ceffe51d767282",
+    "evidence/20261123-cublas-final-qualification/verification.json": "5834be5db55ac5914fb130b855cb15b63ccc0d02405cd8abc4695e1a03a6fd6f",
+    "evidence/20261123-cublas-final-qualification/segmented-archive/collection.json": "29ed550674a7d8e129ce794e8c863ee84e45601bc3e31721ed96339165942fb1",
+    "evidence/20261123-rc1-preview-installed/verification.json": "8de924bde7f080d01b07e70169800fb5e3e5059c705aafd1b04fae77bdf63f9e",
+    "evidence/20261123-rc1-preview-installed/archive/collection.json": "4b0b4ebfa04aaecb700c3c3953c55d677bd7c5749007a71012fb0c66861ae87b",
+    "evidence/20261123-crosscard-protocol/verification.json": "ba8e7750985d5903475f588ff7a2265b7eeec1f5989a97545258047bc3dd700c",
+    "evidence/20261123-sm89-frozen-native-archive/verification.json": "50f2df8cb356f84dff3b0904ccc421fb31773751b60362193383a0b5772af402",
+    "evidence/20261122-gemm-independent-acceptance/verification.json": "748473d58366f0e3c0ee588e3a808a11f0a198641f7263a2b8a5bf04f4449049",
+    "evidence/20261123-dev6-package-rollback/verification.json": "0da42a40e596b8574a24143106fdbb389fbd55c1fce4096d55665ad037f9950e",
+    "releases/gemm-sm86-rc1/freeze.json": "709415430cf7eb9a3b054312f542cfa3f015ede762d528712014e18c69da2df8",
+    "releases/operators-sm86-rc1/freeze.json": "a824c32ae625eb08cf27fe03f6359462344f0d5139f47a76eecfd26514123cea",
+    "releases/operators-sm86-rc1/protocol.freeze.json": "b87dd15f6beb18d9f3912f3fa10818e20f1e9e2ccb9ec2caf4ea9a460824df21",
+    "evidence/20261123-mla-private-approval-block/review.json": "e0f5a4db33dce7d688329b3f1434eca2ac20137644bd3cdbb6dbc1b3d50c8f6b",
+    "evidence/20261122-full-project-readiness/model-budget.json": "35dd7d26004bb8694fc2aa9a07b8f9952acbe235ad6d599f9a18d03a783291fa",
+    "provenance/upstream-lock.json": "98e4600f94b7baf720cbbe2a77246e018d3b49639d1c931e322dcb7865618e99"
+  },
+  "model_ledger_snapshot_sha256": "d79a0e768c0adf80d2860f2eae57dd59e5d8d3e1e9e37ca7fed6115fd39365fb",
+  "study": {
+    "independent_searches": 54,
+    "proposals": 221,
+    "model_calls": 158,
+    "tokens": 858008,
+    "screening_passes": 0,
+    "protocol_sha256": "56b6bdbe1ba587c9dac3b84d59f81146e120767787db9c8529de129fdc698e7f"
+  },
+  "new_call_budget": {
+    "maximum": 700,
+    "used": 190,
+    "remaining": 510,
+    "tokens": 997897,
+    "historical_calls_separate": 3,
+    "historical_tokens_separate": 8790
+  },
+  "runtime": {
+    "default": "cuBLAS",
+    "default_binary_sha256": "66fcc80f9122c919f92c72e37a01794a792c91a58b71d5705b160e0bc979dfc3",
+    "fallback_binary_sha256": "93fb2f4344521b7e9b246b54d1c30d4b1a8facf731e6385e18f6119e9c49c72c",
+    "environment": "RTX3070/SM86, Ubuntu24.04 WSL2, driver591.74, fixed ce00f6dc Docker image, Torch2.14.0+cu130/CUDA13.0",
+    "qualified_certificate_present": false,
+    "preview_install_and_rollback_verified": true
+  },
+  "blockers": [
+    "DEFAULT_CUBLAS_AA_MAX_PAIR_DEVIATION_4.274_PERCENT",
+    "SM89_NCU_HOST_COUNTER_PERMISSION_UNAVAILABLE",
+    "PRIVATE_MLA_TRANSFER_EXECUTION_SPECIFIC_AUTH_PENDING"
+  ],
+  "private_mla_values_read_by_model": false,
+  "private_mla_transferred": false,
+  "private_mla_executed": false,
+  "runtime_activation": false,
+  "production_release": false
+}

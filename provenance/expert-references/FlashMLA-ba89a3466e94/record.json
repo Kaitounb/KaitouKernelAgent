@@ -1,0 +1,24 @@
+{
+  "repository": "https://github.com/deepseek-ai/FlashMLA",
+  "revision": "ba89a3466e9470ad08ab39738d4e7bb66989e1e7",
+  "scope": "compatibility/reference only; no code built or executed",
+  "files": {
+    "README.md": {
+      "sha256": "3830a7de0bf949cab8376e759bc840dd3c0ea3de9302e96d6c62e0cb55f2ef07",
+      "url": "https://raw.githubusercontent.com/deepseek-ai/FlashMLA/ba89a3466e9470ad08ab39738d4e7bb66989e1e7/README.md",
+      "bytes": 19128
+    },
+    "LICENSE": {
+      "sha256": "6c73a30c14a2938abaa6afe98ebb19e6d81dac5bd4ace0cb05c61c20afa37b85",
+      "url": "https://raw.githubusercontent.com/deepseek-ai/FlashMLA/ba89a3466e9470ad08ab39738d4e7bb66989e1e7/LICENSE",
+      "bytes": 1065
+    }
+  },
+  "observed_targets": {
+    "RTX3070": "SM86",
+    "RTX4090": "SM89"
+  },
+  "dense_decode_required": "SM90 per pinned README support matrix",
+  "runtime_status": "NOT_RUN_UNSUPPORTED_ARCHITECTURE",
+  "performance_result": null
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "status": "QUALIFIED",
+  "scope": "SM86_REVIEWED_FIXED_ATTENTION_MLA",
+  "production_release": true,
+  "source_execution_enabled": false,
+  "operations": [
+    "attention",
+    "mla"
+  ],
+  "qualified_mla_configuration": {
+    "page_size": 16,
+    "splits": 1
+  },
+  "bundle_id": "cfae38ce5c0fac56545207fe93588c1193646886fc5952f113fab487ef0be6eb",
+  "environment": {
+    "image_id": "sha256:ce00f6dc2eea43dc508b90b548f624646d643a92d363aa715fdb5a3b4f49290a",
+    "gpu_uuid": "GPU-859dd34e-59f1-959a-2546-ca027062f9bd",
+    "driver_version": "591.74",
+    "torch": "2.14.0+cu130",
+    "cuda": "13.0",
+    "capability": [
+      8,
+      6
+    ]
+  },
+  "independent_correctness_pass": true,
+  "installed_runtime_pass": true,
+  "recovery_pass": true,
+  "rollback_pass": true,
+  "boundary_pass": true,
+  "stability_pass": true,
+  "raw_audit_pass": true,
+  "runtime_files": {
+    "kernel_agent/operators/partition.py": "6927144ec96536b635f6f75516f4d9e40846c3bba1e6d2265d763ba2510d7cf8",
+    "kernel_agent/protocol.py": "0ac84b78d498327c5a73e295aea820fa06a36ea0aa933ad70f9dd79d2698c8df",
+    "kernel_agent/operators/pipe_worker.py": "0a0d4496eb50e5d4654f484285821182976a9e84135eea6bc2b0eac0c87ad394",
+    "kernel_agent/operators/runner.py": "3c92bee82dea2e72eea475012d91b6f7b7f46ec51bbc3253abeb62ec2392492a",
+    "kernel_agent/operators/qualification.py": "ea57be7a8a620f48185f140d134b953b463acf048f78b3319cb810deea3ae6f9",
+    "kernel_agent/optimization/source_packets.py": "3cb322f118b0ad0d241f17e82095e422888012e884c2d0f1a6742ef9b7105e45",
+    "kernel_agent/operators/array_io.py": "4bcb107936bf594db4ce58d2fef93f2baa15ae01bd762e282b9563de73d9b198",
+    "kernel_agent/operators/runtime_contract.py": "cfe1a3c66c1211e0491cf5ac738ff9dc840cbea9170acd6b20c2c189556f97cc",
+    "kernel_agent/operators/flashinfer_backend.py": "7d00a677b8810fd06f918674266060f98d984a08660af02450534e2f46351bcd",
+    "kernel_agent/operators/cli.py": "a6ff83e193551577b04b55bea4bc99a53b1b2dfca8ef87518b0f84e143ddfe99",
+    "kernel_agent/bounded_io.py": "55d21702610a863847c83ecb54236493ac4eac1520c1b9dc86afa3635e399523",
+    "kernel_agent/runner.py": "178f8aafd2b9c61cfc398ea1592645f9cc74e2f1444ca520712557ce0ca82b3a"
+  },
+  "evidence": {
+    "evidence/20261123-sm86-operators-rc1/verification.json": "58a4b2a2272f7d0cac98059cceab22bd139ab2641ad5819d814239744cad4218",
+    "evidence/20261123-sm86-operators-rc2/verification.json": "c3bc81c5c3a584126d9a513f573f71efc68cf995c0f92d5bdb08f3ddf8e2f696",
+    "evidence/20261123-sm86-operator-deployment-shared-input/verification.json": "390444b498cb3eea6b124b117fc6c088b5721d3610ec10f91a46fdce78c661c9",
+    "evidence/20261123-sm86-operator-deployment-stability/verification.json": "ab74dbc7b437270c003b73a57fb46b9ac4f31d7babf63e6cc6c220b8f29b0b40",
+    "evidence/20261123-attention-sm86-independent/verification.json": "f95bf5b67d52c4fa79d98bd2ad021f4e109a698a83838b3a0e14bb5c42707f68",
+    "evidence/20261123-mla-independent-acceptance/verification.json": "cc65e902a2313f0375e2977224be9fab5d4b44517b1b0a9f4e6d9db29317d571",
+    "evidence/20261123-sm86-operators-rc1/numeric-source-binding.json": "41ba895567262b4cd24e4ce01eb0adb67420047d837817a3258ec5b57523fc85"
+  },
+  "stability_protocol_sha256": "95fefcec7c0888bd16ace01d2a93a217432b2bbaa4b6c86f9510aa9f082479d8",
+  "performance_scope": "ordinary clocks/current HAGS-On, sustained Graph batch average; no single-request tail SLA or optimization gain claim",
+  "inheritance": "MLA independent acceptance belongs to same AOT bundle and unchanged numeric/contract files; original sealed data not reexecuted",
+  "new_model_calls": 0
+}

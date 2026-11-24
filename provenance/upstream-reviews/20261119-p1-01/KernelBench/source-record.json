@@ -1,0 +1,22 @@
+{
+  "repository": "ScalingIntelligence/KernelBench",
+  "revision": "423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+  "date": "2026-11-19",
+  "role": "P1-01 teaching source; not yet executed",
+  "license": "MIT",
+  "license_archive": "provenance/upstream-reviews/20261118/ScalingIntelligence__KernelBench/files/LICENSE",
+  "files": [
+    {
+      "path": "src/kernelbench/prompts/few_shot/model_new_ex_tiled_matmul.py",
+      "git_blob_sha1": "dffe8e6c163fc169260b46e11f15fc0cbeb56235",
+      "sha256": "4d168d4fa4c8d5260d4ac9bccdc229702b13630704a59a409ec7090322c1fd79",
+      "bytes": 4381
+    },
+    {
+      "path": "src/kernelbench/prompts/few_shot/model_ex_tiled_matmul.py",
+      "git_blob_sha1": "b4fd3bc4e01afa641d397f1a1f6f8e9a0cdd0be2",
+      "sha256": "8a924ece38960a6f3dcfaf146367109c127c3862be01fba71459d125e3e1c583",
+      "bytes": 519
+    }
+  ]
+}

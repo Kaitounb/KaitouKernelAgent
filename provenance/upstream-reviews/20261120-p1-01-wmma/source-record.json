@@ -1,0 +1,17 @@
+{
+  "repository": "NVIDIA/cuda-samples",
+  "revision": "3f1c50965017932fc81e6d94a3fc9e04c105b312",
+  "tag": "v13.0",
+  "files": [
+    {
+      "upstream_path": "LICENSE",
+      "git_blob": "1e58bd5df0dd619135c58af0428c0f73c62921d7",
+      "sha256": "b3e40c5bfed1fca5c62d2c1f2208bf51f8d2c910219f94c443f657ace9001be3"
+    },
+    {
+      "upstream_path": "Samples/3_CUDA_Features/cudaTensorCoreGemm/cudaTensorCoreGemm.cu",
+      "git_blob": "34dc96c9a14ce49d6fc724adb8b8205b790c9a38",
+      "sha256": "32f48f6259b58e1e781eefc873e3e3e346fbe48bdd28be2e8bb7d7832257c9b8"
+    }
+  ]
+}

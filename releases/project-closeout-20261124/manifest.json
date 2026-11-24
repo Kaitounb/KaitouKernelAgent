@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "status": "ENGINEERING_DELIVERY_COMPLETE_SCOPED",
+  "date": "2026-11-24",
+  "completed_scope": [
+    "RTX3060 fixed reviewed cuBLAS GEMM v0.1.3 qualified deployment",
+    "RTX3070 fixed reviewed Attention/MLA v0.1.1 existing qualified deployment",
+    "RTX3060 NCU3 realcuBLAS kernels/19metrics plus rawreport reimport and FP64 replay",
+    "Actual recovery/package rollback/backups within each released scope"
+  ],
+  "all_original_plan_items_complete": false,
+  "deferred_scope": [
+    "RTX3070 GEMM final production performance qualification remains rejected",
+    "Original RTX4090 C crosscard research/P6 full all-target all-operator scope not accepted",
+    "Arbitrary model source production execution not enabled",
+    "Learning review and teaching exercises deferred"
+  ],
+  "evidence_sha256": {
+    "releases/rtx3060-gemm-v0.1.3/manifest.json": "fbd5ac982e3306294b896170bf5cfe1a5485031437827297acfc8ea86ac1a13d",
+    "releases/sm86-operators-v0.1.1/manifest.json": "c25e80eb9ce6dc5810bf4b74048847ab537d6e51ebe67b153c1a5ebaec23d69d",
+    "evidence/20261124-3060-ncu-smoke-v2/verification.json": "f0b20114283da0f74ecbe834993eb718c8a941fee08a66529902811e77c82171",
+    "evidence/20261124-3060-ncu-final-postflight/result.json": "6e8951f359ffb5558e82adedb347a577a4d05771f640e8ba81ba85bdc797fa28",
+    "evidence/20261124-3060-ncu-install/local-tool-backup.json": "82227bc45e5aa823c9a6c2be7b863613fe91d5c28a1bf980442ed3e8495f7cb1"
+  },
+  "ncu": {
+    "status": "AUDIT_PASS_3060_REAL_NCU",
+    "raw_files_verified": 38,
+    "failed_attempt_raw_files_verified": 29,
+    "first_failed_attempt_actual_kernel_launches": 0,
+    "successful_profiled_kernel_launches": 3,
+    "observed_metrics_per_launch": 19,
+    "correct_outputs_fp64_verified": 3,
+    "maximum_absolute_error": 4.291534423828125e-06,
+    "ncu_version": "2025.3.1.4-1",
+    "ncu_package_sha256": "e2d393e1a0ba7ae1c983b1062f6494a8e85a98c987503f71bb73cc615aafe512",
+    "binary_sha256": "66fcc80f9122c919f92c72e37a01794a792c91a58b71d5705b160e0bc979dfc3",
+    "report_sha256": "94028848050a442a4050da9ff7acba4837950346509f517d3ad8575ab637a513",
+    "raw_archive_sha256": "38061e2caf0717132370986353ee9dcb8468b8562f0efceb887c433c0babf7c3",
+    "native_report_import_crosscheck_pass": true,
+    "pinned_upstream_parser_sha256": "44e65a3a1fea674972e31717246ff98b807f49b488548835c21ff7e373f3f41a",
+    "pinned_upstream_schema_sha256": "92f9d73856c0ea1cd8fe36a3e67337d3947d3c255a4207242a884eace24c5489",
+    "profile_only_no_formal_latency_claim": true,
+    "production_runtime_unchanged": true,
+    "driver_profiling_policy_unchanged": true,
+    "private_data_read": false,
+    "new_model_calls": 0,
+    "new_cuda_compilation": false,
+    "new_formal_event_samples": 0
+  },
+  "ncu_tool_backup": {
+    "status": "OFFICIAL_NCU_TOOL_ARCHIVE_SHA_PASS",
+    "archive": "/Users/kaitou/AI/NvidiaKernelAgent/artifacts/tools/nsight-compute-2025.3.1_2025.3.1.4-1_amd64.deb",
+    "sha256": "e2d393e1a0ba7ae1c983b1062f6494a8e85a98c987503f71bb73cc615aafe512",
+    "bytes": 314475378,
+    "recovery": "Local download EOF truncated; prefix SHA matched exact verified server package; missing tail recovered read-only via SSH",
+    "recovered_tail_bytes": 140146,
+    "prefix_sha256": "bb226141f48593105cd353a14bb37dc08950356ab47431708baf9aa4c979b8c6",
+    "tail_sha256": "21f3b846c654d9e5b550ec2e34425d7c87bf20eefccdf3dd341677341c663cd0",
+    "truncated_original_retained": true
+  },
+  "audit_environment": {
+    "python": "3.14.7",
+    "numpy": "2.5.5",
+    "pandas": "2.3.3"
+  },
+  "new_model_calls_this_closeout": 0,
+  "new_model_calls_total_against_700": 190,
+  "historical_model_calls_separate": 3,
+  "new_cuda_compilation": false,
+  "new_formal_event_samples": 0,
+  "old_sealed_read_transferred_or_rerun": false,
+  "production_runtime_unchanged": true,
+  "active_gpu_or_model_jobs": false,
+  "closeout_report": "docs/PROJECT_CLOSEOUT.md",
+  "closeout_report_sha256": "f36e45fa925584d900805d32f805782996d6cd5ceb9c90abc0602c5221cfd38a",
+  "ncu_runbook_sha256": "f48b8f420b2a46ce12ff4f222964115e2c1e914e55032cf4182a121ad535e7ed"
+}

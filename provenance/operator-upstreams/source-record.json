@@ -1,0 +1,74 @@
+[
+  {
+    "repository": "pytorch/pytorch",
+    "revision": "e2d141dbde55c2a4370fac5165b0561b6af4798b",
+    "tag": "v2.7.1",
+    "path": "LICENSE",
+    "local_path": "provenance/operator-upstreams/pytorch__pytorch-e2d141dbde55/LICENSE",
+    "sha256": "a8a2c6b67cf8a597ffaa5c82380a6bd1b82629c0417e00673d8013d662eb500a",
+    "bytes": 3464,
+    "status": "FETCHED_NOT_GPU_VALIDATED"
+  },
+  {
+    "repository": "pytorch/pytorch",
+    "revision": "e2d141dbde55c2a4370fac5165b0561b6af4798b",
+    "tag": "v2.7.1",
+    "path": "aten/src/ATen/native/cuda/PersistentSoftmax.cuh",
+    "local_path": "provenance/operator-upstreams/pytorch__pytorch-e2d141dbde55/aten/src/ATen/native/cuda/PersistentSoftmax.cuh",
+    "sha256": "332061c98b3293713deb87debd495fced86b7d3a6bea3472dc8d09660270eb93",
+    "bytes": 17983,
+    "status": "FETCHED_NOT_GPU_VALIDATED"
+  },
+  {
+    "repository": "pytorch/pytorch",
+    "revision": "e2d141dbde55c2a4370fac5165b0561b6af4798b",
+    "tag": "v2.7.1",
+    "path": "aten/src/ATen/native/cuda/SoftMax.cu",
+    "local_path": "provenance/operator-upstreams/pytorch__pytorch-e2d141dbde55/aten/src/ATen/native/cuda/SoftMax.cu",
+    "sha256": "b26a9680e4c0b78eb81685399ccee23419062b09b97b763bf7194eae7b6e54cd",
+    "bytes": 59061,
+    "status": "FETCHED_NOT_GPU_VALIDATED"
+  },
+  {
+    "repository": "flashinfer-ai/flashinfer",
+    "revision": "3f8317c67ac129facb8525b2fb581be42f634459",
+    "path": "LICENSE",
+    "status": "UNAVAILABLE",
+    "error_type": "IncompleteRead"
+  },
+  {
+    "repository": "flashinfer-ai/flashinfer",
+    "revision": "3f8317c67ac129facb8525b2fb581be42f634459",
+    "path": "flashinfer/mla.py",
+    "status": "UNAVAILABLE",
+    "error_type": "IncompleteRead"
+  },
+  {
+    "repository": "flashinfer-ai/flashinfer",
+    "revision": "3f8317c67ac129facb8525b2fb581be42f634459",
+    "path": "flashinfer/prefill.py",
+    "status": "UNAVAILABLE",
+    "error_type": "IncompleteRead"
+  },
+  {
+    "repository": "flashinfer-ai/flashinfer",
+    "revision": "3f8317c67ac129facb8525b2fb581be42f634459",
+    "path": "flashinfer/jit/attention.py",
+    "status": "UNAVAILABLE",
+    "error_type": "HTTPError"
+  },
+  {
+    "repository": "flashinfer-ai/flashinfer",
+    "revision": "3f8317c67ac129facb8525b2fb581be42f634459",
+    "path": "include/flashinfer/attention/mla.cuh",
+    "status": "UNAVAILABLE",
+    "error_type": "IncompleteRead"
+  },
+  {
+    "repository": "flashinfer-ai/flashinfer",
+    "revision": "3f8317c67ac129facb8525b2fb581be42f634459",
+    "path": "tests/test_batch_mla.py",
+    "status": "UNAVAILABLE",
+    "error_type": "HTTPError"
+  }
+]

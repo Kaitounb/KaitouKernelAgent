@@ -1,0 +1,25 @@
+{
+  "status": "AUDIT_PASS_QUALIFIED_INSTALL",
+  "version": "0.1.3",
+  "raw_files_verified": 468,
+  "cpu_tests": 54,
+  "gpu_outputs": 9,
+  "gpu_attempts": 11,
+  "expected_faults_rejected": 2,
+  "boundary_pass": true,
+  "rollback_pass": true,
+  "actual_package_rollback_pass": true,
+  "original_validation_status": "FAIL",
+  "pid_diagnostic_failure_preserved": true,
+  "pid_isolation_evidence": "Qualified GA actual-native-host supplement",
+  "boundary_supplement_sha256": "550f4dc064274bb83ee0646b20ad47793aaaaa9884b9b392d369d5f87f211789",
+  "wheel_sha256": "b3a98c60ae85ee5bf492354ce52b04599837374e9c65c152891db78305c41fed",
+  "image_id": "sha256:6ce2012265c68b8553adf8d7807dcf47972a9156d1c7f0a2a64db11f9827e55a",
+  "target_binding": {
+    "gpu_uuid": "GPU-0140b895-e4e9-7c67-aba1-c7a953df1847",
+    "driver_version": "580.95.05"
+  },
+  "new_model_calls": 0,
+  "new_event_samples": 0,
+  "production_release": true
+}

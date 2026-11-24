@@ -1,0 +1,16 @@
+[
+  {
+    "path": "LICENSE",
+    "exit": 0,
+    "stderr": "rent\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n100 12233  100 12233    0     0   7934      0  0:00:01  0:00:01 --:--:--  7933\n100 12233  100 12233    0     0   7933      0  0:00:01  0:00:01 --:--:--  7933\n",
+    "bytes": 12233,
+    "sha256": "d4b8eb93aecacd9bb4979d30248b437ef0812d2e85a8728e1fe12fb36eec09b4"
+  },
+  {
+    "path": "flashinfer/prefill.py",
+    "exit": 0,
+    "stderr": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n  0  103k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n100  103k  100  103k    0     0  63989      0  0:00:01  0:00:01 --:--:-- 64027\n",
+    "bytes": 105646,
+    "sha256": "cdb48bfb3ed4b8299d8ccc5fda4a0c5a2e8295164dffefdeb76595088dab81fa"
+  }
+]

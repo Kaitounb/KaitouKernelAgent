@@ -1,0 +1,22 @@
+{
+  "project": "ScalingIntelligence/KernelBench",
+  "revision": "423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+  "upstream_path": "src/kernelbench/prompts/few_shot/model_new_ex_tiled_matmul.py",
+  "upstream_source_sha256": "4d168d4fa4c8d5260d4ac9bccdc229702b13630704a59a409ec7090322c1fd79",
+  "role": "CUDA teaching source, not engineering baseline",
+  "license": "MIT; see LICENSE.kernelbench",
+  "local_changes": "Original Python file copied byte-for-byte; CUDA source string extracted using AST without execution. On 2026-11-20, added Chinese reading comments only; verified that all non-comment tokens match the upstream CUDA string. Kernel and wrapper logic unchanged. The .cu is a reading view, not a new build system.",
+  "files": {
+    "model_new_ex_tiled_matmul.py": "4d168d4fa4c8d5260d4ac9bccdc229702b13630704a59a409ec7090322c1fd79",
+    "tiled_matmul_reading.cu": "0bb9e49a647f2938d9233acfc3ec1d78a49f78aad9db87686bf54a50f45ec63d",
+    "LICENSE.kernelbench": "fb5917dd8e4476fa75e89ef6f03dccf07d4859636bc23c7db50e6c0413887b9e"
+  },
+  "execution_status": "GPU_CORRECTNESS_PASS_SCOPED_TEACHING_TEST",
+  "gpu_verified": true,
+  "upstream_extracted_cuda_sha256": "57697a132ade5c7917c16a334c7d8d3df8e4a1594ccf0bc6be0efef0ef6fe0a1",
+  "verification_scope": "2026-11-20: unmodified ModelNew/load_inline; 14 small FP32/default-stream input sets, 2 calls each; exact CPU FP64-derived reference and unchanged inputs; no performance measurement",
+  "evidence": "evidence/20261120-p1-01/REPORT.md",
+  "sanitizer_status": "MEMCHECK_AND_SYNCCHECK_PASS_ON_ORIGINAL_BINARY_AND_14_INPUT_SETS",
+  "sanitizer_evidence": "evidence/20261120-p1-01-sanitizer-repair/REPORT.md",
+  "task_status": "P1-01 remains in progress; tile hand calculation and synchronization learning check pending"
+}

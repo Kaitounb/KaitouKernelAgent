@@ -1,0 +1,9 @@
+{
+  "status": "GA_RC2_RUNTIME_AND_BINARY_BYTE_IDENTITY_PASS",
+  "runtime_files": 12,
+  "binary_files": 2,
+  "wheel_sha256": "b3a98c60ae85ee5bf492354ce52b04599837374e9c65c152891db78305c41fed",
+  "certificate_runtime_fingerprints_pass": true,
+  "gpu_execution": false,
+  "new_model_calls": 0
+}

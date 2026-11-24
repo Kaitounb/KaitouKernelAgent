@@ -1,0 +1,16 @@
+{
+  "aot_manifest_sha256": "ecc0b15bca088f89899c31e6ffd04a5c76bbf194afd91377c888d0faf2a317ba",
+  "bundle_id": "cfae38ce5c0fac56545207fe93588c1193646886fc5952f113fab487ef0be6eb",
+  "completed_mla_searches": 27,
+  "config": {
+    "page_size": 16,
+    "splits": 1
+  },
+  "formal_protocol_sha256": "56b6bdbe1ba587c9dac3b84d59f81146e120767787db9c8529de129fdc698e7f",
+  "production_release": false,
+  "remote_bundle": "/tmp/nka-sdk-aot-licensed-l9fahjmi/bundle",
+  "runtime_activation": false,
+  "scope": "Frozen trusted MLA runtime default; negative formal searches retain page16/split1. Correctness acceptance is separate from performance and production activation.",
+  "wheel_filename": "nvidia_kernel_agent-0.1.0.dev6-py3-none-any.whl",
+  "wheel_sha256": "d5f4bbf83dc050271af66baf35738f3800d02c2592b6fec101457122edc4fb38"
+}

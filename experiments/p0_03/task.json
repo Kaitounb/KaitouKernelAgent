@@ -1,0 +1,42 @@
+{
+  "task_id": "p0-03-add-one-v1",
+  "operation": "y[i] = x[i] + 1, 0 <= i < N",
+  "n": 1048589,
+  "dtype": "float32",
+  "layout": "contiguous stride 1",
+  "block": 256,
+  "num_warps": 4,
+  "seeds": [
+    1701,
+    1702,
+    1703,
+    1704
+  ],
+  "input_distribution": "CPU torch.Generator manual_seed; randint(-8192,8193,int32).float()/16; exact binary fractions",
+  "reference": "CPU FP64 from the same FP32 values, cast to FP32; bit-exact equality",
+  "atol": 0,
+  "rtol": 0,
+  "guard_elements_each_side": 256,
+  "guard_value": -123456.0,
+  "cache_policies": {
+    "repeated_input": 1,
+    "ring4": 4
+  },
+  "cache_note": "No cache flush. Repeated addresses are warm by reuse, not a claim of L2 residency. Ring4 cycles four fixed input/output pairs; not a DRAM bandwidth experiment.",
+  "timing_mode": "CUDA Events on one explicit stream, enclosing CUDA Graph replays",
+  "graph_launches": 128,
+  "graph_note": "One fixed graph per cache policy; A and A_prime are aliases of the SAME graph. Ring begins at index zero per replay, 128 divisible by 4.",
+  "target_segment_ms": 10,
+  "graph_replays_per_segment": 4,
+  "pairs_per_session": 9,
+  "independent_process_sessions": 3,
+  "order": "A,A_prime on even pairs; A_prime,A on odd pairs; invert first order in odd sessions",
+  "warmup_wall_seconds": 1.0,
+  "included": "128*replays device kernel nodes plus graph/device scheduling gaps within Event timestamps",
+  "excluded": "JIT compilation, allocation, input generation, CPU reference, capture, warmup, correctness checks, telemetry, transfers",
+  "profiler": false,
+  "clock_policy": "do not alter clocks or power limits; sample nvidia-smi before and after each cache policy",
+  "statistics": "per-pair A_ms/A_prime_ms; geometric mean; deterministic percentile bootstrap of pair log ratios, 10000 resamples, seed 3070; exploratory only",
+  "performance_claim": false,
+  "calibration_evidence": "evidence/20261117-p0-03/calibration.json"
+}

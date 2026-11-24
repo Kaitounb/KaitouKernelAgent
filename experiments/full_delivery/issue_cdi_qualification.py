@@ -1,0 +1,22 @@
+"""Fail closed until real3060 stability, preview and new independent audits exist and pass."""
+import hashlib,json,zipfile
+from pathlib import Path
+from kernel_agent.cdi_qualification import BINARIES,DATA,ENVIRONMENT,PROFILE,RUNTIME_FILES,SCOPE,TARGET
+ROOT=Path(__file__).resolve().parents[2]
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def main():
+ paths={'stability':'evidence/20261124-3060-next-qualification/verification.json','preview':'evidence/20261124-3060-0.1.3rc2-installed/verification.json','independent':'evidence/20261124-3060-next-independent/verification.json'};v={k:json.loads((ROOT/n).read_text()) for k,n in paths.items()};s=v['stability'];p=v['preview'];i=v['independent'];assert s['status']=='AUDIT_PASS_STABILITY_PASS' and s['qa_checks']==320 and s['sanitizer_checks']==32 and s['expected_faults_rejected']==2 and s['aa_sessions']==s['ab_sessions']==3 and s['raw_segments']==1728 and s['max_aa_pair_deviation']<.03 and s['max_aa_group_deviation']<.015 and s['minimum_nonregression_geomean']>=.97 and s['container_isolation_verified'];assert p['status']=='AUDIT_PASS_PREVIEW' and p['cpu_tests']==54 and p['gpu_outputs']==7 and p['gpu_attempts']==9 and p['boundary_pass'] and p['rollback_pass'];assert i['status']=='AUDIT_PASS' and i['checked_outputs']==16 and i['old_private_manifest_read'] is False and i['exact_values_exposed_to_model'] is False
+ assert i['pid_probe_domain_issue_disclosed'] and i['invalid_private_pid_probe_count']==16 and i['boundary_supplement_verified'];assert sha(ROOT/'evidence/20261124-3060-pid-supplement/verification.json')==i['boundary_supplement_sha256']
+ assert s['image_id']==p['image_id']==ENVIRONMENT['image_id'] and p['target_binding']==TARGET and s['environment']['gpu_identity']==TARGET['gpu_uuid']+', NVIDIA GeForce RTX 3060, '+TARGET['driver_version'];assert s['environment']['torch']==ENVIRONMENT['torch'] and s['environment']['cuda']==ENVIRONMENT['cuda'] and s['environment']['capability']==[8,6] and set(s['binary_sha256'].values())==BINARIES
+ wheel=ROOT/'artifacts/wheels/nvidia_kernel_agent-0.1.3rc2-py3-none-any.whl';assert sha(wheel)==p['wheel_sha256']==i['wheel_sha256'];assert not (DATA/'gemm_qualification.json').exists() and not (ROOT/'artifacts/wheels/nvidia_kernel_agent-0.1.3-py3-none-any.whl').exists()
+ with zipfile.ZipFile(wheel) as z:
+  for name in RUNTIME_FILES|{'kernel_agent/data/cdi/artifacts/'+h+'.so' for h in BINARIES}:assert (ROOT/name).read_bytes()==z.read(name)
+ out=ROOT/'evidence/20261124-3060-next-certificate';assert not out.exists();assert all('0.1.3rc2' in (ROOT/n).read_text() for n in ['pyproject.toml','kernel_agent/__init__.py'])
+ for name in ['pyproject.toml','kernel_agent/__init__.py']:
+  file=ROOT/name;text=file.read_text();assert '0.1.3rc2' in text;file.write_text(text.replace('0.1.3rc2','0.1.3'))
+ c={'schema_version':1,'status':'QUALIFIED','scope':SCOPE,'production_release':True,'source_execution_enabled':False,'environment':ENVIRONMENT,'target_binding':TARGET,'operating_profile':PROFILE,'gpu_binding':'nativeCDIdevice0/runc/visiblevoid','binary_sha256':sorted(BINARIES),'runtime_files':{n:sha(ROOT/n) for n in RUNTIME_FILES},'deployment_policy_sha256':sha(DATA/'gemm_deployment_policy_v2.json'),'stability_protocol_sha256':s['protocol_sha256'],'independent_manifest_commitment':i['manifest_sha256'],'evidence':{n:sha(ROOT/n) for n in paths.values()},'performance_scope':'Fixed reviewedcuBLAS/this3060driverimage/default170W; sustainedGraph batch means, no optimizationgain or singlerequesttailSLA','new_model_calls':0}
+ for flag in ['independent_correctness_pass','stability_pass','nonregression_pass','installed_runtime_pass','boundary_pass','recovery_pass','rollback_pass','raw_audit_pass']:c[flag]=True
+ raw=json.dumps(c,indent=2).encode()+b'\n';(DATA/'gemm_qualification.json').write_bytes(raw);catalog=json.loads((DATA/'releases.json').read_text());catalog['qualification_sha256']=hashlib.sha256(raw).hexdigest()
+ for meta in catalog['versions'].values():meta['production_release']=True;meta['status']='qualified-reviewed-rtx3060-cdi'
+ (DATA/'qualified_releases.json').write_text(json.dumps(catalog,indent=2)+'\n');out=ROOT/'evidence/20261124-3060-next-certificate';out.mkdir(exist_ok=False);receipt={'status':'REAL_EVIDENCE_CERTIFICATE_ISSUED_FINAL_INSTALL_PENDING','qualification_sha256':hashlib.sha256(raw).hexdigest(),'scope':SCOPE,'production_deployment_completed':False};(out/'issue.json').write_text(json.dumps(receipt,indent=2));print(json.dumps(receipt))
+if __name__=='__main__':main()

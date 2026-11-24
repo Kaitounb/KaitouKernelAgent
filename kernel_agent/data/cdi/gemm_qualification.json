@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "status": "QUALIFIED",
+  "scope": "RTX3060_REVIEWED_FIXED_CUBLAS_CDI",
+  "production_release": true,
+  "source_execution_enabled": false,
+  "environment": {
+    "image_id": "sha256:6ce2012265c68b8553adf8d7807dcf47972a9156d1c7f0a2a64db11f9827e55a",
+    "torch": "2.14.0+cu130",
+    "cuda": "13.0",
+    "device": "sm86"
+  },
+  "target_binding": {
+    "gpu_uuid": "GPU-0140b895-e4e9-7c67-aba1-c7a953df1847",
+    "driver_version": "580.95.05"
+  },
+  "operating_profile": {
+    "power_limit_watts": 170,
+    "clock_policy": "dynamic",
+    "maximum_temperature_exclusive_c": 83
+  },
+  "gpu_binding": "nativeCDIdevice0/runc/visiblevoid",
+  "binary_sha256": [
+    "66fcc80f9122c919f92c72e37a01794a792c91a58b71d5705b160e0bc979dfc3",
+    "93fb2f4344521b7e9b246b54d1c30d4b1a8facf731e6385e18f6119e9c49c72c"
+  ],
+  "runtime_files": {
+    "kernel_agent/data/cdi/gemm_deployment_policy_v2.json": "8a56473b4ec221b27e88a9c21f96850b14118b74c2b47b889e6e25d3819dea59",
+    "kernel_agent/registry.py": "297dc2414114573b11b3bd721c079f3712ff0864ab585e1d8894ac45403db5b9",
+    "kernel_agent/cdi_cli.py": "d04c8603eb3a0f64983d4a069327707784ce423f854df64b21a5842fdb16e4f7",
+    "kernel_agent/bounded_io.py": "55d21702610a863847c83ecb54236493ac4eac1520c1b9dc86afa3635e399523",
+    "kernel_agent/data/cdi/gemm_contract_v1.json": "6d6afee515a4e8ef4564da228de7598b7b1596cf2860f10fb13a17afae3dfe31",
+    "kernel_agent/protocol.py": "0ac84b78d498327c5a73e295aea820fa06a36ea0aa933ad70f9dd79d2698c8df",
+    "kernel_agent/deployment.py": "ad8ccbb407e412e355f2bd766fa8206f072bb964c2cfa644c11ef3506411b1cc",
+    "kernel_agent/runner.py": "178f8aafd2b9c61cfc398ea1592645f9cc74e2f1444ca520712557ce0ca82b3a",
+    "kernel_agent/pipe_worker.py": "c019f57c233db7dc7b5554df514f1a0560140dcbf1bac06a8cd07f94bcb2ad23",
+    "kernel_agent/cdi_qualification.py": "9172fc13b58467fb65c7f540737ebdc17571a72d061904550100ef107672720a",
+    "kernel_agent/output.py": "f09fb7e71a8635cf470a9fa1847654b15ddb9bcc2e80ff7380c6a8d50d5adbcb",
+    "kernel_agent/cdi_runner.py": "94a7b5631790e721c1bca51d70eb6020c62cdca4af8e0cd882d364416d82883e"
+  },
+  "deployment_policy_sha256": "8a56473b4ec221b27e88a9c21f96850b14118b74c2b47b889e6e25d3819dea59",
+  "stability_protocol_sha256": "19912fbc50013b63d325930bc7a6037cb08c7affa7297b3d7e2ffc8a1e00af88",
+  "independent_manifest_commitment": "aeef09f38b1c7aef156ea1d49f0d72cc7fbd8f62c8909f4541e930a905d0d951",
+  "evidence": {
+    "evidence/20261124-3060-next-qualification/verification.json": "ef15afac98ec11956ef7f74ecc0e2688f46a94702923985988727c3952d1bfca",
+    "evidence/20261124-3060-0.1.3rc2-installed/verification.json": "3be8a593375b973bae81da98b4f6a1df039389cac08f17f32be4594a3abf7821",
+    "evidence/20261124-3060-next-independent/verification.json": "06127bcb57579f47cba731b4326ab0e8c394e9e9bdeedc0054245572b4989c8d"
+  },
+  "performance_scope": "Fixed reviewedcuBLAS/this3060driverimage/default170W; sustainedGraph batch means, no optimizationgain or singlerequesttailSLA",
+  "new_model_calls": 0,
+  "independent_correctness_pass": true,
+  "stability_pass": true,
+  "nonregression_pass": true,
+  "installed_runtime_pass": true,
+  "boundary_pass": true,
+  "recovery_pass": true,
+  "rollback_pass": true,
+  "raw_audit_pass": true
+}

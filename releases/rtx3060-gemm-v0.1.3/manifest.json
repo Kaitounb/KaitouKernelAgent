@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "version": "0.1.3",
+  "scope": "RTX3060_REVIEWED_FIXED_CUBLAS_CDI",
+  "backend": "cublas",
+  "production_release": true,
+  "source_execution_enabled": false,
+  "target_binding": {
+    "gpu_uuid": "GPU-0140b895-e4e9-7c67-aba1-c7a953df1847",
+    "driver_version": "580.95.05"
+  },
+  "environment": {
+    "image_id": "sha256:6ce2012265c68b8553adf8d7807dcf47972a9156d1c7f0a2a64db11f9827e55a",
+    "torch": "2.14.0+cu130",
+    "cuda": "13.0",
+    "device": "sm86"
+  },
+  "operating_profile": {
+    "power_limit_watts": 170,
+    "clock_policy": "dynamic",
+    "maximum_temperature_exclusive_c": 83
+  },
+  "wheel": "artifacts/wheels/nvidia_kernel_agent-0.1.3-py3-none-any.whl",
+  "wheel_sha256": "b3a98c60ae85ee5bf492354ce52b04599837374e9c65c152891db78305c41fed",
+  "qualification_sha256": "627007afe4a43206eac362923428f12f7272016635152695ba31f01291a26c81",
+  "runtime_files": {
+    "kernel_agent/runner.py": "178f8aafd2b9c61cfc398ea1592645f9cc74e2f1444ca520712557ce0ca82b3a",
+    "kernel_agent/data/cdi/gemm_deployment_policy_v2.json": "8a56473b4ec221b27e88a9c21f96850b14118b74c2b47b889e6e25d3819dea59",
+    "kernel_agent/data/cdi/gemm_contract_v1.json": "6d6afee515a4e8ef4564da228de7598b7b1596cf2860f10fb13a17afae3dfe31",
+    "kernel_agent/protocol.py": "0ac84b78d498327c5a73e295aea820fa06a36ea0aa933ad70f9dd79d2698c8df",
+    "kernel_agent/deployment.py": "ad8ccbb407e412e355f2bd766fa8206f072bb964c2cfa644c11ef3506411b1cc",
+    "kernel_agent/cdi_qualification.py": "9172fc13b58467fb65c7f540737ebdc17571a72d061904550100ef107672720a",
+    "kernel_agent/cdi_runner.py": "94a7b5631790e721c1bca51d70eb6020c62cdca4af8e0cd882d364416d82883e",
+    "kernel_agent/cdi_cli.py": "d04c8603eb3a0f64983d4a069327707784ce423f854df64b21a5842fdb16e4f7",
+    "kernel_agent/registry.py": "297dc2414114573b11b3bd721c079f3712ff0864ab585e1d8894ac45403db5b9",
+    "kernel_agent/output.py": "f09fb7e71a8635cf470a9fa1847654b15ddb9bcc2e80ff7380c6a8d50d5adbcb",
+    "kernel_agent/bounded_io.py": "55d21702610a863847c83ecb54236493ac4eac1520c1b9dc86afa3635e399523",
+    "kernel_agent/pipe_worker.py": "c019f57c233db7dc7b5554df514f1a0560140dcbf1bac06a8cd07f94bcb2ad23"
+  },
+  "deployment": {
+    "root": "/home/featurize/nka-persistent/gemm-release-0.1.3-gdjlm25g",
+    "launcher": "/home/featurize/nka-persistent/gemm-release-0.1.3-gdjlm25g/kernel-agent-3060",
+    "package_switcher": "/home/featurize/nka-persistent/gemm-release-0.1.3-gdjlm25g/kernel-agent-3060-switch",
+    "store": "/home/featurize/nka-persistent/gemm-release-0.1.3-gdjlm25g/workspace/production-store",
+    "workspace": "/home/featurize/nka-persistent/gemm-release-0.1.3-gdjlm25g/workspace",
+    "current_prefix": "/home/featurize/nka-persistent/gemm-release-0.1.3-gdjlm25g/prefix"
+  },
+  "evidence": {
+    "evidence/20261124-3060-next-qualification/verification.json": "ef15afac98ec11956ef7f74ecc0e2688f46a94702923985988727c3952d1bfca",
+    "evidence/20261124-3060-0.1.3rc2-installed/verification.json": "3be8a593375b973bae81da98b4f6a1df039389cac08f17f32be4594a3abf7821",
+    "evidence/20261124-3060-next-independent/verification.json": "06127bcb57579f47cba731b4326ab0e8c394e9e9bdeedc0054245572b4989c8d",
+    "evidence/20261124-3060-0.1.3-installed/verification.json": "e0522e3cab1fd9f4b701ca3455897769852b92525572d8a126095c56fc809000",
+    "evidence/20261124-3060-active-entry/verification.json": "d7881da2beea8c2cf80cd29a03b480bb32aff00ecaabf12c09203c1eff725286",
+    "evidence/20261124-3060-runtime-image-backup/result.json": "2a53189951546e12c3ba3430a14c24abb2daf6ea0456afa9736c86e6ce389893",
+    "evidence/20261124-3060-application-backup/result.json": "5278317342f0cbe04792b2b2b2a0f212263168b074ad75e50a2589de6522f574",
+    "evidence/20261124-3060-final-postflight/result.json": "b1c57433caf731a632cd3d28e4ec099ae37e13378271d3018d159a9d8ff6cb00",
+    "evidence/20261124-3060-final-package-review/result.json": "4e064958d44f7dd1f3993dc3d9b374be52cb674717ea77e5b010d97dd105a07b",
+    "evidence/20261124-3060-ga-pid-supplement/verification.json": "550f4dc064274bb83ee0646b20ad47793aaaaa9884b9b392d369d5f87f211789"
+  },
+  "runtime_backup": {
+    "status": "IMAGE_BACKUP_SHA_CONFIG_AND_ALL_LAYER_DIFFIDS_PASS",
+    "image_id": "sha256:6ce2012265c68b8553adf8d7807dcf47972a9156d1c7f0a2a64db11f9827e55a",
+    "archive": "/Users/kaitou/AI/NvidiaKernelAgent/artifacts/runtime-images/rtx3060-6ce2012265c68b85.docker.tar.gz",
+    "archive_sha256": "b5ea3ed336720de0a50866a2137153471e5f2380268311d74e0027d62a52b8e0",
+    "bytes": 3150558880,
+    "tar_members_verified": 15,
+    "layers_verified": 6,
+    "image_graph_verification": {
+      "status": "ARCHIVE_IMAGE_GRAPH_AND_LAYER_DIFFIDS_PASS",
+      "image_id": "sha256:6ce2012265c68b8553adf8d7807dcf47972a9156d1c7f0a2a64db11f9827e55a",
+      "tar_members_verified": 15,
+      "descriptor_nodes_verified": 13,
+      "layers_verified": 6,
+      "config_digest": "sha256:3067ed3fd861fc1322f313ef51cc52dcb7a7621e849c0845c741a72a7997bb78",
+      "uncompressed_archive_bytes": 3162943282
+    },
+    "remote_restore_test": {
+      "image_id": "sha256:6ce2012265c68b8553adf8d7807dcf47972a9156d1c7f0a2a64db11f9827e55a",
+      "bytes": 3150558880,
+      "sha256": "b5ea3ed336720de0a50866a2137153471e5f2380268311d74e0027d62a52b8e0",
+      "docker_save_exit": 0,
+      "docker_load_exit": 0,
+      "loaded_image_lookup": "sha256:6ce2012265c68b8553adf8d7807dcf47972a9156d1c7f0a2a64db11f9827e55a",
+      "remote_archive": "/home/featurize/nka-persistent/gemm-next-runtime-32e2fo6w/recovery-export/runtime.docker.tar.gz"
+    },
+    "seconds": 343.3269883329049,
+    "gpu_execution": false,
+    "new_model_calls": 0
+  },
+  "application_backup": {
+    "status": "APPLICATION_BACKUP_ALL_MEMBERS_SHA_AND_MODE_PASS",
+    "archive": "/Users/kaitou/AI/NvidiaKernelAgent/artifacts/runtime-images/rtx3060-0.1.3-application.tar.gz",
+    "archive_sha256": "b2dc803c594f4541ae37b8ad26bdd28064c26318a2f9e0b491266d2f18b57d0d",
+    "bytes": 23420954,
+    "files_verified": 707,
+    "remote_runtime_launch_already_verified": true,
+    "private_data_included": false,
+    "credentials_included": false,
+    "gpu_execution": false
+  },
+  "stability": {
+    "max_aa_pair_deviation": 0.006574008350027416,
+    "max_aa_group_deviation": 0.0025198343212377017,
+    "minimum_nonregression_geomean": 0.9995785943165305,
+    "aa_sessions": 3,
+    "ab_sessions": 3,
+    "raw_segments": 1728
+  },
+  "independent_outputs": 16,
+  "known_scope_limits": [
+    "fixed reviewed cuBLAS only; no arbitrary model source",
+    "only this GPU UUID/driver/image/profile",
+    "no optimization gain or single-request tail-latency claim",
+    "Attention/MLA production remains on3070"
+  ],
+  "old_rejections_retained": true,
+  "old_heldout_rerun": false,
+  "new_cuda_compilation": false,
+  "new_model_calls": 0
+}

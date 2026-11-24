@@ -1,0 +1,13 @@
+{
+  "contract_id": "mla-f16-r512-rope64-v1",
+  "count": 4,
+  "families": [
+    "long-latent",
+    "intermediate-heads",
+    "ragged-independent",
+    "batch-independent"
+  ],
+  "sha256": "d15407f8ead20dcc18ddd0e0bef2ee99628ff852860b63c4d635e264b602ae3b",
+  "exact_shapes_and_seeds": "private evaluator only; not read by model",
+  "executed": false
+}

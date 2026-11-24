@@ -1,0 +1,173 @@
+{
+  "sha": "15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+  "node_id": "C_kwDOPEppsNoAKDE1NjE4YTY3ZThkN2I3ZjQ5Y2E2MWI1YmEzYjlmMjZhODc2ZDBiZWU",
+  "commit": {
+    "author": {
+      "name": "Godai Takashina",
+      "email": "52688583+sankantsu@users.noreply.github.com",
+      "date": "2026-09-25T20:04:59Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-09-25T20:04:59Z"
+    },
+    "message": "docs: fix broken links (#431)\n\nFixes broken links in the docs:\n\n- Internal links written as `/docs/...` render as `/docs/docs/...` and\nreturn 404, for example the \"Formal Specification\" links on the\nFlashInfer Trace page.\n- The tracing config link in the \"Bring Your Own Kernel\" tutorial points\nto `tracing/builtin/configs.py`, which was removed in #133.\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai\n-->\n\n## Summary by CodeRabbit\n\n* **Documentation**\n* Updated links across the FlashInfer Trace and tutorial documentation\nto use current page paths.\n  * Corrected the link to the default tracing configuration.\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+    "tree": {
+      "sha": "d2eda69ce46d15a2a6a5da79cc57dca549d95f2f",
+      "url": "https://api.github.com/repos/flashinfer-ai/flashinfer-bench/git/trees/d2eda69ce46d15a2a6a5da79cc57dca549d95f2f"
+    },
+    "url": "https://api.github.com/repos/flashinfer-ai/flashinfer-bench/git/commits/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqttPrCRC1aQ7uu5UhlAAAi0YQAF4LlpYiqzJjEXJKsKgAAzhI\nr4QT44QGrXIhPkrnIRPMLFe7sEfGwAT4nHacmkmf5e2KYFx1ABi0wa5FKhXu785G\n8mDvcS1fhdmWXsXBs7feocGyqmYUK/PMItbCnt0PCT2O+0gTPQurfd8yHHFnZd5V\ntiO4xANVMVeJ56rx/Pvfto8W3lvzv/obN3NA9LAS2GiCKYKL2foO8HSDPxKTmzRC\nI+C7dOq7Nqzw8UI1AWCLE8uu8tsHLrkp3QhK1cIiL7fG7pFFjO+u/Nn3utPUYosL\nXlJcK2YxS2qL2L9w66D0wf+YuMeverrsPN9AKxyIJemRyGT2yIvgLU8mhXr4D/8j\nLesqHiuhsGnSvXyiMUeY1DjYCEZvIVEKX1mpLXXTpxxQXvMHtexgYADg6kvOzCX9\ndjjmHBArpmqFVWL8nNdMX6HIY5nFsb0CWPLZ07MBPvlKkfTOL5K5JeX5dK6WRT2m\nR4hVPKogx8OusQ9E9Uvxn42WU//6pWFPgmNOSNGp9hvDVoepJfMr2Lc/eksWw64L\n6YkFbPW1njVmtOo2DhhzA5Sy17AQncLdaAX+L2PhijB36eiQrLbnz/0kX/Xnw4YA\n62/MOwab5lEeYlpRAribXraWfDLmL9J8HFfFrnFkjrQdpjFEmMvQMR/+dTF+D0Xn\n697e5HbWpUXkJ0phyQv1\n=hRoC\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree d2eda69ce46d15a2a6a5da79cc57dca549d95f2f\nparent 40e6ca7844b514eb4b1c7edba6d6a7377df57870\nauthor Godai Takashina <52688583+sankantsu@users.noreply.github.com> 1790366699 -0400\ncommitter GitHub <noreply@github.com> 1790366699 -0400\n\ndocs: fix broken links (#431)\n\nFixes broken links in the docs:\n\n- Internal links written as `/docs/...` render as `/docs/docs/...` and\nreturn 404, for example the \"Formal Specification\" links on the\nFlashInfer Trace page.\n- The tracing config link in the \"Bring Your Own Kernel\" tutorial points\nto `tracing/builtin/configs.py`, which was removed in #133.\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai\n-->\n\n## Summary by CodeRabbit\n\n* **Documentation**\n* Updated links across the FlashInfer Trace and tutorial documentation\nto use current page paths.\n  * Corrected the link to the default tracing configuration.\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->",
+      "verified_at": "2026-09-25T20:05:00Z"
+    }
+  },
+  "url": "https://api.github.com/repos/flashinfer-ai/flashinfer-bench/commits/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+  "html_url": "https://github.com/flashinfer-ai/flashinfer-bench/commit/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+  "comments_url": "https://api.github.com/repos/flashinfer-ai/flashinfer-bench/commits/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/comments",
+  "author": {
+    "login": "sankantsu",
+    "id": 52688583,
+    "node_id": "MDQ6VXNlcjUyNjg4NTgz",
+    "avatar_url": "https://avatars.githubusercontent.com/u/52688583?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sankantsu",
+    "html_url": "https://github.com/sankantsu",
+    "followers_url": "https://api.github.com/users/sankantsu/followers",
+    "following_url": "https://api.github.com/users/sankantsu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sankantsu/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sankantsu/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sankantsu/subscriptions",
+    "organizations_url": "https://api.github.com/users/sankantsu/orgs",
+    "repos_url": "https://api.github.com/users/sankantsu/repos",
+    "events_url": "https://api.github.com/users/sankantsu/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sankantsu/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "40e6ca7844b514eb4b1c7edba6d6a7377df57870",
+      "url": "https://api.github.com/repos/flashinfer-ai/flashinfer-bench/commits/40e6ca7844b514eb4b1c7edba6d6a7377df57870",
+      "html_url": "https://github.com/flashinfer-ai/flashinfer-bench/commit/40e6ca7844b514eb4b1c7edba6d6a7377df57870"
+    }
+  ],
+  "stats": {
+    "total": 24,
+    "additions": 12,
+    "deletions": 12
+  },
+  "files": [
+    {
+      "sha": "11d94b4417e433090f8d90e6144c4f0b9b1bcbb0",
+      "filename": "docs/flashinfer-trace/index.mdx",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "changes": 8,
+      "blob_url": "https://github.com/flashinfer-ai/flashinfer-bench/blob/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/docs%2Fflashinfer-trace%2Findex.mdx",
+      "raw_url": "https://github.com/flashinfer-ai/flashinfer-bench/raw/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/docs%2Fflashinfer-trace%2Findex.mdx",
+      "contents_url": "https://api.github.com/repos/flashinfer-ai/flashinfer-bench/contents/docs%2Fflashinfer-trace%2Findex.mdx?ref=15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+      "patch": "@@ -15,23 +15,23 @@ This component provides a formal definition for a specific computational workloa\n \n The Definition directly guides the subsequent Solution and Trace components.\n \n-**Formal Specification:** [Definition](/docs/flashinfer-trace/definition)\n+**Formal Specification:** [Definition](/flashinfer-trace/definition)\n \n # Workload\n \n This component defines a concrete, executable instance of a Definition by binding specific values to all variable axes and specifying the data source for all inputs. A Workload represents the exact configuration under which a Solution is benchmarked.\n \n In the dataset, a standalone Workload is stored using the Trace data structure with only the `definition` and `workload` fields populated (`solution` and `evaluation` are `null`).\n \n-**Formal Specification:** [Workload](/docs/flashinfer-trace/workload)\n+**Formal Specification:** [Workload](/flashinfer-trace/workload)\n \n # Solution\n \n This component represents a single, high-performance solution implementation of a given Definition, contributed by either human experts or autonomous agent systems. A solution must strictly adhere to the corresponding Definition, including input/output shapes and constant values. Its computation must be functionally equivalent to the mathematical specification.\n \n The implementation is not restricted to any specific language, framework, or platform, but it must provide an entry-point function with a strictly matching signature. Once submitted, solutions are benchmarked to generate a Trace. By applying pre-collected input data to the entry point, we verify its correctness and measure its performance metrics.\n \n-**Formal Specification:** [Solution](/docs/flashinfer-trace/solution)\n+**Formal Specification:** [Solution](/flashinfer-trace/solution)\n \n # Trace\n \n@@ -40,4 +40,4 @@ This component describes a benchmark result of a solution on a definition with a\n In a `Trace` object, `solution` and `evaluation` are optional. If they are not provided, it describes\n a workload entry in the dataset.\n \n-**Formal Specification:** [Trace](/docs/flashinfer-trace/trace)\n+**Formal Specification:** [Trace](/flashinfer-trace/trace)"
+    },
+    {
+      "sha": "59d0bff7b17b304c53f394396324bfdd7629a302",
+      "filename": "docs/flashinfer-trace/solution.mdx",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/flashinfer-ai/flashinfer-bench/blob/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/docs%2Fflashinfer-trace%2Fsolution.mdx",
+      "raw_url": "https://github.com/flashinfer-ai/flashinfer-bench/raw/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/docs%2Fflashinfer-trace%2Fsolution.mdx",
+      "contents_url": "https://api.github.com/repos/flashinfer-ai/flashinfer-bench/contents/docs%2Fflashinfer-trace%2Fsolution.mdx?ref=15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+      "patch": "@@ -6,7 +6,7 @@ title: \"Solution\"\n \n This document describes the schema for a workload **Solution**.\n \n-The `Solution` provides a concrete, high-performance implementation for a given [Definition](/docs/flashinfer-trace/definition). Each `Solution` is a self-contained entry submitted by community members or autonomous agents, encapsulating the source code and all metadata required for building, interfacing, and benchmarking. The `Solution` will be benchmarked to collect evaluation statistics to be stored in a [Trace object](/docs/flashinfer-trace/trace).\n+The `Solution` provides a concrete, high-performance implementation for a given [Definition](/flashinfer-trace/definition). Each `Solution` is a self-contained entry submitted by community members or autonomous agents, encapsulating the source code and all metadata required for building, interfacing, and benchmarking. The `Solution` will be benchmarked to collect evaluation statistics to be stored in a [Trace object](/flashinfer-trace/trace).\n \n > **Tip:** Visit [FlashInfer Bench Viewer](https://bench.flashinfer.ai/viewer) to see formatted code and visualized JSON for existing solutions.\n "
+    },
+    {
+      "sha": "98cb9931928137076ac65919c78b422f52fd3b42",
+      "filename": "docs/flashinfer-trace/trace.mdx",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/flashinfer-ai/flashinfer-bench/blob/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/docs%2Fflashinfer-trace%2Ftrace.mdx",
+      "raw_url": "https://github.com/flashinfer-ai/flashinfer-bench/raw/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/docs%2Fflashinfer-trace%2Ftrace.mdx",
+      "contents_url": "https://api.github.com/repos/flashinfer-ai/flashinfer-bench/contents/docs%2Fflashinfer-trace%2Ftrace.mdx?ref=15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+      "patch": "@@ -4,7 +4,7 @@ title: \"Trace\"\n \n This document describes the JSON schema for a **Trace**.\n \n-A `Trace` describes a benchmark result of a [Solution](/docs/flashinfer-trace/solution) on a [Definition](/docs/flashinfer-trace/definition) with a specific [Workload](/docs/flashinfer-trace/workload). The collection of all Trace files forms the database of benchmark results.\n+A `Trace` describes a benchmark result of a [Solution](/flashinfer-trace/solution) on a [Definition](/flashinfer-trace/definition) with a specific [Workload](/flashinfer-trace/workload). The collection of all Trace files forms the database of benchmark results.\n \n In a `Trace` object, `solution` and `evaluation` are optional. If they are not provided, it describes\n a workload entry in the dataset.\n@@ -20,7 +20,7 @@ In a `Trace` object, the `definition` and `solution` are externally linked throu\n | **Field** | **Type** | **Required** | **Description** |\n | --- | --- | --- | --- |\n | `definition` | string | Yes | The `name` of the `Definition` used in this run. |\n-| `workload` | object | Yes | An object describing the specific input configuration for this run. See [Workload](/docs/flashinfer-trace/workload). |\n+| `workload` | object | Yes | An object describing the specific input configuration for this run. See [Workload](/flashinfer-trace/workload). |\n | `solution` | string | No | The `name` of the `Solution` tested in this run. |\n | `evaluation` | object | No | An object containing the detailed results of this run. |\n "
+    },
+    {
+      "sha": "53a2f106852c4baa968c68e2640ae0bc463cc938",
+      "filename": "docs/flashinfer-trace/workload.mdx",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/flashinfer-ai/flashinfer-bench/blob/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/docs%2Fflashinfer-trace%2Fworkload.mdx",
+      "raw_url": "https://github.com/flashinfer-ai/flashinfer-bench/raw/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/docs%2Fflashinfer-trace%2Fworkload.mdx",
+      "contents_url": "https://api.github.com/repos/flashinfer-ai/flashinfer-bench/contents/docs%2Fflashinfer-trace%2Fworkload.mdx?ref=15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+      "patch": "@@ -6,9 +6,9 @@ title: \"Workload\"\n \n This document describes the JSON schema for a **Workload**.\n \n-A `Workload` defines a concrete, executable instance of a [Definition](/docs/flashinfer-trace/definition) by binding specific values to all variable axes and specifying the data source for all inputs. It represents the exact configuration under which a `Solution` is benchmarked.\n+A `Workload` defines a concrete, executable instance of a [Definition](/flashinfer-trace/definition) by binding specific values to all variable axes and specifying the data source for all inputs. It represents the exact configuration under which a `Solution` is benchmarked.\n \n-**Storage Format:** In the FlashInfer-Bench dataset, a standalone Workload is stored using the [Trace](/docs/flashinfer-trace/trace) data structure with only the `definition` and `workload` fields populated, while `solution` and `evaluation` are set to `null`.\n+**Storage Format:** In the FlashInfer-Bench dataset, a standalone Workload is stored using the [Trace](/flashinfer-trace/trace) data structure with only the `definition` and `workload` fields populated, while `solution` and `evaluation` are set to `null`.\n \n In FlashInfer Trace dataset, all workloads of the same definition are stored in a single JSONL file where each line is a `Workload` object.\n "
+    },
+    {
+      "sha": "7b009451d3b9561e5cdbbc16a7f3b94dfb941104",
+      "filename": "docs/tutorials/bring-your-own-kernel.mdx",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/flashinfer-ai/flashinfer-bench/blob/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/docs%2Ftutorials%2Fbring-your-own-kernel.mdx",
+      "raw_url": "https://github.com/flashinfer-ai/flashinfer-bench/raw/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/docs%2Ftutorials%2Fbring-your-own-kernel.mdx",
+      "contents_url": "https://api.github.com/repos/flashinfer-ai/flashinfer-bench/contents/docs%2Ftutorials%2Fbring-your-own-kernel.mdx?ref=15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+      "patch": "@@ -76,7 +76,7 @@ export FIB_ENABLE_TRACING=1\n python run_engine.py  # your serving or batch script\n ```\n \n-By default, all kernels specified with its [tracing config](https://github.com/flashinfer-ai/flashinfer-bench/blob/main/flashinfer_bench/tracing/builtin/configs.py) with a matching Definition are traced.\n+By default, all kernels specified with its [tracing config](https://github.com/flashinfer-ai/flashinfer-bench/blob/main/flashinfer_bench/tracing/presets.py) with a matching Definition are traced.\n \n 3. What gets saved & where (default layout):\n ```"
+    },
+    {
+      "sha": "6cc6c6adf6d715b973f8084fcc732409e0da8913",
+      "filename": "docs/tutorials/cli.mdx",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/flashinfer-ai/flashinfer-bench/blob/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/docs%2Ftutorials%2Fcli.mdx",
+      "raw_url": "https://github.com/flashinfer-ai/flashinfer-bench/raw/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/docs%2Ftutorials%2Fcli.mdx",
+      "contents_url": "https://api.github.com/repos/flashinfer-ai/flashinfer-bench/contents/docs%2Ftutorials%2Fcli.mdx?ref=15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+      "patch": "@@ -85,7 +85,7 @@ flashinfer-bench serve \\\n \n Use `--devices` to pin specific CUDA devices, or omit it to use all available CUDA devices.\n \n-For endpoint details and request/response examples, see [Benchmark Server API](/docs/tutorials/server-api).\n+For endpoint details and request/response examples, see [Benchmark Server API](/tutorials/server-api).\n \n ## Inspect Results\n "
+    },
+    {
+      "sha": "0de537d567b161a530d2d50f3cd0f32a6759b2e9",
+      "filename": "docs/tutorials/server-api.mdx",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/flashinfer-ai/flashinfer-bench/blob/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/docs%2Ftutorials%2Fserver-api.mdx",
+      "raw_url": "https://github.com/flashinfer-ai/flashinfer-bench/raw/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/docs%2Ftutorials%2Fserver-api.mdx",
+      "contents_url": "https://api.github.com/repos/flashinfer-ai/flashinfer-bench/contents/docs%2Ftutorials%2Fserver-api.mdx?ref=15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+      "patch": "@@ -176,7 +176,7 @@ Request body fields:\n \n | Field | Type | Required | Description |\n | --- | --- | --- | --- |\n-| `solution` | object | Yes | Full [Solution](/docs/flashinfer-trace/solution) object to evaluate. |\n+| `solution` | object | Yes | Full [Solution](/flashinfer-trace/solution) object to evaluate. |\n | `workload_uuids` | string[] | No | Optional subset of workload UUIDs. If omitted, the server evaluates all workloads for the definition. |\n \n Illustrative payload example:"
+    }
+  ]
+}

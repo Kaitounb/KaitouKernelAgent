@@ -1,0 +1,9 @@
+{
+  "manifest_sha256": "80c2ab47d48f93bda3767be23d52532921b7e3ab6de3e6ff10ca01ad8ff0e23d",
+  "artifacts": {
+    "artifacts/wheels/nvidia_kernel_agent-0.1.0rc1-py3-none-any.whl": "d5b9ae9e1141b8b91bd937807918b11b5d46e467764c031115700e85bef6f7c4",
+    "artifacts/wheels/nvidia_kernel_agent-0.1.0.dev6-py3-none-any.whl": "d5f4bbf83dc050271af66baf35738f3800d02c2592b6fec101457122edc4fb38",
+    "artifacts/operator-runtime/sm86-cfae38ce5c0fac56545207fe93588c1193646886fc5952f113fab487ef0be6eb.zip": "939bf2d6d71a8d47fff652f944addb16857167e9f4ffbabd83c37a7e9a5ae5fa"
+  },
+  "production_release": false
+}

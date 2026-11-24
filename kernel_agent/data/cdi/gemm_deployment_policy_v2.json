@@ -1,0 +1,22 @@
+{
+  "schema_version": 2,
+  "policy_id": "gemm-deployment-aa-v2-20261123",
+  "status": "user_authorized_deployment_policy_revision",
+  "reason": "User accepts 3% maximum pair noise for deployment A/A; historical reanalysis is explicitly post-observation",
+  "scope": "Trusted cuBLAS one-second sustained-average deployment stability; SM86 and fresh separately validated SM89 environments",
+  "aa_pair_deviation_limit_exclusive": 0.03,
+  "aa_group_geomean_deviation_limit_exclusive": 0.015,
+  "aa_sessions": 3,
+  "pairs_per_group": 9,
+  "workload_count": 8,
+  "input_counts": [1, 16],
+  "alternating_pair_order": true,
+  "all_raw_samples_required": true,
+  "historical_reanalysis_is_prospective_confirmation": false,
+  "requires_target_environment_freeze_for_new_gpu_execution": true,
+  "deployment_nonregression_guard": 0.97,
+  "formal_study_and_search_thresholds_unchanged": true,
+  "old_failed_qualifications_rewritten": false,
+  "authorizes_new_model_calls": false,
+  "qualification_or_production_certificate": false
+}

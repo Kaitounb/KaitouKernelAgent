@@ -1,0 +1,19 @@
+{
+  "contract_id": "mla-f16-r512-rope64-v1",
+  "seeds": [171, 172],
+  "anchors": ["mla-dev-02", "mla-dev-04", "mla-dev-08"],
+  "baseline": {"page_size": 16, "explicit_splits": 1, "sdk_internal_split_planner": true},
+  "workloads": [
+    {"id": "mla-dev-01", "family": "short", "heads": 16, "lengths": [128]},
+    {"id": "mla-dev-02", "family": "medium", "heads": 32, "lengths": [512]},
+    {"id": "mla-dev-03", "family": "full-heads", "heads": 128, "lengths": [2048]},
+    {"id": "mla-dev-04", "family": "long", "heads": 128, "lengths": [8192]},
+    {"id": "mla-dev-05", "family": "batch-tail", "heads": 32, "lengths": [513, 513, 513, 513]},
+    {"id": "mla-dev-06", "family": "batch-full-heads", "heads": 128, "lengths": [2048, 2048, 2048, 2048]},
+    {"id": "mla-dev-07", "family": "batch-subconfiguration", "heads": 16, "lengths": [128,128,128,128,128,128,128,128,128,128,128,128,128,128,128,128]},
+    {"id": "mla-dev-08", "family": "ragged", "heads": 128, "lengths": [127, 511, 1023, 2049]}
+  ],
+  "timing_cache_policies": ["one input", "16 rotating input sets"],
+  "core_full_score_materialization": false,
+  "performance_sampling": "not yet executed; protocol must be frozen separately before search"
+}

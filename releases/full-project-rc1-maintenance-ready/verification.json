@@ -1,0 +1,12 @@
+{
+  "status": "PASS_EVIDENCE_MAINTENANCE_READY",
+  "scope": "CPU artifact/proof/source/document and historical document relocation hashes only; not qualification or reboot approval",
+  "manifest_sha256": "7478ca30237e053e35f1a5ebb14a88fe504f22ab2e8ab29ebc64624815487089",
+  "artifacts_verified": 3,
+  "proofs_verified": 25,
+  "source_files_verified": 18,
+  "documents_verified": 11,
+  "previous_document_bytes_preserved": 10,
+  "qualified": false,
+  "production_release": false
+}

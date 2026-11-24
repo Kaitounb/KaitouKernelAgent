@@ -1,0 +1,1951 @@
+{
+  "sha": "e0647170da36ef9b059ac0bd3d60103aa4ed378b",
+  "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/e0647170da36ef9b059ac0bd3d60103aa4ed378b",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6d1b869812e7f9bfa8e9887b642178991831d949",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/6d1b869812e7f9bfa8e9887b642178991831d949"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40f214d2142dcec95a2e1654764b1a413087ff83",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/40f214d2142dcec95a2e1654764b1a413087ff83"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d06ae898e237a3775d03d8813dec20c17828916b",
+      "size": 1614,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/d06ae898e237a3775d03d8813dec20c17828916b"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eece15e1a35171b8624a92604ace9810f45a579",
+      "size": 27,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/3eece15e1a35171b8624a92604ace9810f45a579"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/documentation.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3638ecac51f292ce6152c8538ee70f511b3650d",
+      "size": 613,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/f3638ecac51f292ce6152c8538ee70f511b3650d"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "44952d330b6030ce5b8da783737eed4b0fb7f2a0",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/44952d330b6030ce5b8da783737eed4b0fb7f2a0"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b85898556f1aafd26ce64edba8254c808f33d40",
+      "size": 871,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/3b85898556f1aafd26ce64edba8254c808f33d40"
+    },
+    {
+      "path": ".github/workflows/ruff.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a97f72050067b443db6dde2d8c3e401bdf40083b",
+      "size": 339,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/a97f72050067b443db6dde2d8c3e401bdf40083b"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cae628370c2a534527634b6e97fb15ec616a0779",
+      "size": 1468,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/cae628370c2a534527634b6e97fb15ec616a0779"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3232ed665566ec047ce55a929db1581dbda266a1",
+      "size": 3537,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/3232ed665566ec047ce55a929db1581dbda266a1"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51b61dbe3ddf46add9c3cc9a1293d63393a20f6a",
+      "size": 3642,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/51b61dbe3ddf46add9c3cc9a1293d63393a20f6a"
+    },
+    {
+      "path": "Fuser",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ead1b858758e990f35061571fb5bd451f545e623",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/ead1b858758e990f35061571fb5bd451f545e623"
+    },
+    {
+      "path": "Fuser/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38944717a48c39b244b92511a99a9db5808fb2ca",
+      "size": 676,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/38944717a48c39b244b92511a99a9db5808fb2ca"
+    },
+    {
+      "path": "Fuser/auto_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e6daff13967242ef28caa8b439fe980209f2b45",
+      "size": 33652,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/1e6daff13967242ef28caa8b439fe980209f2b45"
+    },
+    {
+      "path": "Fuser/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2bc246d30c28f1985ac79c1c46d3fbb48a8ba1",
+      "size": 5736,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/2f2bc246d30c28f1985ac79c1c46d3fbb48a8ba1"
+    },
+    {
+      "path": "Fuser/code_extractor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec0d52cc3f0b99ee446961b33b1cd3e7676876cc",
+      "size": 2934,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/ec0d52cc3f0b99ee446961b33b1cd3e7676876cc"
+    },
+    {
+      "path": "Fuser/compose_end_to_end.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33310902735201b93b38886ae21e826f1447187c",
+      "size": 20075,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/33310902735201b93b38886ae21e826f1447187c"
+    },
+    {
+      "path": "Fuser/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c044fda695fc49f27788f8a0e0a0da1607755fb1",
+      "size": 2428,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/c044fda695fc49f27788f8a0e0a0da1607755fb1"
+    },
+    {
+      "path": "Fuser/config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a80408ab62184c9dcf7bb80bfae829736faf016",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/2a80408ab62184c9dcf7bb80bfae829736faf016"
+    },
+    {
+      "path": "Fuser/config/autoagent_default.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0947d89f88c1085cde27dfe530140011b3bf9939",
+      "size": 795,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/0947d89f88c1085cde27dfe530140011b3bf9939"
+    },
+    {
+      "path": "Fuser/constants.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a494a76d9616940d91418ce911f04808eb5524a",
+      "size": 869,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/3a494a76d9616940d91418ce911f04808eb5524a"
+    },
+    {
+      "path": "Fuser/dedup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b30f06e6f9c1cdbac105e6d0148e8512111f5bbc",
+      "size": 1894,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/b30f06e6f9c1cdbac105e6d0148e8512111f5bbc"
+    },
+    {
+      "path": "Fuser/dispatch_kernel_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "167dffee5f80be31edb45d11a54b755edf9f77ce",
+      "size": 18892,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/167dffee5f80be31edb45d11a54b755edf9f77ce"
+    },
+    {
+      "path": "Fuser/event_adapter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9c609d90a46afec08bb5b186d44ec6fa61a272c",
+      "size": 8328,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/d9c609d90a46afec08bb5b186d44ec6fa61a272c"
+    },
+    {
+      "path": "Fuser/logging_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be72520dc4e3fbe71b0edd726b627a931ce200ba",
+      "size": 1689,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/be72520dc4e3fbe71b0edd726b627a931ce200ba"
+    },
+    {
+      "path": "Fuser/orchestrator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ed57f2d8aebc5c5cb478093310879a58a1082ef",
+      "size": 13532,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/3ed57f2d8aebc5c5cb478093310879a58a1082ef"
+    },
+    {
+      "path": "Fuser/paths.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c8289742377174e1473039be5240cb0999f6f26",
+      "size": 1694,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/8c8289742377174e1473039be5240cb0999f6f26"
+    },
+    {
+      "path": "Fuser/pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4444731c5242c345a9b0d859018b9e0a74b318a",
+      "size": 7304,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/f4444731c5242c345a9b0d859018b9e0a74b318a"
+    },
+    {
+      "path": "Fuser/prompting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd532256dd63330743f1e23c5e28b5814b56480d",
+      "size": 5022,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/fd532256dd63330743f1e23c5e28b5814b56480d"
+    },
+    {
+      "path": "Fuser/runner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41454fb1bc6a8ac1f086035ca2dce30a3587d9e4",
+      "size": 9808,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/41454fb1bc6a8ac1f086035ca2dce30a3587d9e4"
+    },
+    {
+      "path": "Fuser/runner_util.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd71d5c48261eb180647a5c5e443fa90ebb70617",
+      "size": 4685,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/cd71d5c48261eb180647a5c5e443fa90ebb70617"
+    },
+    {
+      "path": "Fuser/subgraph_extractor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "669eb5bfc68aa6af32a77ffdc60984c6f544a5c9",
+      "size": 14700,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/669eb5bfc68aa6af32a77ffdc60984c6f544a5c9"
+    },
+    {
+      "path": "Fuser/worker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84811935f78dab6047fb148360def87eb21b70c5",
+      "size": 8988,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/84811935f78dab6047fb148360def87eb21b70c5"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e2eaa7998f38aa6f3bee43ed221a227d19b3f1d",
+      "size": 14171,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/5e2eaa7998f38aa6f3bee43ed221a227d19b3f1d"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9c9aa31fa17c1e1e9d4142ff52273fc6d9ea58ed",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/9c9aa31fa17c1e1e9d4142ff52273fc6d9ea58ed"
+    },
+    {
+      "path": "assets/kernelagent2.excalidraw.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34081c18cd3347000d844cec5fecb1123e7ab3b1",
+      "size": 41715,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/34081c18cd3347000d844cec5fecb1123e7ab3b1"
+    },
+    {
+      "path": "assets/opt_agent.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "769b7e657114fa55b5c2d31d12e4d5e58a8d547d",
+      "size": 48702,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/769b7e657114fa55b5c2d31d12e4d5e58a8d547d"
+    },
+    {
+      "path": "e2e_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "328de70f21e48c47f2f320888892b94d594b6384",
+      "size": 4316,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/328de70f21e48c47f2f320888892b94d594b6384"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4063afe6727f16d47243c8a24b5e4673c709b26f",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/4063afe6727f16d47243c8a24b5e4673c709b26f"
+    },
+    {
+      "path": "examples/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "236238800e271b1cd2b5ed9214a378733d87090b",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/236238800e271b1cd2b5ed9214a378733d87090b"
+    },
+    {
+      "path": "examples/configs/beam_search.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86a8f05f5a900691b70cab82afbe87163bb42beb",
+      "size": 1108,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/86a8f05f5a900691b70cab82afbe87163bb42beb"
+    },
+    {
+      "path": "examples/configs/beam_search_diverse.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1eaed6663eef2fe9922d5da1f8c198621e9f8976",
+      "size": 2610,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/1eaed6663eef2fe9922d5da1f8c198621e9f8976"
+    },
+    {
+      "path": "examples/configs/beam_search_diverse_concentrated.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c10f53116b4e41950395f1c7d8e23c82806f562e",
+      "size": 2427,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/c10f53116b4e41950395f1c7d8e23c82806f562e"
+    },
+    {
+      "path": "examples/configs/beam_search_diverse_smoke.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaba2c018f519e9c2d638b0557577d6dc4c34859",
+      "size": 1063,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/eaba2c018f519e9c2d638b0557577d6dc4c34859"
+    },
+    {
+      "path": "examples/configs/greedy.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1ad8112be375d108e4310ab02ee82798af9177a",
+      "size": 1065,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/b1ad8112be375d108e4310ab02ee82798af9177a"
+    },
+    {
+      "path": "examples/configs/noop.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15ddfcb41b2ea1bd6bd6d10301cb5c340b0cd663",
+      "size": 1186,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/15ddfcb41b2ea1bd6bd6d10301cb5c340b0cd663"
+    },
+    {
+      "path": "examples/configs/nvidia.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2b66c660245339d91b77cf31facc2985163c708",
+      "size": 1795,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/b2b66c660245339d91b77cf31facc2985163c708"
+    },
+    {
+      "path": "examples/optimize_01_matvec",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6001509bca9a5847c08b04b45768ef809c11b304",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/6001509bca9a5847c08b04b45768ef809c11b304"
+    },
+    {
+      "path": "examples/optimize_01_matvec/input.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0304ea48acf086873f143582f02350e995b6de99",
+      "size": 6028,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/0304ea48acf086873f143582f02350e995b6de99"
+    },
+    {
+      "path": "examples/optimize_01_matvec/problem.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d83d5c77985fe5718a1f29b178887320c65ee540",
+      "size": 1376,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/d83d5c77985fe5718a1f29b178887320c65ee540"
+    },
+    {
+      "path": "examples/optimize_01_matvec/test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d63f4c9b5a5264b31d6c8a0d0a0f004b2c43b20",
+      "size": 10216,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/0d63f4c9b5a5264b31d6c8a0d0a0f004b2c43b20"
+    },
+    {
+      "path": "examples/optimize_02_rmsnorm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d39467b221334d95bd1e8845b809055f290d17c5",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/d39467b221334d95bd1e8845b809055f290d17c5"
+    },
+    {
+      "path": "examples/optimize_02_rmsnorm/input.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8196f93f01c647763ae93a9e33868c63aaf6d96e",
+      "size": 9648,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/8196f93f01c647763ae93a9e33868c63aaf6d96e"
+    },
+    {
+      "path": "examples/optimize_02_rmsnorm/problem.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c87c3f172689f3c7536f741b73358a17ed97e33e",
+      "size": 1904,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/c87c3f172689f3c7536f741b73358a17ed97e33e"
+    },
+    {
+      "path": "examples/optimize_02_rmsnorm/test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d57c4119ade4b9da924d2c9d440db65c974912a",
+      "size": 10163,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/1d57c4119ade4b9da924d2c9d440db65c974912a"
+    },
+    {
+      "path": "examples/optimize_03_max_pooling",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f8ec8700d549f5877929b043f40b3615d2945bf2",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/f8ec8700d549f5877929b043f40b3615d2945bf2"
+    },
+    {
+      "path": "examples/optimize_03_max_pooling/input.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7c698e18eafbd2c042c83daab86e306025dfe7d",
+      "size": 8284,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/f7c698e18eafbd2c042c83daab86e306025dfe7d"
+    },
+    {
+      "path": "examples/optimize_03_max_pooling/problem.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccf11bc974cee1576c9465013ade2f8623160271",
+      "size": 2593,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/ccf11bc974cee1576c9465013ade2f8623160271"
+    },
+    {
+      "path": "examples/optimize_03_max_pooling/test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee5d5f11d1d1eedbb3dc5466fd722ccd757bfaea",
+      "size": 10202,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/ee5d5f11d1d1eedbb3dc5466fd722ccd757bfaea"
+    },
+    {
+      "path": "examples/run_opt_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af5a0dd97911ed5b4915c39554f4aecadadf093c",
+      "size": 6584,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/af5a0dd97911ed5b4915c39554f4aecadadf093c"
+    },
+    {
+      "path": "examples/triton_01_element_add.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d655dbfedb280a3da27b31c4d6bba368f780d92",
+      "size": 4637,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/1d655dbfedb280a3da27b31c4d6bba368f780d92"
+    },
+    {
+      "path": "examples/triton_02_fused_reduction_gemm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "046a383e20c31e9ea0bbbf9177ce08bb89663fbb",
+      "size": 5308,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/046a383e20c31e9ea0bbbf9177ce08bb89663fbb"
+    },
+    {
+      "path": "examples/triton_03_fused_dcpp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "907cd8c3e014aa8c80e2a2bb7da04f83b9c44d04",
+      "size": 5551,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/907cd8c3e014aa8c80e2a2bb7da04f83b9c44d04"
+    },
+    {
+      "path": "kernel_perf_agent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c53fc78f1a5138bfe6cf8f5b85bbad36ae114512",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/c53fc78f1a5138bfe6cf8f5b85bbad36ae114512"
+    },
+    {
+      "path": "kernel_perf_agent/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e27dfec914612acd50f5636d91064e6844a420b5",
+      "size": 87,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/e27dfec914612acd50f5636d91064e6844a420b5"
+    },
+    {
+      "path": "kernel_perf_agent/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47bb96e48005726c49e0587c0a7fe18df5a7d20d",
+      "size": 654,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/47bb96e48005726c49e0587c0a7fe18df5a7d20d"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6fd3cd50cde48fd3202013b015988f87477f73c3",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/6fd3cd50cde48fd3202013b015988f87477f73c3"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "525d745109198854f542460e503c66f8b969fb32",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/525d745109198854f542460e503c66f8b969fb32"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdfd396e4c14d899589e85911c663aed1fed8f8d",
+      "size": 638,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/fdfd396e4c14d899589e85911c663aed1fed8f8d"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ee543b4964eca30c6a5112c58f55cdc93242628",
+      "size": 6879,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/2ee543b4964eca30c6a5112c58f55cdc93242628"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database/code_samples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1b16e1c38479d333cc7b701eec2eb1d0047d2076",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/1b16e1c38479d333cc7b701eec2eb1d0047d2076"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database/code_samples/matadd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20cf664faba9e90e99df1b3846df5cc655989a31",
+      "size": 2349,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/20cf664faba9e90e99df1b3846df5cc655989a31"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database/code_samples/matadd_perst.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33015ead4cced6879af12996d8524fd4639324db",
+      "size": 2931,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/33015ead4cced6879af12996d8524fd4639324db"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database/code_samples/matadd_tma_device.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d4d6c16a113df0de156b7096d6f482d1b226a56",
+      "size": 2713,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/3d4d6c16a113df0de156b7096d6f482d1b226a56"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database/code_samples/matadd_tma_host.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81b47612fd3367dfb8601231bf2ff647b3799d6d",
+      "size": 2261,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/81b47612fd3367dfb8601231bf2ff647b3799d6d"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database/code_samples/matmul.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f782581030a5cda758b5e18a747caa04923d400",
+      "size": 3145,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/7f782581030a5cda758b5e18a747caa04923d400"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database/code_samples/matmul_sw.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e2e4688784753af494215a2d72363c92f00f0b1",
+      "size": 3464,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/1e2e4688784753af494215a2d72363c92f00f0b1"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database/code_samples/matmul_tma_host.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc4f414a57a5bda72a8328bce6c045e89469b254",
+      "size": 2586,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/dc4f414a57a5bda72a8328bce6c045e89469b254"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database/docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd1b04983bb88b057dc9172735a527aef0950327",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/fd1b04983bb88b057dc9172735a527aef0950327"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database/docs/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29f315958b074fd2311c484a78c729085c5408b6",
+      "size": 647,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/29f315958b074fd2311c484a78c729085c5408b6"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database/docs/experimental_tma.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7edbad0d21545ce0ad0621a7f989521e7496e199",
+      "size": 9312,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/7edbad0d21545ce0ad0621a7f989521e7496e199"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database/docs/on_device_tma.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45d1debab9faca63304736bdd8bd1cce5938ee06",
+      "size": 2815,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/45d1debab9faca63304736bdd8bd1cce5938ee06"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database/docs/on_host_tma.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31b169d79f62b075ddaa513d395b0d697d72b895",
+      "size": 2580,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/31b169d79f62b075ddaa513d395b0d697d72b895"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database/docs/persistence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "755743ef8f0101b32b88ba47b7dcd1d6a9db3d04",
+      "size": 2323,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/755743ef8f0101b32b88ba47b7dcd1d6a9db3d04"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database/docs/pid_swizzle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acb14edf2d90a97eaf93e46910e013613ab56907",
+      "size": 2050,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/acb14edf2d90a97eaf93e46910e013613ab56907"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/database/docs/tma.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89087d9c0871d75dfab05ff5241b8cd127118a31",
+      "size": 4067,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/89087d9c0871d75dfab05ff5241b8cd127118a31"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/diagnose_prompt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "281354cbc11f1d6f5800172ec609a3e8eca6c926",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/281354cbc11f1d6f5800172ec609a3e8eca6c926"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/diagnose_prompt/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8db477ccdc185a9a246294ba6dafbc22b092405",
+      "size": 691,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/d8db477ccdc185a9a246294ba6dafbc22b092405"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/diagnose_prompt/gpu_specs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8670c1447a59baf6f7bf29fc27a5f221a8144d28",
+      "size": 3596,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/8670c1447a59baf6f7bf29fc27a5f221a8144d28"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/diagnose_prompt/gpu_specs_database.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c984b46ee37164e7a977e48b0eaf9acd6ab65c1",
+      "size": 6065,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/0c984b46ee37164e7a977e48b0eaf9acd6ab65c1"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/diagnose_prompt/judger_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55853b5d605019c272afc7b608d7e8169d42b923",
+      "size": 10248,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/55853b5d605019c272afc7b608d7e8169d42b923"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/diagnose_prompt/metric_schema.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64d1d6790057c5181afff66a09d4622217dae846",
+      "size": 5321,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/64d1d6790057c5181afff66a09d4622217dae846"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/profiler",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f81fa5566b8929653cb14230cc4632158a735122",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/f81fa5566b8929653cb14230cc4632158a735122"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/profiler/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0a028c94f4ee6bf730e68e2b1c7ee95abd27dc5",
+      "size": 674,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/d0a028c94f4ee6bf730e68e2b1c7ee95abd27dc5"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/profiler/ncu_profiler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea8a23a23cd08ab176d0de56739faab14335c688",
+      "size": 17099,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/ea8a23a23cd08ab176d0de56739faab14335c688"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/roofline",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3bca9f95f0f448a4048a8e8095079c800b17e4e",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/c3bca9f95f0f448a4048a8e8095079c800b17e4e"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/roofline/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3d8afef4926abe5e9147c3b0027abb94e7c143a",
+      "size": 682,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/f3d8afef4926abe5e9147c3b0027abb94e7c143a"
+    },
+    {
+      "path": "kernel_perf_agent/kernel_opt/roofline/ncu_roofline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f3fa1747ff8af1f478096bdbb3120c299ac3261",
+      "size": 9000,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/9f3fa1747ff8af1f478096bdbb3120c299ac3261"
+    },
+    {
+      "path": "oink",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e95ad417bf1c65e6a8eb6bb4ace1504d4efb48b4",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/e95ad417bf1c65e6a8eb6bb4ace1504d4efb48b4"
+    },
+    {
+      "path": "oink/.codex",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b8b4320913d3f3ca4a098cebd0e371e1271298e2",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/b8b4320913d3f3ca4a098cebd0e371e1271298e2"
+    },
+    {
+      "path": "oink/.codex/plans",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "53184a19ec2b34f4f3dba83edf793c1446d89459",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/53184a19ec2b34f4f3dba83edf793c1446d89459"
+    },
+    {
+      "path": "oink/.codex/plans/rmsnorm-concision-plan.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc16aa0bde64f38719cfccd551b9071fc54e524f",
+      "size": 592,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/dc16aa0bde64f38719cfccd551b9071fc54e524f"
+    },
+    {
+      "path": "oink/.codex/plans/rmsnorm-paulius-smallm-plan.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8b37a22abdc50dea6faa8babab55940777f8882",
+      "size": 703,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/c8b37a22abdc50dea6faa8babab55940777f8882"
+    },
+    {
+      "path": "oink/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30d093501a2e71308e1c7126df977b633d2feee4",
+      "size": 5347,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/30d093501a2e71308e1c7126df977b633d2feee4"
+    },
+    {
+      "path": "oink/benchmarks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "134e8fd26fd5aef78a8791d61db2bd99e9020ca2",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/134e8fd26fd5aef78a8791d61db2bd99e9020ca2"
+    },
+    {
+      "path": "oink/benchmarks/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ad35f7881147baf232bd06cb9eb1f7b1c6d7fa5",
+      "size": 12524,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/9ad35f7881147baf232bd06cb9eb1f7b1c6d7fa5"
+    },
+    {
+      "path": "oink/benchmarks/benchmark",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "933cf58813bc9c4fdfa77bc9d9232c0a13851eac",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/933cf58813bc9c4fdfa77bc9d9232c0a13851eac"
+    },
+    {
+      "path": "oink/benchmarks/benchmark/bench_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bea79622f1ff61de6e9d5b18ddaf5e0a0da87ff4",
+      "size": 11688,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/bea79622f1ff61de6e9d5b18ddaf5e0a0da87ff4"
+    },
+    {
+      "path": "oink/benchmarks/benchmark/benchmark_cross_entropy_sm100.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c612bd989ec5c33f40aad711a7c0f5df28f0bc7",
+      "size": 16809,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/8c612bd989ec5c33f40aad711a7c0f5df28f0bc7"
+    },
+    {
+      "path": "oink/benchmarks/benchmark/benchmark_fused_add_rmsnorm_sm100.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "148c8e5d031f068a167ed9c447d755dd706ac9e9",
+      "size": 12309,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/148c8e5d031f068a167ed9c447d755dd706ac9e9"
+    },
+    {
+      "path": "oink/benchmarks/benchmark/benchmark_hbm_roofline_sm100.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee9309f6be243591260ac536ea8870879de6acd8",
+      "size": 8304,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/ee9309f6be243591260ac536ea8870879de6acd8"
+    },
+    {
+      "path": "oink/benchmarks/benchmark/benchmark_layernorm_bwd_sm100.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "756573c3d8c3a164c8647efb0fbd522d3b9a7b60",
+      "size": 20283,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/756573c3d8c3a164c8647efb0fbd522d3b9a7b60"
+    },
+    {
+      "path": "oink/benchmarks/benchmark/benchmark_layernorm_sm100.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "569d4c76e511aed129cddd50206e9718572a27f7",
+      "size": 14735,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/569d4c76e511aed129cddd50206e9718572a27f7"
+    },
+    {
+      "path": "oink/benchmarks/benchmark/benchmark_rmsnorm_bwd_sm100.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "103859726232bc77b74a292d7557b2ad0c349f4f",
+      "size": 15194,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/103859726232bc77b74a292d7557b2ad0c349f4f"
+    },
+    {
+      "path": "oink/benchmarks/benchmark/benchmark_rmsnorm_sm100.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fccafedf31cf9b122da6bd2c92bcbe0398c2fe9d",
+      "size": 12780,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/fccafedf31cf9b122da6bd2c92bcbe0398c2fe9d"
+    },
+    {
+      "path": "oink/benchmarks/benchmark/benchmark_softmax_sm100.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f038071c0e8e72bc61566fa4a9d93089001cb25c",
+      "size": 11388,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/f038071c0e8e72bc61566fa4a9d93089001cb25c"
+    },
+    {
+      "path": "oink/benchmarks/media",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0007e85ef431a869d9c2058a1d3dc09391e94a5d",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/0007e85ef431a869d9c2058a1d3dc09391e94a5d"
+    },
+    {
+      "path": "oink/benchmarks/media/gb300_bf16_qk_norm_oink_vs_cutedsl_roofline.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed9d691b450a5a86ec8aba8f58a64c8cacb32795",
+      "size": 69988,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/ed9d691b450a5a86ec8aba8f58a64c8cacb32795"
+    },
+    {
+      "path": "oink/benchmarks/media/sm100_bf16_oink_vs_quack.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c389d152ad495de020f8d7cf2a7512cc443498a9",
+      "size": 77538,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/c389d152ad495de020f8d7cf2a7512cc443498a9"
+    },
+    {
+      "path": "oink/benchmarks/media/sm100_bf16_oink_vs_quack_dsv3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "225cda8491c1b76bfa12d76da5525109dea903d2",
+      "size": 91472,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/225cda8491c1b76bfa12d76da5525109dea903d2"
+    },
+    {
+      "path": "oink/benchmarks/media/sm100_bf16_oink_vs_quack_dsv3_all.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb02c6af4bfe05c6b53ef16a5bd8841884847800",
+      "size": 111132,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/bb02c6af4bfe05c6b53ef16a5bd8841884847800"
+    },
+    {
+      "path": "oink/benchmarks/media/sm100_bf16_oink_vs_quack_dsv3_cross_entropy.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bf5aba85448b40e8a2558391cbe15d8c0bd16c4",
+      "size": 52145,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/8bf5aba85448b40e8a2558391cbe15d8c0bd16c4"
+    },
+    {
+      "path": "oink/benchmarks/media/sm100_bf16_oink_vs_quack_dsv3_with_layernorm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b56577559c8cabf863eb5940865d37be8950625",
+      "size": 91472,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/7b56577559c8cabf863eb5940865d37be8950625"
+    },
+    {
+      "path": "oink/benchmarks/media/sm100_bf16_oink_vs_quack_with_layernorm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9d95c6a0b9c2f035f019617130671fd2f9c848f",
+      "size": 92645,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/a9d95c6a0b9c2f035f019617130671fd2f9c848f"
+    },
+    {
+      "path": "oink/benchmarks/media/sm100_fp16_oink_vs_quack.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb86c4c1fb691bf2a64b543e1993dbc22c9faf7c",
+      "size": 77917,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/fb86c4c1fb691bf2a64b543e1993dbc22c9faf7c"
+    },
+    {
+      "path": "oink/benchmarks/media/sm100_fp16_oink_vs_quack_dsv3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a81150ff7fd2e4dd10ba50f9062fc408dce15a40",
+      "size": 91825,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/a81150ff7fd2e4dd10ba50f9062fc408dce15a40"
+    },
+    {
+      "path": "oink/benchmarks/media/sm100_fp16_oink_vs_quack_dsv3_all.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dba9c86f9021324bb5e5c3cc905ab6eece9579a",
+      "size": 111484,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/5dba9c86f9021324bb5e5c3cc905ab6eece9579a"
+    },
+    {
+      "path": "oink/benchmarks/media/sm100_fp16_oink_vs_quack_dsv3_cross_entropy.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "061c0f5f158fef628bd720aa3227a9ddedf971ed",
+      "size": 52515,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/061c0f5f158fef628bd720aa3227a9ddedf971ed"
+    },
+    {
+      "path": "oink/benchmarks/media/sm100_fp16_oink_vs_quack_dsv3_with_layernorm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "747d341632ed737a347530468457310569716707",
+      "size": 91825,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/747d341632ed737a347530468457310569716707"
+    },
+    {
+      "path": "oink/benchmarks/media/sm100_fp16_oink_vs_quack_with_layernorm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4155d679fc0686ad39496ca137fb8f4a3f89fe9a",
+      "size": 93021,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/4155d679fc0686ad39496ca137fb8f4a3f89fe9a"
+    },
+    {
+      "path": "oink/benchmarks/media/sm103_bf16_oink_vs_quack_with_layernorm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e161033b743af884949ea59ccc66d359db557ce",
+      "size": 94575,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/0e161033b743af884949ea59ccc66d359db557ce"
+    },
+    {
+      "path": "oink/benchmarks/readme",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "903bf19fa749e56111f8adec67be97865b0c0b92",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/903bf19fa749e56111f8adec67be97865b0c0b92"
+    },
+    {
+      "path": "oink/benchmarks/readme/plot_quack_style_svg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e0224a8b73cdbdb8985d2eb518ca1fe95a3d845",
+      "size": 17871,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/5e0224a8b73cdbdb8985d2eb518ca1fe95a3d845"
+    },
+    {
+      "path": "oink/benchmarks/readme/run_sm100_suite.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ef1bf462e2659d2ed438e66c8b2835117a586b6",
+      "size": 15065,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/4ef1bf462e2659d2ed438e66c8b2835117a586b6"
+    },
+    {
+      "path": "oink/benchmarks/readme/summarize_results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "607f04cc1121e022cd0bfc549df9c4365a013bff",
+      "size": 8258,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/607f04cc1121e022cd0bfc549df9c4365a013bff"
+    },
+    {
+      "path": "oink/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dedd92f136169fef95b0ce102ea79d31ab03b9d",
+      "size": 1659,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/9dedd92f136169fef95b0ce102ea79d31ab03b9d"
+    },
+    {
+      "path": "oink/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "697ef3b7b42020368d0c64513bd4789e0d1ef65f",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/697ef3b7b42020368d0c64513bd4789e0d1ef65f"
+    },
+    {
+      "path": "oink/src/kernelagent_oink",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4daafd349db9e853df1587693faa1c95fcfec129",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/4daafd349db9e853df1587693faa1c95fcfec129"
+    },
+    {
+      "path": "oink/src/kernelagent_oink/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fe33b1c38634c324be5fa4dbce7aa289dd2a8e8",
+      "size": 5464,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/4fe33b1c38634c324be5fa4dbce7aa289dd2a8e8"
+    },
+    {
+      "path": "oink/src/kernelagent_oink/aten_override.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5574cebbc0bf5e1bf7930d268d77a782707bf3ef",
+      "size": 6787,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/5574cebbc0bf5e1bf7930d268d77a782707bf3ef"
+    },
+    {
+      "path": "oink/src/kernelagent_oink/blackwell",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5960a0ca0e5e60a3d789d03c04a6e1dc98191de2",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/5960a0ca0e5e60a3d789d03c04a6e1dc98191de2"
+    },
+    {
+      "path": "oink/src/kernelagent_oink/blackwell/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a92109a997d6e511ff6c443e70eefe926406b2af",
+      "size": 649,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/a92109a997d6e511ff6c443e70eefe926406b2af"
+    },
+    {
+      "path": "oink/src/kernelagent_oink/blackwell/_cutedsl_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e2536d798b19a95944a549407526fe59c1bf63a",
+      "size": 1894,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/2e2536d798b19a95944a549407526fe59c1bf63a"
+    },
+    {
+      "path": "oink/src/kernelagent_oink/blackwell/_rmsnorm_impl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3af5ea3b3a0a2c44605d8307a568a2da87ae33f0",
+      "size": 112193,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/3af5ea3b3a0a2c44605d8307a568a2da87ae33f0"
+    },
+    {
+      "path": "oink/src/kernelagent_oink/blackwell/_rmsnorm_simple_weightonly.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63e5083240d83bbe4745160efdcf021385d72e4e",
+      "size": 12608,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/63e5083240d83bbe4745160efdcf021385d72e4e"
+    },
+    {
+      "path": "oink/src/kernelagent_oink/blackwell/_rmsnorm_smallm_cuda.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f0f3534ec80a40d8c1c4461fff2c3d30bda9f22",
+      "size": 13649,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/5f0f3534ec80a40d8c1c4461fff2c3d30bda9f22"
+    },
+    {
+      "path": "oink/src/kernelagent_oink/blackwell/cross_entropy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bb15685fcf171b28dce06abdac1b4ad4ebf9fc2",
+      "size": 73548,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/5bb15685fcf171b28dce06abdac1b4ad4ebf9fc2"
+    },
+    {
+      "path": "oink/src/kernelagent_oink/blackwell/fast_launch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43fae67edd717b26ecbd04d440bd73d8608194f9",
+      "size": 8081,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/43fae67edd717b26ecbd04d440bd73d8608194f9"
+    },
+    {
+      "path": "oink/src/kernelagent_oink/blackwell/layernorm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a24a15b093a3e2c554c395c5680157c3dca6df9",
+      "size": 124980,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/8a24a15b093a3e2c554c395c5680157c3dca6df9"
+    },
+    {
+      "path": "oink/src/kernelagent_oink/blackwell/lite_quack.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a32f539540335f21dbc944f308eeea963508b58",
+      "size": 53143,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/4a32f539540335f21dbc944f308eeea963508b58"
+    },
+    {
+      "path": "oink/src/kernelagent_oink/blackwell/oink_custom_ops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "348b4f57bf8591f2a5ed55da8510a38b19f6add8",
+      "size": 7304,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/348b4f57bf8591f2a5ed55da8510a38b19f6add8"
+    },
+    {
+      "path": "oink/src/kernelagent_oink/blackwell/rmsnorm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e2bdbb50658a242360c7b554aa20e0d27294db1",
+      "size": 1273,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/7e2bdbb50658a242360c7b554aa20e0d27294db1"
+    },
+    {
+      "path": "oink/src/kernelagent_oink/blackwell/rmsnorm_with_stage2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe6b9427a67237266593a81777afdc995a6f90d9",
+      "size": 498,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/fe6b9427a67237266593a81777afdc995a6f90d9"
+    },
+    {
+      "path": "oink/src/kernelagent_oink/blackwell/softmax.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d364c5cf10553403256fb50a6cfbcafe5704ec14",
+      "size": 51546,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/d364c5cf10553403256fb50a6cfbcafe5704ec14"
+    },
+    {
+      "path": "oink/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5b60f3411c50766ca8d3908bd168e3ead382020b",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/5b60f3411c50766ca8d3908bd168e3ead382020b"
+    },
+    {
+      "path": "oink/tests/test_aten_override.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b8fc5e4040f165e9fa8f28b9de548a309d6d1b5",
+      "size": 7857,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/9b8fc5e4040f165e9fa8f28b9de548a309d6d1b5"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a56232e6277ed6d113f255abc9a0a0e040e8f09",
+      "size": 2121,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/3a56232e6277ed6d113f255abc9a0a0e040e8f09"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a8065efd0321196c03cb7512e5e1fc648bd1ed6f",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/a8065efd0321196c03cb7512e5e1fc648bd1ed6f"
+    },
+    {
+      "path": "scripts/fuser_ui.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92be1f8bd10d6a19a86f7ace78dcd748382474ec",
+      "size": 40621,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/92be1f8bd10d6a19a86f7ace78dcd748382474ec"
+    },
+    {
+      "path": "scripts/list_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5cc32d610114fe211ba3b1a9b281d85c8635d29",
+      "size": 2000,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/c5cc32d610114fe211ba3b1a9b281d85c8635d29"
+    },
+    {
+      "path": "scripts/optimization_ui.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1674cb3f03277a52119c55f5d1807e2c4815777f",
+      "size": 39283,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/1674cb3f03277a52119c55f5d1807e2c4815777f"
+    },
+    {
+      "path": "scripts/pipeline_ui.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5019de0155650427fc77548e484d97851ef16abb",
+      "size": 28101,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/5019de0155650427fc77548e484d97851ef16abb"
+    },
+    {
+      "path": "scripts/triton_ui.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b02031adbd442032c01e495c7539a3984fce86c",
+      "size": 27855,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/6b02031adbd442032c01e495c7539a3984fce86c"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "53683289085eaa1dbaa9a1b6c3ed4090a47136e9",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/53683289085eaa1dbaa9a1b6c3ed4090a47136e9"
+    },
+    {
+      "path": "tests/fuser",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7e25c5c41c9f0b9c040b4b580760ea50b70dbe42",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/7e25c5c41c9f0b9c040b4b580760ea50b70dbe42"
+    },
+    {
+      "path": "tests/fuser/test_auto_agent_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b99079800dd512e36cb14612eb7413bea5f4781",
+      "size": 1782,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/0b99079800dd512e36cb14612eb7413bea5f4781"
+    },
+    {
+      "path": "tests/test_autopatch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "943ccff0c1cab9b329173b0d390a435c7b6e1c0b",
+      "size": 4018,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/943ccff0c1cab9b329173b0d390a435c7b6e1c0b"
+    },
+    {
+      "path": "tests/test_basic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7c8cd41a4357c5cb30d975338f2086bf7b0d954",
+      "size": 1148,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/d7c8cd41a4357c5cb30d975338f2086bf7b0d954"
+    },
+    {
+      "path": "tests/test_config_consistency.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd08c1df150f4037678cac77ee1575c491bea186",
+      "size": 2273,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/dd08c1df150f4037678cac77ee1575c491bea186"
+    },
+    {
+      "path": "tests/test_config_injectable.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29be38a7f9c3cf6b63627b1df7f4bc9677ffedd0",
+      "size": 7235,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/29be38a7f9c3cf6b63627b1df7f4bc9677ffedd0"
+    },
+    {
+      "path": "tests/test_oink_plugin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adf052c2e117167ef78b32d962b28e7335f4223c",
+      "size": 4033,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/adf052c2e117167ef78b32d962b28e7335f4223c"
+    },
+    {
+      "path": "tests/test_platform_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f795589d75a8d24268c223f27274ec4d52b6dba9",
+      "size": 7078,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/f795589d75a8d24268c223f27274ec4d52b6dba9"
+    },
+    {
+      "path": "triton_kernel_agent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2ac172d6666ade98c7f3b3e69f57655e017ae29d",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/2ac172d6666ade98c7f3b3e69f57655e017ae29d"
+    },
+    {
+      "path": "triton_kernel_agent/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e51fa1b711409dc876d8b9686c424b15939ccdc",
+      "size": 931,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/3e51fa1b711409dc876d8b9686c424b15939ccdc"
+    },
+    {
+      "path": "triton_kernel_agent/agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84bd5d5407162e09a658a640fe412369a63570a3",
+      "size": 21156,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/84bd5d5407162e09a658a640fe412369a63570a3"
+    },
+    {
+      "path": "triton_kernel_agent/manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "015fbaccc9d19ab058cdac454346d51a32ad2a63",
+      "size": 9496,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/015fbaccc9d19ab058cdac454346d51a32ad2a63"
+    },
+    {
+      "path": "triton_kernel_agent/opt_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ccd51f62e56248de65d41a90cdc934531e95869",
+      "size": 27842,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/2ccd51f62e56248de65d41a90cdc934531e95869"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c70a5a3a017689ea42b4cc5b6b30498ecfd97cd",
+      "size": 18019,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/7c70a5a3a017689ea42b4cc5b6b30498ecfd97cd"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "89693a9605cb8349b8eb6271e9ed5ec65bc0442b",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/89693a9605cb8349b8eb6271e9ed5ec65bc0442b"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76026b208b8b1d3b727705188c427736bd279d3e",
+      "size": 331,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/76026b208b8b1d3b727705188c427736bd279d3e"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/benchmarking",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c299913f0f9e61ceca67c041527a0422f312b30",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/4c299913f0f9e61ceca67c041527a0422f312b30"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/benchmarking/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61e1d08b6359aa38bd22aafbecf7434429e9848a",
+      "size": 729,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/61e1d08b6359aa38bd22aafbecf7434429e9848a"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/benchmarking/benchmark.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bbf2a6a29ee93645ba8da9f9b7fe58fe5a0a7e0",
+      "size": 11760,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/7bbf2a6a29ee93645ba8da9f9b7fe58fe5a0a7e0"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/benchmarking/kernel_subprocess.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34f46ad6a6da1193b69da2c3f85cf6a80d889c79",
+      "size": 19032,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/34f46ad6a6da1193b69da2c3f85cf6a80d889c79"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/benchmarking/timing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e0730cff952f08298e32bef0f5a317d05e044f2",
+      "size": 14387,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/0e0730cff952f08298e32bef0f5a317d05e044f2"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/orchestrator",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "12f83fca628a38753ba0e1cf13e196e2a575e0ab",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/12f83fca628a38753ba0e1cf13e196e2a575e0ab"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/orchestrator/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86bd3ce97997508d160228d45ec945fdef720e0c",
+      "size": 750,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/86bd3ce97997508d160228d45ec945fdef720e0c"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/orchestrator/optimization_orchestrator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5479e46b1ffdc470e20f815e4091df5c09a7aa9a",
+      "size": 52836,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/5479e46b1ffdc470e20f815e4091df5c09a7aa9a"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/prescribing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ce272fa2045cb77eec75b86d9c772f1eb99ffb46",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/ce272fa2045cb77eec75b86d9c772f1eb99ffb46"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/prescribing/RAG_based_prescriber.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a6095de428b0b30307fd88d2cf368de27653c37",
+      "size": 9226,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/6a6095de428b0b30307fd88d2cf368de27653c37"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/prescribing/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c515b2ab16681fc0f76c491f77c954b39dc8834d",
+      "size": 737,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/c515b2ab16681fc0f76c491f77c954b39dc8834d"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/prescribing/bottleneck_analyzer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b774f0a01e32840dac52b183458b45a6c3835608",
+      "size": 5611,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/b774f0a01e32840dac52b183458b45a6c3835608"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/profiling",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48ce679c245eb2c49761d070da3be63906c2c13f",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/48ce679c245eb2c49761d070da3be63906c2c13f"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/profiling/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f8d18b674615f807dff1b6de12d818b32421a1d",
+      "size": 809,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/8f8d18b674615f807dff1b6de12d818b32421a1d"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/profiling/kernel_profiler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f3f6ffb024099821f99000ffb2d0b9903b02252",
+      "size": 12243,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/6f3f6ffb024099821f99000ffb2d0b9903b02252"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/profiling/ncu_wrapper_factory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3c5a3c075a4b2c7265b96d6b26ee810bae9d847",
+      "size": 3695,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/e3c5a3c075a4b2c7265b96d6b26ee810bae9d847"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/profiling/ncu_wrapper_template.j2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "488668107940f434f064d45d8f8e816816c047d0",
+      "size": 10452,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/488668107940f434f064d45d8f8e816816c047d0"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "339b3d4e08f05be44e45f8467c42083f1be6d4a5",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/339b3d4e08f05be44e45f8467c42083f1be6d4a5"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc14ec28c489f763b82889a22620a4b6c36298f8",
+      "size": 1121,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/bc14ec28c489f763b82889a22620a4b6c36298f8"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/history",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "abdf82ea27baa2cd5e8fff5fcf82a6fd4724ed49",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/abdf82ea27baa2cd5e8fff5fcf82a6fd4724ed49"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/history/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4f7051b8775c865cdb01d57bece55d7f691da81",
+      "size": 1113,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/b4f7051b8775c865cdb01d57bece55d7f691da81"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/history/json_db.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1102d7c1ef944c9ae672df8361ec82cacbba0db8",
+      "size": 5919,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/1102d7c1ef944c9ae672df8361ec82cacbba0db8"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/history/models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eb266f36d4fc819195f599352b28e3b8ad18daa",
+      "size": 1754,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/3eb266f36d4fc819195f599352b28e3b8ad18daa"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/history/records.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a74344c61dfda9263faea41a3682c50094726697",
+      "size": 2089,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/a74344c61dfda9263faea41a3682c50094726697"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/history/store.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "854939e5d009f70dac615050c9e980ecd5d2ef80",
+      "size": 3815,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/854939e5d009f70dac615050c9e980ecd5d2ef80"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/mutation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd564dbfe26c9ee7371273a812c442f0d5a33cc4",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/fd564dbfe26c9ee7371273a812c442f0d5a33cc4"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/mutation/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c78328af15d4a27c387e0690f7978e5a946a2a7",
+      "size": 749,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/5c78328af15d4a27c387e0690f7978e5a946a2a7"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/mutation/mutator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42dfb36af03096b812190d0ab757b31c1a7da61d",
+      "size": 1985,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/42dfb36af03096b812190d0ab757b31c1a7da61d"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/ptx_fingerprint.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5da6bc6a49820bd91b1ac6ee3a3535a96dc8a89c",
+      "size": 6248,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/5da6bc6a49820bd91b1ac6ee3a3535a96dc8a89c"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/sampling",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "94b5ea08ef746f4b8126a34e1f456b897442bf9e",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/94b5ea08ef746f4b8126a34e1f456b897442bf9e"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/sampling/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcfa47541b527b1e87ae3ea204a47b1fa0ffda32",
+      "size": 752,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/bcfa47541b527b1e87ae3ea204a47b1fa0ffda32"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/sampling/sampler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c65c09b9343bd6f18ecf492dde584b12d2919891",
+      "size": 1682,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/c65c09b9343bd6f18ecf492dde584b12d2919891"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/strategy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb9827d73712511139089a82bcdc7e5d7a010ce7",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/eb9827d73712511139089a82bcdc7e5d7a010ce7"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/strategy/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e0a0ea8a7aa2f12badde95da4199dfd97c965e8",
+      "size": 870,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/9e0a0ea8a7aa2f12badde95da4199dfd97c965e8"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/strategy/beam_search.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39a034bf6fd8cb1af0d2886869d416c88ff44a9c",
+      "size": 11916,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/39a034bf6fd8cb1af0d2886869d416c88ff44a9c"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/strategy/greedy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d535fc748592f696023c8be6537ee12bac6f0682",
+      "size": 5848,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/d535fc748592f696023c8be6537ee12bac6f0682"
+    },
+    {
+      "path": "triton_kernel_agent/opt_worker_component/searching/strategy/strategy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c8b32e3cb324667ddd3eca1b85fde455258a8ce",
+      "size": 3594,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/0c8b32e3cb324667ddd3eca1b85fde455258a8ce"
+    },
+    {
+      "path": "triton_kernel_agent/platform",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a8db28418b817ca7d98c75b99d87d93d7a66bb4c",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/a8db28418b817ca7d98c75b99d87d93d7a66bb4c"
+    },
+    {
+      "path": "triton_kernel_agent/platform/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4b5bccbc837400f19ba317cf3a59047db166071",
+      "size": 3370,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/a4b5bccbc837400f19ba317cf3a59047db166071"
+    },
+    {
+      "path": "triton_kernel_agent/platform/interfaces.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89af83305bb2641b072aa33281107ba404b20a24",
+      "size": 9003,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/89af83305bb2641b072aa33281107ba404b20a24"
+    },
+    {
+      "path": "triton_kernel_agent/platform/noop.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1d2813de8374824301716f46483d4e5475eb16b",
+      "size": 6449,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/a1d2813de8374824301716f46483d4e5475eb16b"
+    },
+    {
+      "path": "triton_kernel_agent/platform/nvidia.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2ed359f34441d29b0cd8a8567823724dae56c1b",
+      "size": 22772,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/e2ed359f34441d29b0cd8a8567823724dae56c1b"
+    },
+    {
+      "path": "triton_kernel_agent/platform/registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5e70a79b7e7ecc7f74dcd5bdaa0d657ebe88b80",
+      "size": 8548,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/c5e70a79b7e7ecc7f74dcd5bdaa0d657ebe88b80"
+    },
+    {
+      "path": "triton_kernel_agent/platform_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f69c6b5ec59e3aee954f7f9a630b88507b11a93f",
+      "size": 3724,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/f69c6b5ec59e3aee954f7f9a630b88507b11a93f"
+    },
+    {
+      "path": "triton_kernel_agent/prompt_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "208d6cd0e28e7484f65075594148a049daf30fae",
+      "size": 15439,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/208d6cd0e28e7484f65075594148a049daf30fae"
+    },
+    {
+      "path": "triton_kernel_agent/templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "83a51f036f805f1ba8db705e6d860566fd1aa286",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/83a51f036f805f1ba8db705e6d860566fd1aa286"
+    },
+    {
+      "path": "triton_kernel_agent/templates/kernel_generation.j2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30ed7271e3f09bccfc0fe803c8c33ead424bdee3",
+      "size": 6080,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/30ed7271e3f09bccfc0fe803c8c33ead424bdee3"
+    },
+    {
+      "path": "triton_kernel_agent/templates/kernel_optimization.j2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6779754091587ddb8dbf0886065036b5ee59caa5",
+      "size": 4698,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/6779754091587ddb8dbf0886065036b5ee59caa5"
+    },
+    {
+      "path": "triton_kernel_agent/templates/kernel_refinement.j2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87b2cd63a34a0c692dc39723e74b66c3f41c55ea",
+      "size": 4127,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/87b2cd63a34a0c692dc39723e74b66c3f41c55ea"
+    },
+    {
+      "path": "triton_kernel_agent/templates/reflexion_prompt.j2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7037d58ec1bb2c938d8bf96dbf0133b6c631df88",
+      "size": 2565,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/7037d58ec1bb2c938d8bf96dbf0133b6c631df88"
+    },
+    {
+      "path": "triton_kernel_agent/templates/test_generation.j2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61c9b2e20463a3efecd952fcc52ab8a763695160",
+      "size": 9725,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/61c9b2e20463a3efecd952fcc52ab8a763695160"
+    },
+    {
+      "path": "triton_kernel_agent/templates/triton_guidelines.j2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86f3a8d6c17ee8c04cbcb727585c82194073cc3c",
+      "size": 16646,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/86f3a8d6c17ee8c04cbcb727585c82194073cc3c"
+    },
+    {
+      "path": "triton_kernel_agent/worker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e594d74c5298fda13fc87878953c12943660ff6a",
+      "size": 30657,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/e594d74c5298fda13fc87878953c12943660ff6a"
+    },
+    {
+      "path": "triton_kernel_agent/worker_util.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e382ac243f3f36f93a0a8767ab6f2cbfb8d945e6",
+      "size": 8243,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/e382ac243f3f36f93a0a8767ab6f2cbfb8d945e6"
+    },
+    {
+      "path": "utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ccc1fa97c82b5f1b935cc4052b63885e5327b7d",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/1ccc1fa97c82b5f1b935cc4052b63885e5327b7d"
+    },
+    {
+      "path": "utils/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "075cb195c26175b0fc9901d8534dc8a1b0bd844d",
+      "size": 372,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/075cb195c26175b0fc9901d8534dc8a1b0bd844d"
+    },
+    {
+      "path": "utils/config_injectable.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77b55a0c3c192e28a12100fadba3f56148035df7",
+      "size": 3581,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/77b55a0c3c192e28a12100fadba3f56148035df7"
+    },
+    {
+      "path": "utils/providers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a6dcdce331c124a10b34015427264c4bf197fb2",
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/trees/7a6dcdce331c124a10b34015427264c4bf197fb2"
+    },
+    {
+      "path": "utils/providers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a1207db5f79fb6360e5d0af135beee37b7a1534",
+      "size": 1107,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/7a1207db5f79fb6360e5d0af135beee37b7a1534"
+    },
+    {
+      "path": "utils/providers/anthropic_provider.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fca461c8433e26993e5793dc724fa3af942f9d1",
+      "size": 2748,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/7fca461c8433e26993e5793dc724fa3af942f9d1"
+    },
+    {
+      "path": "utils/providers/available_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c5080f0bfc5decfc6efe07862d9a999432474c0",
+      "size": 2964,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/0c5080f0bfc5decfc6efe07862d9a999432474c0"
+    },
+    {
+      "path": "utils/providers/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a77bfc7e091a6651fe38be3c4b0c57ba496388c5",
+      "size": 3098,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/a77bfc7e091a6651fe38be3c4b0c57ba496388c5"
+    },
+    {
+      "path": "utils/providers/env_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3238580bcbba47eb779f6bfa952961777e19e4ba",
+      "size": 3151,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/3238580bcbba47eb779f6bfa952961777e19e4ba"
+    },
+    {
+      "path": "utils/providers/model_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83ece7144a44b7e573be1540faa5d991c31219b9",
+      "size": 910,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/83ece7144a44b7e573be1540faa5d991c31219b9"
+    },
+    {
+      "path": "utils/providers/models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "563205efa40446fc3b5fdbf08644fd2678170836",
+      "size": 4252,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/563205efa40446fc3b5fdbf08644fd2678170836"
+    },
+    {
+      "path": "utils/providers/openai_base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3351ace6c7983a42c3951c658370653cdbc30991",
+      "size": 5316,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/3351ace6c7983a42c3951c658370653cdbc30991"
+    },
+    {
+      "path": "utils/providers/openai_provider.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a21d989d95b1bc1afe30764e9843de5cf51ad88",
+      "size": 1232,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/9a21d989d95b1bc1afe30764e9843de5cf51ad88"
+    },
+    {
+      "path": "utils/providers/relay_provider.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c35781a2f02caa9d322a85782066765f8409475",
+      "size": 4748,
+      "url": "https://api.github.com/repos/meta-pytorch/KernelAgent/git/blobs/3c35781a2f02caa9d322a85782066765f8409475"
+    }
+  ],
+  "truncated": false
+}

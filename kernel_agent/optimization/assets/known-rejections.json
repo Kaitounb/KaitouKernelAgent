@@ -1,0 +1,38 @@
+{
+  "7fd6a3a1ecf75c4e56bda79c8b223358a7cdab96e7d0e5e8840b59926ec36d12": {
+    "verdict": "REJECT",
+    "reason": "candidate_aa_unstable",
+    "candidate_id": "7fd6a3a1ecf75c4e56bda79c8b223358a7cdab96e7d0e5e8840b59926ec36d12",
+    "parent_id": "f329ade329014e517bf5e3b3a5828f7bc1b1c86102ffc310a6519110e85426a6",
+    "incumbent_after": "f329ade329014e517bf5e3b3a5828f7bc1b1c86102ffc310a6519110e85426a6",
+    "binary_sha256": "9056a49cdb2e5b6ed8554dd3e89d53fb768a4823dcfae4f75c455c8c9dc3938b",
+    "aa_status": "FAIL_STABILITY",
+    "unstable_groups": [
+      {
+        "session": 2,
+        "workload": "dev-03",
+        "input_count": 16,
+        "geomean": 1.0026713548762998,
+        "max_pair_deviation": 0.03232958605147429
+      }
+    ],
+    "aa_limits": {
+      "max_pair_deviation_exclusive": 0.02,
+      "max_group_geomean_distance_exclusive": 0.015
+    },
+    "ab_status": "NOT_RUN_AA_NOT_ACCEPTED",
+    "aa_sessions": 3,
+    "raw_event_segments": 864,
+    "derivation": "Independent CPU replay of all raw reports; original final aggregation NameError retained; no timing rerun",
+    "raw_reports": {
+      "remote/run/aa-0/report.json": "e402367dd82899d42c41691c9dbd9de10acd5bdd82d557a6d31065f1ec62393c",
+      "remote/run/aa-1/report.json": "194a066e1909f9f76fe4d2b5931dc217e202a76bf4765d0ab83679e87ce6dbbd",
+      "remote/run/aa-2/report.json": "4f8fe993ce4d7471c728c394aff1d4f94d11918b560f7f20178b6dde53e8a026"
+    },
+    "verification_sha256": "1edd56147bdbb0a6cde30941b182a9ed34cda1588ff54f15b94eb83b63e04219",
+    "heldout_executed": false,
+    "performance_claim": false,
+    "production_release": false,
+    "origin": "evidence/20261122-p3-01-source-sanitizer-channel/decision.json"
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "repo": "ScalingIntelligence/KernelBench",
+    "revision": "423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+    "path": "src/kernelbench/__init__.py",
+    "git_blob": "e30653615e2f342a8bdeaf8882b3426aabcc92d4",
+    "sha256": "b6a56a85bb5ac70daf302c43d238d1031ebd8d573a97c59ad28d4b7b4928927b",
+    "local_path": "reference-only/src/kernelbench/__init__.py"
+  },
+  {
+    "repo": "ScalingIntelligence/KernelBench",
+    "revision": "423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+    "path": "src/kernelbench/dataset.py",
+    "git_blob": "7f0e8b226edaf8e97f10be85ff7deb93bd1ed328",
+    "sha256": "53d1f24a73bca99855a61de45d0c7bcf21d0bf0f59959e4ad3cc9ded2cee3475"
+  },
+  {
+    "repo": "ScalingIntelligence/KernelBench",
+    "revision": "423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+    "path": "src/kernelbench/eval.py",
+    "git_blob": "3557dc948f86119495a1307fba87aec791f84bfe",
+    "sha256": "b42ce1268ec64ee7274db307ab98945c1e868792b54689554014b28c41787ee6"
+  },
+  {
+    "repo": "ScalingIntelligence/KernelBench",
+    "revision": "423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+    "path": "src/kernelbench/timing.py",
+    "git_blob": "f22920b4b4f12aa331fff1df262af9f9d6d0691b",
+    "sha256": "eaabdad5dd042cfaac7159713b5f0c17a9244e65622b504eb3ca909d780854c5"
+  },
+  {
+    "repo": "ScalingIntelligence/KernelBench",
+    "revision": "423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+    "path": "LICENSE",
+    "git_blob": "c6aaaad2c8fcc10c842167f9aa675512c589c849",
+    "sha256": "fb5917dd8e4476fa75e89ef6f03dccf07d4859636bc23c7db50e6c0413887b9e"
+  },
+  {
+    "repo": "flashinfer-ai/flashinfer-bench",
+    "revision": "15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+    "path": "flashinfer_bench/compile/builders/torch_builder.py",
+    "git_blob": "fb1473d3edf251bb3fce55b180948c4b810e91e6",
+    "sha256": "3ae258ded1d40187d84b7d2098e47e6e4476dd7518a116e0e49ae0b6240a5e7b"
+  },
+  {
+    "repo": "flashinfer-ai/flashinfer-bench",
+    "revision": "15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+    "path": "pyproject.toml",
+    "git_blob": "4ea41707dd3beb1747bd064508b0018334fa3cea",
+    "sha256": "e27b7950b100d8b65d1a733c67a91e71c487f867fded36827b1e2c4f4337f631"
+  },
+  {
+    "repo": "flashinfer-ai/flashinfer-bench",
+    "revision": "15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+    "path": "LICENCE",
+    "git_blob": "e51eba9e8b896c2776883dafc0b587c1224feeaa",
+    "sha256": "806e1ae8f5553a2ff08204c4ea035729fee502d17542b582f5a98323b643da94"
+  },
+  {
+    "repo": "flashinfer-ai/flashinfer-bench",
+    "revision": "15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+    "path": "NOTICE",
+    "git_blob": "6f80b6ef7b72a45b579f39ba24cf362b521e10e3",
+    "sha256": "41860b61f0d1c73805b42905768b1f662aeff825484a55c2495538cf24c82088"
+  },
+  {
+    "repo": "ScalingIntelligence/KernelBench",
+    "revision": "423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+    "path": "src/kernelbench/utils.py",
+    "local_path": "reference-only/src/kernelbench/utils.py",
+    "git_blob": "d2d1b1752b94b53c603024ebcd43a3548abd3fa5",
+    "sha256": "c421bf34686b9546b254aa56c8106984245c610cdfff62188ad6263f8ae99742"
+  }
+]

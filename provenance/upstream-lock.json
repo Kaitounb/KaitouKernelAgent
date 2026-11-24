@@ -1,0 +1,728 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-11-18",
+  "timezone": "Asia/Shanghai",
+  "status": "selected_components_partially_integrated_gpu_validated",
+  "gpu_run": true,
+  "code_executed": true,
+  "adoption_map": "provenance/UPSTREAM_REUSE.md",
+  "projects": [
+    {
+      "repository": "NVlabs/kda",
+      "url": "https://github.com/NVlabs/kda",
+      "revision": "acdd79343c5e9d0c7cb96289f26fd3f1051ce785",
+      "license_review": {
+        "documentation_skills_assets": "CC-BY-4.0",
+        "source": "Apache-2.0"
+      },
+      "selected_files": [
+        {
+          "repository": "NVlabs/kda",
+          "revision": "acdd79343c5e9d0c7cb96289f26fd3f1051ce785",
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/NVlabs/kda/acdd79343c5e9d0c7cb96289f26fd3f1051ce785/README.md",
+          "git_blob_sha1": "5beb7a257e85bd7ccf68e29baf507bc4acea6ad7",
+          "sha256": "0601f3bcdada46ddeaf71245a7975ca6d8bafacf5eb871cd32024c0981f7977d",
+          "bytes": 6200,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "NVlabs/kda",
+          "revision": "acdd79343c5e9d0c7cb96289f26fd3f1051ce785",
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/NVlabs/kda/acdd79343c5e9d0c7cb96289f26fd3f1051ce785/LICENSE",
+          "git_blob_sha1": "4082ac2f164e2ca780039c75dc1a045dae009e5a",
+          "sha256": "79a6a78693f4e02b1f43837ceb014aefda32d319e4298425c7314465c26abe23",
+          "bytes": 30220,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "NVlabs/kda",
+          "revision": "acdd79343c5e9d0c7cb96289f26fd3f1051ce785",
+          "path": "THIRD_PARTY_NOTICES.md",
+          "url": "https://raw.githubusercontent.com/NVlabs/kda/acdd79343c5e9d0c7cb96289f26fd3f1051ce785/THIRD_PARTY_NOTICES.md",
+          "git_blob_sha1": "e1050731b67f408b4a03809e34ffd1bb40441d06",
+          "sha256": "daf18f91207d109babb11efd19d8f1473005e288a7ebed3b4e2d4c0f58d708f8",
+          "bytes": 6169,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "NVlabs/kda",
+          "revision": "acdd79343c5e9d0c7cb96289f26fd3f1051ce785",
+          "path": "docs/agent-flow.md",
+          "url": "https://raw.githubusercontent.com/NVlabs/kda/acdd79343c5e9d0c7cb96289f26fd3f1051ce785/docs/agent-flow.md",
+          "git_blob_sha1": "23a846301a76e57783ef004fa745e72c3c0350ec",
+          "sha256": "c0bf00c893197cbcebdb8dbbbe742c0fd4b51ac7b34e5bab5c3ea4cd94cdb7de",
+          "bytes": 2118,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "NVlabs/kda",
+          "revision": "acdd79343c5e9d0c7cb96289f26fd3f1051ce785",
+          "path": "prompts/basic-flow.md",
+          "url": "https://raw.githubusercontent.com/NVlabs/kda/acdd79343c5e9d0c7cb96289f26fd3f1051ce785/prompts/basic-flow.md",
+          "git_blob_sha1": "22ec94abd039ac18cfc77b86442ecd965ca128e7",
+          "sha256": "0ccd7f7c2a8a09bc1eaca287eb3c0026a99db7033a1a032d50c17f8cff96d038",
+          "bytes": 1762,
+          "status": "downloaded_blob_verified"
+        }
+      ],
+      "local_snapshot": "provenance/upstream-reviews/20261118/NVlabs__kda/files",
+      "status": "reviewed_not_integrated",
+      "adaptations": [],
+      "gpu_verified": false
+    },
+    {
+      "repository": "OpenBMB/ForgeKernel",
+      "url": "https://github.com/OpenBMB/ForgeKernel",
+      "revision": "b2c8ae8510e02c28576808910a6b8827721ab7dc",
+      "license_review": {
+        "root": "Apache-2.0"
+      },
+      "selected_files": [
+        {
+          "repository": "OpenBMB/ForgeKernel",
+          "revision": "b2c8ae8510e02c28576808910a6b8827721ab7dc",
+          "path": "README_zh.md",
+          "url": "https://raw.githubusercontent.com/OpenBMB/ForgeKernel/b2c8ae8510e02c28576808910a6b8827721ab7dc/README_zh.md",
+          "git_blob_sha1": "8f4466cd6abcbd7b034b1f6bc75d72658fd20234",
+          "sha256": "9495f51bcd5746cae99645ef73e4f7cafe231de58795b3443021ab55b53da2ab",
+          "bytes": 17430,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "OpenBMB/ForgeKernel",
+          "revision": "b2c8ae8510e02c28576808910a6b8827721ab7dc",
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/OpenBMB/ForgeKernel/b2c8ae8510e02c28576808910a6b8827721ab7dc/LICENSE",
+          "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "OpenBMB/ForgeKernel",
+          "revision": "b2c8ae8510e02c28576808910a6b8827721ab7dc",
+          "path": "src/forgekernel/window_contract.py",
+          "url": "https://raw.githubusercontent.com/OpenBMB/ForgeKernel/b2c8ae8510e02c28576808910a6b8827721ab7dc/src/forgekernel/window_contract.py",
+          "git_blob_sha1": "334a26ab0a62d64ed66e64f8c812057d8c620901",
+          "sha256": "1eaf1b29d13c9838c69e8161a66b842bae84935ad154bb1f213762e93c43f3e2",
+          "bytes": 59185,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "OpenBMB/ForgeKernel",
+          "revision": "b2c8ae8510e02c28576808910a6b8827721ab7dc",
+          "path": "src/forgekernel/card_template/eval/timing.py",
+          "url": "https://raw.githubusercontent.com/OpenBMB/ForgeKernel/b2c8ae8510e02c28576808910a6b8827721ab7dc/src/forgekernel/card_template/eval/timing.py",
+          "git_blob_sha1": "a5f1068392ddadeff99a64ffe4aa327ef81a8943",
+          "sha256": "7496d5996f0c5cdb5a4afc2fe8e33a61f4d101df5ad4c2d82ed71cc9e56bd4a5",
+          "bytes": 42298,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "OpenBMB/ForgeKernel",
+          "revision": "b2c8ae8510e02c28576808910a6b8827721ab7dc",
+          "path": "src/forgekernel/loop/lang_mode.py",
+          "url": "https://raw.githubusercontent.com/OpenBMB/ForgeKernel/b2c8ae8510e02c28576808910a6b8827721ab7dc/src/forgekernel/loop/lang_mode.py",
+          "git_blob_sha1": "ce504fadede86371dc9e834dca5ff9dbeb6174f0",
+          "sha256": "c521c79719285855e257be3617c10f3fe882617c84d18b86181c55d6e168f4bd",
+          "bytes": 5462,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "OpenBMB/ForgeKernel",
+          "revision": "b2c8ae8510e02c28576808910a6b8827721ab7dc",
+          "path": "src/forgekernel/loop/harness_guard.py",
+          "url": "https://raw.githubusercontent.com/OpenBMB/ForgeKernel/b2c8ae8510e02c28576808910a6b8827721ab7dc/src/forgekernel/loop/harness_guard.py",
+          "git_blob_sha1": "6bc2d694a6cf3a5c777258613dcfc334ae93296f",
+          "sha256": "ce537731540793452cb6c27576e20fda0c4a5b1a41bfcb0e1dd9bdbdb7dac22c",
+          "bytes": 7543,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "OpenBMB/ForgeKernel",
+          "revision": "b2c8ae8510e02c28576808910a6b8827721ab7dc",
+          "path": "hw_kb/cuda/TEMPLATE.md",
+          "url": "https://raw.githubusercontent.com/OpenBMB/ForgeKernel/b2c8ae8510e02c28576808910a6b8827721ab7dc/hw_kb/cuda/TEMPLATE.md",
+          "git_blob_sha1": "0aea1a8c7fcc5f6ca6d35b2c947720e972f1f4f7",
+          "sha256": "e67465c5a7bd4e7959fc666ae3aad51662d33eb9b5bc2e81f3fabf7b045c4dc4",
+          "bytes": 2277,
+          "status": "downloaded_blob_verified"
+        }
+      ],
+      "local_snapshot": "provenance/upstream-reviews/20261118/OpenBMB__ForgeKernel/files",
+      "status": "reviewed_not_integrated",
+      "adaptations": [],
+      "gpu_verified": false
+    },
+    {
+      "repository": "ScalingIntelligence/KernelBench",
+      "url": "https://github.com/ScalingIntelligence/KernelBench",
+      "revision": "423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+      "license_review": {
+        "root": "MIT"
+      },
+      "selected_files": [
+        {
+          "repository": "ScalingIntelligence/KernelBench",
+          "revision": "423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/ScalingIntelligence/KernelBench/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/README.md",
+          "git_blob_sha1": "36e2edfe47bfeefb46e144393d31bb5cebcd4765",
+          "sha256": "5428d91bcdebbfb09fbe97608177d485a3babfe0ea6dac7ab3c0dee809fa4196",
+          "bytes": 13870,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "ScalingIntelligence/KernelBench",
+          "revision": "423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/ScalingIntelligence/KernelBench/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/LICENSE",
+          "git_blob_sha1": "c6aaaad2c8fcc10c842167f9aa675512c589c849",
+          "sha256": "fb5917dd8e4476fa75e89ef6f03dccf07d4859636bc23c7db50e6c0413887b9e",
+          "bytes": 1143,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "ScalingIntelligence/KernelBench",
+          "revision": "423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+          "path": "EVAL.md",
+          "url": "https://raw.githubusercontent.com/ScalingIntelligence/KernelBench/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/EVAL.md",
+          "git_blob_sha1": "faebda6f5b72534c0c9b32d878a08da24605261e",
+          "sha256": "ad7d15ae20b07db7e325e26a5239ccd3e3f9242912e7a58a15e16734dcfbc3a8",
+          "bytes": 3845,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "ScalingIntelligence/KernelBench",
+          "revision": "423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+          "path": "src/kernelbench/eval.py",
+          "url": "https://raw.githubusercontent.com/ScalingIntelligence/KernelBench/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/src/kernelbench/eval.py",
+          "git_blob_sha1": "3557dc948f86119495a1307fba87aec791f84bfe",
+          "sha256": "b42ce1268ec64ee7274db307ab98945c1e868792b54689554014b28c41787ee6",
+          "bytes": 34873,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "ScalingIntelligence/KernelBench",
+          "revision": "423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+          "path": "src/kernelbench/timing.py",
+          "url": "https://raw.githubusercontent.com/ScalingIntelligence/KernelBench/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/src/kernelbench/timing.py",
+          "git_blob_sha1": "f22920b4b4f12aa331fff1df262af9f9d6d0691b",
+          "sha256": "eaabdad5dd042cfaac7159713b5f0c17a9244e65622b504eb3ca909d780854c5",
+          "bytes": 23847,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "ScalingIntelligence/KernelBench",
+          "revision": "423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+          "path": "src/kernelbench/unit_tests/test_eval_adversarial.py",
+          "url": "https://raw.githubusercontent.com/ScalingIntelligence/KernelBench/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/src/kernelbench/unit_tests/test_eval_adversarial.py",
+          "git_blob_sha1": "ac019ba34df6c0d275ae75d3e8778af864e8b90b",
+          "sha256": "c9a5264174047dfe1329e912229f54c983ccb0b394cbe6f53fbe4ef1a495a5fd",
+          "bytes": 4896,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "ScalingIntelligence/KernelBench",
+          "revision": "423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+          "path": "KernelBench/level1/2_Standard_matrix_multiplication_.py",
+          "url": "https://raw.githubusercontent.com/ScalingIntelligence/KernelBench/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/KernelBench/level1/2_Standard_matrix_multiplication_.py",
+          "git_blob_sha1": "e751dbfff4dee08138eec06ea075dea07f41c40f",
+          "sha256": "136a33c4d598d07cd7931ef8c0eff4e683c221af6fc43c2d89b6632d3f9902a0",
+          "bytes": 761,
+          "status": "downloaded_blob_verified"
+        }
+      ],
+      "local_snapshot": "provenance/upstream-reviews/20261118/ScalingIntelligence__KernelBench/files",
+      "status": "selected_loader_correctness_timing_gpu_validated",
+      "adaptations": [
+        {
+          "date": "2026-11-21",
+          "scope": "Original selected eval.py/dataset.py/timing.py; trusted CUDA FP16-to-FP32 GEMM only; not whole KernelBench or adversarial safety certification",
+          "files": [
+            "evaluators/gemm_kernelbench.py",
+            "evaluators/gemm_regression.py",
+            "experiments/p1_02/calibrate_gemm_aa.py"
+          ],
+          "reports": [
+            "evidence/20261121-p1-02-kernelbench-cublas/REPORT.md",
+            "evidence/20261121-p1-02-contract-template/REPORT.md",
+            "evidence/20261121-p1-02-gemm-aa-anchors/REPORT.md"
+          ]
+        }
+      ],
+      "gpu_verified": true
+    },
+    {
+      "repository": "flashinfer-ai/flashinfer-bench",
+      "url": "https://github.com/flashinfer-ai/flashinfer-bench",
+      "revision": "15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+      "license_review": {
+        "root": "Apache-2.0"
+      },
+      "selected_files": [
+        {
+          "repository": "flashinfer-ai/flashinfer-bench",
+          "revision": "15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/flashinfer-ai/flashinfer-bench/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/README.md",
+          "git_blob_sha1": "67349a3ad315b314dd1bad080d7c0596a0bb6e7c",
+          "sha256": "721c1b39cb35f80d14317c69dc035a3b282a2d5ea94aff8885d60ef58b3ddf44",
+          "bytes": 3254,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "flashinfer-ai/flashinfer-bench",
+          "revision": "15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+          "path": "LICENCE",
+          "url": "https://raw.githubusercontent.com/flashinfer-ai/flashinfer-bench/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/LICENCE",
+          "git_blob_sha1": "e51eba9e8b896c2776883dafc0b587c1224feeaa",
+          "sha256": "806e1ae8f5553a2ff08204c4ea035729fee502d17542b582f5a98323b643da94",
+          "bytes": 11734,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "flashinfer-ai/flashinfer-bench",
+          "revision": "15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+          "path": "NOTICE",
+          "url": "https://raw.githubusercontent.com/flashinfer-ai/flashinfer-bench/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/NOTICE",
+          "git_blob_sha1": "6f80b6ef7b72a45b579f39ba24cf362b521e10e3",
+          "sha256": "41860b61f0d1c73805b42905768b1f662aeff825484a55c2495538cf24c82088",
+          "bytes": 70,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "flashinfer-ai/flashinfer-bench",
+          "revision": "15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+          "path": "examples/ffi/README.md",
+          "url": "https://raw.githubusercontent.com/flashinfer-ai/flashinfer-bench/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/examples/ffi/README.md",
+          "git_blob_sha1": "fd425adb244900de31bdd6501badbf068d885855",
+          "sha256": "712c02d72f88c2c41b1faa47c595da68a4b161ada77442b5c4c049a02b343492",
+          "bytes": 5543,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "flashinfer-ai/flashinfer-bench",
+          "revision": "15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+          "path": "examples/ffi/cpp_example.cc",
+          "url": "https://raw.githubusercontent.com/flashinfer-ai/flashinfer-bench/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/examples/ffi/cpp_example.cc",
+          "git_blob_sha1": "7607037e191a852ae61b8ff4325f9d2601d88bba",
+          "sha256": "b72ff807d5c4f5d7a006c2b34d56cae259c3839236658bffa7e0427d0e45cffd",
+          "bytes": 5409,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "flashinfer-ai/flashinfer-bench",
+          "revision": "15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+          "path": "flashinfer_bench/data/definition.py",
+          "url": "https://raw.githubusercontent.com/flashinfer-ai/flashinfer-bench/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/flashinfer_bench/data/definition.py",
+          "git_blob_sha1": "5da147bf4958f49c47534de04816c45b32f05a07",
+          "sha256": "df2a67ffd8cc416643fc05060c0c47d03f8d9e4aae63a60c5ea2a4f74f3a1e0f",
+          "bytes": 17742,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "flashinfer-ai/flashinfer-bench",
+          "revision": "15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+          "path": "flashinfer_bench/data/solution.py",
+          "url": "https://raw.githubusercontent.com/flashinfer-ai/flashinfer-bench/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/flashinfer_bench/data/solution.py",
+          "git_blob_sha1": "098fca028685c5f9de1a48e11f4517a9214e7dd7",
+          "sha256": "bebb8e4dcced7ef39c8c6ec648ae6117ca22d6c5ca4784e528c3956b3ca33c08",
+          "bytes": 10464,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "flashinfer-ai/flashinfer-bench",
+          "revision": "15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+          "path": "flashinfer_bench/compile/builders/tvm_ffi_builder.py",
+          "url": "https://raw.githubusercontent.com/flashinfer-ai/flashinfer-bench/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/flashinfer_bench/compile/builders/tvm_ffi_builder.py",
+          "git_blob_sha1": "7fbb30aed904fb6b19b979184babc99d38697e5f",
+          "sha256": "0a5a264273b6b5830d2972f1656cca527f452fe1325aca185bdb88bde92b8249",
+          "bytes": 13149,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "flashinfer-ai/flashinfer-bench",
+          "revision": "15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+          "path": "flashinfer_bench/bench/runner/isolated_runner.py",
+          "url": "https://raw.githubusercontent.com/flashinfer-ai/flashinfer-bench/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/flashinfer_bench/bench/runner/isolated_runner.py",
+          "git_blob_sha1": "9179a87ecd5869835e6f5a7f5133d867b1553270",
+          "sha256": "4d9dc41d683e9e1dd2fa3e26d52b7c9c80da4d37dd018fc3ce1755af981ff4a5",
+          "bytes": 16484,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "flashinfer-ai/flashinfer-bench",
+          "revision": "15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee",
+          "path": "flashinfer_bench/bench/timing.py",
+          "url": "https://raw.githubusercontent.com/flashinfer-ai/flashinfer-bench/15618a67e8d7b7f49ca61b5ba3b9f26a876d0bee/flashinfer_bench/bench/timing.py",
+          "git_blob_sha1": "870c6a31dce59e52abe149295757ebef54dbb93c",
+          "sha256": "c9165db58615afdf03a223120b37418ed5afaf538b4450641f432f53bf68cbe3",
+          "bytes": 2406,
+          "status": "downloaded_blob_verified"
+        }
+      ],
+      "local_snapshot": "provenance/upstream-reviews/20261118/flashinfer-ai__flashinfer-bench/files",
+      "status": "reviewed_not_integrated",
+      "adaptations": [],
+      "gpu_verified": false
+    },
+    {
+      "repository": "meta-pytorch/KernelAgent",
+      "url": "https://github.com/meta-pytorch/KernelAgent",
+      "revision": "e0647170da36ef9b059ac0bd3d60103aa4ed378b",
+      "license_review": {
+        "root": "Apache-2.0"
+      },
+      "selected_files": [
+        {
+          "repository": "meta-pytorch/KernelAgent",
+          "revision": "e0647170da36ef9b059ac0bd3d60103aa4ed378b",
+          "path": "README.md",
+          "url": "https://raw.githubusercontent.com/meta-pytorch/KernelAgent/e0647170da36ef9b059ac0bd3d60103aa4ed378b/README.md",
+          "git_blob_sha1": "5e2eaa7998f38aa6f3bee43ed221a227d19b3f1d",
+          "sha256": "a44ab32292e4fbeb06c31ba4c476c8e5565878529ca94bab4168bff9d5e7ab0c",
+          "bytes": 14171,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "meta-pytorch/KernelAgent",
+          "revision": "e0647170da36ef9b059ac0bd3d60103aa4ed378b",
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/meta-pytorch/KernelAgent/e0647170da36ef9b059ac0bd3d60103aa4ed378b/LICENSE",
+          "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "meta-pytorch/KernelAgent",
+          "revision": "e0647170da36ef9b059ac0bd3d60103aa4ed378b",
+          "path": "kernel_perf_agent/README.md",
+          "url": "https://raw.githubusercontent.com/meta-pytorch/KernelAgent/e0647170da36ef9b059ac0bd3d60103aa4ed378b/kernel_perf_agent/README.md",
+          "git_blob_sha1": "e27dfec914612acd50f5636d91064e6844a420b5",
+          "sha256": "e2b8e7ebc1d379c08ecaf926c7e240c9388bfdb0c718f564892b6c863c9b6a42",
+          "bytes": 87,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "meta-pytorch/KernelAgent",
+          "revision": "e0647170da36ef9b059ac0bd3d60103aa4ed378b",
+          "path": "kernel_perf_agent/kernel_opt/profiler/ncu_profiler.py",
+          "url": "https://raw.githubusercontent.com/meta-pytorch/KernelAgent/e0647170da36ef9b059ac0bd3d60103aa4ed378b/kernel_perf_agent/kernel_opt/profiler/ncu_profiler.py",
+          "git_blob_sha1": "ea8a23a23cd08ab176d0de56739faab14335c688",
+          "sha256": "44e65a3a1fea674972e31717246ff98b807f49b488548835c21ff7e373f3f41a",
+          "bytes": 17099,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "meta-pytorch/KernelAgent",
+          "revision": "e0647170da36ef9b059ac0bd3d60103aa4ed378b",
+          "path": "kernel_perf_agent/kernel_opt/diagnose_prompt/metric_schema.py",
+          "url": "https://raw.githubusercontent.com/meta-pytorch/KernelAgent/e0647170da36ef9b059ac0bd3d60103aa4ed378b/kernel_perf_agent/kernel_opt/diagnose_prompt/metric_schema.py",
+          "git_blob_sha1": "64d1d6790057c5181afff66a09d4622217dae846",
+          "sha256": "92f9d73856c0ea1cd8fe36a3e67337d3947d3c255a4207242a884eace24c5489",
+          "bytes": 5321,
+          "status": "downloaded_blob_verified"
+        },
+        {
+          "repository": "meta-pytorch/KernelAgent",
+          "revision": "e0647170da36ef9b059ac0bd3d60103aa4ed378b",
+          "path": "triton_kernel_agent/opt_worker_component/benchmarking/timing.py",
+          "url": "https://raw.githubusercontent.com/meta-pytorch/KernelAgent/e0647170da36ef9b059ac0bd3d60103aa4ed378b/triton_kernel_agent/opt_worker_component/benchmarking/timing.py",
+          "git_blob_sha1": "0e0730cff952f08298e32bef0f5a317d05e044f2",
+          "sha256": "99d0eda403d98fe493dfad4cb1ad1fa3c149714a0d801160c5e53740f325b1e1",
+          "bytes": 14387,
+          "status": "downloaded_blob_verified"
+        }
+      ],
+      "local_snapshot": "provenance/upstream-reviews/20261118/meta-pytorch__KernelAgent/files",
+      "status": "selected_llm_provider_and_cuda_profile_parser_schema_sm86_validated",
+      "adaptations": [
+        {
+          "date": "2026-11-21",
+          "scope": "Unmodified base.py/env_config.py/openai_base.py imported for one actual DeepSeek request; no NCU/profiler GPU integration",
+          "adapter": "experiments/p1_03/propose.py",
+          "report": "evidence/20261121-p1-03-deepseek/REPORT.md",
+          "modifications": "Subclass adds DeepSeek JSON output and non-thinking; SDK timeout=60 and max_retries=0; minimal public request and local parent alias binding",
+          "real_model_calls": 1,
+          "reported_tokens": 431
+        },
+        {
+          "date": "2026-11-22",
+          "scope": "Original CSV parser/prompt/schema used with adapted CUDA NCU collector; 19 selected fields on SM86, not all upstream metrics or whole agent",
+          "files": [
+            "experiments/p1_04/ncu_adapter.py",
+            "experiments/p1_04/profile_entry.py",
+            "experiments/p1_04/propose.py"
+          ],
+          "original_symbols": [
+            "load_ncu_metrics",
+            "metrics_to_prompt",
+            "NCU_METRIC_SECTIONS"
+          ],
+          "adapted_symbol": "profile_triton_kernel",
+          "profile_launch_records": 12,
+          "native_reports": 4,
+          "real_model_calls": 1,
+          "reported_tokens": 6127,
+          "report": "evidence/20261122-p1-04-feedback/REPORT.md",
+          "adoption_plan": "provenance/adaptations/20261122-p1-04-ncu.md"
+        }
+      ],
+      "gpu_verified": true,
+      "code_executed": true,
+      "additional_source_records": [
+        "provenance/upstream-reviews/20261121-p1-03/KernelAgent/source-record.json"
+      ]
+    }
+  ],
+  "last_execution_update": "2026-11-22",
+  "latest_local_validation": {
+    "date": "2026-11-22",
+    "p1_05": {
+      "report": "docs/V0_REPORT.md",
+      "final_timing_accepted": false,
+      "max_pair_deviation": 0.03324374291279408,
+      "new_api_calls": 0,
+      "raw_segments": 3456
+    },
+    "p3_02": {
+      "status": "accepted_fixed_image_sm86_os_boundary_and_reviewed_source_pipeline",
+      "report": "evidence/20261122-p3-02-build-fixed-tool-path/REPORT.md",
+      "builder": "unchanged KernelBench load_custom_model / trusted load_trusted / torch load_inline",
+      "image_id": "sha256:ce00f6dc2eea43dc508b90b548f624646d643a92d363aa715fdb5a3b4f49290a",
+      "binary_sha256": "66fcc80f9122c919f92c72e37a01794a792c91a58b71d5705b160e0bc979dfc3",
+      "uid": 65534,
+      "gpu_runtime_cases": 15,
+      "cpu_decoder_tests": 10,
+      "flashinfer_scope": "Lifecycle principles only; original isolated runner not imported, refs not sent to worker",
+      "production_release": false,
+      "full_acceptance": true,
+      "bounded_runtime": {
+        "report": "evidence/20261122-p3-02-bounded-runtime-confirmation-fix/REPORT.md",
+        "runtime_cases": 29,
+        "faults_rejected": 12,
+        "recoveries": 12,
+        "host_writable_candidate_mounts": 0
+      },
+      "development_installation": {
+        "version": "0.1.0.dev2",
+        "report": "evidence/20261122-p3-02-install-rollback-dev2/REPORT.md",
+        "wheel_sha256": "877f7d6f31fcb2f6830397a3f6846831b009411559c7ffd7d06b738e3a2f46ea",
+        "independent_correctness_calls": 15,
+        "fallback_scenarios": 5,
+        "rollback_observed": true,
+        "local_io_protocol_tests": 16,
+        "local_registry_tests": 10,
+        "cpu_mocked_policy_tests": 4,
+        "production_release": false
+      },
+      "pending": [
+        "formal frozen acceptance and production release"
+      ],
+      "development_installation_history": [
+        {
+          "report": "evidence/20261122-p3-02-install-rollback/REPORT.md",
+          "wheel_sha256": "dd8839f2bd723bbc20879890d997e01407ccf2fe6c9153a558d77a8c857bbbdb",
+          "independent_correctness_calls": 15,
+          "fallback_scenarios": 5,
+          "rollback_observed": true,
+          "cpu_mocked_policy_tests": 4,
+          "production_release": false
+        },
+        {
+          "report": "evidence/20261122-p3-02-install-rollback-dev1/REPORT.md",
+          "wheel_sha256": "f9bd9fd46e9fc78cd56e2db6b283854a31371e534aecaf934e691c33bc25c95e",
+          "version": "0.1.0.dev1",
+          "development_only": true
+        }
+      ],
+      "acceptance_scope": "RTX3070/SM86 fixed Docker image; non-root OS process/file/network/resource isolation, bounded reviewed-source build/run, finite-host-timeout recovery; not GPU driver security or production release",
+      "acceptance_report": "evidence/20261122-p3-02-bounded-builder/acceptance.json",
+      "bounded_builder": {
+        "report": "evidence/20261122-p3-02-bounded-builder/REPORT.md",
+        "builder_cases": 11,
+        "fresh_builds": 3,
+        "gpu_calls": 27,
+        "correct_outputs": 26,
+        "wrong_source_rejected": true,
+        "production_release": false
+      }
+    },
+    "p3_01": {
+      "status": "accepted_reviewed_source_and_rejection_scope",
+      "report": "docs/P3_01_SOURCE.md",
+      "real_model_calls": 1,
+      "tokens": 2232,
+      "independent_qa_outputs": 160,
+      "sanitizer_checks": 16,
+      "aa_segments": 864,
+      "aa_max_pair_deviation": 0.03232958605147429,
+      "verdict": "REJECT",
+      "source_execution": true,
+      "performance_claim": false,
+      "production_release": false
+    },
+    "gemm_rel01": {
+      "status": "PASS_DEVELOPMENT_INSTALLABLE_OFFLINE_SCOPE",
+      "version": "0.1.0.dev4",
+      "report": "docs/OFFLINE_OPTIMIZER.md",
+      "acceptance": "evidence/20261122-gemm-rel01-dev4-delta/acceptance.json",
+      "wheel_sha256": "5a30f76189e56b1094591a1c802329f6e43c70a572674163bb447d190c0cdf49",
+      "gpu_verified_dev3_qa_outputs": 160,
+      "gpu_verified_sanitizer_checks": 16,
+      "dev4_gpu_components_identical_to_dev3": true,
+      "installed_cpu_test_methods": 14,
+      "new_real_model_calls": 0,
+      "aa_segments": 0,
+      "production_release": false
+    },
+    "gemm_rel02": {
+      "status": "accepted_dual_binary_adapter_development_scope",
+      "version": "0.1.0.dev5",
+      "report": "docs/DUAL_BINARY_EVALUATION.md",
+      "wheel_sha256": "348a6e6ed8fca9051b570fb96548d4491c59a14c8f261df2b3e0e2172e5d2c7a",
+      "installed_cpu_methods": 35,
+      "real_qa_outputs_including_faults": 92,
+      "wrong_output_rejected": 4,
+      "sanitizer_checks": 8,
+      "diagnostic_event_segments": 72,
+      "diagnostic_screening_eligible": false,
+      "new_source_full_three_aa_three_ab_gpu_validated": false,
+      "new_model_calls": 0,
+      "production_release": false
+    }
+  },
+  "operator_sources": [
+    {
+      "repository": "pytorch/pytorch",
+      "tag": "v2.7.1",
+      "revision": "e2d141dbde55c2a4370fac5165b0561b6af4798b",
+      "license": "BSD-3-Clause",
+      "local_snapshot": "provenance/operator-upstreams/pytorch__pytorch-e2d141dbde55",
+      "selected_files": [
+        {
+          "path": "LICENSE",
+          "local_path": "provenance/operator-upstreams/pytorch__pytorch-e2d141dbde55/LICENSE",
+          "sha256": "a8a2c6b67cf8a597ffaa5c82380a6bd1b82629c0417e00673d8013d662eb500a",
+          "bytes": 3464
+        },
+        {
+          "path": "aten/src/ATen/native/cuda/SoftMax.cu",
+          "local_path": "provenance/operator-upstreams/pytorch__pytorch-e2d141dbde55/aten/src/ATen/native/cuda/SoftMax.cu",
+          "sha256": "b26a9680e4c0b78eb81685399ccee23419062b09b97b763bf7194eae7b6e54cd",
+          "bytes": 59061
+        },
+        {
+          "path": "aten/src/ATen/native/cuda/PersistentSoftmax.cuh",
+          "local_path": "provenance/operator-upstreams/pytorch__pytorch-e2d141dbde55/aten/src/ATen/native/cuda/PersistentSoftmax.cuh",
+          "sha256": "332061c98b3293713deb87debd495fced86b7d3a6bea3472dc8d09660270eb93",
+          "bytes": 17983
+        }
+      ],
+      "gpu_verified_scope": "SM86 public correctness; no formal timing/production",
+      "adaptation": "provenance/adaptations/20261122-operators-cuda.md"
+    },
+    {
+      "repository": "flashinfer-ai/flashinfer",
+      "tag": "v0.2.8",
+      "revision": "3f8317c67ac129facb8525b2fb581be42f634459",
+      "license": "Apache-2.0",
+      "local_snapshot": "provenance/operator-upstreams/flashinfer-ai__flashinfer-3f8317c67ac1",
+      "selected_files": [
+        {
+          "path": "LICENSE",
+          "local_path": "provenance/operator-upstreams/flashinfer-ai__flashinfer-3f8317c67ac1/LICENSE",
+          "sha256": "d4b8eb93aecacd9bb4979d30248b437ef0812d2e85a8728e1fe12fb36eec09b4",
+          "bytes": 12233
+        },
+        {
+          "path": "flashinfer/page.py",
+          "local_path": "provenance/operator-upstreams/flashinfer-ai__flashinfer-3f8317c67ac1/flashinfer/page.py",
+          "sha256": "98b09adb84af147cae9731c4d48a3c5c0959d1bf9f9a56d39e12f01f237c1566",
+          "bytes": 15001
+        },
+        {
+          "path": "flashinfer/rope.py",
+          "local_path": "provenance/operator-upstreams/flashinfer-ai__flashinfer-3f8317c67ac1/flashinfer/rope.py",
+          "sha256": "852ca3062521421ea68cef48b713f3990a248ac9b62bf57e56f35844d4cb85e8",
+          "bytes": 38019
+        },
+        {
+          "path": "flashinfer/prefill.py",
+          "local_path": "provenance/operator-upstreams/flashinfer-ai__flashinfer-3f8317c67ac1/flashinfer/prefill.py",
+          "sha256": "cdb48bfb3ed4b8299d8ccc5fda4a0c5a2e8295164dffefdeb76595088dab81fa",
+          "bytes": 105646
+        },
+        {
+          "path": "flashinfer/mla.py",
+          "local_path": "provenance/operator-upstreams/flashinfer-ai__flashinfer-3f8317c67ac1/flashinfer/mla.py",
+          "sha256": "b78276b95b35f6a0a309554df52820032146b24015d5c30349c92cfcd671ae41",
+          "bytes": 17543
+        },
+        {
+          "path": "flashinfer/cascade.py",
+          "local_path": "provenance/operator-upstreams/flashinfer-ai__flashinfer-3f8317c67ac1/flashinfer/cascade.py",
+          "sha256": "71d94f1a2b25393c8b1e0beabbb59127ec3748b8221480480b8bd48dd21fbf72",
+          "bytes": 42358
+        },
+        {
+          "path": "flashinfer/jit/core.py",
+          "local_path": "provenance/operator-upstreams/flashinfer-ai__flashinfer-3f8317c67ac1/flashinfer/jit/core.py",
+          "sha256": "3f160c9876c27ffbe1444081c4c87439d17d43d205a87cb44609310d1168184e",
+          "bytes": 7515
+        },
+        {
+          "path": "flashinfer/jit/attention/__init__.py",
+          "local_path": "provenance/operator-upstreams/flashinfer-ai__flashinfer-3f8317c67ac1/flashinfer/jit/attention/__init__.py",
+          "sha256": "aaf7beb15f3c377e96c6d95c5d19113a1072535d962caa5c7335e23686326575",
+          "bytes": 2760
+        },
+        {
+          "path": "include/flashinfer/attention/state.cuh",
+          "local_path": "provenance/operator-upstreams/flashinfer-ai__flashinfer-3f8317c67ac1/include/flashinfer/attention/state.cuh",
+          "sha256": "b2f59c104c2857e7e69f1837faf577525a292da98b375d5fb24dbcfc15d78159",
+          "bytes": 2554
+        },
+        {
+          "path": "include/flashinfer/attention/mla.cuh",
+          "local_path": "provenance/operator-upstreams/flashinfer-ai__flashinfer-3f8317c67ac1/include/flashinfer/attention/mla.cuh",
+          "sha256": "8bcfdfc5d030f6c8ee60909981ececec227798b002143b23886379a3b6fd77cf",
+          "bytes": 49431
+        }
+      ],
+      "gpu_verified_scope": "SM86 public correctness; no formal timing/production",
+      "adaptation": "provenance/adaptations/20261122-operators-cuda.md"
+    }
+  ],
+  "operator_review_date": "2026-11-22",
+  "expert_references": [
+    {
+      "repository": "https://github.com/deepseek-ai/FlashMLA",
+      "revision": "ba89a3466e9470ad08ab39738d4e7bb66989e1e7",
+      "scope": "compatibility/reference only; no code built or executed",
+      "files": {
+        "README.md": {
+          "sha256": "3830a7de0bf949cab8376e759bc840dd3c0ea3de9302e96d6c62e0cb55f2ef07",
+          "url": "https://raw.githubusercontent.com/deepseek-ai/FlashMLA/ba89a3466e9470ad08ab39738d4e7bb66989e1e7/README.md",
+          "bytes": 19128
+        },
+        "LICENSE": {
+          "sha256": "6c73a30c14a2938abaa6afe98ebb19e6d81dac5bd4ace0cb05c61c20afa37b85",
+          "url": "https://raw.githubusercontent.com/deepseek-ai/FlashMLA/ba89a3466e9470ad08ab39738d4e7bb66989e1e7/LICENSE",
+          "bytes": 1065
+        }
+      },
+      "observed_targets": {
+        "RTX3070": "SM86",
+        "RTX4090": "SM89"
+      },
+      "dense_decode_required": "SM90 per pinned README support matrix",
+      "runtime_status": "NOT_RUN_UNSUPPORTED_ARCHITECTURE",
+      "performance_result": null
+    }
+  ]
+}

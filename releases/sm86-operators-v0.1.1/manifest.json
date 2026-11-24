@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "status": "RELEASED_LOCAL_ARTIFACT_AND_DEPLOYED",
+  "version": "0.1.1",
+  "scope": "SM86_REVIEWED_FIXED_ATTENTION_MLA",
+  "production_release": true,
+  "source_execution_enabled": false,
+  "container_process_boundary_verified": true,
+  "artifact": {
+    "path": "artifacts/wheels/nvidia_kernel_agent-0.1.1-py3-none-any.whl",
+    "sha256": "f2ef0ec1f054a9331a4134e6545e6ce2a84b5aae22923f81063cb5c7418a2706"
+  },
+  "sdk_archive": {
+    "path": "artifacts/operator-runtime/sm86-cfae38ce5c0fac56545207fe93588c1193646886fc5952f113fab487ef0be6eb.zip",
+    "sha256": "939bf2d6d71a8d47fff652f944addb16857167e9f4ffbabd83c37a7e9a5ae5fa"
+  },
+  "qualification_sha256": "261b6fcb4c44ba3de7c88998b6d7e7f375350c3eb3f37b1d208be6eab0f9d3f4",
+  "runtime_files_identical_to_installed_rc2": 12,
+  "evidence": {
+    "evidence/20261123-sm86-operators-qualified-installed/verification.json": "5446b026dfe4610d8bae172e51204b6d35d275264179d768b7bfa1916951f5ba",
+    "evidence/20261123-sm86-operators-qualified-installed/postflight.json": "26600b93801da45d004587e36b538874e3c6cdfb06adcf720ed552629f79fbad",
+    "evidence/20261123-sm86-operators-qualified-installed/example-preflight.json": "e7dafa6025f34932d1f0ee84d8aa50d9aef125d5cfe7c82541fac7339540746c",
+    "evidence/20261123-sm86-operator-deployment-shared-input/verification.json": "390444b498cb3eea6b124b117fc6c088b5721d3610ec10f91a46fdce78c661c9",
+    "evidence/20261123-sm86-operator-deployment-stability/verification.json": "ab74dbc7b437270c003b73a57fb46b9ac4f31d7babf63e6cc6c220b8f29b0b40",
+    "evidence/20261123-sm86-operators-rc2/verification.json": "c3bc81c5c3a584126d9a513f573f71efc68cf995c0f92d5bdb08f3ddf8e2f696",
+    "evidence/20261123-sm86-operators-rc1/verification.json": "58a4b2a2272f7d0cac98059cceab22bd139ab2641ad5819d814239744cad4218",
+    "evidence/20261123-attention-sm86-independent/verification.json": "f95bf5b67d52c4fa79d98bd2ad021f4e109a698a83838b3a0e14bb5c42707f68",
+    "evidence/20261123-mla-independent-acceptance/verification.json": "cc65e902a2313f0375e2977224be9fab5d4b44517b1b0a9f4e6d9db29317d571"
+  },
+  "deployment": {
+    "remote_root": "/home/dministrator/cuda-lab/nka-persistent/operators-0.1.1-xejiao7_",
+    "prefix": "/home/dministrator/cuda-lab/nka-persistent/operators-0.1.1-xejiao7_/prefix",
+    "bundle": "/home/dministrator/cuda-lab/nka-persistent/operators-0.1.1-xejiao7_/sdk",
+    "launcher": "/home/dministrator/cuda-lab/nka-persistent/operators-0.1.1-xejiao7_/kernel-agent-operators",
+    "current": "/home/dministrator/cuda-lab/nka-persistent/operators-0.1.1-xejiao7_/current",
+    "preview_prefix": "/home/dministrator/cuda-lab/nka-persistent/operators-0.1.1rc2-o5m3a7aj/prefix"
+  },
+  "example_script_sha256": "59c2b887d8335d9310eebe005119e4ef729786a19c5aaa61f90c9d42f6fe26de",
+  "runbook": "docs/SM86_ATTENTION_MLA_RUNTIME.md",
+  "new_model_calls": 0,
+  "external_registry_publish": false,
+  "old_sealed_reexecuted": false
+}

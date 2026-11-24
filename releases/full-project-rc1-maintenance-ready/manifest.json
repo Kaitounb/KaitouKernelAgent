@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "version": "0.1.0rc1",
+  "status": "MAINTENANCE_READY_NOT_QUALIFIED",
+  "scope": "Admission repair evidence and backed-up HAGS setting; no production activation or acceptance waiver",
+  "artifacts": {
+    "artifacts/wheels/nvidia_kernel_agent-0.1.0rc1-py3-none-any.whl": "d5b9ae9e1141b8b91bd937807918b11b5d46e467764c031115700e85bef6f7c4",
+    "artifacts/wheels/nvidia_kernel_agent-0.1.0.dev6-py3-none-any.whl": "d5f4bbf83dc050271af66baf35738f3800d02c2592b6fec101457122edc4fb38",
+    "artifacts/operator-runtime/sm86-cfae38ce5c0fac56545207fe93588c1193646886fc5952f113fab487ef0be6eb.zip": "939bf2d6d71a8d47fff652f944addb16857167e9f4ffbabd83c37a7e9a5ae5fa"
+  },
+  "base_manifest": {
+    "path": "releases/full-project-rc1-preview/manifest.json",
+    "sha256": "80c2ab47d48f93bda3767be23d52532921b7e3ab6de3e6ff10ca01ad8ff0e23d"
+  },
+  "previous_mla_manifest": {
+    "path": "releases/full-project-rc1-mla-acceptance-update/manifest.json",
+    "sha256": "bf2bf37649c39b161ff9c33c3721c428a2375adf3b9f07f6d9981515d8afd9b6"
+  },
+  "previous_document_bytes_preserved": {
+    "README.md": {
+      "preserved_path": "evidence/20261123-admission-repair/docs-before/README.md",
+      "sha256": "8ecae3adbcd4d37b918e376a79c70d9e58a11ab9eb9b7f32aed1fce64af1e19f"
+    },
+    "HANDOFF.md": {
+      "preserved_path": "evidence/20261123-admission-repair/docs-before/HANDOFF.md",
+      "sha256": "f543b7e12f14335f009283ae300827fe554e78b15e8a10aa1fde183f54ac9dff"
+    },
+    "TASKS.md": {
+      "preserved_path": "evidence/20261123-admission-repair/docs-before/TASKS.md",
+      "sha256": "955683a1488c54f22647c060b78bcb99e2483f62a42cf89ab4d1e62b18fee36e"
+    },
+    "PLAN.md": {
+      "preserved_path": "evidence/20261123-admission-repair/docs-before/PLAN.md",
+      "sha256": "92256c54461d223b7e6f6895ee4aa9daecbc03c62d11b9b4d9d8576a7dad3953"
+    },
+    "docs/MLA_RC1_ACCEPTANCE.md": {
+      "preserved_path": "docs/MLA_RC1_ACCEPTANCE.md",
+      "sha256": "427c5012da3720017b276bc3c443224ae12ab7b3fce7da1f025915320697b5c3"
+    },
+    "docs/PRODUCTION_BLOCKERS.md": {
+      "preserved_path": "evidence/20261123-admission-repair/docs-before/docs/PRODUCTION_BLOCKERS.md",
+      "sha256": "7d62602caabd9863cbe12f673592cd34c1fcf767bba3d181629c6ed60b047ef9"
+    },
+    "docs/DELIVERY_STATUS.md": {
+      "preserved_path": "evidence/20261123-admission-repair/docs-before/docs/DELIVERY_STATUS.md",
+      "sha256": "d9df08981e5235f932c8bdaa11a714490d9650f2c9d7df170312f3a6828d42a0"
+    },
+    "docs/RC1_PREVIEW.md": {
+      "preserved_path": "evidence/20261123-admission-repair/docs-before/docs/RC1_PREVIEW.md",
+      "sha256": "70ae6786c2300bb0d3352f25425f0df5fb54625d25986c271f5d78b00e2e894c"
+    },
+    "docs/OPERATOR_RUNTIME.md": {
+      "preserved_path": "docs/OPERATOR_RUNTIME.md",
+      "sha256": "02dcb688b7eba716ad6b6c1ee12e4b8d62bda402bf7f4fc80490f288fb28310a"
+    },
+    "docs/FORMAL_STUDY_RESULTS.md": {
+      "preserved_path": "docs/FORMAL_STUDY_RESULTS.md",
+      "sha256": "98c1ca2e8aca7891b8d021317f39ba6517f340c1a065db058d539a5f4b9db2ca"
+    }
+  },
+  "proofs": {
+    "evidence/20261123-cublas-locked-qualification/protocol.freeze.json": "e05d8b1645d48dc8aee1cde980d3f3adc38b9d08ffeca07087a1155d2a802f22",
+    "evidence/20261123-cublas-locked-qualification/verification.json": "37d2662a6304d82fe95518a1e0efee0496cde036e891ae97e5ea30fb0fa9b5d9",
+    "evidence/20261123-cublas-locked-qualification/segmented-archive/collection.json": "b738679e9d29148934c66d4d50e7539b5aa5b6da78d994c62351bacd901a71ef",
+    "evidence/20261123-cublas-sustained-qualification/protocol.freeze.json": "ea7594a668b0384808593df2fb01bd907dbc7edee382167f4b4dd081a4b23491",
+    "evidence/20261123-cublas-sustained-qualification/verification.json": "095afba6a852ac8fa5f5abf874aaf295763bffa756d61031cc6b34f0fcbb38e1",
+    "evidence/20261123-cublas-sustained-qualification/segmented-archive/collection.json": "ccb25bc301209cf48df136036241a2689372460a8c377d62635138e3bc3bfd80",
+    "evidence/20261123-cublas-timeline-diagnostic/archive/collection.json": "d2db075188de683b374b0a9f34538af38e454d34d8fe3231ea84a3db1164a896",
+    "evidence/20261123-cublas-timeline-timestamp-fixed/archive/collection.json": "5e04245e90de4718af2bbdc9bf074234ed6175c38a5f117011b525afe210135c",
+    "evidence/20261123-cublas-timeline-timestamp-fixed/verification.json": "bc504b44c8e6e5f425e35bd8bcdfac8c0b950aeb73a2ed9e2a8c1712d097262c",
+    "evidence/20261123-cublas-timeline-timestamp-fixed/replay-verification.json": "ee96e92cd053cc4f25c8323808d0e364e12226554ebe1ce264635423cd1f693d",
+    "evidence/20261123-admission-repair/platform-response.json": "14ced42c9e4eae14e51076485ebe4b921bce1e3ce70d17aefc5c0cb4fb68ed9c",
+    "evidence/20261123-admission-repair/costs.json": "53511b6b565f5d5cad6850d3028347f1eb79f7033f2f3362abed8cbc4960ee59",
+    "evidence/20261123-admission-repair/legacy-preserved.json": "328d43e9d058a39a67830faec78b489e07e5544d8dfc8f232b301db24e2a2b59",
+    "evidence/20261123-admission-repair/final-cleanup.json": "0fc5b53022557089816e5c779d02bec1d1b264f0d2c786ca7f9a1d60fd70030e",
+    "evidence/20261123-admission-repair/windows-dxdiag-scheduler.json": "1398f4cb148101b676281bafa735084d3b2dd4f6cfcb95042ccefcc24666cc67",
+    "evidence/20261123-admission-repair/windows-scheduler-policy.json": "73eaffc43fb74b37642d5bcf246e1090a7b274f7d772313014426a9b9c77f7a9",
+    "evidence/20261123-admission-repair/worker-cpu-quota-diagnostic.json": "09a43486ac6c9b57558ea085501c360da2ed94344952a1c412a0c36115a50570",
+    "evidence/20261123-admission-repair/3070-clock-load-verification.json": "5d4821904f6de7f6aafec945fb0d3adfff6a6233b7e2c8b10cd3064d62b0d2e1",
+    "evidence/20261123-admission-repair/3070-before/inventory.json": "75403fa68c8b8b18f439d93e2b5fc2b05c2364aad6b19f8920e602760690e216",
+    "evidence/20261123-admission-repair/4090-before/inventory.json": "b1a745dee2953ce20c208edd9c7d4b290868283ecc862901ee985533feac229f",
+    "evidence/20261123-admission-repair/sustained-cpu-delta.json": "3e0efeb9996f056284a6456328e528f242f21c6fd5bcd53cdfeb8ec9baa37361",
+    "evidence/20261123-admission-repair/clock-cpu-tests.stderr": "4ad81c04513c11822c2a4dac893c2f2e6994bbc8ed20b386f5759ccafe1e90db",
+    "evidence/20261123-hags-setting/plan.json": "0cbb4d90edf2312cf65fa13729c482c75a6e9502592495fd9f54ef270f9fdac8",
+    "evidence/20261123-hags-setting/result.json": "ca788828272b4e9cd9749b670dc80da2f5a50e6d393c8667d631bd326b3880a5",
+    "evidence/20261123-hags-setting/runtime-before-reboot/runtime.json": "099b9b3e5ad17f65a9062ba2d5df65abdb545710060b7506ee509492e7670520"
+  },
+  "sources": {
+    "experiments/full_delivery/inspect_gpu_admission.py": "2401de6770d4da2abbc6cc44597db07fa1b49b8e2065fba3ab179ed426ef9268",
+    "experiments/full_delivery/cublas_locked_qualification_host.py": "f597cea044eb294dd08a22759c40ecf96e870ff401a53020a0a8224bae4e7dcb",
+    "experiments/full_delivery/run_cublas_locked_qualification.py": "d2445a813f1743d21eac2641d7a1e0ecdaa3be3c647b1284f6cf6f6293c26d08",
+    "experiments/full_delivery/audit_cublas_locked_qualification.py": "954fb3f4f2f9dd2150155e03287ca42803cfab84d83e90393fe0e0c3d6454d92",
+    "experiments/full_delivery/cublas_timeline_target.py": "cb6f966548575cb5cc3e995f456ef7f9fcc0358b684213f3804da996fa01d9ff",
+    "experiments/full_delivery/run_cublas_timeline.py": "8a83d1fe76c28852d1d037ba775227bf0ce0f79bce9354f115ab8b3445ac7376",
+    "experiments/full_delivery/run_cublas_timeline_fixed.py": "f5e0c8209ebbb063a9aa98d39235aa55f7265b4f0003e32fe7bbd4eb0bc9507f",
+    "experiments/full_delivery/audit_cublas_timeline.py": "383cf7afb7fa648a8a2cbfb52fe4294457f6d080a81dcb9c7b12b4d158016d98",
+    "experiments/full_delivery/cublas_sustained_qualification_host.py": "7a10943be10156a18fcd49b85da941db36910ff52452cbb544d3947aa6232676",
+    "experiments/full_delivery/run_cublas_sustained_qualification.py": "0686757428885e869c4b40e5f65ad80296eeb7a9846fefd36597e10e505a9c46",
+    "experiments/full_delivery/audit_cublas_sustained_qualification.py": "d3f6ef2eff121dcf32ae67c30cd21880439f1f1127f10d3aa0c043aa4dd9e252",
+    "experiments/full_delivery/windows_gpu_priority_probe.ps1": "348e22585d44a3ca4936af0b92322f8581541c187c091270560c91cc4f9b0b53",
+    "experiments/full_delivery/windows_hags_setting.ps1": "155092084b6ea7ab157d3e049f04045cab741c9ebcd0cf3aaddec6fb24beeb2a",
+    "experiments/full_delivery/apply_hags_setting.py": "be57b8e994e2fcaeefafa59ccdda85012d90b0962538819097ca37b06fbeb4cc",
+    "experiments/full_delivery/check_hags_runtime.py": "30a51473f052b6233116fbf3dcd13529e29bbdd635e814ec26aa8bcd78475a3b",
+    "tools/monitor_cublas_public.py": "320ad115af028c3e16d87a828a4d15c38fe89f00fa0ad4697993d5933b2db660",
+    "tests/test_clock_qualification.py": "8a689514f617b029a4a11b8a94ea5fb743d183bf63a32019f2934e54b64eff10",
+    "provenance/adaptations/20261123-admission-repair.md": "a032ea7fc82a0158b5aff85c6868d5223f47b4cf39ec8ee4796d76e435c9c862"
+  },
+  "documentation": {
+    "README.md": "2d5b85a47544b1e8afac90c38fa1af19b974da8afe999670cd525f2c82b800c8",
+    "HANDOFF.md": "92ecb89f2cf74062d67536634a8cb9e56549baa83658e5db345279d5d7055fce",
+    "TASKS.md": "ed60514a52544695286f667c1a169ae29ba599194c76a747e7031cdd66ff2585",
+    "PLAN.md": "c2c25567b6e2e2d1e8a941fcca43e3dd23e0705c96446ccd02f5c4bd54d14378",
+    "docs/STABILITY_REPAIR.md": "ad388de8f2f197e7ffad1842d4ec44ae009712512b4e5668a57c653775b08839",
+    "docs/3070_HAGS_MAINTENANCE.md": "a9f46cda9109bf57ad03b59eaf3c69bceb14b354702f80bde740ef885122551f",
+    "docs/4090_NCU_SUPPORT_REQUEST.md": "eebaf13de2b2ca64ebf6220b93beb999d23487bb6d0ef6eee17db475e27243e5",
+    "docs/PRODUCTION_BLOCKERS.md": "993c260ae81536c24682a079ea28ab5f85e52b117d1a89a7f89dbfbc35b7c6f9",
+    "docs/DELIVERY_STATUS.md": "224147009c205fec1c2fbd67ebf0a918bb66a0d311709e71d5a802b38acbcba4",
+    "docs/RC1_PREVIEW.md": "d31109b84d26ba44e471940021af7aaa9c0d2b8e6ff412321585ee6215b20701",
+    "docs/SERVER_COMPATIBILITY.md": "2c6a5737913f671b414b3683137ad2cddf7c76b38056dd62ded6e4fa1dc59b85"
+  },
+  "new_qualification_results": [
+    {
+      "protocol_sha256": "b7cdd657783c08c5db44eb76cc9e9e28e5af0621c071b4258215358ce3ca2d5a",
+      "status": "AA_REJECTED",
+      "qa": 320,
+      "segments": 864,
+      "worst_pair_deviation": 0.02849276716993354
+    },
+    {
+      "protocol_sha256": "2e1e34060f8c083077696ce43f7badc5cca40416a5fceb1b915489ed9de0e602",
+      "status": "AA_REJECTED",
+      "qa": 320,
+      "segments": 864,
+      "worst_pair_deviation": 0.02040408023077056
+    }
+  ],
+  "hags": {
+    "configured_dword": 2,
+    "original_value_absent": true,
+    "actual_runtime_last_observed_enabled": false,
+    "before_reboot_boot_utc": "2026-11-16T14:08:06.7925500Z",
+    "reboot_performed": false,
+    "remote_reboot_authorized_at_freeze": false,
+    "user_maintenance_choice_pending": true,
+    "automatic_frp_reconnection_confirmed": false
+  },
+  "remaining_blockers": [
+    "HAGS_MAINTENANCE_REBOOT_ACTUAL_ENABLE_AND_NEW_QUALIFICATION_REQUIRED",
+    "SM89_PLATFORM_PERFORMANCE_COUNTER_CAPABILITY_REQUIRED"
+  ],
+  "new_call_budget": {
+    "maximum": 700,
+    "used": 190,
+    "remaining": 510,
+    "tokens": 997897,
+    "historical_calls_separate": 3,
+    "historical_tokens_separate": 8790
+  },
+  "new_deepseek_calls": 0,
+  "new_deepseek_tokens": 0,
+  "heldout_reexecuted": false,
+  "qualified_certificate_present": false,
+  "runtime_activation": false,
+  "production_release": false
+}

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nvidia-kernel-agent"
+version = "0.1.3"
+description = "Reviewed CUDA GEMM and native operator runtimes with bounded offline optimization"
+requires-python = ">=3.12"
+dependencies = ["numpy>=1.26,<3"]
+
+[project.optional-dependencies]
+model = ["openai==2.8.1"]
+
+[project.scripts]
+kernel-agent = "kernel_agent.cli:main"
+kernel-agent-3060 = "kernel_agent.cdi_cli:main"
+kernel-agent-operators = "kernel_agent.operators.cli:main"
+kernel-agent-sm89 = "kernel_agent.sm89.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["kernel_agent*"]
+namespaces = false
+
+[tool.setuptools.package-data]
+kernel_agent = ["data/*.json", "data/*.txt", "data/artifacts/*.so", "data/cdi/*.json", "data/cdi/artifacts/*.so"]
+"kernel_agent.optimization" = ["bundle.json", "reuse.json", "assets/**/*"]
+"kernel_agent.operators" = ["catalog.json", "qualified_catalog.json", "qualification.json"]
+"kernel_agent.sm89" = ["data/*.json", "data/artifacts/*.so"]
+
+[tool.setuptools.exclude-package-data]
+"*" = ["**/__pycache__/*", "**/*.pyc"]

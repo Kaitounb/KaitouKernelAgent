@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "version": "0.1.2rc1",
+  "status": "INSTALLED_AUDITED_PREVIEW",
+  "production_release": false,
+  "gemm_qualified": false,
+  "reason": "currentSM86 deployment stability v2 rejected; no actual GEMM certificate",
+  "wheel": {
+    "path": "artifacts/wheels/nvidia_kernel_agent-0.1.2rc1-py3-none-any.whl",
+    "sha256": "1f196c84e93ad406ddef58f55118041a43fa04538bcd9f15fa837d6fbf341264"
+  },
+  "installed_location": {
+    "remote_root": "/home/dministrator/cuda-lab/nka-persistent/gemm-0.1.2rc1-zuewzhv5",
+    "prefix": "/home/dministrator/cuda-lab/nka-persistent/gemm-0.1.2rc1-zuewzhv5/prefix",
+    "launcher": "/home/dministrator/cuda-lab/nka-persistent/gemm-0.1.2rc1-zuewzhv5/kernel-agent",
+    "current": "/home/dministrator/cuda-lab/nka-persistent/gemm-0.1.2rc1-zuewzhv5/current",
+    "store": "/home/dministrator/cuda-lab/nka-persistent/gemm-0.1.2rc1-zuewzhv5/validation/store",
+    "previous_prefix": "/home/dministrator/cuda-lab/nka-persistent/operators-0.1.1-xejiao7_/prefix",
+    "ops_bundle": "/home/dministrator/cuda-lab/nka-persistent/operators-0.1.1-xejiao7_/sdk"
+  },
+  "installed_cpu_tests": 49,
+  "gpu_outputs": 11,
+  "gpu_attempts": 13,
+  "evidence": "evidence/20261124-sm86-gemm-0.1.2rc1-installed/verification.json",
+  "existing_operator_qualification": "unchanged0.1.1 fixedAttention/MLA certificate/components; two real installed smoke outputs pass",
+  "model_calls_new": 0,
+  "heldout_reexecuted": false,
+  "postflight": "evidence/20261124-sm86-gemm-0.1.2rc1-installed/postflight.json",
+  "evidence_sha256": {
+    "evidence/20261124-sm86-gemm-0.1.2rc1-installed/verification.json": "2bdb1049f563f28cce46bd363f4a7a86717d8f49d75916df92d29e0e3ec70dcf",
+    "evidence/20261124-sm86-gemm-0.1.2rc1-installed/postflight.json": "ed964c5934f112c85a22622623524038cf79ce7584cf6e1d9a0669dac38d403e",
+    "evidence/20261124-sm86-gemm-power-qualification/verification.json": "051110c0b3d3ddaf1b1eaf09a41656981ade2f1b478f68426e430f9f53da73f5",
+    "evidence/20261123-sm86-gemm-ordinary-qualification/verification.json": "46edcd95a61788afdadd5020aacf66fd0c553391645a102f8b164856c4516711",
+    "evidence/20261124-sm86-gemm-power-timeline/replay-verification.json": "375d8ae58d59bb6671e9fdae45f1e582e7cf47e8845338165217b7cfa0fa213a"
+  }
+}

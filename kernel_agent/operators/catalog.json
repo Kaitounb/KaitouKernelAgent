@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "bundles": {
+    "cfae38ce5c0fac56545207fe93588c1193646886fc5952f113fab487ef0be6eb": {
+      "archive_sha256": "939bf2d6d71a8d47fff652f944addb16857167e9f4ffbabd83c37a7e9a5ae5fa",
+      "capability": [8,6],
+      "torch": "2.14.0+cu130",
+      "cuda": "13.0",
+      "scope": "reviewed native operator development deployment; final independent MLA acceptance pending",
+      "production_release": false
+    }
+  }
+}

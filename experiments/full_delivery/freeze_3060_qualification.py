@@ -1,0 +1,17 @@
+"""Preregister one complete3060 deployment-stability counterpart after public acceptance passes."""
+import json
+from tools.ssh_3060 import ROOT,execute_python
+
+def main():
+ out=ROOT/'evidence/20261124-sm86-3060-counterpart';loc=json.loads((out/'location.json').read_text());payload='LOCATION='+repr(loc)+'\n'+r'''
+import hashlib,json
+from pathlib import Path
+root=Path(LOCATION['root']);pre=json.loads((root/'precheck-result.json').read_text());old=json.loads((root/'precheck-protocol.json').read_text());sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();assert pre['status']=='PRECHECK_PASS' and pre['qa_checks']==320 and len(pre['sanitizers'])==4 and sum(x['checks'] for x in pre['sanitizers'])==32 and all(x['errors']==0 for x in pre['sanitizers']) and len(pre['recovery'])==2 and all(x['rejected'] and x['fresh_process'] for x in pre['recovery']);assert not(root/'protocol.json').exists() and not(root/'aa-0').exists();controlled=dict(old['controlled_files']);assert all(sha(root/n)==h for n,h in controlled.items())
+for p in (root/'qualification').rglob('*'):
+ if p.is_file() and '__pycache__' not in p.parts:controlled[str(p.relative_to(root))]=sha(p)
+controlled['protocol.py']=sha(root/'protocol.py')
+protocol={'schema_version':1,'scope':'One prospective RTX3060/nativeLinux fixedSM86 cuBLAS deployment-v2 stability counterpart; not3070 qualification or optimization gains','environment':pre['environment'],'image_id':LOCATION['image_id'],'host_sha256':sha(root/'host.py'),'controlled_files':controlled,'precheck_result_sha256':sha(root/'precheck-result.json'),'precheck_protocol_sha256':sha(root/'precheck-protocol.json'),'policy_sha256':sha(root/'workloads/gemm_deployment_stability_v2.json'),'gpu_binding':'nativeCDIdevice0/runc/visiblevoid; UID65534/zeroCaps/noNewPrivs/RO/networknone','input_workloads':'all8 frozenpublicdevelopment','input_counts':[1,16],'graph_calls':32,'pairs':9,'aa_sessions':3,'conditional_ab_sessions':3,'target_segment_ms':1000,'pilot_samples':3,'pilot_replays':4,'pilot_formula':'clamp(ceil(4000/median(pilot_ms)),1,8192)','aa_pair_limit_exclusive':.03,'aa_group_limit_exclusive':.015,'minimum_nonregression_guard':.97,'clock_policy':'ordinary default170W, no GPU clock/power changes','telemetry':'same0.5sNVML sampling outside worker; not profiler timings','gpu_lock':'/tmp/nka-reviewed-gpu-execution.lock hostinodeboundinsideparent','admission':'3consecutiveutilization0, atmost10queries beforeeachsession','failure_policy':'keep all3AA; only conditional3AB; no automaticretry/resampling/trim','new_compilation':False,'new_model_calls':0,'heldout_read':False,'old3070_rejections_retained':True,'runtime_activation':False,'production_release':False};(root/'protocol.json').write_text(json.dumps(protocol,indent=2));receipt={'status':'QUALIFICATION_FROZEN_UNSAMPLED','root':str(root),'protocol_sha256':sha(root/'protocol.json'),'environment':pre['environment'],'controlled_files':len(controlled),'qa_checks':pre['qa_checks'],'sanitizer_checks':32,'recovery_fixtures':2,'new_model_calls':0};(root/'qualification-freeze.json').write_text(json.dumps(receipt,indent=2));print(json.dumps(receipt))
+'''
+ with (out/'qualification-freeze-driver.py').open('x') as f:f.write(payload)
+ r=execute_python(payload,90);(out/'qualification-freeze.stderr').write_text(r.stderr);assert r.returncode==0;v=json.loads(r.stdout);(out/'qualification-freeze.json').write_text(json.dumps(v,indent=2));print(json.dumps(v))
+if __name__=='__main__':main()

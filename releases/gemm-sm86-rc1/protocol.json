@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "candidate_id": "gemm-sm86-rc1",
+  "freeze_id": "1756bace31e202585de4164d3f4dd68d53eee5da22c8f364e06334495f615549",
+  "qualification": "independent GEMM correctness and bounded offline deployment",
+  "dataset_commitment_sha256": "b4c3a762b68cbd09e4cb1bd3b00389ce9aabc065b46728dde65843d378d3d848",
+  "workload_count": 4,
+  "artifact_roles": [
+    "default",
+    "fallback"
+  ],
+  "seed_schedule": "exactly the seeds in the pre-frozen evaluator-held manifest",
+  "reference": "Generate FP16 inputs in trusted host, compute CPU FP64 then cast FP32 before invoking subject",
+  "tolerance": {
+    "atol": 3e-05,
+    "rtol": 0.0001
+  },
+  "checks": [
+    "finite FP32 output and exact shape",
+    "input immutable",
+    "independent elementwise reference",
+    "actual non-root/no-network/read-only bounded worker and confirmed cleanup"
+  ],
+  "failure_policy": "Retain all outcomes; no candidate fallback hiding an artifact failure; no retry of a GPU invocation; cleanup unconfirmed stops subsequent GPU work",
+  "privacy": "Manifest and reference remain in trusted private host paths, never in model context or worker mounts; only aggregate results and raw-evidence commitments public",
+  "one_shot": true,
+  "performance_sampling": false,
+  "source_optimization_gain_claim": false,
+  "release_activation": false,
+  "public_recovery_checks": "Separate public 17x23 @23x19 inputs for finite-host crash/timeout fallback and version rollback, not heldout resampling",
+  "independent_observer": "Byte-identical frozen DockerRunner under private evaluator namespace; independent worker adds GPU input hashes, offset guards and explicit stream; candidate artifact/package unchanged"
+}

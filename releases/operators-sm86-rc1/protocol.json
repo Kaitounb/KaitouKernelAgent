@@ -1,0 +1,21 @@
+{
+  "automatic_retry": false,
+  "candidate_access": "per-invocation input and request only; no full manifest, reference, credentials or trusted evidence mount",
+  "dataset_commitment_sha256": "d15407f8ead20dcc18ddd0e0bef2ee99628ff852860b63c4d635e264b602ae3b",
+  "expected_gpu_invocations": 8,
+  "expected_output_tensors": 16,
+  "failure_policy": "preserve private evidence; no tuning or resampling of this acceptance set",
+  "manifest_count": 4,
+  "offset_guards": true,
+  "one_shot": true,
+  "page_permutation": true,
+  "performance_sampling": false,
+  "producer_consumer_stream": true,
+  "production_release": false,
+  "reference": "CPU FP64 references.mla_core outside unchanged dev6 bounded worker",
+  "seeds_per_workload": 2,
+  "tolerance": {
+    "atol": 0.002,
+    "rtol": 0.002
+  }
+}

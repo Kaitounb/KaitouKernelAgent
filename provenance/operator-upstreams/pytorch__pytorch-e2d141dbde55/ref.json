@@ -1,0 +1,5 @@
+{
+  "repository": "pytorch/pytorch",
+  "tag": "v2.7.1",
+  "revision": "e2d141dbde55c2a4370fac5165b0561b6af4798b"
+}

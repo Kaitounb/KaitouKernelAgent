@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "created_date": "2026-11-18",
+  "timezone": "Asia/Shanghai",
+  "reference_files": {
+    "references/ascend-agent/README.md": "864afe6755d66a40002e891897509b2ec0ad420a91810526bbdb43984742d292",
+    "references/ascend-agent/VALIDATION.md": "71d520a7a8133070b4394783de50d78d9c89e52f3ed1aad2f336168739d42cdb",
+    "references/ascend-agent/ascend_optimizer/__init__.py": "f7371b32abf7c049849f5f101a412770e1d4e8dd1a36bb57c1e3a77086330459",
+    "references/ascend-agent/ascend_optimizer/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "references/ascend-agent/ascend_optimizer/agent.py": "88eba2549ef8486359c654e893b88cfb4ccb93fbf2f29bfa4a0b829eaaa287da",
+    "references/ascend-agent/ascend_optimizer/cli.py": "21d2d708f800bd217aeea30e4d1f80ceb56bd302bec6bbddcca94e72d703b373",
+    "references/ascend-agent/ascend_optimizer/engine.py": "6d90f85b07183ffb492da5fb6179f92889aff1b873b0baecdca207ac6b97a638",
+    "references/ascend-agent/ascend_optimizer/gdn_evaluator.py": "0bb0eb06d52c5b0827df31bd7df6d6cf139698f2abe78735c4195658942a11e2",
+    "references/ascend-agent/ascend_optimizer/gdn_templates.py": "ab0dfa2a0cebe8edbd60f933617801d143d8f7ad9c4392c36bb4237c8bedc8ed",
+    "references/ascend-agent/ascend_optimizer/llm.py": "7e9d373f0dc650e69ef61fcff56a069ae2c46d7bb786c6ac8021a7debed4cdbc",
+    "references/ascend-agent/ascend_optimizer/project_sources/gdn_recover.py": "3823d73346f88aad94b146e3b16f1b4ab8f558d74f62742cd142f8f746f74b16",
+    "references/ascend-agent/ascend_optimizer/project_sources/gdn_recover_batch.py": "bc9fb03c96c45dce281a50ee5d97101bed517ff8e8a10a789db21d71f0094755",
+    "references/ascend-agent/ascend_optimizer/project_sources/origin.json": "c6a0647f388a36210274d5ea8c2897c710967ace85257bbd2a01f7824b7e7f30",
+    "references/ascend-agent/ascend_optimizer/runtime.py": "4afa8e4c5426b66d21c66aec5d7c549e3b6f6076b7a8b8edcb4e3a1143e7d006",
+    "references/ascend-agent/ascend_optimizer/statistics.py": "a4d511e453d267df89484b7b649e8cf6002095904c563003624f5926a9a52b57",
+    "references/ascend-agent/ascend_optimizer/tasks.py": "0e4390eb4b4973c60f4dac08807b06a673253f3c9fabcf93bd55cf2aa6c149d4",
+    "references/ascend-agent/ascend_optimizer/worker.py": "cdc3f0b12a0d31213f22a3cad5df62c86ac92515982ff19ecb2fd0d2a1c96a0c",
+    "references/ascend-agent/pyproject.toml": "32a70547083b22db5b293041890cb9b95bbaf09e52d5a5b1f35c3a61469da982",
+    "references/ascend-agent/tests/test_api.py": "0baa9d59a163d8d5df9ed83b191a4c73e90ecc9d11d800d1f7761692fadab638",
+    "references/ascend-agent/tests/test_contract.py": "cddab2aa8558cc584e8c91c0ef5371d934d12df1245f7f5c5cca802e60bc045d",
+    "references/ascend-agent/tests/test_gdn_adapter.py": "0d5ff243956d8c41a1ed4dbc912cd0192758177b5e6501cd2b7adc4aa2d763bf",
+    "references/ascend-agent/tests/test_runtime.py": "af2044097901b7884f219062adf9c67588efb394199070383424a5df34fe3d82",
+    "references/learning/attention_tutorial/README.md": "359b913bdd3a90f10573f86f4e0891bf7a9423c5e831ce07decc1ab1bf976b49",
+    "references/learning/attention_tutorial/step01_qk.cu": "295a5825c1af35613f80ffbf496558f285f61e4e3a90489dadb711cff99f7078",
+    "references/learning/attention_tutorial/step02_scaled_qk.cu": "04154829eafa8790cc4e0a2a091af4991ce2fba9803ca4bb31af38ae27121ede",
+    "references/learning/flash_attention/README.md": "f7759fd74f416c0ac426970e72436b15b32c12048afbbafd63f348b600157eb8",
+    "references/learning/flash_attention/notes/0000 - Table of Contents.pdf": "0bfb5bf6799c78e0ae5abad2d3b39014c8cee06e8696fdb2d1ed13ed0e45eaad",
+    "references/learning/flash_attention/notes/0001 - Multi Head Attention.pdf": "9f16b53e3662af828b3b16bb4e79c7f04adc0aeb66fba3ef458b43158eff03dc",
+    "references/learning/flash_attention/notes/0002 - (Safe) Softmax.pdf": "724509a1dda45ab9d0d26a248c5e7dec87714d9394b636e6c37977738779d100",
+    "references/learning/flash_attention/notes/0003 - Online Softmax.pdf": "123659fb0ac940b10c36ede9bf1b8034744e2af1aaee9322c4adf3ddf2688e18",
+    "references/learning/flash_attention/notes/0004 - Block Matrix Multiplication.pdf": "6269bc17d49f883dadad044e5c86c12ab919ba6841b8745853f1951a69041577",
+    "references/learning/flash_attention/notes/0005 - Intro to GPU & CUDA.pdf": "a2d2d76218a80f660b7c74a9f7aa638148e01ed4c0ca7b82893fdba4d2d69140",
+    "references/learning/flash_attention/notes/0006 - Tensor Layouts.pdf": "fba3d89c1868213ec2931647de965383994f5dd9b32a573dd99840605904a48c",
+    "references/learning/flash_attention/notes/0007 - Software Pipelining.pdf": "c66a0ee36143266908916c76fe55cb5a59f4abb09feac7c6b50c9f270d5bff16",
+    "references/learning/flash_attention/notes/0008 - Autograd & Gradients.pdf": "f8940d312af1f345c6752e55d6eea9a5c360492ca7c48547c6b31916061076f0",
+    "references/learning/flash_attention/notes/009 - Gradient of MatMul.pdf": "6ecce90db9e750db782b53ff4c779a54fa43e7abb04a412d9fe85a09fe3cbedc",
+    "references/learning/flash_attention/notes/010 - Gradient of Softmax.pdf": "a78243feeb1547b016c07e7193f7af8a6da0381305972c2f8eb0bb20778e0f84",
+    "references/learning/flash_attention/triton-flash-attention/.gitignore": "1674ac8ed7488af605be80c1f3a20bc1f4c2b47b8549346722948385ffc87e8c",
+    "references/learning/flash_attention/triton-flash-attention/README.md": "2e3aa56ecbb22a3a41965ec792c0d3bb09f42f3770d5eed3ac23e6243b51c766",
+    "references/learning/flash_attention/triton-flash-attention/cuda/.gitignore": "3ba2020da55f76620d61950cb88f0d6cc0d5852eae7b2c03f8487a64c87da959",
+    "references/learning/flash_attention/triton-flash-attention/cuda/Makefile": "19eafbe4823c8bf503dd8e8e1f4e9e380a55e775e64413cb9251a19cbb49996d",
+    "references/learning/flash_attention/triton-flash-attention/cuda/cuda_common.cuh": "792c4871114a61949b89e4828d98095d9a73f5451d47c9919003d1cd7732f0d8",
+    "references/learning/flash_attention/triton-flash-attention/cuda/matrix_add.cu": "54cfe62305e6e4ebf5d5ab779488bf0d6d78fc78c7c9cccfd6a2f621865c85d5",
+    "references/learning/flash_attention/triton-flash-attention/cuda/vector_add.cu": "9664d79e70b47e0a94a3017ec5206e7f43da1cd04e70f4ad56e30a7f0ddfb316",
+    "references/learning/flash_attention/triton-flash-attention/cuda/vector_add_simple.cu": "aaa0140761e73366fa083abcc0cbe6081eb4f789f6f66bb8e30cac29668a6015",
+    "references/learning/flash_attention/triton-flash-attention/notes/0000 - Table of Contents.pdf": "0bfb5bf6799c78e0ae5abad2d3b39014c8cee06e8696fdb2d1ed13ed0e45eaad",
+    "references/learning/flash_attention/triton-flash-attention/notes/0001 - Multi Head Attention.pdf": "9f16b53e3662af828b3b16bb4e79c7f04adc0aeb66fba3ef458b43158eff03dc",
+    "references/learning/flash_attention/triton-flash-attention/notes/0002 - (Safe) Softmax.pdf": "724509a1dda45ab9d0d26a248c5e7dec87714d9394b636e6c37977738779d100",
+    "references/learning/flash_attention/triton-flash-attention/notes/0003 - Online Softmax.pdf": "123659fb0ac940b10c36ede9bf1b8034744e2af1aaee9322c4adf3ddf2688e18",
+    "references/learning/flash_attention/triton-flash-attention/notes/0004 - Block Matrix Multiplication.pdf": "6269bc17d49f883dadad044e5c86c12ab919ba6841b8745853f1951a69041577",
+    "references/learning/flash_attention/triton-flash-attention/notes/0005 - Intro to GPU & CUDA.pdf": "a2d2d76218a80f660b7c74a9f7aa638148e01ed4c0ca7b82893fdba4d2d69140",
+    "references/learning/flash_attention/triton-flash-attention/notes/0006 - Tensor Layouts.pdf": "fba3d89c1868213ec2931647de965383994f5dd9b32a573dd99840605904a48c",
+    "references/learning/flash_attention/triton-flash-attention/notes/0007 - Software Pipelining.pdf": "c66a0ee36143266908916c76fe55cb5a59f4abb09feac7c6b50c9f270d5bff16",
+    "references/learning/flash_attention/triton-flash-attention/notes/0008 - Autograd & Gradients.pdf": "f8940d312af1f345c6752e55d6eea9a5c360492ca7c48547c6b31916061076f0",
+    "references/learning/flash_attention/triton-flash-attention/notes/009 - Gradient of MatMul.pdf": "6ecce90db9e750db782b53ff4c779a54fa43e7abb04a412d9fe85a09fe3cbedc",
+    "references/learning/flash_attention/triton-flash-attention/notes/010 - Gradient of Softmax.pdf": "a78243feeb1547b016c07e7193f7af8a6da0381305972c2f8eb0bb20778e0f84",
+    "references/learning/flash_attention/triton-flash-attention/triton/flash_attention.py": "ec2538c786bfcc350d6a25b392036593b52055aebc74ddcbbc6736a77b4b371f",
+    "references/learning/flash_attention/triton-flash-attention/triton/requirements.txt": "b5d5a818a2d2bdf8c54d697d390f8e488c31048bb9e92a877702f7b1525ef3e4",
+    "references/learning/gemm/README-tensor-core.md": "89e15d8f18d465b793ce9bde00a4a087df4e88e32cbf776897181e640a334dff",
+    "references/learning/gemm/gemm_tensor_core.cu": "1b22e3baa42cdf3edfa259269476cfea11ebb55919f29191f59463b2f2f97297",
+    "references/learning/gemm/gemm_wmma_double_buffer.cu": "bca4a4c29bd08371762087cbf0920a518a17735f6eb62622711d923eec76c51f"
+  },
+  "reference_tree_sha256": "0ca1a5d22da2abe8b602172fd048183b64892e3bf2e119c75c7299f36f5568d6",
+  "historical_source_files": {
+    "experiments/p0_03/kernel.py": "e2b650368ca0b6e85b0012fefd95cd2116d1f8e1997259f8c0b6bccbb8383a95",
+    "experiments/p0_03/measure.py": "dbfcd195512477ec1a1f0387195e164bac43c7f82162d4947bc3991f2ed6d4bc",
+    "experiments/p0_03/run_3070.py": "62968cc73dfc8e90c839e6ee0200b21f22848635e65747ded731b6557e2d6c6d",
+    "experiments/p0_03/summarize.py": "da2dd9b108482cfb8594903c8b2f07af3fcb1fa1ae954f7a31a9ad54969c20be",
+    "experiments/p0_03/task.json": "f9b25d14a7352313c181ec35e9a6985242cd27e4ad1e0f34f0e4ae90c9b747d7",
+    "experiments/p0_04/baseline.py": "e2b650368ca0b6e85b0012fefd95cd2116d1f8e1997259f8c0b6bccbb8383a95",
+    "experiments/p0_04/candidates/cached_output.py": "24689fd27f102f126ace306de551c7affd7e5b0d7c92908187f5f7ec7141c802",
+    "experiments/p0_04/candidates/delayed_mutation.py": "10b7ce53bd54e90b76056d54cbbc9fb7bf8bd09a1257873ad30b1eb47b00aa4d",
+    "experiments/p0_04/candidates/host_timeout.py": "a4c3995cbd9712d38b297df8164c7d1cc62f280234763f730193f5e700aa3d0c",
+    "experiments/p0_04/candidates/input_mutation.py": "a7ee167272c09feec61177977a10552e24a829c1428710b96a3750ed3515c11c",
+    "experiments/p0_04/candidates/runtime_error.py": "63cf0d8f6543eb3b584aa650d7546359b1624e7a949bc0bac3383e18314566c6",
+    "experiments/p0_04/candidates/tail_drop.py": "8bbabc6c5a4bdf10937fe50561638b19df7897c4d3f6f9d29ff17cce9430d61e",
+    "experiments/p0_04/candidates/wrong_constant.py": "3c29ed8be8bff6f26a7c2412a14c7a20233a110494172aaf7b2f1f75eda294ad",
+    "experiments/p0_04/common.py": "e4d7d0d23e6f94ad785f9a7d99e321828373e0df9220b736bbbf948d876288de",
+    "experiments/p0_04/fault_kernels.py": "c35ca1623aa2f712553da028c5ab1893901903994b4349af8859fc97e037d8de",
+    "experiments/p0_04/run_3070.py": "7e3cb5ee5a5a066947ac0220a00aad68298012c96a84656995f508d2650ad0e6",
+    "experiments/p0_04/supervisor.py": "d55e3710287dcaee88a11df409e3038f6dbf1b4276e775aedfdf9cad8ea5c491",
+    "experiments/p0_04/task.json": "1543610d22c6bd860aebe6b5384500ca593c4e6d229629c39835a5cbbc055c1d",
+    "experiments/p0_04/test_gates.py": "b62911ce3f03fd69901d6e8a54e3ae04aa90cbc327e697105def688e31a1f8c4",
+    "experiments/p0_04/verify.py": "990a940880620dea48b4799410057807a5e11727fdbb5f6310511a6daea6ae03",
+    "experiments/p0_04/worker.py": "814cae907522f9eb5af146e1fb2432898e119919804148a31177f12033c0476d"
+  },
+  "license_files": {
+    "provenance/licenses/ascend-agent-NOTICE.md": "a494a7216c6850a311dae396ad875da14e0da3453683f6eda7fb2b2e80347f41",
+    "provenance/licenses/vllm-ascend-LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  "historical_manifests": {
+    "evidence/20261117-p0-03/SHA256.json": "e7778ba33c509822a680f5af626151c53a30979b023ff39efabdf42566d7ab23",
+    "evidence/20261117-p0-04/SHA256.json": "1ed050da82a414ac7376e4037877bd7ffcd19170492cb9798b8bdf56a8fdc3f4",
+    "evidence/20261117-wsl/SHA256.json": "16534363fe7c07b55b8b26efa6142e748dc31392724c5e1665949389e3b42758"
+  },
+  "reference_groups": {
+    "ascend-agent": {
+      "original_path": "/Users/kaitou/AI/ascend/experiments/optimizer-agent",
+      "role": "reference_only",
+      "revision": null,
+      "revision_basis": "local snapshot file hashes; no verified source Git revision",
+      "license_status": "not_declared_or_not_verified; no active source copy in P0-05",
+      "local_path": "references/ascend-agent"
+    },
+    "attention_tutorial": {
+      "original_path": "/Users/kaitou/AI/ascend/attention_tutorial",
+      "role": "reference_only",
+      "revision": null,
+      "revision_basis": "local snapshot file hashes; no verified source Git revision",
+      "license_status": "not_declared_or_not_verified; no active source copy in P0-05",
+      "local_path": "references/learning/attention_tutorial"
+    },
+    "gemm": {
+      "original_path": "/Users/kaitou/AI/ascend/kernel动画/cuda-animations/code",
+      "role": "reference_only",
+      "revision": null,
+      "revision_basis": "local snapshot file hashes; no verified source Git revision",
+      "license_status": "not_declared_or_not_verified; no active source copy in P0-05",
+      "local_path": "references/learning/gemm"
+    },
+    "flash_attention": {
+      "original_path": "/Users/kaitou/AI/ascend/flash_attention",
+      "role": "reference_only",
+      "revision": null,
+      "revision_basis": "local snapshot file hashes; no verified source Git revision",
+      "license_status": "not_declared_or_not_verified; no active source copy in P0-05",
+      "local_path": "references/learning/flash_attention"
+    }
+  },
+  "verified_gdn_upstream": {
+    "repository_as_origin_metadata": "vllm-project/vllm-ascend",
+    "legacy_notice_repository_name": "Kaitounb/vllm-ascend",
+    "revision": "622725cd44aa47186dc1f1c9f08485e9013fff7a",
+    "verification": "existing local Git objects; not public fetch",
+    "files": [
+      {
+        "snapshot_path": "references/ascend-agent/ascend_optimizer/project_sources/gdn_recover.py",
+        "upstream_path": "vllm_ascend/ops/triton/mamba/gdn_recover.py",
+        "sha256": "3823d73346f88aad94b146e3b16f1b4ab8f558d74f62742cd142f8f746f74b16",
+        "matches_git_commit": true
+      },
+      {
+        "snapshot_path": "references/ascend-agent/ascend_optimizer/project_sources/gdn_recover_batch.py",
+        "upstream_path": "vllm_ascend/ops/triton/mamba/gdn_recover_batch.py",
+        "sha256": "bc9fb03c96c45dce281a50ee5d97101bed517ff8e8a10a789db21d71f0094755",
+        "matches_git_commit": true
+      }
+    ],
+    "license": "Apache-2.0",
+    "license_file": "provenance/licenses/vllm-ascend-LICENSE",
+    "license_matches_commit": true,
+    "role": "reference_only_not_adopted"
+  },
+  "license_origins": {
+    "provenance/licenses/vllm-ascend-LICENSE": "/Users/kaitou/AI/ascend/experiments/optimizer-agent/COPYING.vllm-ascend",
+    "provenance/licenses/ascend-agent-NOTICE.md": "/Users/kaitou/AI/ascend/experiments/optimizer-agent/NOTICE.md"
+  },
+  "active_adoption": {
+    "copied_reference_source_files": [],
+    "new_files": [
+      "include/kernel_agent/gemm_problem.h",
+      "include/kernel_agent/gemm_contract.hpp",
+      "include/kernel_agent/gemm_candidate.cuh",
+      "src/contracts.cpp",
+      "tests/contract_tests.cpp",
+      "tests/problem_c_compat.c",
+      "tools/check_provenance.py",
+      "Makefile",
+      "tests/test_provenance.py"
+    ],
+    "design_attribution": "provenance/REUSE_AUDIT.md"
+  }
+}

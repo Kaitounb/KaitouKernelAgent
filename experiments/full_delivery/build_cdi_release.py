@@ -1,0 +1,8 @@
+"""Build an immutable pure-Python wheel with existing frozen CUDA artifacts."""
+import argparse,hashlib,json,subprocess
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[2]
+def main():
+ p=argparse.ArgumentParser();p.add_argument('--version',choices=['0.1.3rc1','0.1.3rc2','0.1.3'],required=True);a=p.parse_args();out=ROOT/('evidence/20261124-3060-build-'+a.version);out.mkdir(exist_ok=False);wheel=ROOT/'artifacts/wheels'/('nvidia_kernel_agent-'+a.version+'-py3-none-any.whl');assert not wheel.exists();assert 'version = "'+a.version+'"' in (ROOT/'pyproject.toml').read_text()
+ source={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in (ROOT/'kernel_agent').rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.name!='.DS_Store'};source['pyproject.toml']=hashlib.sha256((ROOT/'pyproject.toml').read_bytes()).hexdigest();(out/'source-hashes.json').write_text(json.dumps(source,indent=2));cmd=['/tmp/nka-3060-release-build/bin/python','-m','pip','wheel','--no-deps','--no-build-isolation','--wheel-dir',str(wheel.parent),'.'];r=subprocess.run(cmd,cwd=ROOT,capture_output=True,text=True,timeout=180);(out/'build.stdout').write_text(r.stdout);(out/'build.stderr').write_text(r.stderr);assert r.returncode==0 and wheel.exists();wheel.chmod(0o444);v={'status':'IMMUTABLE_WHEEL_BUILT','version':a.version,'wheel':str(wheel),'wheel_sha256':hashlib.sha256(wheel.read_bytes()).hexdigest(),'new_cuda_compilation':False,'build_dependencies':{'setuptools':'80.9.0','wheel':'0.45.1'}};(out/'result.json').write_text(json.dumps(v,indent=2));print(json.dumps(v))
+if __name__=='__main__':main()

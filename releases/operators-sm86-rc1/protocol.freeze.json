@@ -1,0 +1,9 @@
+{
+  "candidate_freeze_sha256": "a824c32ae625eb08cf27fe03f6359462344f0d5139f47a76eecfd26514123cea",
+  "protocol_sha256": "e046fae01506f7681a1d7ab13e8142ff10496a34acdeaf8c2eede33e52302c4f",
+  "trusted_evaluator_sha256": {
+    "experiments/full_delivery/audit_sealed_mla.py": "7ea8b72fb2aa477ead12a83730068859df49effefedff93582c4960d899112aa",
+    "experiments/full_delivery/run_sealed_mla.py": "6b755cd67e7333c2935e2063f67aabb51e8e4b9c4f1717abf46c7884ec5ada20",
+    "experiments/full_delivery/sealed_mla_host.py": "e228115d9043f8bdbb55e5159324ad0ec18dff49c06552e7db78ef4fcc90e627"
+  }
+}

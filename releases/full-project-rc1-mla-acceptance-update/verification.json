@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "CPU public artifact/proof/document hash verification, private archive hash and permission check; not a production certificate",
+  "manifest_sha256": "bf2bf37649c39b161ff9c33c3721c428a2375adf3b9f07f6d9981515d8afd9b6",
+  "artifacts_verified": 3,
+  "base_proofs_verified": 18,
+  "new_proofs_verified": 9,
+  "documents_verified": 10,
+  "private_files_owner_only": true,
+  "base_manifest_unchanged": true,
+  "budget_unchanged": true,
+  "remaining_production_blockers": 2,
+  "production_release": false
+}

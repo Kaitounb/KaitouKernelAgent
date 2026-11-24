@@ -1,0 +1,266 @@
+{
+  "sha": "acdd79343c5e9d0c7cb96289f26fd3f1051ce785",
+  "url": "https://api.github.com/repos/NVlabs/kda/git/trees/acdd79343c5e9d0c7cb96289f26fd3f1051ce785",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bbcb3e0fb10fef55bb65d8aebfb5389b171251a5",
+      "url": "https://api.github.com/repos/NVlabs/kda/git/trees/bbcb3e0fb10fef55bb65d8aebfb5389b171251a5"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3e8fd1e6093e51e52d851ab8967602144450a245",
+      "url": "https://api.github.com/repos/NVlabs/kda/git/trees/3e8fd1e6093e51e52d851ab8967602144450a245"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "225052f21839e96333bd7e3b740ee6262d458cb3",
+      "size": 226,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/225052f21839e96333bd7e3b740ee6262d458cb3"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3da3b40e8e408cd1c015f43da667dee6126d8bf0",
+      "url": "https://api.github.com/repos/NVlabs/kda/git/trees/3da3b40e8e408cd1c015f43da667dee6126d8bf0"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE/wishlist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b01d95c9405018c56fdcb8acbe08380574224faa",
+      "size": 982,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/b01d95c9405018c56fdcb8acbe08380574224faa"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57b40c44c8a68edac6673af243631ee1aa4f4ae9",
+      "size": 123,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/57b40c44c8a68edac6673af243631ee1aa4f4ae9"
+    },
+    {
+      "path": ".gitmodules",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec2579386262f4f86a1ac3e78ada5269884169f7",
+      "size": 240,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/ec2579386262f4f86a1ac3e78ada5269884169f7"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e19c12c7953eb6b4eb6630a196bdced892791ae2",
+      "size": 1687,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/e19c12c7953eb6b4eb6630a196bdced892791ae2"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01f41f67be56f79d08d7561f03e72e7c898ce1e2",
+      "size": 4318,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/01f41f67be56f79d08d7561f03e72e7c898ce1e2"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4082ac2f164e2ca780039c75dc1a045dae009e5a",
+      "size": 30220,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/4082ac2f164e2ca780039c75dc1a045dae009e5a"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5beb7a257e85bd7ccf68e29baf507bc4acea6ad7",
+      "size": 6200,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/5beb7a257e85bd7ccf68e29baf507bc4acea6ad7"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1050731b67f408b4a03809e34ffd1bb40441d06",
+      "size": 6169,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/e1050731b67f408b4a03809e34ffd1bb40441d06"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab9c44dca09ae7361bfcdf3b8ff9f771f1d92f01",
+      "url": "https://api.github.com/repos/NVlabs/kda/git/trees/ab9c44dca09ae7361bfcdf3b8ff9f771f1d92f01"
+    },
+    {
+      "path": "docs/agent-flow.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23a846301a76e57783ef004fa745e72c3c0350ec",
+      "size": 2118,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/23a846301a76e57783ef004fa745e72c3c0350ec"
+    },
+    {
+      "path": "docs/huggingface-export.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6d561f9bcfd89a72c3608ecbaf933246f069201",
+      "size": 4231,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/d6d561f9bcfd89a72c3608ecbaf933246f069201"
+    },
+    {
+      "path": "prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c2a7a3b5751938bda3f1e80d9686793b59f2a38",
+      "url": "https://api.github.com/repos/NVlabs/kda/git/trees/7c2a7a3b5751938bda3f1e80d9686793b59f2a38"
+    },
+    {
+      "path": "prompts/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab9dbc9ed9fc25b996e7d3025e6fc217bf1ac1d6",
+      "size": 1014,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/ab9dbc9ed9fc25b996e7d3025e6fc217bf1ac1d6"
+    },
+    {
+      "path": "prompts/basic-flow.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22ec94abd039ac18cfc77b86442ecd965ca128e7",
+      "size": 1762,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/22ec94abd039ac18cfc77b86442ecd965ca128e7"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ea6637d409f63a74c40fc24be0ea2d81bc5f7ec0",
+      "url": "https://api.github.com/repos/NVlabs/kda/git/trees/ea6637d409f63a74c40fc24be0ea2d81bc5f7ec0"
+    },
+    {
+      "path": "scripts/export_huggingface.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69cf605f61cdb6164af6e6b1d55d70eef28f90c7",
+      "size": 13346,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/69cf605f61cdb6164af6e6b1d55d70eef28f90c7"
+    },
+    {
+      "path": "skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "42549ef2bbfb487e155782b689b6c2e7fbbd568b",
+      "url": "https://api.github.com/repos/NVlabs/kda/git/trees/42549ef2bbfb487e155782b689b6c2e7fbbd568b"
+    },
+    {
+      "path": "skills/KernelWiki",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "76d27b56f804e7e7295d4c570e1e5d7eef4b0a75"
+    },
+    {
+      "path": "skills/ncu-report-skill",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "d1887948c7d53690cfe6605f59c1329b8a1c6bb5"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "06861f25d447721e76d214e7adba2be9079ef818",
+      "url": "https://api.github.com/repos/NVlabs/kda/git/trees/06861f25d447721e76d214e7adba2be9079ef818"
+    },
+    {
+      "path": "tests/test_export_huggingface.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cde977ba05205a9fb745cbe8b5c3272f00a8d837",
+      "size": 11267,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/cde977ba05205a9fb745cbe8b5c3272f00a8d837"
+    },
+    {
+      "path": "third_party_licenses",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df5ad33d44d28a276ac3e966811c1c4ec7e9a6b6",
+      "url": "https://api.github.com/repos/NVlabs/kda/git/trees/df5ad33d44d28a276ac3e966811c1c4ec7e9a6b6"
+    },
+    {
+      "path": "third_party_licenses/Apache-2.0-FlashInfer.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba557f2bb968c1334057e4c0c567bd4a4fe76380",
+      "size": 12332,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/ba557f2bb968c1334057e4c0c567bd4a4fe76380"
+    },
+    {
+      "path": "third_party_licenses/Apache-2.0-SGLang.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c422689c8f5c317c7c65153b1209349ec57007e",
+      "size": 11346,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/9c422689c8f5c317c7c65153b1209349ec57007e"
+    },
+    {
+      "path": "third_party_licenses/Apache-2.0-vLLM.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "third_party_licenses/BSD-3-Clause-CUTLASS.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e08eb49c207f1e24ea797d5162684f8c0329e9c9",
+      "size": 1854,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/e08eb49c207f1e24ea797d5162684f8c0329e9c9"
+    },
+    {
+      "path": "third_party_licenses/BSD-3-Clause-PyTorch.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c23172f7aff0254e4f0f163fb2e6e355cbaec5f4",
+      "size": 3464,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/c23172f7aff0254e4f0f163fb2e6e355cbaec5f4"
+    },
+    {
+      "path": "third_party_licenses/MIT-DeepGEMM.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c48bdc9f6ef95f725096ff5434012da927b516f",
+      "size": 1065,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/5c48bdc9f6ef95f725096ff5434012da927b516f"
+    },
+    {
+      "path": "third_party_licenses/MIT-hanlab.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd4aa58e8b7dfbf83016045f4bc022c63aa6b3df",
+      "size": 1063,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/bd4aa58e8b7dfbf83016045f4bc022c63aa6b3df"
+    },
+    {
+      "path": "third_party_licenses/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8a6ba3b8b9be7e552859b33ead544b3d67b78bf",
+      "size": 528,
+      "url": "https://api.github.com/repos/NVlabs/kda/git/blobs/b8a6ba3b8b9be7e552859b33ead544b3d67b78bf"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "status": "RELEASED_LOCAL_ARTIFACT_AND_DEPLOYED",
+  "version": "0.1.0",
+  "scope": "SM89_REVIEWED_FIXED_CUBLAS",
+  "production_release": true,
+  "source_execution_enabled": false,
+  "container_isolation_verified": false,
+  "artifact": {
+    "path": "artifacts/wheels/nvidia_kernel_agent-0.1.0-py3-none-any.whl",
+    "sha256": "76224f3435764e5484e3434235e9f95a4b70cbe92476ac9f72c9df86bd3fb18f"
+  },
+  "qualification_sha256": "9451476fc9ac796ff1e5c4617c9414b0b7006366a0790f184618a8747a386c77",
+  "evidence": {
+    "evidence/20261123-sm89-qualified-installed/verification.json": "1919748dcbea5dd4682657eb60e8e40538ea74bbd63d5a63666e72d79e93cd61",
+    "evidence/20261123-sm89-independent/verification.json": "9e1215760d51e102efd9396d2b4655cc983b9dc16ca1303c11b68430431b748d",
+    "evidence/20261123-sm89-runtime-installed/verification.json": "1c68892d6f2114005651b6bffc7642d5ab36ae1f6a4d4f603cdc72e21f4c8a01",
+    "evidence/20261123-sm89-cublas-v2/verification.json": "e567e70c2fc9819451fd40641df9d220effdd797d7996d4126d383fa41bfe186",
+    "evidence/20261123-sm89-qualified-installed/deployment-snapshot/verification.json": "0efcba6a7815e48ff236f23aecdebaa6a81b387e98e57a264522954e48251afe"
+  },
+  "runbook": "docs/SM89_RUNTIME.md",
+  "new_model_calls": 0,
+  "external_registry_publish": false
+}

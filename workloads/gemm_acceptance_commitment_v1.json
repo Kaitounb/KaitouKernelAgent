@@ -1,0 +1,13 @@
+{
+  "contract_id": "gemm-f16-f32-sm86-v1",
+  "count": 4,
+  "families": [
+    "square",
+    "small-m",
+    "rectangular",
+    "tails"
+  ],
+  "sha256": "b4c3a762b68cbd09e4cb1bd3b00389ce9aabc065b46728dde65843d378d3d848",
+  "manifest": ".private/gemm_acceptance_v1.json",
+  "status": "frozen, not executed; OS-level evaluator separation pending P3-02"
+}

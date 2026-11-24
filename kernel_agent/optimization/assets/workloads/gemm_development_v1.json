@@ -1,0 +1,83 @@
+{
+  "contract_id": "gemm-f16-f32-sm86-v1",
+  "split": "development",
+  "anchors": [
+    "dev-01",
+    "dev-03",
+    "dev-08"
+  ],
+  "workloads": [
+    {
+      "id": "dev-01",
+      "family": "square-medium",
+      "shape_mnk": [
+        512,
+        512,
+        512
+      ]
+    },
+    {
+      "id": "dev-02",
+      "family": "square-large",
+      "shape_mnk": [
+        1024,
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "dev-03",
+      "family": "small-m-one",
+      "shape_mnk": [
+        1,
+        4096,
+        512
+      ]
+    },
+    {
+      "id": "dev-04",
+      "family": "small-m-eight",
+      "shape_mnk": [
+        8,
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "dev-05",
+      "family": "small-m-thirtytwo",
+      "shape_mnk": [
+        32,
+        512,
+        2048
+      ]
+    },
+    {
+      "id": "dev-06",
+      "family": "wide",
+      "shape_mnk": [
+        128,
+        2048,
+        512
+      ]
+    },
+    {
+      "id": "dev-07",
+      "family": "tall",
+      "shape_mnk": [
+        1024,
+        256,
+        768
+      ]
+    },
+    {
+      "id": "dev-08",
+      "family": "tails",
+      "shape_mnk": [
+        127,
+        1009,
+        513
+      ]
+    }
+  ]
+}

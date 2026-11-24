@@ -1,0 +1,21 @@
+{
+  "status": "AUDIT_PASS",
+  "scope": "New3060 server-local independent16 fixedcuBLAS outputs; wholefile/NKA/NPY/NumPyFP64/boundary replay",
+  "pid_probe_domain_issue_disclosed": true,
+  "invalid_private_pid_probe_count": 16,
+  "pid_isolation_evidence": "Separate public actual-native-host PID supplement on identical frozen runner; private per-call PID flags excluded due to controller namespace PID argument",
+  "boundary_supplement_verified": true,
+  "boundary_supplement_sha256": "731321517e7225fc7576d81fdd7017c87bede9fc215b2cf3c08fbd8a3a010dcf",
+  "private_files_verified": 220,
+  "checked_outputs": 16,
+  "max_abs_error": 9.5367431640625e-06,
+  "manifest_sha256": "aeef09f38b1c7aef156ea1d49f0d72cc7fbd8f62c8909f4541e930a905d0d951",
+  "protocol_sha256": "d31ef5e96ce0aa5fd824bf17f4053faadf7862b4c92f437829b30b84f2573bae",
+  "wheel_sha256": "5b45358a5dd5b8608760faedf3442546bc51fa48db87680db95095db33190412",
+  "private_archive_sha256": "ed737a42578c3410bea55b53e6c3e68c144f300b0e3fabb97454bcb04b8f5365",
+  "old_private_manifest_read": false,
+  "exact_values_exposed_to_model": false,
+  "new_model_calls": 0,
+  "new_event_samples": 0,
+  "production_release": false
+}

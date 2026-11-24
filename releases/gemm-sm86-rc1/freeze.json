@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "candidate_id": "gemm-sm86-rc1",
+  "status": "FROZEN_AWAITING_INDEPENDENT_ACCEPTANCE",
+  "package_version": "0.1.0.dev5",
+  "default_backend": "cublas",
+  "catalog_sha256": "5a4a1f91f121a96748acb706f6a914acee2c29813bc41d860acbd7feefdaba95",
+  "files": {
+    "evidence/20261122-gemm-rel02-dual-installed-fixed-test-import/remote/run/dist/nvidia_kernel_agent-0.1.0.dev5-py3-none-any.whl": "348a6e6ed8fca9051b570fb96548d4491c59a14c8f261df2b3e0e2172e5d2c7a",
+    "kernel_agent/data/releases.json": "5a4a1f91f121a96748acb706f6a914acee2c29813bc41d860acbd7feefdaba95",
+    "workloads/gemm_contract_v1.json": "6d6afee515a4e8ef4564da228de7598b7b1596cf2860f10fb13a17afae3dfe31",
+    "workloads/gemm_measurement_v1.json": "e842d1b87db8a7a36360c2de5879d80849c1d0d820d9bacea3fefa6d6aeca7bd",
+    "workloads/gemm_acceptance_commitment_v1.json": "e52712bc694a6b05752d63274b91a943fb618b555cb360a50e390dcebf4faed0",
+    "kernel_agent/optimization/bundle.json": "46dc2fd0f6997c5c96e6a89075a686531a1e65587e93f0db8762d4a1bad6e8f5",
+    "evidence/20261122-gemm-rel02-dual-installed-fixed-test-import/verification.json": "931bcae9a40c9b325ee85f25d5115e61570000035ee43bc0313f20d28daaec82",
+    "evidence/20261122-gemm-rel01-dev4-delta/verification.json": "de9e349b8be52de4747f295bbbbd00f6d72eab4225d06518d19a9548cc4d8405",
+    "evidence/20261122-p3-02-bounded-builder/acceptance.json": "3a1f677906ca854913d444a56cf2c14e1d126fdb6bbd716a9d42d60a841d65e2"
+  },
+  "supported_environment": {
+    "gpu": "RTX 3070",
+    "compute_capability": [
+      8,
+      6
+    ],
+    "vram_mib": 8192,
+    "host": "Ubuntu 24.04.3 WSL2 on Windows 10 build19045",
+    "python": "3.12.3",
+    "torch": "2.14.0+cu130",
+    "cuda": "13.0",
+    "driver": "591.74",
+    "image_id": "sha256:ce00f6dc2eea43dc508b90b548f624646d643a92d363aa715fdb5a3b4f49290a"
+  },
+  "deployment_artifacts": {
+    "default": "66fcc80f9122c919f92c72e37a01794a792c91a58b71d5705b160e0bc979dfc3",
+    "fallback": "93fb2f4344521b7e9b246b54d1c30d4b1a8facf731e6385e18f6119e9c49c72c"
+  },
+  "numerical_reference": "FP16 quantization then trusted-host CPU FP64 -> FP32; atol3e-5 rtol1e-4",
+  "independent_commitment": {
+    "contract_id": "gemm-f16-f32-sm86-v1",
+    "count": 4,
+    "families": [
+      "square",
+      "small-m",
+      "rectangular",
+      "tails"
+    ],
+    "sha256": "b4c3a762b68cbd09e4cb1bd3b00389ce9aabc065b46728dde65843d378d3d848",
+    "manifest": ".private/gemm_acceptance_v1.json",
+    "status": "frozen, not executed; OS-level evaluator separation pending P3-02"
+  },
+  "qualification_scope": "Offline GEMM runtime installation, correctness, bounded OS process/file/network/resource isolation and finite-host recovery; no kernel optimization gain, infinite GPU cancellation or driver isolation claim",
+  "heldout_read_by_agent": false,
+  "production_release": false,
+  "freeze_id": "1756bace31e202585de4164d3f4dd68d53eee5da22c8f364e06334495f615549"
+}

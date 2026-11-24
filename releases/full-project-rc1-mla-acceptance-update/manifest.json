@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "version": "0.1.0rc1",
+  "status": "UNRELEASED_PREVIEW_ACCEPTANCE_BLOCKED",
+  "update_scope": "Post-authorization one-shot frozen MLA correctness acceptance; no package rebuild, performance resampling or production activation",
+  "base_manifest": {
+    "path": "releases/full-project-rc1-preview/manifest.json",
+    "sha256": "80c2ab47d48f93bda3767be23d52532921b7e3ab6de3e6ff10ca01ad8ff0e23d",
+    "preserved_byte_identical": true
+  },
+  "artifacts": {
+    "artifacts/wheels/nvidia_kernel_agent-0.1.0rc1-py3-none-any.whl": "d5b9ae9e1141b8b91bd937807918b11b5d46e467764c031115700e85bef6f7c4",
+    "artifacts/wheels/nvidia_kernel_agent-0.1.0.dev6-py3-none-any.whl": "d5f4bbf83dc050271af66baf35738f3800d02c2592b6fec101457122edc4fb38",
+    "artifacts/operator-runtime/sm86-cfae38ce5c0fac56545207fe93588c1193646886fc5952f113fab487ef0be6eb.zip": "939bf2d6d71a8d47fff652f944addb16857167e9f4ffbabd83c37a7e9a5ae5fa"
+  },
+  "base_proofs": {
+    "evidence/20261123-formal-study-v1/protocol.json": "56b6bdbe1ba587c9dac3b84d59f81146e120767787db9c8529de129fdc698e7f",
+    "evidence/20261123-formal-study-v1/protocol.freeze.json": "520c8737db8bdd6a0d48d185fe31c1db7206bf102d7a734d549893d42a73bd94",
+    "evidence/20261123-formal-study-v1/verification.json": "914109dfc51f083c71887f0e2f5b5b242d50b2aac16f241911556b82ee4d6def",
+    "evidence/20261123-formal-study-v1/report-final/manifest.json": "5585eb38bea2aeb7cc6b1a7e8c45ab292049e21c5f5c55caf8ceffe51d767282",
+    "evidence/20261123-cublas-final-qualification/verification.json": "5834be5db55ac5914fb130b855cb15b63ccc0d02405cd8abc4695e1a03a6fd6f",
+    "evidence/20261123-cublas-final-qualification/segmented-archive/collection.json": "29ed550674a7d8e129ce794e8c863ee84e45601bc3e31721ed96339165942fb1",
+    "evidence/20261123-rc1-preview-installed/verification.json": "8de924bde7f080d01b07e70169800fb5e3e5059c705aafd1b04fae77bdf63f9e",
+    "evidence/20261123-rc1-preview-installed/archive/collection.json": "4b0b4ebfa04aaecb700c3c3953c55d677bd7c5749007a71012fb0c66861ae87b",
+    "evidence/20261123-crosscard-protocol/verification.json": "ba8e7750985d5903475f588ff7a2265b7eeec1f5989a97545258047bc3dd700c",
+    "evidence/20261123-sm89-frozen-native-archive/verification.json": "50f2df8cb356f84dff3b0904ccc421fb31773751b60362193383a0b5772af402",
+    "evidence/20261122-gemm-independent-acceptance/verification.json": "748473d58366f0e3c0ee588e3a808a11f0a198641f7263a2b8a5bf04f4449049",
+    "evidence/20261123-dev6-package-rollback/verification.json": "0da42a40e596b8574a24143106fdbb389fbd55c1fce4096d55665ad037f9950e",
+    "releases/gemm-sm86-rc1/freeze.json": "709415430cf7eb9a3b054312f542cfa3f015ede762d528712014e18c69da2df8",
+    "releases/operators-sm86-rc1/freeze.json": "a824c32ae625eb08cf27fe03f6359462344f0d5139f47a76eecfd26514123cea",
+    "releases/operators-sm86-rc1/protocol.freeze.json": "b87dd15f6beb18d9f3912f3fa10818e20f1e9e2ccb9ec2caf4ea9a460824df21",
+    "evidence/20261123-mla-private-approval-block/review.json": "e0f5a4db33dce7d688329b3f1434eca2ac20137644bd3cdbb6dbc1b3d50c8f6b",
+    "evidence/20261122-full-project-readiness/model-budget.json": "35dd7d26004bb8694fc2aa9a07b8f9952acbe235ad6d599f9a18d03a783291fa",
+    "provenance/upstream-lock.json": "98e4600f94b7baf720cbbe2a77246e018d3b49639d1c931e322dcb7865618e99"
+  },
+  "new_proofs": {
+    "evidence/20261123-mla-independent-approval/authorization.json": "c70fc765074ec3889f3550ad4fef45b0fcc96cc0e985d4e84f7613f1a4742718",
+    "evidence/20261123-mla-independent-approval/operator-wheel-identity.json": "59466c7665397ac04be7737c72cc273a705cbf2b0588e882d2a31cda001af22b",
+    "evidence/20261123-mla-independent-acceptance/summary.json": "b00e8c52435e442df404714950555ef3a94f03022994b8b04eb935a51781d639",
+    "evidence/20261123-mla-independent-acceptance/verification.json": "cc65e902a2313f0375e2977224be9fab5d4b44517b1b0a9f4e6d9db29317d571",
+    "evidence/20261123-mla-independent-acceptance/cleanup-verification.json": "de0abdb5f95b5764d52bc453735207e3fca1b83dab26fcbc9a0f8d0ad5534901",
+    "releases/operators-sm86-rc1/protocol.json": "e046fae01506f7681a1d7ab13e8142ff10496a34acdeaf8c2eede33e52302c4f",
+    "experiments/full_delivery/audit_sealed_mla.py": "7ea8b72fb2aa477ead12a83730068859df49effefedff93582c4960d899112aa",
+    "experiments/full_delivery/run_sealed_mla.py": "6b755cd67e7333c2935e2063f67aabb51e8e4b9c4f1717abf46c7884ec5ada20",
+    "experiments/full_delivery/sealed_mla_host.py": "e228115d9043f8bdbb55e5159324ad0ec18dff49c06552e7db78ef4fcc90e627"
+  },
+  "documentation": {
+    "README.md": "8ecae3adbcd4d37b918e376a79c70d9e58a11ab9eb9b7f32aed1fce64af1e19f",
+    "HANDOFF.md": "f543b7e12f14335f009283ae300827fe554e78b15e8a10aa1fde183f54ac9dff",
+    "TASKS.md": "955683a1488c54f22647c060b78bcb99e2483f62a42cf89ab4d1e62b18fee36e",
+    "PLAN.md": "92256c54461d223b7e6f6895ee4aa9daecbc03c62d11b9b4d9d8576a7dad3953",
+    "docs/MLA_RC1_ACCEPTANCE.md": "427c5012da3720017b276bc3c443224ae12ab7b3fce7da1f025915320697b5c3",
+    "docs/PRODUCTION_BLOCKERS.md": "7d62602caabd9863cbe12f673592cd34c1fcf767bba3d181629c6ed60b047ef9",
+    "docs/DELIVERY_STATUS.md": "d9df08981e5235f932c8bdaa11a714490d9650f2c9d7df170312f3a6828d42a0",
+    "docs/RC1_PREVIEW.md": "70ae6786c2300bb0d3352f25425f0df5fb54625d25986c271f5d78b00e2e894c",
+    "docs/OPERATOR_RUNTIME.md": "02dcb688b7eba716ad6b6c1ee12e4b8d62bda402bf7f4fc80490f288fb28310a",
+    "docs/FORMAL_STUDY_RESULTS.md": "98c1ca2e8aca7891b8d021317f39ba6517f340c1a065db058d539a5f4b9db2ca"
+  },
+  "mla_independent_acceptance": {
+    "status": "PASS",
+    "actual_wheel_version": "0.1.0.dev6",
+    "gpu_invocations": 8,
+    "correct_invocations": 8,
+    "output_tensors": 16,
+    "private_files_verified": 204,
+    "max_abs_errors": {
+      "z.npy": 3.573323812956081e-05,
+      "lse.npy": 3.782724638057289e-05
+    },
+    "private_archive_sha256": "8f6f87b32182fce0f5cb954be591385e858e87b4c0eaee847f98facc42dd9806",
+    "private_values_exposed_to_model": false,
+    "reference_mounted_to_candidate": false,
+    "rc1_operator_identity_scope": "13 operator/frame/packet files byte-identical; static identity only, no second independent GPU execution"
+  },
+  "new_call_budget": {
+    "maximum": 700,
+    "used": 190,
+    "remaining": 510,
+    "tokens": 997897,
+    "historical_calls_separate": 3,
+    "historical_tokens_separate": 8790
+  },
+  "new_model_calls_this_update": 0,
+  "performance_sampling_this_update": false,
+  "resolved_blockers": [
+    "PRIVATE_MLA_TRANSFER_EXECUTION_SPECIFIC_AUTH_PENDING"
+  ],
+  "remaining_blockers": [
+    "DEFAULT_CUBLAS_AA_MAX_PAIR_DEVIATION_4.274_PERCENT",
+    "SM89_NCU_HOST_COUNTER_PERMISSION_UNAVAILABLE"
+  ],
+  "qualified_certificate_present": false,
+  "runtime_activation": false,
+  "production_release": false
+}

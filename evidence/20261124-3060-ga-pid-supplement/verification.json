@@ -1,0 +1,12 @@
+{
+  "status": "AUDIT_PASS_ACTUAL_HOST_PID_SUPPLEMENT",
+  "raw_files_verified": 497,
+  "archive_sha256": "2d55f180777384c635bc3d9e9e6fe2202338ffb29659ff6c136da8b86cd16c26",
+  "wheel_sha256": "b3a98c60ae85ee5bf492354ce52b04599837374e9c65c152891db78305c41fed",
+  "image_id": "sha256:6ce2012265c68b8553adf8d7807dcf47972a9156d1c7f0a2a64db11f9827e55a",
+  "actual_native_host_pid_verified": true,
+  "private_pid_namespace_command_verified": true,
+  "gpu_outputs": 1,
+  "independent_dataset_rerun": false,
+  "new_model_calls": 0
+}

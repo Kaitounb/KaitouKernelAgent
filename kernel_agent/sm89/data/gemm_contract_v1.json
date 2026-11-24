@@ -1,0 +1,84 @@
+{
+  "id": "gemm-f16-f32-sm89-v1",
+  "op": "C=A@B",
+  "hardware": [
+    "SM89"
+  ],
+  "inputs": {
+    "A": "[M,K] FP16 CUDA strided contiguous row-major",
+    "B": "[K,N] FP16 same CUDA device contiguous row-major",
+    "immutable": true,
+    "storage_offset": "allowed, including unaligned views"
+  },
+  "dimensions": {
+    "min": 1,
+    "max_each": 4096,
+    "max_input_elements": 16777216
+  },
+  "output": {
+    "dtype": "FP32",
+    "shape": "[M,N]",
+    "layout": "contiguous row-major",
+    "device": "input device",
+    "fresh_storage": true
+  },
+  "accumulation": "FP32; alpha=1; beta=0; no TF32 or reduced precision accumulation requested",
+  "input_domain": {
+    "finite_only": true,
+    "max_abs": 4.0,
+    "random": "CPU torch.randn * 0.25, clamp [-4,4], then cast FP16",
+    "boundary": [
+      "zero",
+      "alternating signed 4",
+      "cancellation",
+      "single element",
+      "odd M/N/K",
+      "offset storage"
+    ]
+  },
+  "reference": "CPU FP64 matmul of identical FP16-quantized values, cast FP32; computed before candidate",
+  "tolerance": {
+    "atol": 3e-05,
+    "rtol": 0.0001,
+    "rule": "all finite and abs(actual-reference)<=atol+rtol*abs(reference)",
+    "relative_error_denominator_floor": 1e-06
+  },
+  "seeds": [
+    171,
+    172
+  ],
+  "stream": "PyTorch current CUDA stream; test producer/candidate/consumer on explicit stream",
+  "unsupported": "raise RuntimeError for wrong dtype/layout/rank/device/dimensions; nonfinite/out-of-domain values are caller preconditions",
+  "template": {
+    "source": "kernels/gemm/wmma_sm86.cu",
+    "warps": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "tile_mnk": [
+      16,
+      16,
+      16
+    ],
+    "dispatch": "multiples of 16 with 32-byte aligned A/B use WMMA; otherwise trusted cuBLAS"
+  },
+  "timing": {
+    "scope": "CUDA Graph replay: captured GEMM GPU work and necessary GPU initialization; Python dispatch, host output allocation, graph capture, compilation, inputs and reference excluded",
+    "mode": "two independent CUDA Graphs, alternating paired CUDA Events, no profiler",
+    "cache": "repeated input and 16-input ring, reported separately",
+    "pairs": 9,
+    "promotion": "workloads/gemm_measurement_v1.json; search-time screening only"
+  },
+  "search_budget": {
+    "model_calls": 0,
+    "status": "no paid/model search authorized in this contract stage"
+  },
+  "acceptance": {
+    "development_count": 8,
+    "heldout_count": 4,
+    "heldout_policy": "separate evaluator manifest; never used for tuning; one formal run after source freeze"
+  },
+  "parent_numeric_contract_sha256": "6d6afee515a4e8ef4564da228de7598b7b1596cf2860f10fb13a17afae3dfe31"
+}

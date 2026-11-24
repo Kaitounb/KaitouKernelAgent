@@ -1,0 +1,18 @@
+--- a/flashinfer/jit/core.py
+
++++ b/flashinfer/jit/core.py
+
+@@ -142,10 +142,10 @@
+
+     check_cuda_arch()
+     verbose = os.environ.get("FLASHINFER_JIT_VERBOSE", "0") == "1"
+ 
+-    cflags = ["-O3", "-std=c++17", "-Wno-switch-bool"]
++    cflags = ["-O3", "-std=c++20", "-Wno-switch-bool"]
+     cuda_cflags = [
+         "-O3",
+-        "-std=c++17",
++        "-std=c++20",
+         "--threads=4",
+         "-use_fast_math",
+         "-DFLASHINFER_ENABLE_F16",

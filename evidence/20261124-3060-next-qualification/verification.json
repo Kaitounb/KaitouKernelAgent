@@ -1,0 +1,81 @@
+{
+  "status": "AUDIT_PASS_STABILITY_PASS",
+  "scope": "RTX3060 nativeLinux boundedDocker fixed cuBLAS; numericalFP64 receipt attributed to trustedparent; wholefile/frame/NPY/input-output witness/pilot/Event/policy replay, no productioncertificate or3070inheritance",
+  "raw_files_verified": 939,
+  "qa_checks": 320,
+  "sanitizer_checks": 32,
+  "recovery_checks": 2,
+  "expected_faults_rejected": 2,
+  "aa_sessions": 3,
+  "ab_sessions": 3,
+  "raw_segments": 1728,
+  "measured_event_seconds": 1723.6036374511718,
+  "max_aa_pair_deviation": 0.006574008350027416,
+  "max_aa_group_deviation": 0.0025198343212377017,
+  "minimum_nonregression_geomean": 0.9995785943165305,
+  "thermal_observation": {
+    "loaded_samples": 3248,
+    "maximum_temperature_c": 74.0,
+    "loaded_sm_mhz_range": [
+      1777.0,
+      1935.0
+    ]
+  },
+  "protocol_sha256": "19912fbc50013b63d325930bc7a6037cb08c7affa7297b3d7e2ffc8a1e00af88",
+  "environment": {
+    "gpu_identity": "GPU-0140b895-e4e9-7c67-aba1-c7a953df1847, NVIDIA GeForce RTX 3060, 580.95.05",
+    "boot_id": "10601edc-6f75-4c01-9406-65b19727a8cb",
+    "torch": "2.14.0+cu130",
+    "cuda": "13.0",
+    "capability": [
+      8,
+      6
+    ],
+    "python": "3.12.3"
+  },
+  "image_id": "sha256:6ce2012265c68b8553adf8d7807dcf47972a9156d1c7f0a2a64db11f9827e55a",
+  "binary_sha256": {
+    "incumbent": "93fb2f4344521b7e9b246b54d1c30d4b1a8facf731e6385e18f6119e9c49c72c",
+    "candidate": "66fcc80f9122c919f92c72e37a01794a792c91a58b71d5705b160e0bc979dfc3"
+  },
+  "deployment_decision": {
+    "verdict": "PASS",
+    "aa_status": "PASS",
+    "policies": [
+      {
+        "input_count": 1,
+        "workload_speedups": {
+          "dev-01": 1.0001889968663185,
+          "dev-02": 0.9998342573222787,
+          "dev-03": 1.000221385854357,
+          "dev-04": 0.9995785943165305,
+          "dev-05": 1.0002631624172083,
+          "dev-06": 0.9999653632898565,
+          "dev-07": 1.0001356053735975,
+          "dev-08": 1.0000120351931172
+        },
+        "pass": true
+      },
+      {
+        "input_count": 16,
+        "workload_speedups": {
+          "dev-01": 1.0000543951674148,
+          "dev-02": 0.9999238734975016,
+          "dev-03": 0.999624062744839,
+          "dev-04": 1.0001121887745572,
+          "dev-05": 0.9999317619629998,
+          "dev-06": 0.9998549631215983,
+          "dev-07": 1.0001731785935664,
+          "dev-08": 0.9999415174282793
+        },
+        "pass": true
+      }
+    ],
+    "production_release": false,
+    "reason": "deployment_guards_pass"
+  },
+  "new_model_calls": 0,
+  "heldout_executed": false,
+  "container_isolation_verified": true,
+  "production_release": false
+}

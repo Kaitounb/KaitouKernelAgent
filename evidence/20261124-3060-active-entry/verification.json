@@ -1,0 +1,13 @@
+{
+  "status": "AUDIT_PASS_ACTIVE_ENTRY",
+  "raw_files_verified": 589,
+  "gpu_outputs": 3,
+  "gpu_attempts": 3,
+  "actual_package_switch_pass": true,
+  "actual_wrong_power_rejection_pass": true,
+  "power_restored_watts": 170,
+  "launcher_source_sha256": "9aa1a7589903489cda76c685d832ebb76b344c6082f5bd90a2a2429addc865d2",
+  "new_model_calls": 0,
+  "new_event_samples": 0,
+  "production_release": true
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "target": "sm89-reviewed-native",
+  "default": "sm89-cublas-current",
+  "fallback": "sm89-cublas-baseline",
+  "versions": {
+    "sm89-cublas-baseline": {
+      "version": "sm89-cublas-baseline",
+      "binary_sha256": "4572c346c20a70630a2521eac8c4a83163f26d931a7d07bbcd549e28220a43de",
+      "contract_sha256": "9497b9264c124a7f3fc152981ac8be942b806429196048a93cd8cb2a6d14851e",
+      "backend": "cublas",
+      "device": "sm89",
+      "execution": "reviewed-native",
+      "torch": "2.7.1+cu126",
+      "cuda": "12.6",
+      "status": "stability-validated-preview",
+      "production_release": false,
+      "stability_protocol_sha256": "8a023ee57b57948c72866304e74dabd4f50fe27a2249278473c31e4572961065",
+      "stability_audit_sha256": "e567e70c2fc9819451fd40641df9d220effdd797d7996d4126d383fa41bfe186"
+    },
+    "sm89-cublas-current": {
+      "version": "sm89-cublas-current",
+      "binary_sha256": "72d466d30e6b777b06d8e4216bdd3f4aef1306127926ac6f0976923d3406009d",
+      "contract_sha256": "9497b9264c124a7f3fc152981ac8be942b806429196048a93cd8cb2a6d14851e",
+      "backend": "cublas",
+      "device": "sm89",
+      "execution": "reviewed-native",
+      "torch": "2.7.1+cu126",
+      "cuda": "12.6",
+      "status": "stability-validated-preview",
+      "production_release": false,
+      "stability_protocol_sha256": "8a023ee57b57948c72866304e74dabd4f50fe27a2249278473c31e4572961065",
+      "stability_audit_sha256": "e567e70c2fc9819451fd40641df9d220effdd797d7996d4126d383fa41bfe186"
+    }
+  }
+}

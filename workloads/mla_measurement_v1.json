@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "scope": "reviewed FlashInfer 0.2.8 fa2 SDK configuration; MLA core Z/natural LSE",
+  "status": "preregistered; calibration required before search",
+  "initial_config": {"page_size": 16, "splits": 1},
+  "configuration_space": {"page_size": [1,16,64], "splits": [1,2,4]},
+  "calibration": {"anchors_only": true, "sessions": [0,1,2], "max_pair_deviation_exclusive": 0.02, "max_group_deviation_exclusive": 0.015},
+  "graph_calls": 32,
+  "graph_replays_per_segment": 32,
+  "warmup_seconds": 1.0,
+  "pairs": 9,
+  "input_counts": [1,16],
+  "input_seeds": "701 + slot",
+  "page_permutation_seed": 811,
+  "cache_scope": "one input / 16 rotating input sets; no guaranteed cold cache",
+  "event_scope": "captured complete SDK core including split partials/combine and graph allocations; excludes plan/JIT/H2D/layout/reference",
+  "idle_admission": "three consecutive utilization.gpu == 0 samples before each fresh process, at most ten queries",
+  "failure_policy": "preserve all segments; no automatic retry or resampling of sampled failed identity",
+  "screening": {"sessions": 3, "minimum_anchor_geomean": 1.05, "minimum_exploratory_interval_lower_exclusive": 1.02, "minimum_each_development_workload_geomean": 0.97, "interval_t_multiplier": 4.303},
+  "formal_performance_claim": false,
+  "production_release": false
+}

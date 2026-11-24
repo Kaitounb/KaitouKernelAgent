@@ -1,0 +1,68 @@
+{
+  "id": "gemm-measurement-v1",
+  "contract_id": "gemm-f16-f32-sm86-v1",
+  "contract_sha256": "6d6afee515a4e8ef4564da228de7598b7b1596cf2860f10fb13a17afae3dfe31",
+  "development_sha256": "1f0a181b5b7b295bd8ef2bfb530cfb00f8a0989fb0df8728eb781f4fae9cd825",
+  "initial_template": {
+    "source_sha256": "f8b3048dfb05b98b658ed6c2fd5782c2197a7c7b0afffacbe1c35d180f029845",
+    "warps": 4,
+    "binary_sha256": "93fb2f4344521b7e9b246b54d1c30d4b1a8facf731e6385e18f6119e9c49c72c"
+  },
+  "trusted_fallback": {
+    "source_sha256": "004465438c6f364ada853896f20cb9f003afff0b57a8beb63203ae38f1bf246d",
+    "binary_sha256": "9f150642c06f81665d4322946314254312a840e58aa3d07f31be220bf7e3e336"
+  },
+  "calibration": {
+    "implementations": [
+      "trusted cuBLAS",
+      "trusted WMMA template with 4 warps"
+    ],
+    "anchors": [
+      "dev-01",
+      "dev-03",
+      "dev-08"
+    ],
+    "sessions_per_implementation": 3,
+    "pairs_per_group": 9,
+    "graph_launches": 32,
+    "replays_per_segment": 12,
+    "input_counts": [
+      1,
+      16
+    ],
+    "mode": "two independent Graphs",
+    "gpu_idle_preflight": true,
+    "locked_clocks": false,
+    "scope": "observed SM86/WSL2 setup only",
+    "caveat": "cuBLAS separate graphs show up to ~1% persistent A/A bias; exploratory CI can exclude 1; no unbiased estimator or general statistical guarantee claimed"
+  },
+  "screening": {
+    "correctness": "all 8 development workloads, frozen seeds, boundary/immutability/output/stream checks must pass before and after timing",
+    "speedup": "current incumbent latency / candidate latency; compare to original initial template separately at final freeze",
+    "minimum_sessions": 3,
+    "pairs_per_session": 9,
+    "graph_launches": 32,
+    "replays_per_segment": 12,
+    "capture_order": "alternate incumbent-first/candidate-first between independent sessions; record physical capture order",
+    "cache_policies": "repeated and 16-input ring must both pass; never merge policies to hide regression",
+    "aggregation": "for each session, average log pair speedups per anchor, then equally average the three anchor logs; take mean of the session logs",
+    "uncertainty": "with 3 sessions use exp(mean +/- 4.303 * sample_stdev(session_logs) / sqrt(3)); exploratory screening interval, no multiple-search confidence guarantee",
+    "minimum_anchor_geomean": 1.05,
+    "minimum_exploratory_interval_lower": 1.02,
+    "minimum_each_development_workload_geomean": 0.97,
+    "guard_measurement": "all 8 development workloads; unsupported, error, timeout or nonfinite timing cannot promote",
+    "new_candidate_timing_range": "if outside calibrated per-call range or mode, run a same-candidate A/A before decision; instability means no promotion",
+    "failure": "retain current incumbent; runtime fallback is trusted cuBLAS; no source replacement on error or insufficient gain"
+  },
+  "final_acceptance": "freeze source then run evaluator-held 4 workloads once; independent final sessions against original initial template >=3, all failures retained",
+  "pre_search_budget": {
+    "model_calls": 0,
+    "paid_calls": 0
+  },
+  "status": "frozen before model search; no implementation promoted",
+  "timing_clarification": {
+    "previous_contract_sha256": "4d975af9fa8cf5f44d72a7b7344b2020316ccd74b99e2f1fb7e691c9bfadd0b7",
+    "change": "only timing scope and links clarified after calibration; numerical/layout/output/support/reference/seeds unchanged",
+    "prior_correctness_evidence": "evidence/20261121-p1-02-contract-template"
+  }
+}

@@ -1,0 +1,3025 @@
+{
+  "sha": "423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+  "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+  "tree": [
+    {
+      "path": ".env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b31c503f716368f19ace30462ac24fc5b3d96223",
+      "size": 497,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/b31c503f716368f19ace30462ac24fc5b3d96223"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6aab0dbb45518a63ab503cf8b079b200a8a3458",
+      "size": 170,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a6aab0dbb45518a63ab503cf8b079b200a8a3458"
+    },
+    {
+      "path": "EVAL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faebda6f5b72534c0c9b32d878a08da24605261e",
+      "size": 3845,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/faebda6f5b72534c0c9b32d878a08da24605261e"
+    },
+    {
+      "path": "KernelBench",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f71e2e8b7c4af718373416a9cba74d1759d4250c",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/f71e2e8b7c4af718373416a9cba74d1759d4250c"
+    },
+    {
+      "path": "KernelBench/changelog",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01a6daae4dd15b188f9e758a91b696da25d234b1",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/01a6daae4dd15b188f9e758a91b696da25d234b1"
+    },
+    {
+      "path": "KernelBench/changelog/original_files.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "679a609019d344312986dfe45d7b729fcd450a90",
+      "size": 7408,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/679a609019d344312986dfe45d7b729fcd450a90"
+    },
+    {
+      "path": "KernelBench/changelog/v0.1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62c0f93867f29e65db97248575e610bfa50a2b5b",
+      "size": 109,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/62c0f93867f29e65db97248575e610bfa50a2b5b"
+    },
+    {
+      "path": "KernelBench/changelog/v0.2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a36b9de1a88621e7a6503deec5387e5332d75105",
+      "size": 305,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a36b9de1a88621e7a6503deec5387e5332d75105"
+    },
+    {
+      "path": "KernelBench/level1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "32ceb2edbb5b26929057b0f42edfc0196f853b76",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/32ceb2edbb5b26929057b0f42edfc0196f853b76"
+    },
+    {
+      "path": "KernelBench/level1/100_HingeLoss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b733a0595518c3d054b4479ab3e0eaa650be726",
+      "size": 566,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/0b733a0595518c3d054b4479ab3e0eaa650be726"
+    },
+    {
+      "path": "KernelBench/level1/10_3D_tensor_matrix_multiplication.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2048d0f59eadd5c3170f94667cf63ac6c7c2aef5",
+      "size": 825,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/2048d0f59eadd5c3170f94667cf63ac6c7c2aef5"
+    },
+    {
+      "path": "KernelBench/level1/11_4D_tensor_matrix_multiplication.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aae74fb45439656495be8c6cc13b137cff7c4c66",
+      "size": 1052,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/aae74fb45439656495be8c6cc13b137cff7c4c66"
+    },
+    {
+      "path": "KernelBench/level1/12_Matmul_with_diagonal_matrices_.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e36c27541fc8be47a70b87b2f107c67e2b6e67c",
+      "size": 1006,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/0e36c27541fc8be47a70b87b2f107c67e2b6e67c"
+    },
+    {
+      "path": "KernelBench/level1/13_Matmul_for_symmetric_matrices.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e594c6007f0c5efecca542e1d8bf8c2c9ae53ea6",
+      "size": 1128,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e594c6007f0c5efecca542e1d8bf8c2c9ae53ea6"
+    },
+    {
+      "path": "KernelBench/level1/14_Matmul_for_upper_triangular_matrices.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bf5c5d3e6ff86d27540321aa05d6539d34e1172",
+      "size": 1126,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/5bf5c5d3e6ff86d27540321aa05d6539d34e1172"
+    },
+    {
+      "path": "KernelBench/level1/15_Matmul_for_lower_triangular_matrices.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49b9e40b549ef470f0fb6059f135491be1fe23f6",
+      "size": 909,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/49b9e40b549ef470f0fb6059f135491be1fe23f6"
+    },
+    {
+      "path": "KernelBench/level1/16_Matmul_with_transposed_A.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c523f80da23925966ec5811078f720ed075af7ec",
+      "size": 763,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/c523f80da23925966ec5811078f720ed075af7ec"
+    },
+    {
+      "path": "KernelBench/level1/17_Matmul_with_transposed_B.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9922d1c11f2081bb1c6f57116e1a968e969a96ca",
+      "size": 763,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/9922d1c11f2081bb1c6f57116e1a968e969a96ca"
+    },
+    {
+      "path": "KernelBench/level1/18_Matmul_with_transposed_both.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a40e19820e380a06831171b129ec60fba093f790",
+      "size": 765,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a40e19820e380a06831171b129ec60fba093f790"
+    },
+    {
+      "path": "KernelBench/level1/19_ReLU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f370caec96f53a2d86fc1a8050f5002f8a8c80b",
+      "size": 707,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/1f370caec96f53a2d86fc1a8050f5002f8a8c80b"
+    },
+    {
+      "path": "KernelBench/level1/1_Square_matrix_multiplication_.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "963a3f87b1f98a7636c96a7f8284b3b7b483f96b",
+      "size": 796,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/963a3f87b1f98a7636c96a7f8284b3b7b483f96b"
+    },
+    {
+      "path": "KernelBench/level1/20_LeakyReLU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fff5aa11f1306cbbccb3c4470c58d96d97e1b7bf",
+      "size": 1045,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/fff5aa11f1306cbbccb3c4470c58d96d97e1b7bf"
+    },
+    {
+      "path": "KernelBench/level1/21_Sigmoid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2da3a601881c5893bfd7b7c876cee1a378ff37f3",
+      "size": 719,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/2da3a601881c5893bfd7b7c876cee1a378ff37f3"
+    },
+    {
+      "path": "KernelBench/level1/22_Tanh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22fc1126ad35e6bc4787ebbc6ad7e457275e16d0",
+      "size": 707,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/22fc1126ad35e6bc4787ebbc6ad7e457275e16d0"
+    },
+    {
+      "path": "KernelBench/level1/23_Softmax.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77821d84ec773782992861a7b8dff7010edf6552",
+      "size": 749,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/77821d84ec773782992861a7b8dff7010edf6552"
+    },
+    {
+      "path": "KernelBench/level1/24_LogSoftmax.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "989f6a03a40040323f93d9d515a61702241b2a4c",
+      "size": 797,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/989f6a03a40040323f93d9d515a61702241b2a4c"
+    },
+    {
+      "path": "KernelBench/level1/25_Swish.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18d9b739ab5118e7ccefc6395f0960448b05ddd3",
+      "size": 717,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/18d9b739ab5118e7ccefc6395f0960448b05ddd3"
+    },
+    {
+      "path": "KernelBench/level1/26_GELU_.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b3cdc75e60cd539971ca7ea3c2697b13c8cf0d1",
+      "size": 721,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/6b3cdc75e60cd539971ca7ea3c2697b13c8cf0d1"
+    },
+    {
+      "path": "KernelBench/level1/27_SELU_.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1292b891b8e438cb218c0f0f3a747ea5f90873f",
+      "size": 711,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a1292b891b8e438cb218c0f0f3a747ea5f90873f"
+    },
+    {
+      "path": "KernelBench/level1/28_HardSigmoid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62ab26cd78778ee832ab424fc49bf4797f7a0153",
+      "size": 749,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/62ab26cd78778ee832ab424fc49bf4797f7a0153"
+    },
+    {
+      "path": "KernelBench/level1/29_Softplus.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e547c39641cef73a28d18c64ceac1995f9909f6",
+      "size": 737,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/0e547c39641cef73a28d18c64ceac1995f9909f6"
+    },
+    {
+      "path": "KernelBench/level1/2_Standard_matrix_multiplication_.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e751dbfff4dee08138eec06ea075dea07f41c40f",
+      "size": 761,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e751dbfff4dee08138eec06ea075dea07f41c40f"
+    },
+    {
+      "path": "KernelBench/level1/30_Softsign.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e76a5ec763919184639e1102e6da165b139377b6",
+      "size": 728,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e76a5ec763919184639e1102e6da165b139377b6"
+    },
+    {
+      "path": "KernelBench/level1/31_ELU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac871b7e577c964034c42d9e664029c975cd0e6e",
+      "size": 969,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/ac871b7e577c964034c42d9e664029c975cd0e6e"
+    },
+    {
+      "path": "KernelBench/level1/32_HardTanh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f088d77c5cbf76bd8bf53e4b28bffd904a44fff",
+      "size": 776,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/2f088d77c5cbf76bd8bf53e4b28bffd904a44fff"
+    },
+    {
+      "path": "KernelBench/level1/33_BatchNorm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0afd9c8ce822b3919a3a69fbd9e7046cecd3e3b5",
+      "size": 981,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/0afd9c8ce822b3919a3a69fbd9e7046cecd3e3b5"
+    },
+    {
+      "path": "KernelBench/level1/34_InstanceNorm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3af796024fdd3abe8fe803b0ffc8cd337e719895",
+      "size": 1035,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/3af796024fdd3abe8fe803b0ffc8cd337e719895"
+    },
+    {
+      "path": "KernelBench/level1/35_GroupNorm_.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f89da2cf83aac43f2621e7a875f20446a290d791",
+      "size": 1151,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f89da2cf83aac43f2621e7a875f20446a290d791"
+    },
+    {
+      "path": "KernelBench/level1/36_RMSNorm_.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0281c2bc630f421aacb2f9cda7d138403e39a8a7",
+      "size": 1300,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/0281c2bc630f421aacb2f9cda7d138403e39a8a7"
+    },
+    {
+      "path": "KernelBench/level1/37_FrobeniusNorm_.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20d172c2eb7ccc595622b274d65725d1612dcdf3",
+      "size": 870,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/20d172c2eb7ccc595622b274d65725d1612dcdf3"
+    },
+    {
+      "path": "KernelBench/level1/38_L1Norm_.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2d5774421eef9ae0acd87f82f09dd75450082ca",
+      "size": 820,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f2d5774421eef9ae0acd87f82f09dd75450082ca"
+    },
+    {
+      "path": "KernelBench/level1/39_L2Norm_.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f101d6584bf4fa5d7b5e5a318ea7e3d083dc17f3",
+      "size": 874,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f101d6584bf4fa5d7b5e5a318ea7e3d083dc17f3"
+    },
+    {
+      "path": "KernelBench/level1/3_Batched_matrix_multiplication.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3f807bf47581f01233740fa12f3522d3d8da33a",
+      "size": 873,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f3f807bf47581f01233740fa12f3522d3d8da33a"
+    },
+    {
+      "path": "KernelBench/level1/40_LayerNorm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01c062e7edf969c6c35bbe8ca1f2056ba4ec83ee",
+      "size": 1009,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/01c062e7edf969c6c35bbe8ca1f2056ba4ec83ee"
+    },
+    {
+      "path": "KernelBench/level1/41_Max_Pooling_1D.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e743f118bc090d2df2f106537bb0b4754358030",
+      "size": 1751,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/1e743f118bc090d2df2f106537bb0b4754358030"
+    },
+    {
+      "path": "KernelBench/level1/42_Max_Pooling_2D.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09b11e5e6361d305c590304e4269c4c7776160cd",
+      "size": 1366,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/09b11e5e6361d305c590304e4269c4c7776160cd"
+    },
+    {
+      "path": "KernelBench/level1/43_Max_Pooling_3D.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1d30495a6ce7e2bdcdf2e5d4953ab80586807ab",
+      "size": 1841,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e1d30495a6ce7e2bdcdf2e5d4953ab80586807ab"
+    },
+    {
+      "path": "KernelBench/level1/44_Average_Pooling_1D.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "337708791f92c07e7d26db323596a07441dd59db",
+      "size": 1325,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/337708791f92c07e7d26db323596a07441dd59db"
+    },
+    {
+      "path": "KernelBench/level1/45_Average_Pooling_2D.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60070378575007b491a8b939751066987c1c2c43",
+      "size": 1258,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/60070378575007b491a8b939751066987c1c2c43"
+    },
+    {
+      "path": "KernelBench/level1/46_Average_Pooling_3D.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46487b04c16872d00f5b258fa473f42f3d62c438",
+      "size": 1379,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/46487b04c16872d00f5b258fa473f42f3d62c438"
+    },
+    {
+      "path": "KernelBench/level1/47_Sum_reduction_over_a_dimension.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0231be980bb928a6f4e83f78b71f939a106bfaa9",
+      "size": 959,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/0231be980bb928a6f4e83f78b71f939a106bfaa9"
+    },
+    {
+      "path": "KernelBench/level1/48_Mean_reduction_over_a_dimension.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df5c9511afdef8978ae7939683e106ae16b9c10f",
+      "size": 1025,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/df5c9511afdef8978ae7939683e106ae16b9c10f"
+    },
+    {
+      "path": "KernelBench/level1/49_Max_reduction_over_a_dimension.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc1d55af68db368cf3539081d3cfbcd35370e3b9",
+      "size": 969,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/bc1d55af68db368cf3539081d3cfbcd35370e3b9"
+    },
+    {
+      "path": "KernelBench/level1/4_Matrix_vector_multiplication_.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb6a59ca9d7e6fdd395b77031f2b7fa958323ae4",
+      "size": 772,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/fb6a59ca9d7e6fdd395b77031f2b7fa958323ae4"
+    },
+    {
+      "path": "KernelBench/level1/50_conv_standard_2D__square_input__square_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc84b338fcf228391e2739f598d810a5aa2d888a",
+      "size": 511,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/bc84b338fcf228391e2739f598d810a5aa2d888a"
+    },
+    {
+      "path": "KernelBench/level1/51_Argmax_over_a_dimension.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11859e43d0a0ba1ce67602e3780cacc61829d5f5",
+      "size": 937,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/11859e43d0a0ba1ce67602e3780cacc61829d5f5"
+    },
+    {
+      "path": "KernelBench/level1/52_Argmin_over_a_dimension.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cfde908a2474ef035c500382e55e4c7d652771e",
+      "size": 996,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/8cfde908a2474ef035c500382e55e4c7d652771e"
+    },
+    {
+      "path": "KernelBench/level1/53_Min_reduction_over_a_dimension.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0118b340905aa39b9300ca4098b69d68d36b237b",
+      "size": 969,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/0118b340905aa39b9300ca4098b69d68d36b237b"
+    },
+    {
+      "path": "KernelBench/level1/54_conv_standard_3D__square_input__square_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7e0dd4f4de4550063417607e8c358881f53eda3",
+      "size": 1976,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/b7e0dd4f4de4550063417607e8c358881f53eda3"
+    },
+    {
+      "path": "KernelBench/level1/55_conv_standard_2D__asymmetric_input__square_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4a653096718aee879b7da19ea6f2c770d9d8a10",
+      "size": 2048,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a4a653096718aee879b7da19ea6f2c770d9d8a10"
+    },
+    {
+      "path": "KernelBench/level1/56_conv_standard_2D__asymmetric_input__asymmetric_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "139025accce36b80e8c61be4eb729d44ab0fce81",
+      "size": 2172,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/139025accce36b80e8c61be4eb729d44ab0fce81"
+    },
+    {
+      "path": "KernelBench/level1/57_conv_transposed_2D__square_input__square_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a386430526982b013f754b19ea4947cb70a0c110",
+      "size": 2047,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a386430526982b013f754b19ea4947cb70a0c110"
+    },
+    {
+      "path": "KernelBench/level1/58_conv_transposed_3D__asymmetric_input__asymmetric_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bca05c270ad1bf5c7a6cb7a4883292981e6561a2",
+      "size": 2340,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/bca05c270ad1bf5c7a6cb7a4883292981e6561a2"
+    },
+    {
+      "path": "KernelBench/level1/59_conv_standard_3D__asymmetric_input__square_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f4e31d72c967d3706f0d2cc9c93ca7efe39aa87",
+      "size": 2005,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/2f4e31d72c967d3706f0d2cc9c93ca7efe39aa87"
+    },
+    {
+      "path": "KernelBench/level1/5_Matrix_scalar_multiplication.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b46f8b5ff406e1b150fb350544224999b444f6e",
+      "size": 711,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/6b46f8b5ff406e1b150fb350544224999b444f6e"
+    },
+    {
+      "path": "KernelBench/level1/60_conv_standard_3D__square_input__asymmetric_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c86a8480902e6e3d73ab878034617edc77b3399a",
+      "size": 2045,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/c86a8480902e6e3d73ab878034617edc77b3399a"
+    },
+    {
+      "path": "KernelBench/level1/61_conv_transposed_3D__square_input__square_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68c9686085cc13fed99b99ceb14c91a24d24ad0a",
+      "size": 2066,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/68c9686085cc13fed99b99ceb14c91a24d24ad0a"
+    },
+    {
+      "path": "KernelBench/level1/62_conv_standard_2D__square_input__asymmetric_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f515967c7ea8a2cdf40507f62c20a0dd38e1c686",
+      "size": 1959,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f515967c7ea8a2cdf40507f62c20a0dd38e1c686"
+    },
+    {
+      "path": "KernelBench/level1/63_conv_standard_2D__square_input__square_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2addcda2eaea88ae030b6cd65bbb57a86c222f45",
+      "size": 1935,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/2addcda2eaea88ae030b6cd65bbb57a86c222f45"
+    },
+    {
+      "path": "KernelBench/level1/64_conv_transposed_1D.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "161ab8393808b23d4b3438a6a24dd163083569cf",
+      "size": 1976,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/161ab8393808b23d4b3438a6a24dd163083569cf"
+    },
+    {
+      "path": "KernelBench/level1/65_conv_transposed_2D__square_input__asymmetric_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "683f3d57a48d52dad23847a0066a8fceb16c1c70",
+      "size": 2057,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/683f3d57a48d52dad23847a0066a8fceb16c1c70"
+    },
+    {
+      "path": "KernelBench/level1/66_conv_standard_3D__asymmetric_input__asymmetric_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4659b36a34d55ebe98ede35d5b713696d8852772",
+      "size": 2239,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/4659b36a34d55ebe98ede35d5b713696d8852772"
+    },
+    {
+      "path": "KernelBench/level1/67_conv_standard_1D.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95091b366e1a270c1d2cd19391bd9f35c92b8c94",
+      "size": 1839,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/95091b366e1a270c1d2cd19391bd9f35c92b8c94"
+    },
+    {
+      "path": "KernelBench/level1/68_conv_transposed_3D__square_input__asymmetric_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03e7428706905c6fa48b9ac5da52d45614dfbfca",
+      "size": 2264,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/03e7428706905c6fa48b9ac5da52d45614dfbfca"
+    },
+    {
+      "path": "KernelBench/level1/69_conv_transposed_2D__asymmetric_input__asymmetric_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca71c3f350168db51e4d55fb6aec1fb328ff0d8a",
+      "size": 2374,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/ca71c3f350168db51e4d55fb6aec1fb328ff0d8a"
+    },
+    {
+      "path": "KernelBench/level1/6_Matmul_with_large_K_dimension_.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e7b72662c24b4e439d3dc3d3f0842cdfae0f097",
+      "size": 786,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/1e7b72662c24b4e439d3dc3d3f0842cdfae0f097"
+    },
+    {
+      "path": "KernelBench/level1/70_conv_transposed_3D__asymmetric_input__square_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caced58888a5ca8ea9638610badd4db49db2da23",
+      "size": 2411,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/caced58888a5ca8ea9638610badd4db49db2da23"
+    },
+    {
+      "path": "KernelBench/level1/71_conv_transposed_2D__asymmetric_input__square_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4b002dd1db4df3c9dedaa2a9feaa93cd5aca7bc",
+      "size": 2042,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f4b002dd1db4df3c9dedaa2a9feaa93cd5aca7bc"
+    },
+    {
+      "path": "KernelBench/level1/72_conv_transposed_3D_asymmetric_input_asymmetric_kernel___strided_padded_grouped_.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cf00bc44eefb5db64cc0136a68832478609eafe",
+      "size": 2378,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/3cf00bc44eefb5db64cc0136a68832478609eafe"
+    },
+    {
+      "path": "KernelBench/level1/73_conv_transposed_3D_asymmetric_input_square_kernel__strided_padded__grouped.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8634831624d94f617f1cbc0adcc708cb7719486",
+      "size": 1970,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/d8634831624d94f617f1cbc0adcc708cb7719486"
+    },
+    {
+      "path": "KernelBench/level1/74_conv_transposed_1D_dilated.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d3c784cdd93103a10a70df4facaa6705f16c811",
+      "size": 1791,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/5d3c784cdd93103a10a70df4facaa6705f16c811"
+    },
+    {
+      "path": "KernelBench/level1/75_conv_transposed_2D_asymmetric_input_asymmetric_kernel_strided__grouped____padded____dilated__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "366c825aaf2f14f71202c7480e8c86b98eb68dd4",
+      "size": 2133,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/366c825aaf2f14f71202c7480e8c86b98eb68dd4"
+    },
+    {
+      "path": "KernelBench/level1/76_conv_standard_1D_dilated_strided__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4898212ef65ab8b0c986f452f49f98df432020f1",
+      "size": 1648,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/4898212ef65ab8b0c986f452f49f98df432020f1"
+    },
+    {
+      "path": "KernelBench/level1/77_conv_transposed_3D_square_input_square_kernel___padded____dilated____strided__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a4c5b360166cc8d23c79f3038cf4f33490f8408",
+      "size": 1951,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/3a4c5b360166cc8d23c79f3038cf4f33490f8408"
+    },
+    {
+      "path": "KernelBench/level1/78_conv_transposed_2D_asymmetric_input_asymmetric_kernel___padded__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d0120e2d6917889e4a670328f819f326f131e38",
+      "size": 1767,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/4d0120e2d6917889e4a670328f819f326f131e38"
+    },
+    {
+      "path": "KernelBench/level1/79_conv_transposed_1D_asymmetric_input_square_kernel___padded____strided____dilated__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0db96c1c4cf668ab1c9a406ec58e3134ebd3c14",
+      "size": 1834,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f0db96c1c4cf668ab1c9a406ec58e3134ebd3c14"
+    },
+    {
+      "path": "KernelBench/level1/7_Matmul_with_small_K_dimension_.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d24386f44ad2af71b6c653c5292feee92fbe354d",
+      "size": 786,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/d24386f44ad2af71b6c653c5292feee92fbe354d"
+    },
+    {
+      "path": "KernelBench/level1/80_conv_standard_2D_square_input_asymmetric_kernel___dilated____padded__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5bbc457ae62fdd1c008ec7f4c4fa52eb8016f75",
+      "size": 1888,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e5bbc457ae62fdd1c008ec7f4c4fa52eb8016f75"
+    },
+    {
+      "path": "KernelBench/level1/81_conv_transposed_2D_asymmetric_input_square_kernel___dilated____padded____strided__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22da04eac1769d82ad8840e3ea8ad0b6118cfe9b",
+      "size": 1887,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/22da04eac1769d82ad8840e3ea8ad0b6118cfe9b"
+    },
+    {
+      "path": "KernelBench/level1/82_conv_depthwise_2D_square_input_square_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "242ad03bb770afec64bdba8e948fecc47e51d5d4",
+      "size": 1512,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/242ad03bb770afec64bdba8e948fecc47e51d5d4"
+    },
+    {
+      "path": "KernelBench/level1/83_conv_depthwise_2D_square_input_asymmetric_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec46e8a5211a6c3c3b3f7c639d3fdadf878b85bf",
+      "size": 1670,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/ec46e8a5211a6c3c3b3f7c639d3fdadf878b85bf"
+    },
+    {
+      "path": "KernelBench/level1/84_conv_depthwise_2D_asymmetric_input_square_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "345bdf0222b599df70f31c82ac41b6aa265661b1",
+      "size": 1681,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/345bdf0222b599df70f31c82ac41b6aa265661b1"
+    },
+    {
+      "path": "KernelBench/level1/85_conv_depthwise_2D_asymmetric_input_asymmetric_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f49b88b2d125acefb3b5443c4298028977165da",
+      "size": 2651,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/5f49b88b2d125acefb3b5443c4298028977165da"
+    },
+    {
+      "path": "KernelBench/level1/86_conv_depthwise_separable_2D.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fad4c50a123af40105221819849f5fc646f8bf0a",
+      "size": 1906,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/fad4c50a123af40105221819849f5fc646f8bf0a"
+    },
+    {
+      "path": "KernelBench/level1/87_conv_pointwise_2D.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8d975661b88961cdf2ac08927224206b3fc48e0",
+      "size": 1238,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e8d975661b88961cdf2ac08927224206b3fc48e0"
+    },
+    {
+      "path": "KernelBench/level1/88_MinGPTNewGelu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a4e2421b49c1f38d30a0597b47ac3928759f9b9",
+      "size": 716,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/9a4e2421b49c1f38d30a0597b47ac3928759f9b9"
+    },
+    {
+      "path": "KernelBench/level1/89_cumsum.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8088d2b73d62514e771a1982c46acb82c76b998a",
+      "size": 1593,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/8088d2b73d62514e771a1982c46acb82c76b998a"
+    },
+    {
+      "path": "KernelBench/level1/8_Matmul_with_irregular_shapes_.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "518bbfb3b7dd031675175d6213ac7a2607835ea5",
+      "size": 791,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/518bbfb3b7dd031675175d6213ac7a2607835ea5"
+    },
+    {
+      "path": "KernelBench/level1/90_cumprod.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bc3cda4b1d3690019ef7060be9db9136ed67d9c",
+      "size": 1133,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/7bc3cda4b1d3690019ef7060be9db9136ed67d9c"
+    },
+    {
+      "path": "KernelBench/level1/91_cumsum_reverse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19ad6fd8cda26c0356980f2eebab28b19e8bbeed",
+      "size": 621,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/19ad6fd8cda26c0356980f2eebab28b19e8bbeed"
+    },
+    {
+      "path": "KernelBench/level1/92_cumsum_exclusive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e68dacaddbbee86e3633100e82549a78e36a8683",
+      "size": 766,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e68dacaddbbee86e3633100e82549a78e36a8683"
+    },
+    {
+      "path": "KernelBench/level1/93_masked_cumsum.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87e5d56d06798cbf62768fb3e34a9c7b7ba75b4a",
+      "size": 977,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/87e5d56d06798cbf62768fb3e34a9c7b7ba75b4a"
+    },
+    {
+      "path": "KernelBench/level1/94_MSELoss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dc77eed18166d5881e639edfe69a02e06c79320",
+      "size": 575,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/2dc77eed18166d5881e639edfe69a02e06c79320"
+    },
+    {
+      "path": "KernelBench/level1/95_CrossEntropyLoss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa4a224562336d1ad1f099ea8a28a51cc9a02b5e",
+      "size": 597,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/fa4a224562336d1ad1f099ea8a28a51cc9a02b5e"
+    },
+    {
+      "path": "KernelBench/level1/96_HuberLoss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e60d5df3b1110fb0c53466b0298b672b0c01b39",
+      "size": 586,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/5e60d5df3b1110fb0c53466b0298b672b0c01b39"
+    },
+    {
+      "path": "KernelBench/level1/97_ScaledDotProductAttention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba4bd02bb2f44ece594fed0f03b1c19bd29c1e6e",
+      "size": 703,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/ba4bd02bb2f44ece594fed0f03b1c19bd29c1e6e"
+    },
+    {
+      "path": "KernelBench/level1/98_KLDivLoss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7043a992463b8c3f41f80845b2f8ef876761fcfb",
+      "size": 668,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/7043a992463b8c3f41f80845b2f8ef876761fcfb"
+    },
+    {
+      "path": "KernelBench/level1/99_TripletMarginLoss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ca0b4467e43ffcbb9831fc5021f35ba432e5894",
+      "size": 782,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/3ca0b4467e43ffcbb9831fc5021f35ba432e5894"
+    },
+    {
+      "path": "KernelBench/level1/9_Tall_skinny_matrix_multiplication_.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc8f28c99a220b7854571b4b15010bbf56798a29",
+      "size": 890,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/dc8f28c99a220b7854571b4b15010bbf56798a29"
+    },
+    {
+      "path": "KernelBench/level2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "67e636ee9cf16026af80b13c9b47299aefa952c1",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/67e636ee9cf16026af80b13c9b47299aefa952c1"
+    },
+    {
+      "path": "KernelBench/level2/100_ConvTranspose3d_Clamp_Min_Divide.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4212cd67e98c866178245f201f777c7f4514899",
+      "size": 1057,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f4212cd67e98c866178245f201f777c7f4514899"
+    },
+    {
+      "path": "KernelBench/level2/10_ConvTranspose2d_MaxPool_Hardtanh_Mean_Tanh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2b490f53b175d2e44667212b1f85160afbf07dd",
+      "size": 1339,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/c2b490f53b175d2e44667212b1f85160afbf07dd"
+    },
+    {
+      "path": "KernelBench/level2/11_ConvTranspose2d_BatchNorm_Tanh_MaxPool_GroupNorm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6855825949bd4bacfd57a1b7721244aade1c9cf0",
+      "size": 1281,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/6855825949bd4bacfd57a1b7721244aade1c9cf0"
+    },
+    {
+      "path": "KernelBench/level2/12_Gemm_Multiply_LeakyReLU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2564103787ce2abaa8631294bda2cb23177b35a5",
+      "size": 816,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/2564103787ce2abaa8631294bda2cb23177b35a5"
+    },
+    {
+      "path": "KernelBench/level2/13_ConvTranspose3d_Mean_Add_Softmax_Tanh_Scaling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40a564fb5889de2ed6f0595f3d609e73ffeac657",
+      "size": 1607,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/40a564fb5889de2ed6f0595f3d609e73ffeac657"
+    },
+    {
+      "path": "KernelBench/level2/14_Gemm_Divide_Sum_Scaling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85a88ec3f99ad660b616c5a1169e868cfece96c9",
+      "size": 1042,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/85a88ec3f99ad660b616c5a1169e868cfece96c9"
+    },
+    {
+      "path": "KernelBench/level2/15_ConvTranspose3d_BatchNorm_Subtract.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e840deae560f1d149b953469b9e5636e83a3c3a8",
+      "size": 999,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e840deae560f1d149b953469b9e5636e83a3c3a8"
+    },
+    {
+      "path": "KernelBench/level2/16_ConvTranspose2d_Mish_Add_Hardtanh_Scaling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a44ca6c740fe20a1bfa9de93ca1afc65bf71216",
+      "size": 1241,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/9a44ca6c740fe20a1bfa9de93ca1afc65bf71216"
+    },
+    {
+      "path": "KernelBench/level2/17_Conv2d_InstanceNorm_Divide.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ed101217886eab53c5608038d7139a6b5845f51",
+      "size": 877,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/2ed101217886eab53c5608038d7139a6b5845f51"
+    },
+    {
+      "path": "KernelBench/level2/18_Matmul_Sum_Max_AvgPool_LogSumExp_LogSumExp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "974fdad305d02036e5e9e0bfc793bcfc67854184",
+      "size": 1234,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/974fdad305d02036e5e9e0bfc793bcfc67854184"
+    },
+    {
+      "path": "KernelBench/level2/19_ConvTranspose2d_GELU_GroupNorm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba7382bad967a5b283f2e17e19874991f2be23e6",
+      "size": 975,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/ba7382bad967a5b283f2e17e19874991f2be23e6"
+    },
+    {
+      "path": "KernelBench/level2/1_Conv2D_ReLU_BiasAdd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f455cf93aa6d5fa694217593701b11497aef364",
+      "size": 822,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/7f455cf93aa6d5fa694217593701b11497aef364"
+    },
+    {
+      "path": "KernelBench/level2/20_ConvTranspose3d_Sum_ResidualAdd_Multiply_ResidualAdd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22f480b871d292577084c05be55a83fd0c633899",
+      "size": 1187,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/22f480b871d292577084c05be55a83fd0c633899"
+    },
+    {
+      "path": "KernelBench/level2/21_Conv2d_Add_Scale_Sigmoid_GroupNorm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54f4a863e170862b77c3c6b4e40266b08e42217e",
+      "size": 1135,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/54f4a863e170862b77c3c6b4e40266b08e42217e"
+    },
+    {
+      "path": "KernelBench/level2/22_Matmul_Scale_ResidualAdd_Clamp_LogSumExp_Mish.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f2998e2fab9a3c0adeb7ceecba8d7143ed51dab",
+      "size": 1306,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/8f2998e2fab9a3c0adeb7ceecba8d7143ed51dab"
+    },
+    {
+      "path": "KernelBench/level2/23_Conv3d_GroupNorm_Mean.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3d4f8ae548f366124d6dfb83366b6e6b7a2b591",
+      "size": 1078,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f3d4f8ae548f366124d6dfb83366b6e6b7a2b591"
+    },
+    {
+      "path": "KernelBench/level2/24_Conv3d_Min_Softmax.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b78f80805c1f79b3614f6445cbbb42c9ae3b1f9",
+      "size": 1241,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/3b78f80805c1f79b3614f6445cbbb42c9ae3b1f9"
+    },
+    {
+      "path": "KernelBench/level2/25_Conv2d_Min_Tanh_Tanh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4bcabc9a26e989c80c500d92e6f29d98ca35420",
+      "size": 810,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a4bcabc9a26e989c80c500d92e6f29d98ca35420"
+    },
+    {
+      "path": "KernelBench/level2/26_ConvTranspose3d_Add_HardSwish.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f47c6f9d1c6d49883cf073e486a54aa7b39b5f10",
+      "size": 1540,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f47c6f9d1c6d49883cf073e486a54aa7b39b5f10"
+    },
+    {
+      "path": "KernelBench/level2/27_Conv3d_HardSwish_GroupNorm_Mean.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "717fae2c37a362a7e8b909d1b5a652a2798088e6",
+      "size": 1166,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/717fae2c37a362a7e8b909d1b5a652a2798088e6"
+    },
+    {
+      "path": "KernelBench/level2/28_BMM_InstanceNorm_Sum_ResidualAdd_Multiply.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baa0cabe0319c168ec370a7e49bcccc65e1c7b48",
+      "size": 1251,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/baa0cabe0319c168ec370a7e49bcccc65e1c7b48"
+    },
+    {
+      "path": "KernelBench/level2/29_Matmul_Mish_Mish.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b992eb7c5c704732a5b5fd216cba20929d759cf",
+      "size": 657,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/4b992eb7c5c704732a5b5fd216cba20929d759cf"
+    },
+    {
+      "path": "KernelBench/level2/2_ConvTranspose2d_BiasAdd_Clamp_Scaling_Clamp_Divide.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6b77f99f58f909582f86e5814a79c27102c0eec",
+      "size": 1279,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/b6b77f99f58f909582f86e5814a79c27102c0eec"
+    },
+    {
+      "path": "KernelBench/level2/30_Gemm_GroupNorm_Hardtanh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4523c0b610293b51407f936bdf623d3a2c11ef2f",
+      "size": 1117,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/4523c0b610293b51407f936bdf623d3a2c11ef2f"
+    },
+    {
+      "path": "KernelBench/level2/31_Conv2d_Min_Add_Multiply.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cf4f06b2b968184d0b58b9c848006ff67f733b3",
+      "size": 1135,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/9cf4f06b2b968184d0b58b9c848006ff67f733b3"
+    },
+    {
+      "path": "KernelBench/level2/32_Conv2d_Scaling_Min.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94b1763e6752bb08b8d7af77cbf04674d3948d87",
+      "size": 1108,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/94b1763e6752bb08b8d7af77cbf04674d3948d87"
+    },
+    {
+      "path": "KernelBench/level2/33_Gemm_Scale_BatchNorm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "595037d9b609ea39c591b1295364579169595899",
+      "size": 867,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/595037d9b609ea39c591b1295364579169595899"
+    },
+    {
+      "path": "KernelBench/level2/34_ConvTranspose3d_LayerNorm_GELU_Scaling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ed244cf222c13b804d769e7cb29735092975a96",
+      "size": 1350,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/0ed244cf222c13b804d769e7cb29735092975a96"
+    },
+    {
+      "path": "KernelBench/level2/35_Conv2d_Subtract_HardSwish_MaxPool_Mish.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e3b4e8646ef69226347193bdaf8cdb2daee7794",
+      "size": 1035,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/3e3b4e8646ef69226347193bdaf8cdb2daee7794"
+    },
+    {
+      "path": "KernelBench/level2/36_ConvTranspose2d_Min_Sum_GELU_Add.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b76d16c8d922767e346d754d010a6926fc510f83",
+      "size": 1224,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/b76d16c8d922767e346d754d010a6926fc510f83"
+    },
+    {
+      "path": "KernelBench/level2/37_Matmul_Swish_Sum_GroupNorm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69c5198d89ab1e2206414bc36354e93de4752e61",
+      "size": 1152,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/69c5198d89ab1e2206414bc36354e93de4752e61"
+    },
+    {
+      "path": "KernelBench/level2/38_ConvTranspose3d_AvgPool_Clamp_Softmax_Multiply.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "328a879546ee0257a64f0733accd84aa77c60f87",
+      "size": 1800,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/328a879546ee0257a64f0733accd84aa77c60f87"
+    },
+    {
+      "path": "KernelBench/level2/39_Gemm_Scale_BatchNorm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52ee43bfec34938d1a9bf0c7e6f9fc0fd2c9bb85",
+      "size": 853,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/52ee43bfec34938d1a9bf0c7e6f9fc0fd2c9bb85"
+    },
+    {
+      "path": "KernelBench/level2/3_ConvTranspose3d_Sum_LayerNorm_AvgPool_GELU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d39cd9f8c3d9cd66774e59a81abf57c1dbcf90f5",
+      "size": 1424,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/d39cd9f8c3d9cd66774e59a81abf57c1dbcf90f5"
+    },
+    {
+      "path": "KernelBench/level2/40_Matmul_Scaling_ResidualAdd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89db29f16440aeaa227f99e512b5f2cb273083cd",
+      "size": 1220,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/89db29f16440aeaa227f99e512b5f2cb273083cd"
+    },
+    {
+      "path": "KernelBench/level2/41_Gemm_BatchNorm_GELU_ReLU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a53accd462bf61d258841249b8620ac5d7e4e819",
+      "size": 914,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a53accd462bf61d258841249b8620ac5d7e4e819"
+    },
+    {
+      "path": "KernelBench/level2/42_ConvTranspose2d_GlobalAvgPool_BiasAdd_LogSumExp_Sum_Multiply.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a35901edcf00c779e0054882468a80459ad443b0",
+      "size": 1097,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a35901edcf00c779e0054882468a80459ad443b0"
+    },
+    {
+      "path": "KernelBench/level2/43_Conv3d_Max_LogSumExp_ReLU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "388b6b4de6f33105aa36d75f74882009f6825b15",
+      "size": 1159,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/388b6b4de6f33105aa36d75f74882009f6825b15"
+    },
+    {
+      "path": "KernelBench/level2/44_ConvTranspose2d_Multiply_GlobalAvgPool_GlobalAvgPool_Mean.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc4d51a6e6be3328ac16f541b3e41779455574de",
+      "size": 1190,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/dc4d51a6e6be3328ac16f541b3e41779455574de"
+    },
+    {
+      "path": "KernelBench/level2/45_Gemm_Sigmoid_LogSumExp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "347af8eb7142204023055e6bc59fb142f1fa770d",
+      "size": 852,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/347af8eb7142204023055e6bc59fb142f1fa770d"
+    },
+    {
+      "path": "KernelBench/level2/46_Conv2d_Subtract_Tanh_Subtract_AvgPool.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e01a4efdbf70fadcf7c05f2d917fa725709cf12f",
+      "size": 1117,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e01a4efdbf70fadcf7c05f2d917fa725709cf12f"
+    },
+    {
+      "path": "KernelBench/level2/47_Conv3d_Mish_Tanh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d22edafd221e0f37d96b2d2e6419f6bec8e3cf53",
+      "size": 1011,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/d22edafd221e0f37d96b2d2e6419f6bec8e3cf53"
+    },
+    {
+      "path": "KernelBench/level2/48_Conv3d_Scaling_Tanh_Multiply_Sigmoid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd511c618482e71c6d4749ca0f766dfc10edb8b8",
+      "size": 1069,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/bd511c618482e71c6d4749ca0f766dfc10edb8b8"
+    },
+    {
+      "path": "KernelBench/level2/49_ConvTranspose3d_Softmax_Sigmoid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff337bc0831f39fda71d952b7a91dd2d36d3fa0b",
+      "size": 1225,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/ff337bc0831f39fda71d952b7a91dd2d36d3fa0b"
+    },
+    {
+      "path": "KernelBench/level2/4_Conv2d_Mish_Mish.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a543fb5deda8d4e4c2089cbdd3eda2e2726f6f82",
+      "size": 732,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a543fb5deda8d4e4c2089cbdd3eda2e2726f6f82"
+    },
+    {
+      "path": "KernelBench/level2/50_ConvTranspose3d_Scaling_AvgPool_BiasAdd_Scaling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91f1cae7d9c0bb70192e6a4e38bff4a21a36b608",
+      "size": 1263,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/91f1cae7d9c0bb70192e6a4e38bff4a21a36b608"
+    },
+    {
+      "path": "KernelBench/level2/51_Gemm_Subtract_GlobalAvgPool_LogSumExp_GELU_ResidualAdd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "329c501df131d16ed81d6a30a57606c20a0e4c2e",
+      "size": 1035,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/329c501df131d16ed81d6a30a57606c20a0e4c2e"
+    },
+    {
+      "path": "KernelBench/level2/52_Conv2d_Activation_BatchNorm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c846af5f7e8b5d362642aaee9e982f8cec124e1",
+      "size": 870,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/8c846af5f7e8b5d362642aaee9e982f8cec124e1"
+    },
+    {
+      "path": "KernelBench/level2/53_Gemm_Scaling_Hardtanh_GELU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5843d0445b09409daf0f2e5d21861bf5f17ab56c",
+      "size": 940,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/5843d0445b09409daf0f2e5d21861bf5f17ab56c"
+    },
+    {
+      "path": "KernelBench/level2/54_Conv2d_Multiply_LeakyReLU_GELU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd820f030dc324990bf6871a82421b92e9122718",
+      "size": 966,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/cd820f030dc324990bf6871a82421b92e9122718"
+    },
+    {
+      "path": "KernelBench/level2/55_Matmul_MaxPool_Sum_Scale.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c29dce1889ebd4cfcd24ca0cf50aac3bd5ed023",
+      "size": 1073,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/2c29dce1889ebd4cfcd24ca0cf50aac3bd5ed023"
+    },
+    {
+      "path": "KernelBench/level2/56_Matmul_Sigmoid_Sum.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caef4dd1f0e2b54ab104cc5296ee7c31b0134adc",
+      "size": 815,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/caef4dd1f0e2b54ab104cc5296ee7c31b0134adc"
+    },
+    {
+      "path": "KernelBench/level2/57_Conv2d_ReLU_HardSwish.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77362e1f19c52cbac4233be98c1432ca2052a39e",
+      "size": 735,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/77362e1f19c52cbac4233be98c1432ca2052a39e"
+    },
+    {
+      "path": "KernelBench/level2/58_ConvTranspose3d_LogSumExp_HardSwish_Subtract_Clamp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "662f2f7647b98cbc2c100c2b08708342c774ea2d",
+      "size": 1081,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/662f2f7647b98cbc2c100c2b08708342c774ea2d"
+    },
+    {
+      "path": "KernelBench/level2/59_Matmul_Swish_Scaling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ed88f42ae48117fae036feaa35a170b586059c7",
+      "size": 776,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/8ed88f42ae48117fae036feaa35a170b586059c7"
+    },
+    {
+      "path": "KernelBench/level2/5_ConvTranspose2d_Subtract_Tanh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fb041e941091e056c892988f243b4a34ab894f7",
+      "size": 972,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/3fb041e941091e056c892988f243b4a34ab894f7"
+    },
+    {
+      "path": "KernelBench/level2/60_ConvTranspose3d_Swish_GroupNorm_HardSwish.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e685c1509ad9dbde7f9c96cd36316052f3af72b5",
+      "size": 1155,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e685c1509ad9dbde7f9c96cd36316052f3af72b5"
+    },
+    {
+      "path": "KernelBench/level2/61_ConvTranspose3d_ReLU_GroupNorm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2de549e39ae189d7e509f8eddee9544661d5e4ea",
+      "size": 1163,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/2de549e39ae189d7e509f8eddee9544661d5e4ea"
+    },
+    {
+      "path": "KernelBench/level2/62_Matmul_GroupNorm_LeakyReLU_Sum.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84a6121298ebd940715a8a476d0d80ba627ddbd5",
+      "size": 1117,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/84a6121298ebd940715a8a476d0d80ba627ddbd5"
+    },
+    {
+      "path": "KernelBench/level2/63_Gemm_ReLU_Divide.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62dcb84ce16e5574bf87e1ad9f8dd27153915d7b",
+      "size": 698,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/62dcb84ce16e5574bf87e1ad9f8dd27153915d7b"
+    },
+    {
+      "path": "KernelBench/level2/64_Gemm_LogSumExp_LeakyReLU_LeakyReLU_GELU_GELU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f798f5b0a94d3d8eed9c27d3c28fef327553e75",
+      "size": 1010,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/8f798f5b0a94d3d8eed9c27d3c28fef327553e75"
+    },
+    {
+      "path": "KernelBench/level2/65_Conv2d_AvgPool_Sigmoid_Sum.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33eb2c3fc82706d787825fe3061346378024be42",
+      "size": 904,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/33eb2c3fc82706d787825fe3061346378024be42"
+    },
+    {
+      "path": "KernelBench/level2/66_Matmul_Dropout_Softmax.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a126c5e7d9c07f8932b979e50130db117636190",
+      "size": 961,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/4a126c5e7d9c07f8932b979e50130db117636190"
+    },
+    {
+      "path": "KernelBench/level2/67_Conv2d_GELU_GlobalAvgPool.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "439161e54b8f40de9d19b22797a5b81273ccd55a",
+      "size": 1001,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/439161e54b8f40de9d19b22797a5b81273ccd55a"
+    },
+    {
+      "path": "KernelBench/level2/68_Matmul_Min_Subtract.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bd38b63f313f406ba27bac2b24f50722c2344a5",
+      "size": 749,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/8bd38b63f313f406ba27bac2b24f50722c2344a5"
+    },
+    {
+      "path": "KernelBench/level2/69_Conv2d_HardSwish_ReLU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bca0104af92c9f369e766a374bc5b9dc5d397fd1",
+      "size": 954,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/bca0104af92c9f369e766a374bc5b9dc5d397fd1"
+    },
+    {
+      "path": "KernelBench/level2/6_Conv3d_Softmax_MaxPool_MaxPool.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a712994c6bb3970b297c7976d63ff161ca4289b6",
+      "size": 1224,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a712994c6bb3970b297c7976d63ff161ca4289b6"
+    },
+    {
+      "path": "KernelBench/level2/70_Gemm_Sigmoid_Scaling_ResidualAdd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdc2f94c9157bbdfdc6b6201a73f29776c22a670",
+      "size": 1000,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/cdc2f94c9157bbdfdc6b6201a73f29776c22a670"
+    },
+    {
+      "path": "KernelBench/level2/71_Conv2d_Divide_LeakyReLU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5448f2ba5bdb298f14c1c72ffb60094dcf863db",
+      "size": 817,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e5448f2ba5bdb298f14c1c72ffb60094dcf863db"
+    },
+    {
+      "path": "KernelBench/level2/72_ConvTranspose3d_BatchNorm_AvgPool_AvgPool.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0e99bcabbb6ff073c1524e094f6967ebf81ed9b",
+      "size": 1136,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/d0e99bcabbb6ff073c1524e094f6967ebf81ed9b"
+    },
+    {
+      "path": "KernelBench/level2/73_Conv2d_BatchNorm_Scaling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5564a22647b162effb24e8663253d61bc28a70e6",
+      "size": 870,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/5564a22647b162effb24e8663253d61bc28a70e6"
+    },
+    {
+      "path": "KernelBench/level2/74_ConvTranspose3d_LeakyReLU_Multiply_LeakyReLU_Max.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d86943fc00da03ee9e25d9b7d6ff027b7bb53aff",
+      "size": 1344,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/d86943fc00da03ee9e25d9b7d6ff027b7bb53aff"
+    },
+    {
+      "path": "KernelBench/level2/75_Gemm_GroupNorm_Min_BiasAdd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a3748960ec679a89001362e9f3f7108842d34dd",
+      "size": 902,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/6a3748960ec679a89001362e9f3f7108842d34dd"
+    },
+    {
+      "path": "KernelBench/level2/76_Gemm_Add_ReLU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a072f56a6df8b9437a70e1dcf7be7ece72ccb134",
+      "size": 961,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a072f56a6df8b9437a70e1dcf7be7ece72ccb134"
+    },
+    {
+      "path": "KernelBench/level2/77_ConvTranspose3d_Scale_BatchNorm_GlobalAvgPool.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61922cd07ecbfcfd03d8377ac064883120f630d9",
+      "size": 1122,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/61922cd07ecbfcfd03d8377ac064883120f630d9"
+    },
+    {
+      "path": "KernelBench/level2/78_ConvTranspose3d_Max_Max_Sum.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "233552154e8f530003d9470eb51cbf3704ae3552",
+      "size": 1024,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/233552154e8f530003d9470eb51cbf3704ae3552"
+    },
+    {
+      "path": "KernelBench/level2/79_Conv3d_Multiply_InstanceNorm_Clamp_Multiply_Max.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3274956d8b2affdee0934333b9fef2f54a7aa5c1",
+      "size": 1261,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/3274956d8b2affdee0934333b9fef2f54a7aa5c1"
+    },
+    {
+      "path": "KernelBench/level2/7_Conv3d_ReLU_LeakyReLU_GELU_Sigmoid_BiasAdd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "498103a26775a309cff7fa32544154203f0a25f8",
+      "size": 1007,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/498103a26775a309cff7fa32544154203f0a25f8"
+    },
+    {
+      "path": "KernelBench/level2/80_Gemm_Max_Subtract_GELU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "486376a986b2141a77bdef108534184dec928a22",
+      "size": 964,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/486376a986b2141a77bdef108534184dec928a22"
+    },
+    {
+      "path": "KernelBench/level2/81_Gemm_Swish_Divide_Clamp_Tanh_Clamp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aeca85ab69988ef0d1f2b71d7917566f0359272",
+      "size": 1063,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/1aeca85ab69988ef0d1f2b71d7917566f0359272"
+    },
+    {
+      "path": "KernelBench/level2/82_Conv2d_Tanh_Scaling_BiasAdd_Max.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfbd913cc728c70fba14c526a27e596fd2f8f654",
+      "size": 1225,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/dfbd913cc728c70fba14c526a27e596fd2f8f654"
+    },
+    {
+      "path": "KernelBench/level2/83_Conv3d_GroupNorm_Min_Clamp_Dropout.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d29fa6770ff66808ded0d874c719cb4219fccbd6",
+      "size": 1102,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/d29fa6770ff66808ded0d874c719cb4219fccbd6"
+    },
+    {
+      "path": "KernelBench/level2/84_Gemm_BatchNorm_Scaling_Softmax.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68e127c2d46aaa8c8d4e8efd2cdecd05d17ae0e8",
+      "size": 1181,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/68e127c2d46aaa8c8d4e8efd2cdecd05d17ae0e8"
+    },
+    {
+      "path": "KernelBench/level2/85_Conv2d_GroupNorm_Scale_MaxPool_Clamp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cee378c437e501ba8c4a8606282590703bfe6207",
+      "size": 1528,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/cee378c437e501ba8c4a8606282590703bfe6207"
+    },
+    {
+      "path": "KernelBench/level2/86_Matmul_Divide_GELU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c2e9a9a7fa295bc24da7b897ada17d929ca357b",
+      "size": 917,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/2c2e9a9a7fa295bc24da7b897ada17d929ca357b"
+    },
+    {
+      "path": "KernelBench/level2/87_Conv2d_Subtract_Subtract_Mish.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "221a6d21d564ae0761567068b6a91a5de10d9a3b",
+      "size": 986,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/221a6d21d564ae0761567068b6a91a5de10d9a3b"
+    },
+    {
+      "path": "KernelBench/level2/88_Gemm_GroupNorm_Swish_Multiply_Swish.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fa09c55834684402132168aa41de65178684ea4",
+      "size": 1302,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/8fa09c55834684402132168aa41de65178684ea4"
+    },
+    {
+      "path": "KernelBench/level2/89_ConvTranspose3d_MaxPool_Softmax_Subtract_Swish_Max.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4f0e8060e03d095c522dadf4c49e769b14d14e0",
+      "size": 1621,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a4f0e8060e03d095c522dadf4c49e769b14d14e0"
+    },
+    {
+      "path": "KernelBench/level2/8_Conv3d_Divide_Max_GlobalAvgPool_BiasAdd_Sum.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "695db007eb31236a5a5a2ccd704f75acd90a24ac",
+      "size": 1340,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/695db007eb31236a5a5a2ccd704f75acd90a24ac"
+    },
+    {
+      "path": "KernelBench/level2/90_Conv3d_LeakyReLU_Sum_Clamp_GELU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5ad059c409062d4ffc18e54ec60ebf3b3d02492",
+      "size": 1035,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a5ad059c409062d4ffc18e54ec60ebf3b3d02492"
+    },
+    {
+      "path": "KernelBench/level2/91_ConvTranspose2d_Softmax_BiasAdd_Scaling_Sigmoid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efc266dc46f774098b756c822b3fa67810d55d66",
+      "size": 1235,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/efc266dc46f774098b756c822b3fa67810d55d66"
+    },
+    {
+      "path": "KernelBench/level2/92_Conv2d_GroupNorm_Tanh_HardSwish_ResidualAdd_LogSumExp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16fa65caab449d5e99150c52661dd94d99b76f81",
+      "size": 1248,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/16fa65caab449d5e99150c52661dd94d99b76f81"
+    },
+    {
+      "path": "KernelBench/level2/93_ConvTranspose2d_Add_Min_GELU_Multiply.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b23bbc86c16ec7d2d90ab318386bdacf0b9b056",
+      "size": 1102,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/2b23bbc86c16ec7d2d90ab318386bdacf0b9b056"
+    },
+    {
+      "path": "KernelBench/level2/94_Gemm_BiasAdd_Hardtanh_Mish_GroupNorm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcae5798dbf9710bbeed88dbb9095943f73f8262",
+      "size": 1206,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/dcae5798dbf9710bbeed88dbb9095943f73f8262"
+    },
+    {
+      "path": "KernelBench/level2/95_Matmul_Add_Swish_Tanh_GELU_Hardtanh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de9ccb407a7d0d236e2dc2b5bae270e95c964bb6",
+      "size": 975,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/de9ccb407a7d0d236e2dc2b5bae270e95c964bb6"
+    },
+    {
+      "path": "KernelBench/level2/96_ConvTranspose3d_Multiply_Max_GlobalAvgPool_Clamp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f401d4aef4daf080e39928432150d9c31b3e0d4b",
+      "size": 1315,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f401d4aef4daf080e39928432150d9c31b3e0d4b"
+    },
+    {
+      "path": "KernelBench/level2/97_Matmul_BatchNorm_BiasAdd_Divide_Swish.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ab7eb9b8dbf5ea4c1c8f3054399aa45800d2d48",
+      "size": 1077,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/6ab7eb9b8dbf5ea4c1c8f3054399aa45800d2d48"
+    },
+    {
+      "path": "KernelBench/level2/98_Matmul_AvgPool_GELU_Scale_Max.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df2cca07f4a8c7294635b321cdf7b82338611f31",
+      "size": 1144,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/df2cca07f4a8c7294635b321cdf7b82338611f31"
+    },
+    {
+      "path": "KernelBench/level2/99_Matmul_GELU_Softmax.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c0f46af9d0ccac5e972d410cd5c6b94f805cc86",
+      "size": 669,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/5c0f46af9d0ccac5e972d410cd5c6b94f805cc86"
+    },
+    {
+      "path": "KernelBench/level2/9_Matmul_Subtract_Multiply_ReLU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "789980a134e9de8c1a2d187e99cb8299e18ad071",
+      "size": 876,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/789980a134e9de8c1a2d187e99cb8299e18ad071"
+    },
+    {
+      "path": "KernelBench/level3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3512b751fdf7c4e0cde20ad1e451579d2271c44a",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/3512b751fdf7c4e0cde20ad1e451579d2271c44a"
+    },
+    {
+      "path": "KernelBench/level3/10_ResNet101.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa286dab00c6753db7b2eab798fbdb68ceb7e3dd",
+      "size": 4203,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/fa286dab00c6753db7b2eab798fbdb68ceb7e3dd"
+    },
+    {
+      "path": "KernelBench/level3/11_VGG16.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faea573f8d3d37eabf10952d4df2d7f7044144b5",
+      "size": 2963,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/faea573f8d3d37eabf10952d4df2d7f7044144b5"
+    },
+    {
+      "path": "KernelBench/level3/12_VGG19.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07194fefa0a9b0fd6b475a2baef8db2d0e264904",
+      "size": 3168,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/07194fefa0a9b0fd6b475a2baef8db2d0e264904"
+    },
+    {
+      "path": "KernelBench/level3/13_DenseNet121TransitionLayer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84cb012eb4eedf79361c979769894c761f6cda5b",
+      "size": 1146,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/84cb012eb4eedf79361c979769894c761f6cda5b"
+    },
+    {
+      "path": "KernelBench/level3/14_DenseNet121DenseBlock.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f8f8a33a2f0542642a3ff22087f4cf27c19a85c",
+      "size": 1799,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/3f8f8a33a2f0542642a3ff22087f4cf27c19a85c"
+    },
+    {
+      "path": "KernelBench/level3/15_DenseNet121.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39489cd99fc9171ce1a2eff82f0d989e1ef67428",
+      "size": 4838,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/39489cd99fc9171ce1a2eff82f0d989e1ef67428"
+    },
+    {
+      "path": "KernelBench/level3/16_DenseNet201.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "206f66e064625ce2e2a2928b55b2469dcb255f51",
+      "size": 4838,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/206f66e064625ce2e2a2928b55b2469dcb255f51"
+    },
+    {
+      "path": "KernelBench/level3/17_SqueezeNetFireModule.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6859f1cfef044372a8c56e921aaa4a906cfa2015",
+      "size": 1845,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/6859f1cfef044372a8c56e921aaa4a906cfa2015"
+    },
+    {
+      "path": "KernelBench/level3/18_SqueezeNet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22d16b8a1d4ca05705147705a07fb9c7945741c7",
+      "size": 3082,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/22d16b8a1d4ca05705147705a07fb9c7945741c7"
+    },
+    {
+      "path": "KernelBench/level3/19_MobileNetV1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee286b2d896e6658d889cf0942e57b9f842ac2e4",
+      "size": 2673,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/ee286b2d896e6658d889cf0942e57b9f842ac2e4"
+    },
+    {
+      "path": "KernelBench/level3/1_MLP.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d9318f97f8b3cf6557c8a882f34bfbed68b0345",
+      "size": 1270,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/1d9318f97f8b3cf6557c8a882f34bfbed68b0345"
+    },
+    {
+      "path": "KernelBench/level3/20_MobileNetV2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f21049a7aff040e181d3f9a8278e01b101ed5ec0",
+      "size": 4427,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f21049a7aff040e181d3f9a8278e01b101ed5ec0"
+    },
+    {
+      "path": "KernelBench/level3/21_EfficientNetMBConv.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4915908d9be7df4c425f0c4d1f5d165acec5454",
+      "size": 2303,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a4915908d9be7df4c425f0c4d1f5d165acec5454"
+    },
+    {
+      "path": "KernelBench/level3/22_EfficientNetB0.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2edcc62c1a0911c4bd31f940b575296d3b065229",
+      "size": 4855,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/2edcc62c1a0911c4bd31f940b575296d3b065229"
+    },
+    {
+      "path": "KernelBench/level3/23_EfficientNetB1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61a9c3bf950d79ae1ce58708edb5cdb1abee4497",
+      "size": 3119,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/61a9c3bf950d79ae1ce58708edb5cdb1abee4497"
+    },
+    {
+      "path": "KernelBench/level3/24_EfficientNetB2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fe261ba202947debbaea850e393325d5eab9312",
+      "size": 3754,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/2fe261ba202947debbaea850e393325d5eab9312"
+    },
+    {
+      "path": "KernelBench/level3/25_ShuffleNetUnit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4f81e69d433412d2d2dfdf5b2aa99d262e0fdea",
+      "size": 3352,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a4f81e69d433412d2d2dfdf5b2aa99d262e0fdea"
+    },
+    {
+      "path": "KernelBench/level3/26_ShuffleNet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e41a702aba1090be252f440c85b44ea1fc78999d",
+      "size": 5946,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e41a702aba1090be252f440c85b44ea1fc78999d"
+    },
+    {
+      "path": "KernelBench/level3/27_RegNet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1a399e8ccf5212d5e9bec9b72615961e58f4e52",
+      "size": 2688,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/d1a399e8ccf5212d5e9bec9b72615961e58f4e52"
+    },
+    {
+      "path": "KernelBench/level3/28_VisionTransformer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eef225222f6e8b338e9ba3b9b907cbf30a4bbc2",
+      "size": 3086,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/3eef225222f6e8b338e9ba3b9b907cbf30a4bbc2"
+    },
+    {
+      "path": "KernelBench/level3/29_SwinMLP.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a635a4d0823f0b01c8592769f56dc568bc55bab5",
+      "size": 15937,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a635a4d0823f0b01c8592769f56dc568bc55bab5"
+    },
+    {
+      "path": "KernelBench/level3/2_ShallowWideMLP.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46090a14e5433d46d8957513fad9766187b8a032",
+      "size": 1309,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/46090a14e5433d46d8957513fad9766187b8a032"
+    },
+    {
+      "path": "KernelBench/level3/30_SwinTransformerV2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f221ae62e20f1010c17f6afa3ac4b6ff2d9fb5a3",
+      "size": 23170,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f221ae62e20f1010c17f6afa3ac4b6ff2d9fb5a3"
+    },
+    {
+      "path": "KernelBench/level3/31_VisionAttention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e0e04dfff1767a4dccbe7a69def6111eeb7eaeb",
+      "size": 1256,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/4e0e04dfff1767a4dccbe7a69def6111eeb7eaeb"
+    },
+    {
+      "path": "KernelBench/level3/32_ConvolutionalVisionTransformer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5771f5b61faa47940bd290c13fe91dc0ef3dda98",
+      "size": 2755,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/5771f5b61faa47940bd290c13fe91dc0ef3dda98"
+    },
+    {
+      "path": "KernelBench/level3/33_VanillaRNN.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c725983ff084f65683fa1ad1ecbe836b00fa9e08",
+      "size": 2005,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/c725983ff084f65683fa1ad1ecbe836b00fa9e08"
+    },
+    {
+      "path": "KernelBench/level3/34_VanillaRNNHidden.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04df3201423d1d4ffb2dab451d39fa447a58e0d3",
+      "size": 2062,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/04df3201423d1d4ffb2dab451d39fa447a58e0d3"
+    },
+    {
+      "path": "KernelBench/level3/35_LSTM.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7423ad188e2ee7cd813cf0c087031feaea558bf6",
+      "size": 2119,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/7423ad188e2ee7cd813cf0c087031feaea558bf6"
+    },
+    {
+      "path": "KernelBench/level3/36_LSTMHn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3365931a12c5fa52a421e657fb21fb2e50ad057",
+      "size": 1920,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/b3365931a12c5fa52a421e657fb21fb2e50ad057"
+    },
+    {
+      "path": "KernelBench/level3/37_LSTMCn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06f4a326893f5c693d030eb82d2a58afe5802610",
+      "size": 1922,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/06f4a326893f5c693d030eb82d2a58afe5802610"
+    },
+    {
+      "path": "KernelBench/level3/38_LSTMBidirectional.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df2906a31b0b74bc3c7dd1124b0d23ec75e29e4b",
+      "size": 1910,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/df2906a31b0b74bc3c7dd1124b0d23ec75e29e4b"
+    },
+    {
+      "path": "KernelBench/level3/39_GRU.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e66ea4116b0325916adf19505040e3bff2d56750",
+      "size": 1886,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e66ea4116b0325916adf19505040e3bff2d56750"
+    },
+    {
+      "path": "KernelBench/level3/3_DeepNarrowMLP.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78ca0d2ab61be86a07c0c4fbe9621c390f6561c0",
+      "size": 1339,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/78ca0d2ab61be86a07c0c4fbe9621c390f6561c0"
+    },
+    {
+      "path": "KernelBench/level3/40_GRUHidden.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c55d726cdcf30d7a932632e235ef76aa4091165b",
+      "size": 1883,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/c55d726cdcf30d7a932632e235ef76aa4091165b"
+    },
+    {
+      "path": "KernelBench/level3/41_GRUBidirectional.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07ebef31329ca8b107e13677f10883131dce5273",
+      "size": 1960,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/07ebef31329ca8b107e13677f10883131dce5273"
+    },
+    {
+      "path": "KernelBench/level3/42_GRUBidirectionalHidden.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "266ad3118da65bb3afe83db14f7503de19f33ea9",
+      "size": 1884,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/266ad3118da65bb3afe83db14f7503de19f33ea9"
+    },
+    {
+      "path": "KernelBench/level3/43_MinGPTCausalAttention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f04205f5f5328d8c74ecfb7942d4b34e02caedd2",
+      "size": 2614,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f04205f5f5328d8c74ecfb7942d4b34e02caedd2"
+    },
+    {
+      "path": "KernelBench/level3/44_MiniGPTBlock.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "079df4241b93d75074d82889cc9ed23807bd14fb",
+      "size": 3887,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/079df4241b93d75074d82889cc9ed23807bd14fb"
+    },
+    {
+      "path": "KernelBench/level3/45_UNetSoftmax.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7003010ae9f9ef1797426840084f7cb311429aa9",
+      "size": 3377,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/7003010ae9f9ef1797426840084f7cb311429aa9"
+    },
+    {
+      "path": "KernelBench/level3/46_NetVladWithGhostClusters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "101793efe281064e2cbd00e457d7e20fcc3bc800",
+      "size": 3484,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/101793efe281064e2cbd00e457d7e20fcc3bc800"
+    },
+    {
+      "path": "KernelBench/level3/47_NetVladNoGhostClusters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79365df00c63fd26146b418e8bf0ae73d036a754",
+      "size": 3483,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/79365df00c63fd26146b418e8bf0ae73d036a754"
+    },
+    {
+      "path": "KernelBench/level3/48_Mamba2ReturnY.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dba1403b1292297052fa641a4cc051a53c25d31",
+      "size": 3859,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/6dba1403b1292297052fa641a4cc051a53c25d31"
+    },
+    {
+      "path": "KernelBench/level3/49_Mamba2ReturnFinalState.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0d70bf00585e55550e0b4876defe3762f57216c",
+      "size": 3474,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e0d70bf00585e55550e0b4876defe3762f57216c"
+    },
+    {
+      "path": "KernelBench/level3/4_LeNet5.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad96d114672be747534e9209346cb9bdee9bb1e1",
+      "size": 1932,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/ad96d114672be747534e9209346cb9bdee9bb1e1"
+    },
+    {
+      "path": "KernelBench/level3/50_ReLUSelfAttention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "838f085a871a617937a397ff89dd4ea0b68edd5d",
+      "size": 2842,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/838f085a871a617937a397ff89dd4ea0b68edd5d"
+    },
+    {
+      "path": "KernelBench/level3/5_AlexNet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd18143d30ed71b56efdb8e0b0df75546715267b",
+      "size": 2837,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/bd18143d30ed71b56efdb8e0b0df75546715267b"
+    },
+    {
+      "path": "KernelBench/level3/6_GoogleNetInceptionModule.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d69175c5388770504c7723bb3c54cf7a6f1aca4",
+      "size": 2412,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/7d69175c5388770504c7723bb3c54cf7a6f1aca4"
+    },
+    {
+      "path": "KernelBench/level3/7_GoogleNetInceptionV1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c3a36ecc725d1fef6b03aa2b1843a60d84edd48",
+      "size": 4625,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/3c3a36ecc725d1fef6b03aa2b1843a60d84edd48"
+    },
+    {
+      "path": "KernelBench/level3/8_ResNetBasicBlock.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8758f835774739f8bd27c41ebba416017cde83d8",
+      "size": 1860,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/8758f835774739f8bd27c41ebba416017cde83d8"
+    },
+    {
+      "path": "KernelBench/level3/9_ResNet18.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c6ae06325da774c45e89984e283edf5752b9ea7",
+      "size": 3705,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/0c6ae06325da774c45e89984e283edf5752b9ea7"
+    },
+    {
+      "path": "KernelBench/level4",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4fe79c1ad5c9a41cf6f4d761a323cd8780c73e83",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/4fe79c1ad5c9a41cf6f4d761a323cd8780c73e83"
+    },
+    {
+      "path": "KernelBench/level4/10_google-bigbird-roberta-base_bs1024_seq32.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "498796bf9c98c083b1655bcb019251538cd39e61",
+      "size": 727,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/498796bf9c98c083b1655bcb019251538cd39e61"
+    },
+    {
+      "path": "KernelBench/level4/11_google-electra-small-discriminator_bs1_seq511.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49832f0ee596141cb70ff36d00b8d19c9ea4a6d1",
+      "size": 732,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/49832f0ee596141cb70ff36d00b8d19c9ea4a6d1"
+    },
+    {
+      "path": "KernelBench/level4/12_google-electra-small-discriminator_bs1024_seq32.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "743463d5bb25340f77423c35756d7a222f1f0b00",
+      "size": 734,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/743463d5bb25340f77423c35756d7a222f1f0b00"
+    },
+    {
+      "path": "KernelBench/level4/13_google-reformer-enwik8_bs32_seq256.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed2229cd5b2f64effffb2502acf4cdee635f8a91",
+      "size": 721,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/ed2229cd5b2f64effffb2502acf4cdee635f8a91"
+    },
+    {
+      "path": "KernelBench/level4/14_google-electra-small-discriminator_bs32_seq256.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2897406b76bc80ecb9bf86b0ef8551a7fa20f12a",
+      "size": 733,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/2897406b76bc80ecb9bf86b0ef8551a7fa20f12a"
+    },
+    {
+      "path": "KernelBench/level4/15_google-reformer-enwik8_bs1024_seq32.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b238ba60b7e16cb3568f80d166e6f4526a5ecc4f",
+      "size": 722,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/b238ba60b7e16cb3568f80d166e6f4526a5ecc4f"
+    },
+    {
+      "path": "KernelBench/level4/16_gpt2_bs1_seq1023.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bae5106d8b8f404ee5891c1f0749d0edf1916b8",
+      "size": 703,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/0bae5106d8b8f404ee5891c1f0749d0edf1916b8"
+    },
+    {
+      "path": "KernelBench/level4/17_facebook-bart-large_bs1024_seq32.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e897285faf7d4f16dd473568a77286b6c8c838b",
+      "size": 719,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/6e897285faf7d4f16dd473568a77286b6c8c838b"
+    },
+    {
+      "path": "KernelBench/level4/18_EleutherAI-gpt-neo-2p7B_bs512_seq32.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8b9c7111d2a48c591c73f83a7057c163072ca9e",
+      "size": 722,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e8b9c7111d2a48c591c73f83a7057c163072ca9e"
+    },
+    {
+      "path": "KernelBench/level4/19_gpt2_bs1024_seq32.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e512769d4da6c3ec65cad77f92e026578fb0d2a",
+      "size": 704,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/2e512769d4da6c3ec65cad77f92e026578fb0d2a"
+    },
+    {
+      "path": "KernelBench/level4/1_EleutherAI-gpt-neo-2p7B_bs32_seq256.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac9178476b138cb699821c60b395a635c9c543e6",
+      "size": 722,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/ac9178476b138cb699821c60b395a635c9c543e6"
+    },
+    {
+      "path": "KernelBench/level4/20_facebook-bart-large_bs32_seq256.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c024a4d0c996a21d181d72b5a0f635af4080bc0",
+      "size": 718,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/0c024a4d0c996a21d181d72b5a0f635af4080bc0"
+    },
+    {
+      "path": "KernelBench/level4/2_facebook-opt-1p3b_bs1_seq2047.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a24489b5d94180184ac10ae53a96ae9b3d1a44d4",
+      "size": 716,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a24489b5d94180184ac10ae53a96ae9b3d1a44d4"
+    },
+    {
+      "path": "KernelBench/level4/3_EleutherAI-gpt-neo-2p7B_bs1_seq2047.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c129610936f60b4acfdeaaf2dcf82e104f715fbf",
+      "size": 722,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/c129610936f60b4acfdeaaf2dcf82e104f715fbf"
+    },
+    {
+      "path": "KernelBench/level4/4_facebook-opt-1p3b_bs32_seq256.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59d8f8ecea6b906184a4e9a6c10cd943f1284e0e",
+      "size": 716,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/59d8f8ecea6b906184a4e9a6c10cd943f1284e0e"
+    },
+    {
+      "path": "KernelBench/level4/5_google-bigbird-roberta-base_bs1_seq4095.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a5ce7d8c8af0e7f61267f103cdfdc2b1d235945",
+      "size": 726,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/9a5ce7d8c8af0e7f61267f103cdfdc2b1d235945"
+    },
+    {
+      "path": "KernelBench/level4/6_facebook-bart-large_bs1_seq1023.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f0d493b3b006ddff81991b8ea26891f69c5b7e7",
+      "size": 718,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/5f0d493b3b006ddff81991b8ea26891f69c5b7e7"
+    },
+    {
+      "path": "KernelBench/level4/7_gpt2_bs32_seq256.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a73590f72a7441f844a24fc572ef5cacfb630ef5",
+      "size": 703,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a73590f72a7441f844a24fc572ef5cacfb630ef5"
+    },
+    {
+      "path": "KernelBench/level4/8_facebook-opt-1p3b_bs512_seq32.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebd1b42e0ebd9bb0d4d18f43a339187f3b6b2c0c",
+      "size": 716,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/ebd1b42e0ebd9bb0d4d18f43a339187f3b6b2c0c"
+    },
+    {
+      "path": "KernelBench/level4/9_google-bigbird-roberta-base_bs32_seq256.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca1692c0d055a14e3aa001af932fb989da6a771e",
+      "size": 726,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/ca1692c0d055a14e3aa001af932fb989da6a771e"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6aaaad2c8fcc10c842167f9aa675512c589c849",
+      "size": 1143,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/c6aaaad2c8fcc10c842167f9aa675512c589c849"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36e2edfe47bfeefb46e144393d31bb5cebcd4765",
+      "size": 13870,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/36e2edfe47bfeefb46e144393d31bb5cebcd4765"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a7578af1828e1b4e8d7ff60fe32ddcc4751e1dd",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/9a7578af1828e1b4e8d7ff60fe32ddcc4751e1dd"
+    },
+    {
+      "path": "assets/figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "29aa016bfccbdb78f380647148d3d25dd48d26d6",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/29aa016bfccbdb78f380647148d3d25dd48d26d6"
+    },
+    {
+      "path": "assets/figures/KernelBenchMascot.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "497de279365d59fe2049859bd19bb11aaa12bcc8",
+      "size": 127436,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/497de279365d59fe2049859bd19bb11aaa12bcc8"
+    },
+    {
+      "path": "assets/figures/KernelBenchWorkFlow.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dd16d6e7dc319d2ae2084e500b0a100b6c2e075",
+      "size": 673006,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/7dd16d6e7dc319d2ae2084e500b0a100b6c2e075"
+    },
+    {
+      "path": "notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d78ef29439385b130be154816b3ecc2129a42e43",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/d78ef29439385b130be154816b3ecc2129a42e43"
+    },
+    {
+      "path": "notebooks/inspect_baseline_times.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0e1aac9086f05e4b005b8e214fb52f7a28ba7d6",
+      "size": 57693,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/c0e1aac9086f05e4b005b8e214fb52f7a28ba7d6"
+    },
+    {
+      "path": "notebooks/tutorial.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d388168471348801aeff61af757224fc843b653",
+      "size": 920465,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/0d388168471348801aeff61af757224fc843b653"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3f98ae2428b297bc83830d361dfdb3c45474cee",
+      "size": 952,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f3f98ae2428b297bc83830d361dfdb3c45474cee"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07603a865d389acdb1f91d3b83cbf3c51a367487",
+      "size": 632,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/07603a865d389acdb1f91d3b83cbf3c51a367487"
+    },
+    {
+      "path": "results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "87b2ee844263ec279a706e5ad3bb3f54d8474b4f",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/87b2ee844263ec279a706e5ad3bb3f54d8474b4f"
+    },
+    {
+      "path": "results/timing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "099a28118e8f05fea3d913c39d8c92ac4619f940",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/099a28118e8f05fea3d913c39d8c92ac4619f940"
+    },
+    {
+      "path": "results/timing/H100_Modal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "83d39e3f8b0ad1b13bb730f3819ce53c918f69e1",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/83d39e3f8b0ad1b13bb730f3819ce53c918f69e1"
+    },
+    {
+      "path": "results/timing/H100_Modal/baseline_time_torch.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14a3f7bd2f9c3f3c839a10b175e1b43739579e2e",
+      "size": 68053,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/14a3f7bd2f9c3f3c839a10b175e1b43739579e2e"
+    },
+    {
+      "path": "results/timing/H100_Modal/baseline_time_torch_compile_inductor_default.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2d2486ab351e2bc611f27eff370ac277dcb8cf2",
+      "size": 67976,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f2d2486ab351e2bc611f27eff370ac277dcb8cf2"
+    },
+    {
+      "path": "results/timing/H100_PCIe_LambdaLabs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4ad6ee7607f1143762dcb79c704a0722a149a54a",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/4ad6ee7607f1143762dcb79c704a0722a149a54a"
+    },
+    {
+      "path": "results/timing/H100_PCIe_LambdaLabs/baseline_time_torch.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28f51cedea9ca414a4e27a766e627760985320eb",
+      "size": 41244,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/28f51cedea9ca414a4e27a766e627760985320eb"
+    },
+    {
+      "path": "results/timing/H100_PCIe_LambdaLabs/baseline_time_torch_compile_inductor_default.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a771d824edf4f57af85d9e5c951c981a4aac9b4f",
+      "size": 41237,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a771d824edf4f57af85d9e5c951c981a4aac9b4f"
+    },
+    {
+      "path": "results/timing/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1143477048e1bb5252fbf23365ba1994a225c950",
+      "size": 3946,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/1143477048e1bb5252fbf23365ba1994a225c950"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "92de3252db0f8d3832fe34331ab3e9b1906479e0",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/92de3252db0f8d3832fe34331ab3e9b1906479e0"
+    },
+    {
+      "path": "scripts/benchmark_eval_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee1b9753dcf1c38e813af930649dad27e19572a8",
+      "size": 9398,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/ee1b9753dcf1c38e813af930649dad27e19572a8"
+    },
+    {
+      "path": "scripts/debug_stddout.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9de300232db17adc51da2ece5f4f549affaf0a9d",
+      "size": 9187,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/9de300232db17adc51da2ece5f4f549affaf0a9d"
+    },
+    {
+      "path": "scripts/eval_from_generations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fac151ba282eeccbe0014c5e7b874fe1dbbce00",
+      "size": 36621,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/6fac151ba282eeccbe0014c5e7b874fe1dbbce00"
+    },
+    {
+      "path": "scripts/generate_and_eval_single_sample.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78ed1ef7f5b540c8252f551e9171324be8002e49",
+      "size": 10815,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/78ed1ef7f5b540c8252f551e9171324be8002e49"
+    },
+    {
+      "path": "scripts/generate_and_eval_single_sample_modal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "783076d966afd89edcb123c01477dc6cbda8fa14",
+      "size": 12503,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/783076d966afd89edcb123c01477dc6cbda8fa14"
+    },
+    {
+      "path": "scripts/generate_baseline_time.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e53fd9155f52f3fa702187d52b5bc3884f649b68",
+      "size": 5712,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e53fd9155f52f3fa702187d52b5bc3884f649b68"
+    },
+    {
+      "path": "scripts/generate_baseline_time_modal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cc409fa08d86117739ab6bd032a3ea2da9e1ea5",
+      "size": 9786,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/8cc409fa08d86117739ab6bd032a3ea2da9e1ea5"
+    },
+    {
+      "path": "scripts/generate_samples.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c01ee8da7281222381f252a6aa3966a5a3b86a7",
+      "size": 12768,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/2c01ee8da7281222381f252a6aa3966a5a3b86a7"
+    },
+    {
+      "path": "scripts/get_baseline_time_single_problem.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d0e8816b7f98eb1026032a9b59e984a7bb2e678",
+      "size": 717,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/9d0e8816b7f98eb1026032a9b59e984a7bb2e678"
+    },
+    {
+      "path": "scripts/inspect_baseline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aeac959da04e12b7ef1c642bfca1383d1573d55d",
+      "size": 4777,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/aeac959da04e12b7ef1c642bfca1383d1573d55d"
+    },
+    {
+      "path": "scripts/inspect_kernel_pytorch_profiler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b63563a90efc3dfd86494e1a211dabcd9644eebb",
+      "size": 3926,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/b63563a90efc3dfd86494e1a211dabcd9644eebb"
+    },
+    {
+      "path": "scripts/inspect_triton.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3333dd91f3d09529381465e9d20fb3250b3bfc01",
+      "size": 5903,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/3333dd91f3d09529381465e9d20fb3250b3bfc01"
+    },
+    {
+      "path": "scripts/run_and_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6f852a6aae192483637376dc4225a81bd0ca255",
+      "size": 17099,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/c6f852a6aae192483637376dc4225a81bd0ca255"
+    },
+    {
+      "path": "scripts/verify_bench.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "369a25e265cbbbe7b43e66a1e71fcfa412eaa4f2",
+      "size": 3443,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/369a25e265cbbbe7b43e66a1e71fcfa412eaa4f2"
+    },
+    {
+      "path": "scripts/verify_generation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78791b6f599070739d4f71caed8d1d20334a68d6",
+      "size": 3044,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/78791b6f599070739d4f71caed8d1d20334a68d6"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a036e377d45a7490d705d4ddd6ca3be80f99126c",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/a036e377d45a7490d705d4ddd6ca3be80f99126c"
+    },
+    {
+      "path": "src/kernelbench",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "90a4c38a083a8fdc116766b55479c1fb327ca00b",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/90a4c38a083a8fdc116766b55479c1fb327ca00b"
+    },
+    {
+      "path": "src/kernelbench/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e30653615e2f342a8bdeaf8882b3426aabcc92d4",
+      "size": 61,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e30653615e2f342a8bdeaf8882b3426aabcc92d4"
+    },
+    {
+      "path": "src/kernelbench/analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c621c54b00aca1b650717c434aa634a0143e21a",
+      "size": 1576,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/5c621c54b00aca1b650717c434aa634a0143e21a"
+    },
+    {
+      "path": "src/kernelbench/compile.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ce7c143ce5d34cb7f3dde154059cf00c0028621",
+      "size": 8048,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/2ce7c143ce5d34cb7f3dde154059cf00c0028621"
+    },
+    {
+      "path": "src/kernelbench/dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f0e8b226edaf8e97f10be85ff7deb93bd1ed328",
+      "size": 19659,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/7f0e8b226edaf8e97f10be85ff7deb93bd1ed328"
+    },
+    {
+      "path": "src/kernelbench/eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3557dc948f86119495a1307fba87aec791f84bfe",
+      "size": 34873,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/3557dc948f86119495a1307fba87aec791f84bfe"
+    },
+    {
+      "path": "src/kernelbench/frameworks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7f1a2a0216440dbc903984f130299aa8e82091c",
+      "size": 4703,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a7f1a2a0216440dbc903984f130299aa8e82091c"
+    },
+    {
+      "path": "src/kernelbench/kernel_static_checker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d97effaab6cb2c8d7ac211a6a7e2d064d75cca4",
+      "size": 27845,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/7d97effaab6cb2c8d7ac211a6a7e2d064d75cca4"
+    },
+    {
+      "path": "src/kernelbench/make_hf_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3874b8465fda5101d9ed218a29d079a8b3310291",
+      "size": 5305,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/3874b8465fda5101d9ed218a29d079a8b3310291"
+    },
+    {
+      "path": "src/kernelbench/profile.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a49604387320f64b5248972c4c6aa268c1925459",
+      "size": 15956,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/a49604387320f64b5248972c4c6aa268c1925459"
+    },
+    {
+      "path": "src/kernelbench/prompt_constructor_toml.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4349a74d716dd86b1477581f3be1c89832be3722",
+      "size": 18574,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/4349a74d716dd86b1477581f3be1c89832be3722"
+    },
+    {
+      "path": "src/kernelbench/prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "46749998029e6c9c297d5c153ac6ae8b50b26366",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/46749998029e6c9c297d5c153ac6ae8b50b26366"
+    },
+    {
+      "path": "src/kernelbench/prompts/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3aa01b58082fddc51141955a10b83df707aebf84",
+      "size": 488,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/3aa01b58082fddc51141955a10b83df707aebf84"
+    },
+    {
+      "path": "src/kernelbench/prompts/cot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "53ab892158071d38dfc436c658a4b454d700c56e",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/53ab892158071d38dfc436c658a4b454d700c56e"
+    },
+    {
+      "path": "src/kernelbench/prompts/cot/model_cot_fuse_gelu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de740c03e87b9b63517c715e9250d61fe5998430",
+      "size": 1373,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/de740c03e87b9b63517c715e9250d61fe5998430"
+    },
+    {
+      "path": "src/kernelbench/prompts/cot/model_cot_mnist2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a9d5ef1010a1bab9223595685c7dd670d7bb126",
+      "size": 3224,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/0a9d5ef1010a1bab9223595685c7dd670d7bb126"
+    },
+    {
+      "path": "src/kernelbench/prompts/cot/model_cot_tiled_matmul.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c57620d9fd58a5b309755c68c0be2c1c63c7df1f",
+      "size": 1532,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/c57620d9fd58a5b309755c68c0be2c1c63c7df1f"
+    },
+    {
+      "path": "src/kernelbench/prompts/few_shot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "31586e1e97569633da66b25d74fac9fb7d424a1f",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/31586e1e97569633da66b25d74fac9fb7d424a1f"
+    },
+    {
+      "path": "src/kernelbench/prompts/few_shot/model_ex_add.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f52d64b7a7bab3488277889409c2adaa9b00e341",
+      "size": 511,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f52d64b7a7bab3488277889409c2adaa9b00e341"
+    },
+    {
+      "path": "src/kernelbench/prompts/few_shot/model_ex_flash_attn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64d34e051a825c503d2c43e06fcef7ea13508460",
+      "size": 884,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/64d34e051a825c503d2c43e06fcef7ea13508460"
+    },
+    {
+      "path": "src/kernelbench/prompts/few_shot/model_ex_fuse_gelu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62fab61f5e9e9184a2d92a86e204d8156c1eb497",
+      "size": 501,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/62fab61f5e9e9184a2d92a86e204d8156c1eb497"
+    },
+    {
+      "path": "src/kernelbench/prompts/few_shot/model_ex_mnist2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b870d39520faedc511315859549bba0fdb695660",
+      "size": 862,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/b870d39520faedc511315859549bba0fdb695660"
+    },
+    {
+      "path": "src/kernelbench/prompts/few_shot/model_ex_tiled_matmul.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4fd3bc4e01afa641d397f1a1f6f8e9a0cdd0be2",
+      "size": 519,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/b4fd3bc4e01afa641d397f1a1f6f8e9a0cdd0be2"
+    },
+    {
+      "path": "src/kernelbench/prompts/few_shot/model_new_ex_add.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9805c1104f145bb60a9f32a194cd4c61c1c7566",
+      "size": 1437,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e9805c1104f145bb60a9f32a194cd4c61c1c7566"
+    },
+    {
+      "path": "src/kernelbench/prompts/few_shot/model_new_ex_flash_attn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3df395cb44f88ca3246287f187b1202647bea91",
+      "size": 5138,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/b3df395cb44f88ca3246287f187b1202647bea91"
+    },
+    {
+      "path": "src/kernelbench/prompts/few_shot/model_new_ex_fuse_gelu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd82c1c660fd8d1d3babc190a3b89b1ae3b3b4dd",
+      "size": 2947,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/dd82c1c660fd8d1d3babc190a3b89b1ae3b3b4dd"
+    },
+    {
+      "path": "src/kernelbench/prompts/few_shot/model_new_ex_mnist2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c65d295b1dd08f85c58135c8b36a557528e20529",
+      "size": 3252,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/c65d295b1dd08f85c58135c8b36a557528e20529"
+    },
+    {
+      "path": "src/kernelbench/prompts/few_shot/model_new_ex_tiled_matmul.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dffe8e6c163fc169260b46e11f15fc0cbeb56235",
+      "size": 4381,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/dffe8e6c163fc169260b46e11f15fc0cbeb56235"
+    },
+    {
+      "path": "src/kernelbench/prompts/hardware",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fda0a5b5d842f9829f0a98ccded0a46fb0be9d98",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/fda0a5b5d842f9829f0a98ccded0a46fb0be9d98"
+    },
+    {
+      "path": "src/kernelbench/prompts/hardware/gpu_specs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fde700e5e8e2808a30bd1baadabf311555edb17",
+      "size": 10321,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/7fde700e5e8e2808a30bd1baadabf311555edb17"
+    },
+    {
+      "path": "src/kernelbench/prompts/model_ex_0.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/kernelbench/prompts/model_ex_1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9016fb0ef2ff849e5233aea86b70514bcf745e0e",
+      "size": 512,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/9016fb0ef2ff849e5233aea86b70514bcf745e0e"
+    },
+    {
+      "path": "src/kernelbench/prompts/model_ex_2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62cdcecc8dd57797d85e6998d2830634d05ed175",
+      "size": 783,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/62cdcecc8dd57797d85e6998d2830634d05ed175"
+    },
+    {
+      "path": "src/kernelbench/prompts/model_ex_add.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9016fb0ef2ff849e5233aea86b70514bcf745e0e",
+      "size": 512,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/9016fb0ef2ff849e5233aea86b70514bcf745e0e"
+    },
+    {
+      "path": "src/kernelbench/prompts/model_ex_add_thunderkittens.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8575537b1d53f4da33d9ba7a98a4448f207666ff",
+      "size": 439,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/8575537b1d53f4da33d9ba7a98a4448f207666ff"
+    },
+    {
+      "path": "src/kernelbench/prompts/model_new_ex_0.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/kernelbench/prompts/model_new_ex_1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85da3bc579b52d9962c3847bc9679cfdad8442bd",
+      "size": 1507,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/85da3bc579b52d9962c3847bc9679cfdad8442bd"
+    },
+    {
+      "path": "src/kernelbench/prompts/model_new_ex_2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe0621b06718e0de919cdb62868e4388a9efbdf5",
+      "size": 2920,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/fe0621b06718e0de919cdb62868e4388a9efbdf5"
+    },
+    {
+      "path": "src/kernelbench/prompts/model_new_ex_add.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85da3bc579b52d9962c3847bc9679cfdad8442bd",
+      "size": 1507,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/85da3bc579b52d9962c3847bc9679cfdad8442bd"
+    },
+    {
+      "path": "src/kernelbench/prompts/model_new_ex_add_cute.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cd3d63fd0dcc0ff9cc9623aa30f062f975714bb",
+      "size": 1755,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/3cd3d63fd0dcc0ff9cc9623aa30f062f975714bb"
+    },
+    {
+      "path": "src/kernelbench/prompts/model_new_ex_add_hip.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "806aa876ea16c8b61d3369237cef627f681c8cfd",
+      "size": 1278,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/806aa876ea16c8b61d3369237cef627f681c8cfd"
+    },
+    {
+      "path": "src/kernelbench/prompts/model_new_ex_add_thunderkittens.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33cc3ef9754641fa36141319ad06e06f79c30cd0",
+      "size": 4023,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/33cc3ef9754641fa36141319ad06e06f79c30cd0"
+    },
+    {
+      "path": "src/kernelbench/prompts/model_new_ex_add_tilelang.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b65fb2e91ec9c8dbe6ed48cfda04b484bc2a4378",
+      "size": 1670,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/b65fb2e91ec9c8dbe6ed48cfda04b484bc2a4378"
+    },
+    {
+      "path": "src/kernelbench/prompts/model_new_ex_add_triton.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43a3f712615f40d76f505c3d37c143bf07298228",
+      "size": 1914,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/43a3f712615f40d76f505c3d37c143bf07298228"
+    },
+    {
+      "path": "src/kernelbench/prompts/prompts.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a7dfcaa809b5b01feef1b5dc004097468189b40",
+      "size": 8638,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/6a7dfcaa809b5b01feef1b5dc004097468189b40"
+    },
+    {
+      "path": "src/kernelbench/score.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09b8c1fae8f7c627f981874595b9600ed44a8987",
+      "size": 1876,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/09b8c1fae8f7c627f981874595b9600ed44a8987"
+    },
+    {
+      "path": "src/kernelbench/timing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f22920b4b4f12aa331fff1df262af9f9d6d0691b",
+      "size": 23847,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f22920b4b4f12aa331fff1df262af9f9d6d0691b"
+    },
+    {
+      "path": "src/kernelbench/unit_tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1b369048dce7dd51d058406157de941d100c83d9",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/1b369048dce7dd51d058406157de941d100c83d9"
+    },
+    {
+      "path": "src/kernelbench/unit_tests/test_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b84685038fbbc24d5b85d54f9b7bb57dbc7f5606",
+      "size": 10452,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/b84685038fbbc24d5b85d54f9b7bb57dbc7f5606"
+    },
+    {
+      "path": "src/kernelbench/unit_tests/test_eval_adversarial.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac019ba34df6c0d275ae75d3e8778af864e8b90b",
+      "size": 4896,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/ac019ba34df6c0d275ae75d3e8778af864e8b90b"
+    },
+    {
+      "path": "src/kernelbench/unit_tests/test_eval_timing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "470c4254843c88415b93ee7173c1e5d923be2df0",
+      "size": 5120,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/470c4254843c88415b93ee7173c1e5d923be2df0"
+    },
+    {
+      "path": "src/kernelbench/unit_tests/test_kernels",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5aa92b45e0f7cd04e65c49cdad956ab79b1a62ce",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/5aa92b45e0f7cd04e65c49cdad956ab79b1a62ce"
+    },
+    {
+      "path": "src/kernelbench/unit_tests/test_kernels/non_default_stream_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37fe00fd3d8f5d1d95a04ac907268ba2a92466c0",
+      "size": 2711,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/37fe00fd3d8f5d1d95a04ac907268ba2a92466c0"
+    },
+    {
+      "path": "src/kernelbench/unit_tests/test_kernels/result_reuse_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88258ddf5f775cfa95f151692ce99096065e72d0",
+      "size": 1621,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/88258ddf5f775cfa95f151692ce99096065e72d0"
+    },
+    {
+      "path": "src/kernelbench/unit_tests/test_kernels/zero_out_kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aba206208a7feab9ecf9b27f41ee76a4d61def5a",
+      "size": 1471,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/aba206208a7feab9ecf9b27f41ee76a4d61def5a"
+    },
+    {
+      "path": "src/kernelbench/unit_tests/test_precision.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e8a2299a5b465352a2db2e5439d064b71fe07df",
+      "size": 13953,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/1e8a2299a5b465352a2db2e5439d064b71fe07df"
+    },
+    {
+      "path": "src/kernelbench/unit_tests/test_score.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfdd76c2387762672b8a3bcf0e8d431cd0591c73",
+      "size": 3746,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/cfdd76c2387762672b8a3bcf0e8d431cd0591c73"
+    },
+    {
+      "path": "src/kernelbench/unit_tests/test_static_checker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4411fff2601348230fc1c38150971f965324364",
+      "size": 6316,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/d4411fff2601348230fc1c38150971f965324364"
+    },
+    {
+      "path": "src/kernelbench/unit_tests/test_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7126e150b6c18d1ffcae2ce31f205b1b633caa8",
+      "size": 2764,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/b7126e150b6c18d1ffcae2ce31f205b1b633caa8"
+    },
+    {
+      "path": "src/kernelbench/unit_tests/test_validate_kernel_static.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4394624dc9a653cf53ee7fae8b6be2272e0bd5f",
+      "size": 14793,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/f4394624dc9a653cf53ee7fae8b6be2272e0bd5f"
+    },
+    {
+      "path": "src/kernelbench/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2d1b1752b94b53c603024ebcd43a3548abd3fa5",
+      "size": 21582,
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/blobs/d2d1b1752b94b53c603024ebcd43a3548abd3fa5"
+    }
+  ],
+  "truncated": false
+}

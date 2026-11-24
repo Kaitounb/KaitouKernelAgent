@@ -1,0 +1,10 @@
+{
+  "candidate_freeze_sha256": "709415430cf7eb9a3b054312f542cfa3f015ede762d528712014e18c69da2df8",
+  "protocol_sha256": "99a9c9fc385bb8ff3f609caccf38bc57061ccb4af8c92c9590079d687244137f",
+  "trusted_evaluator_sha256": {
+    "experiments/full_delivery/sealed_worker.py": "d78a9d9e8dc48621136f9a9fd3501bfadb32df2f552e6f74d3eba1616e892590",
+    "experiments/full_delivery/sealed_gemm_host.py": "571182c0d25f05bdeb8b92257e6be3c1230f1b40c36b0f428d80223584d23555",
+    "tools/verify_gemm_release_freeze.py": "97d2b532d7dde1bec2796d90dc519af70c6cf9e7541d5d5a938ea66e11ccae37"
+  },
+  "stage": "FROZEN_BEFORE_PRIVATE_MANIFEST_ACCESS"
+}

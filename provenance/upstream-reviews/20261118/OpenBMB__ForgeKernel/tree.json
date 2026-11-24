@@ -1,0 +1,4413 @@
+{
+  "sha": "b2c8ae8510e02c28576808910a6b8827721ab7dc",
+  "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/b2c8ae8510e02c28576808910a6b8827721ab7dc",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7290a5408902cefbb519f194373c7c50cb8a6453",
+      "size": 321,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/7290a5408902cefbb519f194373c7c50cb8a6453"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "path": "NOTICE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0e04a577321b1135fabb75a11006fbce3288bbe",
+      "size": 1322,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c0e04a577321b1135fabb75a11006fbce3288bbe"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a20dd5c161d5836b2c23efc144907366bec08f51",
+      "size": 18031,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a20dd5c161d5836b2c23efc144907366bec08f51"
+    },
+    {
+      "path": "README_zh.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f4466cd6abcbd7b034b1f6bc75d72658fd20234",
+      "size": 17430,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/8f4466cd6abcbd7b034b1f6bc75d72658fd20234"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7af6c3610ab96c19ad30ca77ef0f5095997ce9c4",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/7af6c3610ab96c19ad30ca77ef0f5095997ce9c4"
+    },
+    {
+      "path": "docs/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "299457daf70bd05969087fda4a9053da7f5c34e2",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/299457daf70bd05969087fda4a9053da7f5c34e2"
+    },
+    {
+      "path": "docs/assets/figure1-self-evolution.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17f6a2282e7185e404399e51821df473d08143c9",
+      "size": 198075,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/17f6a2282e7185e404399e51821df473d08143c9"
+    },
+    {
+      "path": "docs/assets/figure2-architecture.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "618876028bcdb8d3ae20e658993099f81cb51cf0",
+      "size": 166452,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/618876028bcdb8d3ae20e658993099f81cb51cf0"
+    },
+    {
+      "path": "docs/blackbox-mode.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c7f82680c5e1661430c6b31fede2b00efa8c297",
+      "size": 14319,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/3c7f82680c5e1661430c6b31fede2b00efa8c297"
+    },
+    {
+      "path": "docs/correctness-monitor.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1765ab209635206fc9eef7be8c1d32f5f7325e9",
+      "size": 9710,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f1765ab209635206fc9eef7be8c1d32f5f7325e9"
+    },
+    {
+      "path": "docs/design",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1fafd5dd907a4fa92e2a7e40d4399af348ff35b",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/a1fafd5dd907a4fa92e2a7e40d4399af348ff35b"
+    },
+    {
+      "path": "docs/design/milestone-distillation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35899e936bb29930b08c3e1b41d08ad0e2be40d7",
+      "size": 22569,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/35899e936bb29930b08c3e1b41d08ad0e2be40d7"
+    },
+    {
+      "path": "docs/design/v1-launch.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "449c36f8579049be9baed3e9568212a655dab7df",
+      "size": 35924,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/449c36f8579049be9baed3e9568212a655dab7df"
+    },
+    {
+      "path": "docs/kb-harvest.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "861934c7158cb96456eebd484db2b3895bcd14f2",
+      "size": 4729,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/861934c7158cb96456eebd484db2b3895bcd14f2"
+    },
+    {
+      "path": "docs/kb-provenance",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18a15be1db65208196cd5095eea24e80687f9039",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/18a15be1db65208196cd5095eea24e80687f9039"
+    },
+    {
+      "path": "docs/kb-provenance/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "683a1943825318e788b7b49d8c4a25ee4b1faf56",
+      "size": 4611,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/683a1943825318e788b7b49d8c4a25ee4b1faf56"
+    },
+    {
+      "path": "docs/leaderboards.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f81dc2b373e59638e5236faba29d765ed753e0b",
+      "size": 24008,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/9f81dc2b373e59638e5236faba29d765ed753e0b"
+    },
+    {
+      "path": "docs/milestones-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bbf15839fa02a0c3c29a998b7b8bbd3f0465cb6",
+      "size": 44542,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/1bbf15839fa02a0c3c29a998b7b8bbd3f0465cb6"
+    },
+    {
+      "path": "docs/safeguard-refusals.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd2bf75ad795e8f68a94fa84799de0aa24744723",
+      "size": 6103,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/cd2bf75ad795e8f68a94fa84799de0aa24744723"
+    },
+    {
+      "path": "global_config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "36286528606f6f4c50b64292741b3c91307a5d87",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/36286528606f6f4c50b64292741b3c91307a5d87"
+    },
+    {
+      "path": "global_config/backends.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d6138015d5e01bc4d08f61456e2475ebff39514",
+      "size": 643,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/2d6138015d5e01bc4d08f61456e2475ebff39514"
+    },
+    {
+      "path": "global_config/loop.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74f68e63ab38c5ce91b17802acbef535386da137",
+      "size": 542,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/74f68e63ab38c5ce91b17802acbef535386da137"
+    },
+    {
+      "path": "global_config/models.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e74f10057285098355cd2a68b1ad334330ab0732",
+      "size": 629,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/e74f10057285098355cd2a68b1ad334330ab0732"
+    },
+    {
+      "path": "hw_kb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c6f86f361311c681fb725020ae897e0610908779",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/c6f86f361311c681fb725020ae897e0610908779"
+    },
+    {
+      "path": "hw_kb/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3d77d5b7b8d61edf8347e66d670c12940fd011c",
+      "size": 764,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c3d77d5b7b8d61edf8347e66d670c12940fd011c"
+    },
+    {
+      "path": "hw_kb/cuda",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f9350b82e9d72fdbef555de9463f858cf3673dd5",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/f9350b82e9d72fdbef555de9463f858cf3673dd5"
+    },
+    {
+      "path": "hw_kb/cuda/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "403f08ed8c9f37ad1b6175640e677fdd4352ff54",
+      "size": 3641,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/403f08ed8c9f37ad1b6175640e677fdd4352ff54"
+    },
+    {
+      "path": "hw_kb/cuda/TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0aea1a8c7fcc5f6ca6d35b2c947720e972f1f4f7",
+      "size": 2277,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/0aea1a8c7fcc5f6ca6d35b2c947720e972f1f4f7"
+    },
+    {
+      "path": "hw_kb/cuda/sm100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "74d5f0f8260b2c489a87f1e8a426c388827d4bc6",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/74d5f0f8260b2c489a87f1e8a426c388827d4bc6"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/branch_free_select_mask.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1ea59f72d14599cc7314452427f02c70451e256",
+      "size": 4347,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/d1ea59f72d14599cc7314452427f02c70451e256"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/branchfree_masked_elementwise_pass.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7452ed9211330edd9b5093755ac82b4904ec3db",
+      "size": 6996,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c7452ed9211330edd9b5093755ac82b4904ec3db"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/cluster_launch_control_work_queue.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3cfc54bcd3532baa387cb8125f3381265a0cafa",
+      "size": 6854,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/e3cfc54bcd3532baa387cb8125f3381265a0cafa"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/cluster_xchg_transport_ladder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4c38b4f9c349e540c847ab007de396425cfc081",
+      "size": 10371,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a4c38b4f9c349e540c847ab007de396425cfc081"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/cp_async_bulk_1d_mbarrier_gather.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ca07d0496020e649e99925a9e8b250b7562eb90",
+      "size": 6177,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6ca07d0496020e649e99925a9e8b250b7562eb90"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/cp_async_bulk_s2s_cluster_exchange.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2597528fd699b88e796678a20c261e8398c09a8e",
+      "size": 9847,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/2597528fd699b88e796678a20c261e8398c09a8e"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/cta_pair_bulk_load_cta_group2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "697c0fd83e7b0ec6cf5e5e5b07dbb5c8b0be35bd",
+      "size": 10250,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/697c0fd83e7b0ec6cf5e5e5b07dbb5c8b0be35bd"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/cta_pair_consumer_peek.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c6f6f32cec24c533e6b7bf3d2d0153242a972d5",
+      "size": 5878,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/5c6f6f32cec24c533e6b7bf3d2d0153242a972d5"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/cvt_f32x2_bf16x2_pack_into_r2t_fragment.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf9ab81044324517d6bced5f4f94b632e6761661",
+      "size": 5094,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/bf9ab81044324517d6bced5f4f94b632e6761661"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/elect_one.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3983534609eb8b14b6590cb2cd43bed59de614bf",
+      "size": 7815,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/3983534609eb8b14b6590cb2cd43bed59de614bf"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/gmem_256bit_ldg_stg.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7ea71ff75ac031ac3c72e8c9a52b2eaa2e94117",
+      "size": 5650,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a7ea71ff75ac031ac3c72e8c9a52b2eaa2e94117"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/gpu_probe_ladder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73c80eb9acf2a8f0434c77c08d111b841c309c51",
+      "size": 14475,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/73c80eb9acf2a8f0434c77c08d111b841c309c51"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f72561d1fc2b951c85f1192004de92cadcdeeb08",
+      "size": 36407,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f72561d1fc2b951c85f1192004de92cadcdeeb08"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/launch_identity_stamp.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c138bf87bcf59a357f66f19d89bd96a46e341dc1",
+      "size": 7062,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c138bf87bcf59a357f66f19d89bd96a46e341dc1"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/ldg_issue_order_pin.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6636be072dbc90e002154873e605994349577c8f",
+      "size": 6046,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6636be072dbc90e002154873e605994349577c8f"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/ldg_issue_pin_structural_fence.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af25fdfedac37d7e3fe45f7bf39524aa9fb9e362",
+      "size": 14238,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/af25fdfedac37d7e3fe45f7bf39524aa9fb9e362"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/ldg_prologue_mov_cctl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c82229c625479250a602100597a96350d993819e",
+      "size": 4540,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c82229c625479250a602100597a96350d993819e"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/lowtier_role_tmem_readout_spill_ladder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "319ce233715aadc35ccf3431ec249c3f90f8317f",
+      "size": 7583,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/319ce233715aadc35ccf3431ec249c3f90f8317f"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/mbarrier_ring_rolled_loop.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b14b11cf841e711a250e0caf638e1d0bd84ac01c",
+      "size": 13830,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/b14b11cf841e711a250e0caf638e1d0bd84ac01c"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/mbarrier_ring_unrolled_const_addr.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d9f3b40caf25bb29f79cfb27402b0d770445718",
+      "size": 15679,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/8d9f3b40caf25bb29f79cfb27402b0d770445718"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/mbarrier_try_wait_fastpath_layout.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42675178ba88befd8c948ed925a041178e441cd3",
+      "size": 6123,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/42675178ba88befd8c948ed925a041178e441cd3"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/mbarrier_wait_encoding.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98dc9d25d4df5d79beebb33fb0b9f7ad419225b7",
+      "size": 9151,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/98dc9d25d4df5d79beebb33fb0b9f7ad419225b7"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/mbarrier_wait_scope.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a617b6417c3a0e4dbcb8c1800b29de92ac93bafc",
+      "size": 12143,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a617b6417c3a0e4dbcb8c1800b29de92ac93bafc"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/merge_face_lds128_read_map.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20dc3e25e3eeccd4f9b1d3c9caf91ca45f2dd85f",
+      "size": 6091,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/20dc3e25e3eeccd4f9b1d3c9caf91ca45f2dd85f"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/mma_sync_hmma_run_register_feed.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bc6c46298361eac3825fd3b6e8208beaee94173",
+      "size": 23496,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/8bc6c46298361eac3825fd3b6e8208beaee94173"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/mufu_f2fp_ffma2_issue_overlap.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2466624b0c5b5aa61156340b6fc4b4bcbca74cd5",
+      "size": 11957,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/2466624b0c5b5aa61156340b6fc4b4bcbca74cd5"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/packed_f32x2_chain_single_asm.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dac60536885da5b07e59dbf658e2c854f2e26b9",
+      "size": 9485,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/1dac60536885da5b07e59dbf658e2c854f2e26b9"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/pdl_griddepcontrol_launch.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2228e667bfe14715b5cc75b9efe211adf2f0b92",
+      "size": 11365,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c2228e667bfe14715b5cc75b9efe211adf2f0b92"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/pipeline_tma_producer_try_acquire_lookahead.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfa6726001b76979e2d73e133f21156f7d14ddfc",
+      "size": 6309,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/cfa6726001b76979e2d73e133f21156f7d14ddfc"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/pipeline_tma_umma_stage_count.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "532ee210fdd93b150b15a04831623faa0c123086",
+      "size": 6398,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/532ee210fdd93b150b15a04831623faa0c123086"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/pipeline_umma_async_handle_commit.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06b342a12cc4f3cbc66c986d3b34ac3c1f199dac",
+      "size": 6388,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/06b342a12cc4f3cbc66c986d3b34ac3c1f199dac"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/post_wait_gather_single_trip.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f380f73b2a0e48950acb3659a6445e0f4085d5d2",
+      "size": 6187,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f380f73b2a0e48950acb3659a6445e0f4085d5d2"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/reg_chain_latency_vs_issue.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f14ca9e8bd6a8126df14a1035a26eb9c3ba28125",
+      "size": 9033,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f14ca9e8bd6a8126df14a1035a26eb9c3ba28125"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/rmem_array_runtime_index_local_frame.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94181b584df48ae1be2229dba593ffb14a16f8e7",
+      "size": 5362,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/94181b584df48ae1be2229dba593ffb14a16f8e7"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/rmem_bf16_widen_transient.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2960bfa361d017ac8d66017d419ba7b7a904cebd",
+      "size": 8095,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/2960bfa361d017ac8d66017d419ba7b7a904cebd"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/rmem_materialize_packed_reduce.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7298fef665f64bc75cf73ace9da2eb1632f42637",
+      "size": 5820,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/7298fef665f64bc75cf73ace9da2eb1632f42637"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/smem_exchange_face_matrix_atoms_ldsm_mt_stsm_sw128.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85e23aae472dbac5078a52958630255e7d1692fd",
+      "size": 7221,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/85e23aae472dbac5078a52958630255e7d1692fd"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/smem_shared_window_lds_addressing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e282c855083089f5c3e82764b67d35a2ecbf2a55",
+      "size": 9710,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/e282c855083089f5c3e82764b67d35a2ecbf2a55"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/smem_sw64_row_face_store_width.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7dc194c1807e4c80a21c3b711193ada9e2de361",
+      "size": 4930,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c7dc194c1807e4c80a21c3b711193ada9e2de361"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/smem_traffic_triage.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a80db1d56d4f3c96742fc0828f8ee51055dd30c8",
+      "size": 3814,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a80db1d56d4f3c96742fc0828f8ee51055dd30c8"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/softmax_segment_ilp.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f30011551f913139bfed6390bfbd732adfdc0cf",
+      "size": 7126,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/8f30011551f913139bfed6390bfbd732adfdc0cf"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/strided_loop_static_trip_guard.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcf3652ca170fdd65dd3474e19d8e5b0e9d41a1b",
+      "size": 7512,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/bcf3652ca170fdd65dd3474e19d8e5b0e9d41a1b"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/tcgen05_blockscaled_mma_sf_tmem.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6731449eae03c0b2bac50ffee52dfdaf33eeba82",
+      "size": 8494,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6731449eae03c0b2bac50ffee52dfdaf33eeba82"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/tcgen05_commit_slot_release.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c5b94b0227d19953c9fc739fb890bcdcbadfae8",
+      "size": 9544,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/1c5b94b0227d19953c9fc739fb890bcdcbadfae8"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/tcgen05_epilogue_t2r_stsm_tma_store.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0117ce3ab2b46d1e2bea0ee310ae34e0fe5f8916",
+      "size": 8975,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/0117ce3ab2b46d1e2bea0ee310ae34e0fe5f8916"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/tcgen05_umma_issue_cta_pair.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05238e2e8545a79ece392b73f3975b9020c89d97",
+      "size": 12747,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/05238e2e8545a79ece392b73f3975b9020c89d97"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/teardown_subset_rendezvous_early_exit.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70a87761427b83f832f955996fe38a880657f22f",
+      "size": 8215,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/70a87761427b83f832f955996fe38a880657f22f"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/threshold_bitmap_predicate_select.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc32081041359bf7b3627f060d4077338b6c2b7a",
+      "size": 5577,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/bc32081041359bf7b3627f060d4077338b6c2b7a"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/tma_2cta_nonmulticast_operand_load.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32a2a1c831ea13540951898e1228bd6a36106765",
+      "size": 5870,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/32a2a1c831ea13540951898e1228bd6a36106765"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/tma_3d_operand_box_2cta.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d783324fe0a79e6380fbe8f85ac1303a953e42b0",
+      "size": 6452,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/d783324fe0a79e6380fbe8f85ac1303a953e42b0"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/tma_flat_restage_box_rank.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bac94b4c7bac7e666b5e481886df4d850e9e9f86",
+      "size": 4838,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/bac94b4c7bac7e666b5e481886df4d850e9e9f86"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/tma_gather4_indexed_rows.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21f7db731ef76cd5cd8b81d61f2dbc76003e9813",
+      "size": 5872,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/21f7db731ef76cd5cd8b81d61f2dbc76003e9813"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/tma_param_desc_inline_ptx.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "408f584716ad012baf0678e554f15a49b7bdd231",
+      "size": 4605,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/408f584716ad012baf0678e554f15a49b7bdd231"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/tma_refill_post_wait_hoist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d81e5b9efa5cd7663426f0d25fb444c80cf04e37",
+      "size": 10714,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/d81e5b9efa5cd7663426f0d25fb444c80cf04e37"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/tmem_alloc_ptr_handoff_no_named_barrier.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0844f8709ec485bfeb3e4115c7f37b6ff0434b05",
+      "size": 10190,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/0844f8709ec485bfeb3e4115c7f37b6ff0434b05"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/tmem_chunk_e4m3_quant_chain.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3aae9ffbc9929314a9ce10a2321db4349390727",
+      "size": 6400,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/d3aae9ffbc9929314a9ce10a2321db4349390727"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/tmem_ld_epilogue_issue_order.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8ce1158b15284bc909154d643b84e4395274484",
+      "size": 7521,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/b8ce1158b15284bc909154d643b84e4395274484"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/tmem_r2t_recast_fragment.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27e28522a39512ac2eedda8047a82df5b458a71b",
+      "size": 5628,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/27e28522a39512ac2eedda8047a82df5b458a71b"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/tmem_wide_readback_stsm_mn_box.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e16320e8706ae4d734d8bbcd5ae08ae5e352471",
+      "size": 8154,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6e16320e8706ae4d734d8bbcd5ae08ae5e352471"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/umma_issue_chain_precomputed_desc.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb94064ee06121bad0e090eb9e4e080dfa99dc27",
+      "size": 16990,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/cb94064ee06121bad0e090eb9e4e080dfa99dc27"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/umma_issue_form.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b5836d42ceda4e61f62835f30b5167f0d698d22",
+      "size": 11931,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6b5836d42ceda4e61f62835f30b5167f0d698d22"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/umma_mainloop_wrap_segment_issue_floor.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26aafebd003be8765cff040f969acfbbfb6e2f9e",
+      "size": 14210,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/26aafebd003be8765cff040f969acfbbfb6e2f9e"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/umma_raw_desc_issue.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1463286cf1c3b3735244abd729143a27fdb196f5",
+      "size": 10144,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/1463286cf1c3b3735244abd729143a27fdb196f5"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/umma_smem_operand_sts128_publish.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88398b5877ce3542dec4872ffd4c7ba2724d0eb7",
+      "size": 5623,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/88398b5877ce3542dec4872ffd4c7ba2724d0eb7"
+    },
+    {
+      "path": "hw_kb/cuda/sm100/warp_specialization.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cdd211b3c4563833ef043398d2347f2d5dc0cfb",
+      "size": 8018,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/9cdd211b3c4563833ef043398d2347f2d5dc0cfb"
+    },
+    {
+      "path": "hw_kb/cutedsl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "881c41d50cb2442a91c32e8e515ab90b3ffb1d53",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/881c41d50cb2442a91c32e8e515ab90b3ffb1d53"
+    },
+    {
+      "path": "hw_kb/cutedsl/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dd270ac45a7c161f742da18643f51674ed47391",
+      "size": 3942,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6dd270ac45a7c161f742da18643f51674ed47391"
+    },
+    {
+      "path": "hw_kb/cutedsl/TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86da45ec2ee1b4d8046f35373e5b39b2ce29bc27",
+      "size": 1985,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/86da45ec2ee1b4d8046f35373e5b39b2ce29bc27"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2f120e9efa640629e7614f7a7b61c8d5dc256bff",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/2f120e9efa640629e7614f7a7b61c8d5dc256bff"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/branch_free_select_mask.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfd53c1213e041758e3f98712a9b4bd1f7b52121",
+      "size": 17379,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/bfd53c1213e041758e3f98712a9b4bd1f7b52121"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/branchfree_masked_elementwise_pass.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20d161369d0f93f1cd37cedff0a0980b37d11e49",
+      "size": 45561,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/20d161369d0f93f1cd37cedff0a0980b37d11e49"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/cluster_barrier_tmem_alloc_sass_footprint.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2410781006083d8307ac04906535674092da4c5f",
+      "size": 11654,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/2410781006083d8307ac04906535674092da4c5f"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/cluster_launch_control_work_queue.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fad257e0adcaf150c1bbb4c475c9b5a4104d418d",
+      "size": 19186,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/fad257e0adcaf150c1bbb4c475c9b5a4104d418d"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/cluster_xchg_transport_ladder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5666566f07dfbd0a44ad75662d83a61c03e2f3f8",
+      "size": 14748,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/5666566f07dfbd0a44ad75662d83a61c03e2f3f8"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/consumer_warpgroup_pingpong_parity.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65c4f3999edf4564ecb33b1fb1a2ea4bc47b4b9e",
+      "size": 19239,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/65c4f3999edf4564ecb33b1fb1a2ea4bc47b4b9e"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/cp_async_bulk_1d_mbarrier_gather.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74f87831b64587ea11dcabc5e6eb3adbfb7e9b06",
+      "size": 20065,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/74f87831b64587ea11dcabc5e6eb3adbfb7e9b06"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/cp_async_bulk_s2s_cluster_exchange.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "734e286aa8c5d70743b5f31a3de5fb1ef182261a",
+      "size": 38123,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/734e286aa8c5d70743b5f31a3de5fb1ef182261a"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/cta_pair_bulk_load_cta_group2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84520378cde33a777549bf42c8dc8fc5472f9dbd",
+      "size": 30975,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/84520378cde33a777549bf42c8dc8fc5472f9dbd"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/cta_pair_consumer_peek.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a30dc2c26b2d18d6711e1435507fcd2280846aa0",
+      "size": 30311,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a30dc2c26b2d18d6711e1435507fcd2280846aa0"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/cute_dsl_const_expr_if.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23dfdb4a9701a43fbcacf2a277170fd6788315a2",
+      "size": 12632,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/23dfdb4a9701a43fbcacf2a277170fd6788315a2"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/cute_dsl_trace_scope.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8eaebc8c2151df470321b9b0669fb436aeb51ce9",
+      "size": 9396,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/8eaebc8c2151df470321b9b0669fb436aeb51ce9"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/cute_rmem_fragment_compact_layout.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13912e67fa637b47ae06b783ea1e31167b8ec176",
+      "size": 11925,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/13912e67fa637b47ae06b783ea1e31167b8ec176"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/cvt_f32x2_bf16x2_pack_into_r2t_fragment.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a81674f1102364c752c4cf507ced7d83f1e15ef8",
+      "size": 15899,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a81674f1102364c752c4cf507ced7d83f1e15ef8"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/elect_one.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f1eba307f9402f3f16669488cea76b0da05c887",
+      "size": 13746,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/4f1eba307f9402f3f16669488cea76b0da05c887"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/gather_index_lane_owned.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2439c7ba61031c1cbe88c26fd97d79b83e0a68b",
+      "size": 21093,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/b2439c7ba61031c1cbe88c26fd97d79b83e0a68b"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/gmem_256bit_ldg_stg.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37d3b136868151143169c644bd7c6651fd59e62c",
+      "size": 13516,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/37d3b136868151143169c644bd7c6651fd59e62c"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/gpu_probe_ladder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bac8c10d0e761e71a5fafa73c96b2bea12f4243",
+      "size": 23642,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/7bac8c10d0e761e71a5fafa73c96b2bea12f4243"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "382d3da67b5e3633a5dde34e1d0144fb88153744",
+      "size": 237248,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/382d3da67b5e3633a5dde34e1d0144fb88153744"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/launch_identity_stamp.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47f3527fac2480a4d9e63fb4c892e99dbb16bfc3",
+      "size": 9702,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/47f3527fac2480a4d9e63fb4c892e99dbb16bfc3"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/ldg_address_uniform_split.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbc8f97cbc8cecc8092385743558012cd68f0c92",
+      "size": 26756,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/fbc8f97cbc8cecc8092385743558012cd68f0c92"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/ldg_issue_order_pin.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8146bf6589b839c13b69d0077b4e0eb791bd4502",
+      "size": 15932,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/8146bf6589b839c13b69d0077b4e0eb791bd4502"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/ldg_issue_pin_structural_fence.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f43020a7d4d377c7f5078913616c7af0f04067fe",
+      "size": 21658,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f43020a7d4d377c7f5078913616c7af0f04067fe"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/ldg_prologue_mov_cctl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6deb50762eb7f602f59a045979a48f62da61a07b",
+      "size": 9858,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6deb50762eb7f602f59a045979a48f62da61a07b"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/lowtier_role_tmem_readout_spill_ladder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ece1b989242926200134a6e26df89999dca9281",
+      "size": 20789,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/7ece1b989242926200134a6e26df89999dca9281"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/mbarrier_ring_rolled_loop.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cdd456ef396fb85f02263eba2197d17ab5e268a",
+      "size": 38515,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/1cdd456ef396fb85f02263eba2197d17ab5e268a"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/mbarrier_try_wait_fastpath_layout.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "401524f3ee5a88fd758df1022e11685a9ffa4dee",
+      "size": 12224,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/401524f3ee5a88fd758df1022e11685a9ffa4dee"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/mbarrier_wait_encoding.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cf92fb90fac845f25f6f6e3d0626d043a684ab2",
+      "size": 60932,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/2cf92fb90fac845f25f6f6e3d0626d043a684ab2"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/merge_face_lds128_read_map.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4a8a284f18dc3ff7094edb11be21f3c1ce44bac",
+      "size": 10398,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f4a8a284f18dc3ff7094edb11be21f3c1ce44bac"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/packed_f32x2_chain_single_asm.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f9dc29e2f061b765cff5dc7d26fceddcecdd61a",
+      "size": 13413,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6f9dc29e2f061b765cff5dc7d26fceddcecdd61a"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/parked_warp_barrier_wait_stamp.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e83f0d1da6b6e218362007eb25ef7bdf4ed65a18",
+      "size": 13765,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/e83f0d1da6b6e218362007eb25ef7bdf4ed65a18"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/pipeline_tma_producer_try_acquire_lookahead.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07bee09200629d2bd9a0c1bedcc9245046e58d9b",
+      "size": 23630,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/07bee09200629d2bd9a0c1bedcc9245046e58d9b"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/pipeline_tma_umma_stage_count.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58313f5181c14a458ba49dcb0a823003fd666aa6",
+      "size": 26093,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/58313f5181c14a458ba49dcb0a823003fd666aa6"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/pipeline_umma_async_handle_commit.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efdabe1e65689c57023c0ea83b5e6d44b34135f3",
+      "size": 14588,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/efdabe1e65689c57023c0ea83b5e6d44b34135f3"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/post_wait_gather_single_trip.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3299bd60c5a78adbe0b46131cf3ebb9efbb3eff2",
+      "size": 15214,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/3299bd60c5a78adbe0b46131cf3ebb9efbb3eff2"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/producer_tile_seam_issue_order.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "297fccb75da5270f8768145d04927c91e7a350a8",
+      "size": 12808,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/297fccb75da5270f8768145d04927c91e7a350a8"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/prologue_mbarrier_critical_path_init.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7506df2b56b6687934ff645c8d63b9d661e7e9b7",
+      "size": 16511,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/7506df2b56b6687934ff645c8d63b9d661e7e9b7"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/ptx_escape.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2f6edb703d7a8af7422ee121abff770347a634c",
+      "size": 10570,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/b2f6edb703d7a8af7422ee121abff770347a634c"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/reg_chain_latency_vs_issue.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e39926fae0337a8cf10834a2064def646f772cc3",
+      "size": 11559,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/e39926fae0337a8cf10834a2064def646f772cc3"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/ring_index_lookahead.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f828eeeecddfb502ef42e7ada7585e6042ecbdc",
+      "size": 12601,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/9f828eeeecddfb502ef42e7ada7585e6042ecbdc"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/rmem_array_runtime_index_local_frame.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19ca2077eba15820845c6c9e9b6cde7437dfefaf",
+      "size": 11722,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/19ca2077eba15820845c6c9e9b6cde7437dfefaf"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/rmem_bf16_widen_transient.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c98f74c3024d15ba4bd1177205da21b4c2cdddc",
+      "size": 14458,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6c98f74c3024d15ba4bd1177205da21b4c2cdddc"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/rmem_materialize_packed_reduce.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7b33ff716353ebe16240e448983bb8ae7a5f3c2",
+      "size": 10779,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/e7b33ff716353ebe16240e448983bb8ae7a5f3c2"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/role_loop_state_spill_free.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "118c4cead01d5c431923a1cb23986b793566272d",
+      "size": 15758,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/118c4cead01d5c431923a1cb23986b793566272d"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/smem_exchange_face_matrix_atoms_ldsm_mt_stsm_sw128.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac41afd8f4ea4afb921e31a4089e3b760ce490e4",
+      "size": 48149,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/ac41afd8f4ea4afb921e31a4089e3b760ce490e4"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/smem_sw64_row_face_store_width.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "140b9c6f27446d2dfedce84d2232647812c0f362",
+      "size": 6327,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/140b9c6f27446d2dfedce84d2232647812c0f362"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/smem_traffic_triage.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ac963255848d00278a7076bcd0a5792b00340d6",
+      "size": 3317,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6ac963255848d00278a7076bcd0a5792b00340d6"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/softmax_segment_ilp.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd63f3a9aec5f5d0db91b8c628f62889eeaeef8d",
+      "size": 18730,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/fd63f3a9aec5f5d0db91b8c628f62889eeaeef8d"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/stas_lds_operand_war_distance.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d898138140693d428bf10bdaa8592284e47ee382",
+      "size": 11884,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/d898138140693d428bf10bdaa8592284e47ee382"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/tcgen05_blockscaled_mma_sf_tmem.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8afe778adfd8fb84b57c177234efeed8469c1041",
+      "size": 21095,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/8afe778adfd8fb84b57c177234efeed8469c1041"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/tcgen05_epilogue_t2r_stsm_tma_store.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6791112d739155b35a1ff9409d716279f3cca4ea",
+      "size": 44710,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6791112d739155b35a1ff9409d716279f3cca4ea"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/tcgen05_umma_issue_cta_pair.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "623dceab05619ba767b8b800a343359cb5387ef1",
+      "size": 28536,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/623dceab05619ba767b8b800a343359cb5387ef1"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/teardown_subset_rendezvous_early_exit.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81c67e9cfb707ad097f0de70be4c9c93a2934f4c",
+      "size": 32094,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/81c67e9cfb707ad097f0de70be4c9c93a2934f4c"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/threshold_bitmap_predicate_select.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92f6296b3831fda3cd6a3389125088ec4f62a654",
+      "size": 17883,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/92f6296b3831fda3cd6a3389125088ec4f62a654"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/tile_boundary_wait_placement_prep_in_flight.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b52864e3e82bdb019059f6bcb2eac5c675afcea",
+      "size": 9848,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/3b52864e3e82bdb019059f6bcb2eac5c675afcea"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/tile_seam_clc_take_hoist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00c2577c14228895e4e6533940bb1c381f0a2aea",
+      "size": 14832,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/00c2577c14228895e4e6533940bb1c381f0a2aea"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/tma_2cta_nonmulticast_operand_load.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c26fcf19089e560d26c341814102d218b41fc86f",
+      "size": 10880,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c26fcf19089e560d26c341814102d218b41fc86f"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/tma_3d_operand_box_2cta.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0166e54f4b407a9887b2498dc29a26b2404310ca",
+      "size": 20417,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/0166e54f4b407a9887b2498dc29a26b2404310ca"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/tma_descriptor_l2_promotion.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c67ef720df73100a160aa6a656d95d9aa1e0c723",
+      "size": 12279,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c67ef720df73100a160aa6a656d95d9aa1e0c723"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/tma_flat_restage_box_rank.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12507c0b67792f6ae403e3dcbfc604ec9cae102a",
+      "size": 11977,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/12507c0b67792f6ae403e3dcbfc604ec9cae102a"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/tma_gather4_indexed_rows.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9275e0afe2c397c406fc03b68977bf77b6310b0a",
+      "size": 26831,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/9275e0afe2c397c406fc03b68977bf77b6310b0a"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/tma_param_desc_inline_ptx.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b188ae97bb1cbb88ea92fafc746d4f469abe347c",
+      "size": 13147,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/b188ae97bb1cbb88ea92fafc746d4f469abe347c"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/tmem_alloc_ptr_handoff_no_named_barrier.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "282a24a9ad7d18e659f35cee2be4557e8c5216ae",
+      "size": 27055,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/282a24a9ad7d18e659f35cee2be4557e8c5216ae"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/tmem_chunk_e4m3_quant_chain.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a79495442df09bbb2ff728449b97bd2f351de09b",
+      "size": 13772,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a79495442df09bbb2ff728449b97bd2f351de09b"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/tmem_ld_epilogue_issue_order.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed91ee355b27384e5f8ae0fdbfb33d891001f579",
+      "size": 17625,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/ed91ee355b27384e5f8ae0fdbfb33d891001f579"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/tmem_r2t_recast_fragment.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3ccc49751581a431e50b1196658fb61a89d4e9e",
+      "size": 27954,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a3ccc49751581a431e50b1196658fb61a89d4e9e"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/tmem_readout_segment_live_set.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4cd6e13c1e323c579dd6e16cde3edde49b7dab3",
+      "size": 38004,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/e4cd6e13c1e323c579dd6e16cde3edde49b7dab3"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/tmem_wide_readback_stsm_mn_box.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5275edb480f4f1cb60ffd8ca674bf1a113aa34f",
+      "size": 17233,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/d5275edb480f4f1cb60ffd8ca674bf1a113aa34f"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/umma_consumer_full_peek_before_commit.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fd717cd5eb14ba122ad0d6db0d127afe1fbce9c",
+      "size": 19628,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/2fd717cd5eb14ba122ad0d6db0d127afe1fbce9c"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/umma_issue_chain_precomputed_desc.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da6bcee19e2537629f033592ae8b6f5b150e0c33",
+      "size": 26289,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/da6bcee19e2537629f033592ae8b6f5b150e0c33"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/umma_mainloop_wrap_segment_issue_floor.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8946303433dd55e655f2a0843a99565ce5d57444",
+      "size": 13101,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/8946303433dd55e655f2a0843a99565ce5d57444"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/umma_raw_desc_issue.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "febfadada8bbc016a4c2691061c5cf6960b40272",
+      "size": 13566,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/febfadada8bbc016a4c2691061c5cf6960b40272"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/umma_smem_operand_sts128_publish.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c73abca55c6a0944d03aa34e904971088084259",
+      "size": 17445,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/3c73abca55c6a0944d03aa34e904971088084259"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/warp_mma_ldsm_operand_displaced_view.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2e488e73153c9983349dc96d5bc1752639e9252",
+      "size": 14731,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c2e488e73153c9983349dc96d5bc1752639e9252"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm100/warp_specialization.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7491ad6666412d93d93567586004bab4762714f8",
+      "size": 35685,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/7491ad6666412d93d93567586004bab4762714f8"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0fc8fde9d2a4e1a5246be6d8815797958dbb7b3c",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/0fc8fde9d2a4e1a5246be6d8815797958dbb7b3c"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/branch_free_select_mask.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05043136b3cef93cf6fee5accfc9b15cf42893f1",
+      "size": 17180,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/05043136b3cef93cf6fee5accfc9b15cf42893f1"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/cfrag_elementwise_fastpath.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e08362c7775762c2985d1a5495b047156c70ea10",
+      "size": 21499,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/e08362c7775762c2985d1a5495b047156c70ea10"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/cfrag_epilogue_stmatrix.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3daab5657774cc2ea1c60cdfc4f19c25efa2b984",
+      "size": 9287,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/3daab5657774cc2ea1c60cdfc4f19c25efa2b984"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/cfrag_fused_pack_liveness.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5298c2878ef026b99a3d98888ae193f70650eacb",
+      "size": 50549,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/5298c2878ef026b99a3d98888ae193f70650eacb"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/cp_async.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2b37780f48710ffd7c547dbe5acaeaae6c857f5",
+      "size": 35004,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a2b37780f48710ffd7c547dbe5acaeaae6c857f5"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/cp_async_mbarrier_ring.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87f44362babda54d07578fb0f154993d426a512b",
+      "size": 26704,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/87f44362babda54d07578fb0f154993d426a512b"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/cp_async_predicated_zfill.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8bd71ea6c0096238e5b679befa2e5a86601f2a8",
+      "size": 36356,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/e8bd71ea6c0096238e5b679befa2e5a86601f2a8"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/cute_dsl_const_expr_if.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ff881da0feaaa39481dedb68fe96c29ae2f5fb6",
+      "size": 10863,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/1ff881da0feaaa39481dedb68fe96c29ae2f5fb6"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/cute_dsl_trace_scope.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f81c0733f9fab5c5c91cd8e363dea99536970f9",
+      "size": 6353,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6f81c0733f9fab5c5c91cd8e363dea99536970f9"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/elect_one.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a322b2a89376229a4a794b59f738abb663af22c3",
+      "size": 11918,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a322b2a89376229a4a794b59f738abb663af22c3"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/ew_segment_latency_schedule.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77d1134d0fb49109dedeb8e531ad121dd3c8bfb0",
+      "size": 46759,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/77d1134d0fb49109dedeb8e531ad121dd3c8bfb0"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/fixed_container_tile_loop.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98d42152df285a34cc22701436cfdff8347d303c",
+      "size": 5258,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/98d42152df285a34cc22701436cfdff8347d303c"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/flat_tv_r2s_cfrag.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bd8f88c4e8855f8abf6ee73b73db6665970b1ca",
+      "size": 12021,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/4bd8f88c4e8855f8abf6ee73b73db6665970b1ca"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/gather_index_lane_owned.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4511569d22356831ea056ccf1fdaf0d62cf0f0d6",
+      "size": 7620,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/4511569d22356831ea056ccf1fdaf0d62cf0f0d6"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/gather_index_prefetch.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e82f5811ce9bda51ad9419cf2b1e4ef5415bfd0c",
+      "size": 6068,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/e82f5811ce9bda51ad9419cf2b1e4ef5415bfd0c"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/gather_index_prefetch_predicated.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14baacc0d142a84f26e1168d1240a839b3480294",
+      "size": 22957,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/14baacc0d142a84f26e1168d1240a839b3480294"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/gather_producer_lead_stack.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd8da826f07509344ce101a17391607671e8aa5d",
+      "size": 7109,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/bd8da826f07509344ce101a17391607671e8aa5d"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/gpu_probe_ladder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97bb4a40a6ab869ab209f23276763171c509fbdc",
+      "size": 12885,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/97bb4a40a6ab869ab209f23276763171c509fbdc"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/guard_predicate_issue_distance.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c9e1319241830f85b6fdfdb8224655bbb212b64",
+      "size": 19600,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/9c9e1319241830f85b6fdfdb8224655bbb212b64"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/handoff_sync_choice.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dc1e6b3b45fc9a0994a169c592105b633739449",
+      "size": 7556,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/8dc1e6b3b45fc9a0994a169c592105b633739449"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93d0eeef13ca47e1e7de9ec580c1fdcc23e3f0bb",
+      "size": 83655,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/93d0eeef13ca47e1e7de9ec580c1fdcc23e3f0bb"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/ldmatrix_stmatrix.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a205418a6ee3fe6ddd66724eebfd521c3f550339",
+      "size": 34974,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a205418a6ee3fe6ddd66724eebfd521c3f550339"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/ldmatrix_wideK_conflict_free_face.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbcff88cbff8e53ba0f15c994557a4b9e0adbfb5",
+      "size": 19794,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/fbcff88cbff8e53ba0f15c994557a4b9e0adbfb5"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/mbarrier_wait_encoding.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21ff3b0e8c3cf15373c3851da662d0c70bc2df92",
+      "size": 29796,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/21ff3b0e8c3cf15373c3851da662d0c70bc2df92"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/midchain_stage_wait.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c2c417321366195694acd28842647632b382762",
+      "size": 7896,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/9c2c417321366195694acd28842647632b382762"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/mma_operand_source_verify.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dee72817f0ca904a1c050f5594168061ac02864",
+      "size": 3481,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/1dee72817f0ca904a1c050f5594168061ac02864"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/mma_sync_subtile_broadcast_splitk.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "615cc587593fc5d4807e2b3d1159e6f888dc0e6e",
+      "size": 20002,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/615cc587593fc5d4807e2b3d1159e6f888dc0e6e"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/per_slot_landing_depth.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8392206f5cff7a3cf45204bc085909d9941a9af",
+      "size": 13986,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/b8392206f5cff7a3cf45204bc085909d9941a9af"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/persistent_tile_loop_ring_continuity.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "433eeeb430e9c13a0640f5d9556ac54de9b2ca66",
+      "size": 24502,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/433eeeb430e9c13a0640f5d9556ac54de9b2ca66"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/pipeline_runtime_subring.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fc913525b85d5cfc4c621a69e0bdbf5c330dd20",
+      "size": 5789,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/9fc913525b85d5cfc4c621a69e0bdbf5c330dd20"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/ptx_escape.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f091e6ee87ac9b5ae5a2742569f6ccee06734328",
+      "size": 10191,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f091e6ee87ac9b5ae5a2742569f6ccee06734328"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/ptx_sass_census_criteria.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b4d9b753879c239d02094ace47566e8fd1f44bc",
+      "size": 28359,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/2b4d9b753879c239d02094ace47566e8fd1f44bc"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/ring_depth_lever.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8cba19db09ca2649c0fe7012357e6a0336bcdad",
+      "size": 11040,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/b8cba19db09ca2649c0fe7012357e6a0336bcdad"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/s2g_bulk_reduce.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84e6285ddf1656a4f9d3514365b42b1c2eb1cb34",
+      "size": 40371,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/84e6285ddf1656a4f9d3514365b42b1c2eb1cb34"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/smem_traffic_triage.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6eadddd45a01adbae2ebf0a8688b403277a5b494",
+      "size": 3312,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6eadddd45a01adbae2ebf0a8688b403277a5b494"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/softmax_segment_ilp.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82c0e18e201e0dabc9a28aad39d1dbb32fe85e06",
+      "size": 16996,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/82c0e18e201e0dabc9a28aad39d1dbb32fe85e06"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/stsm_transpose_exchange.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66e22e86f2050d7d17c2158a58ed2d62600e0f66",
+      "size": 24731,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/66e22e86f2050d7d17c2158a58ed2d62600e0f66"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/tma_im2col.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96d6ca3be22ab624cdb99ea0c357f3704d77b9ac",
+      "size": 20446,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/96d6ca3be22ab624cdb99ea0c357f3704d77b9ac"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/tma_multicast_cluster.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fa9a7c7d17b684d52dfbad50918eaf2afb4cd35",
+      "size": 13332,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/0fa9a7c7d17b684d52dfbad50918eaf2afb4cd35"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/tma_ndim_oob_zerofill.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03813efc29aab9ca423ea48e4700899e9b60dce4",
+      "size": 11200,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/03813efc29aab9ca423ea48e4700899e9b60dce4"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/tma_store_epilogue.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "941ae0b465a528b9b5804b592d63fc773db6ffe8",
+      "size": 34490,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/941ae0b465a528b9b5804b592d63fc773db6ffe8"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/tri_forward_subst_shfl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b4f0639e8b9e269aa442691fba1ca5a239b65c6",
+      "size": 21369,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/5b4f0639e8b9e269aa442691fba1ca5a239b65c6"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/tri_inverse_block_doubling.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1c0ffe4249c644ba50c1186122af816a95c77a4",
+      "size": 32780,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f1c0ffe4249c644ba50c1186122af816a95c77a4"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/uniform_reg_budget.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5855826bc93d9e38c4bd12c1e5496c20d5840f2f",
+      "size": 24377,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/5855826bc93d9e38c4bd12c1e5496c20d5840f2f"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/warp_mma_f16.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8c768c01fc790aaf18e4a80b476057176ae3460",
+      "size": 24696,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/b8c768c01fc790aaf18e4a80b476057176ae3460"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/warp_specialization.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30b552f4a925f315011714b84a05e2ef5c6dc721",
+      "size": 25086,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/30b552f4a925f315011714b84a05e2ef5c6dc721"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/wg_exchange_face_mbarrier.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71606ba95d273a043f2666d0437af751c4e99aa9",
+      "size": 15922,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/71606ba95d273a043f2666d0437af751c4e99aa9"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/wgmma_backedge_pending_group.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "974070efaa9c4e6a1cdb95251b3aae5cbc12def7",
+      "size": 35331,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/974070efaa9c4e6a1cdb95251b3aae5cbc12def7"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/wgmma_cfrag_publish_stsm.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69cc16abccb2738ed9ef1d3f18285c80c42db4a6",
+      "size": 18534,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/69cc16abccb2738ed9ef1d3f18285c80c42db4a6"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/wgmma_deferred_wait.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d7ec4febf722d182618107db7c56a3ac71749c0",
+      "size": 34667,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6d7ec4febf722d182618107db7c56a3ac71749c0"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/wgmma_desc_uniform.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "815f1ac50585ccf40c1601d8461b4ce726f93ca3",
+      "size": 33255,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/815f1ac50585ccf40c1601d8461b4ce726f93ca3"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/wgmma_interleave.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c451d62b059914ad9fafe618e663b8d83ea036a7",
+      "size": 12287,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c451d62b059914ad9fafe618e663b8d83ea036a7"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/wgmma_mn_major_operand.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c893d055a68e7f5a937b3a494c6df7414ee9e623",
+      "size": 13600,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c893d055a68e7f5a937b3a494c6df7414ee9e623"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/wgmma_ss_min_gemm.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e12e61f1ff673cc3b42529503c9c320efb07e08",
+      "size": 10861,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/8e12e61f1ff673cc3b42529503c9c320efb07e08"
+    },
+    {
+      "path": "hw_kb/cutedsl/sm90/wgmma_tma_mbarrier.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d9e1076b044af9938d774ed2b1144fbe8f34f6b",
+      "size": 14884,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/9d9e1076b044af9938d774ed2b1144fbe8f34f6b"
+    },
+    {
+      "path": "integrations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3a35ad071b49aeac1e0c53be602124a541cd1dc",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/a3a35ad071b49aeac1e0c53be602124a541cd1dc"
+    },
+    {
+      "path": "integrations/claude-code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9742d8a013d2246edde6b90d2eee2b4908b52d7",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/c9742d8a013d2246edde6b90d2eee2b4908b52d7"
+    },
+    {
+      "path": "integrations/claude-code/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f68ec2217dd2da66f87b7fcb525be1b31187dab4",
+      "size": 1400,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f68ec2217dd2da66f87b7fcb525be1b31187dab4"
+    },
+    {
+      "path": "integrations/claude-code/forge-start",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5715b0eceef2f18a78f1799b1f70bdd701499a74",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/5715b0eceef2f18a78f1799b1f70bdd701499a74"
+    },
+    {
+      "path": "integrations/claude-code/forge-start/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68ea8b12aae253be4fe1273a8235116fcb4bc631",
+      "size": 15770,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/68ea8b12aae253be4fe1273a8235116fcb4bc631"
+    },
+    {
+      "path": "integrations/claude-code/forge-start/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1f83236f28be95e2fe807b881ba38b159ca2a5a",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/a1f83236f28be95e2fe807b881ba38b159ca2a5a"
+    },
+    {
+      "path": "integrations/claude-code/forge-start/scripts/deploy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc8a8abdcb7e8b93b752b0bca7d37422717a0ca0",
+      "size": 5802,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/fc8a8abdcb7e8b93b752b0bca7d37422717a0ca0"
+    },
+    {
+      "path": "integrations/claude-code/forge-start/scripts/start.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b61913d9f2ebb9fded2e89f1b8dc3cfbd6d53ef2",
+      "size": 5382,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/b61913d9f2ebb9fded2e89f1b8dc3cfbd6d53ef2"
+    },
+    {
+      "path": "integrations/claude-code/forge-start/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f4b3d393ef51707f733f35699d7af336ec22242",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/8f4b3d393ef51707f733f35699d7af336ec22242"
+    },
+    {
+      "path": "integrations/claude-code/forge-start/tests/test_deploy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1c7aab35c1b4faa4b17a04c0dffca051c7a6654",
+      "size": 4323,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c1c7aab35c1b4faa4b17a04c0dffca051c7a6654"
+    },
+    {
+      "path": "integrations/claude-code/forge-start/tests/test_start.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21f0bd64176454d131154033e06abbcabaa54a03",
+      "size": 2545,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/21f0bd64176454d131154033e06abbcabaa54a03"
+    },
+    {
+      "path": "kernels",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a226caa105daeae480bf0c905b12d3e8c8c3e61",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/0a226caa105daeae480bf0c905b12d3e8c8c3e61"
+    },
+    {
+      "path": "kernels/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6528e300fad9ddaed84e64dbe907cdb79fb2acea",
+      "size": 7925,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6528e300fad9ddaed84e64dbe907cdb79fb2acea"
+    },
+    {
+      "path": "kernels/README_zh.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f3e5b4e0230c99ff54807dcb45bc2f9fd24b9f4",
+      "size": 7837,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/8f3e5b4e0230c99ff54807dcb45bc2f9fd24b9f4"
+    },
+    {
+      "path": "kernels/attention",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3d0289d69f1f75bdc8b76c8f4cf290faf98915c",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/a3d0289d69f1f75bdc8b76c8f4cf290faf98915c"
+    },
+    {
+      "path": "kernels/attention/attn_bwd_gqa8",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "954035a57ceab90976d5de7d8078e061988666a8",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/954035a57ceab90976d5de7d8078e061988666a8"
+    },
+    {
+      "path": "kernels/attention/attn_bwd_gqa8/h100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f9171a981a6444e618f77dbeb232bdeafbd86a2",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/5f9171a981a6444e618f77dbeb232bdeafbd86a2"
+    },
+    {
+      "path": "kernels/attention/attn_bwd_gqa8/h100/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1fbdfe381e151a2a490e9211d8b3de0862c77fc",
+      "size": 198797,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a1fbdfe381e151a2a490e9211d8b3de0862c77fc"
+    },
+    {
+      "path": "kernels/attention/attn_bwd_mha",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b3eede4bae14e74e10bdd3f16e5ff0f01022fe0",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/0b3eede4bae14e74e10bdd3f16e5ff0f01022fe0"
+    },
+    {
+      "path": "kernels/attention/attn_bwd_mha/b200",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "232b06973a8c333352e15437eaf42f710a19d148",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/232b06973a8c333352e15437eaf42f710a19d148"
+    },
+    {
+      "path": "kernels/attention/attn_bwd_mha/b200/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9bfb33d4fefe72aedf287d1fca079d98920ab79",
+      "size": 177267,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f9bfb33d4fefe72aedf287d1fca079d98920ab79"
+    },
+    {
+      "path": "kernels/attention/attn_bwd_mha/h100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4961ebbd9c4c316ca2a2dd22261e6c89eee0d3b2",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/4961ebbd9c4c316ca2a2dd22261e6c89eee0d3b2"
+    },
+    {
+      "path": "kernels/attention/attn_bwd_mha/h100/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e274cc5676a1ed9cd22e359d8d5a1f6ca2cc46bb",
+      "size": 65191,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/e274cc5676a1ed9cd22e359d8d5a1f6ca2cc46bb"
+    },
+    {
+      "path": "kernels/attention/attn_fwd_gqa16",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7364a96a46df6976cdf71ca0eca9f7442a4a6e5b",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/7364a96a46df6976cdf71ca0eca9f7442a4a6e5b"
+    },
+    {
+      "path": "kernels/attention/attn_fwd_gqa16/h100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "83f758a742dd4131856c9ade5694be1fc58fd65a",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/83f758a742dd4131856c9ade5694be1fc58fd65a"
+    },
+    {
+      "path": "kernels/attention/attn_fwd_gqa16/h100/from_agent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b2c707270cb2b38660df8b520bc3c400b0f3ee90",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/b2c707270cb2b38660df8b520bc3c400b0f3ee90"
+    },
+    {
+      "path": "kernels/attention/attn_fwd_gqa16/h100/from_agent/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f373a5e027c1b037a1c57e73912348abebc4189b",
+      "size": 128554,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f373a5e027c1b037a1c57e73912348abebc4189b"
+    },
+    {
+      "path": "kernels/attention/attn_fwd_gqa16/h100/gen0",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e1aaab9b18dab91b84272e359370b10080c72667",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/e1aaab9b18dab91b84272e359370b10080c72667"
+    },
+    {
+      "path": "kernels/attention/attn_fwd_gqa16/h100/gen0/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9eef17953f68e7ce4cbe1ee91c2e53c240b5f4dd",
+      "size": 52631,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/9eef17953f68e7ce4cbe1ee91c2e53c240b5f4dd"
+    },
+    {
+      "path": "kernels/attention/attn_fwd_gqa16/h100/gen1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee56be27318011ec01f6f74be53525749f0fbebf",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/ee56be27318011ec01f6f74be53525749f0fbebf"
+    },
+    {
+      "path": "kernels/attention/attn_fwd_gqa16/h100/gen1/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c9726597dd0e307ddca7fee065951814a976014",
+      "size": 105042,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/4c9726597dd0e307ddca7fee065951814a976014"
+    },
+    {
+      "path": "kernels/attention/attn_fwd_gqa16/h100/gen2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2f07e2c397e8dceb43e6c263b13f1f1d9b31df82",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/2f07e2c397e8dceb43e6c263b13f1f1d9b31df82"
+    },
+    {
+      "path": "kernels/attention/attn_fwd_gqa16/h100/gen2/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7ff2cd0b0edd4e986190875c99af42e7bee728f",
+      "size": 88751,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/d7ff2cd0b0edd4e986190875c99af42e7bee728f"
+    },
+    {
+      "path": "kernels/attention/gqa_paged_decode",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "03e4f45a31d7c5500873beb41353226fa86a15d3",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/03e4f45a31d7c5500873beb41353226fa86a15d3"
+    },
+    {
+      "path": "kernels/attention/gqa_paged_decode/h100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f726b5753c7c95bb6297e6c25dd4ced54fc69440",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/f726b5753c7c95bb6297e6c25dd4ced54fc69440"
+    },
+    {
+      "path": "kernels/attention/gqa_paged_decode/h100/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "647899fc439ab00efb91a644a310bbb23666b269",
+      "size": 17852,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/647899fc439ab00efb91a644a310bbb23666b269"
+    },
+    {
+      "path": "kernels/attention/mla_paged_decode",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fecedd6a182a274669836bc40d4ec15e28ad4a48",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/fecedd6a182a274669836bc40d4ec15e28ad4a48"
+    },
+    {
+      "path": "kernels/attention/mla_paged_decode/h100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4600a3fe03ea31ef730fa106f8657cece1287977",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/4600a3fe03ea31ef730fa106f8657cece1287977"
+    },
+    {
+      "path": "kernels/attention/mla_paged_decode/h100/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b12686a45019873460432dc301d59d0bbbc48043",
+      "size": 50662,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/b12686a45019873460432dc301d59d0bbbc48043"
+    },
+    {
+      "path": "kernels/attention/mla_paged_prefill",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cb51dba45c7b17e03db3066aebb757a837daf587",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/cb51dba45c7b17e03db3066aebb757a837daf587"
+    },
+    {
+      "path": "kernels/attention/mla_paged_prefill/h100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fdbe22133bc4b44deaa3e93eb750f87f01fdb054",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/fdbe22133bc4b44deaa3e93eb750f87f01fdb054"
+    },
+    {
+      "path": "kernels/attention/mla_paged_prefill/h100/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f50c09fc08fb6ff3c866411c2619314112b09765",
+      "size": 32768,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f50c09fc08fb6ff3c866411c2619314112b09765"
+    },
+    {
+      "path": "kernels/conv",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "882cf740f06cb56570958ba9cec7c96379bc49c3",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/882cf740f06cb56570958ba9cec7c96379bc49c3"
+    },
+    {
+      "path": "kernels/conv/conv2d_dgrad",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a617f780cdcdd54296f611cc2b881f54d7cbb3b8",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/a617f780cdcdd54296f611cc2b881f54d7cbb3b8"
+    },
+    {
+      "path": "kernels/conv/conv2d_dgrad/h100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "05b01ce9f00857a2caec0583290788f5704ac9bc",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/05b01ce9f00857a2caec0583290788f5704ac9bc"
+    },
+    {
+      "path": "kernels/conv/conv2d_dgrad/h100/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dd0356fcebc3164d6be91cdc23f4ea31f543453",
+      "size": 59749,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/8dd0356fcebc3164d6be91cdc23f4ea31f543453"
+    },
+    {
+      "path": "kernels/conv/conv2d_wgrad",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2393b355a9462c8c847a8ec46f3c13d4f313c24b",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/2393b355a9462c8c847a8ec46f3c13d4f313c24b"
+    },
+    {
+      "path": "kernels/conv/conv2d_wgrad/h100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b3c4e8ed0df4b14385f79806ef30674e8ff2bdcf",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/b3c4e8ed0df4b14385f79806ef30674e8ff2bdcf"
+    },
+    {
+      "path": "kernels/conv/conv2d_wgrad/h100/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c421b66059478db66dd5152d3a82f015c3eed4a1",
+      "size": 29948,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c421b66059478db66dd5152d3a82f015c3eed4a1"
+    },
+    {
+      "path": "kernels/conv/conv3d_fwd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27a68fdc00ef2968dd92f8905b675377d6529aaf",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/27a68fdc00ef2968dd92f8905b675377d6529aaf"
+    },
+    {
+      "path": "kernels/conv/conv3d_fwd/h100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e14b0a18eb793690af6d0b7678d75b3e9e7d1076",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/e14b0a18eb793690af6d0b7678d75b3e9e7d1076"
+    },
+    {
+      "path": "kernels/conv/conv3d_fwd/h100/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "501ea83807ba858e9c6f0a7142ae393d8f7a36ff",
+      "size": 26851,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/501ea83807ba858e9c6f0a7142ae393d8f7a36ff"
+    },
+    {
+      "path": "kernels/gemm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa2b132b64ef8c19b08d0fe54166d149c0b38dc1",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/fa2b132b64ef8c19b08d0fe54166d149c0b38dc1"
+    },
+    {
+      "path": "kernels/gemm/fp4_grouped_gemm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ce5fda38a4b449b32ec9284aba210213c7adc75d",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/ce5fda38a4b449b32ec9284aba210213c7adc75d"
+    },
+    {
+      "path": "kernels/gemm/fp4_grouped_gemm/b200",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6331a86a10a89941d377c74c450244b2dee5d481",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/6331a86a10a89941d377c74c450244b2dee5d481"
+    },
+    {
+      "path": "kernels/gemm/fp4_grouped_gemm/b200/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aacafab92d6f9e1e5c193dd64ba7e888e6dc8bb8",
+      "size": 158440,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/aacafab92d6f9e1e5c193dd64ba7e888e6dc8bb8"
+    },
+    {
+      "path": "kernels/gemm/fp8_gemm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "11e4ba48358ad156e22baadfd6a8e0edda652375",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/11e4ba48358ad156e22baadfd6a8e0edda652375"
+    },
+    {
+      "path": "kernels/gemm/fp8_gemm/h100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "039481743413460a5776d421319b970948d902a8",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/039481743413460a5776d421319b970948d902a8"
+    },
+    {
+      "path": "kernels/gemm/fp8_gemm/h100/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e8afc6a1be9d2c4821ba7a3e354a337db8d45c2",
+      "size": 59216,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6e8afc6a1be9d2c4821ba7a3e354a337db8d45c2"
+    },
+    {
+      "path": "kernels/gemm/gemm_fp16",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f3b966e7a84d220c58d28448051e341dad1b1cf",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/4f3b966e7a84d220c58d28448051e341dad1b1cf"
+    },
+    {
+      "path": "kernels/gemm/gemm_fp16/h100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2875d2c35e5d0b7cc0b23a3aec17cb5279777d2f",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/2875d2c35e5d0b7cc0b23a3aec17cb5279777d2f"
+    },
+    {
+      "path": "kernels/gemm/gemm_fp16/h100/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67c43f8619afc0e4d736434576a1c3003458daf7",
+      "size": 37911,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/67c43f8619afc0e4d736434576a1c3003458daf7"
+    },
+    {
+      "path": "kernels/linear_attention",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6f6fe670354563765e8d65fbd6564f7d186b797",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/e6f6fe670354563765e8d65fbd6564f7d186b797"
+    },
+    {
+      "path": "kernels/linear_attention/gdn_prefill_bwd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "825a54a3e3c1afaaf243a5afb8c75616d9298d91",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/825a54a3e3c1afaaf243a5afb8c75616d9298d91"
+    },
+    {
+      "path": "kernels/linear_attention/gdn_prefill_bwd/h100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f63e3c71ba398aba23eb75a6a9c53ca1a1301bcf",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/f63e3c71ba398aba23eb75a6a9c53ca1a1301bcf"
+    },
+    {
+      "path": "kernels/linear_attention/gdn_prefill_bwd/h100/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97f6f860497c7b48c47c11a8b0ccfd3564ae38da",
+      "size": 219611,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/97f6f860497c7b48c47c11a8b0ccfd3564ae38da"
+    },
+    {
+      "path": "kernels/linear_attention/gdn_prefill_fwd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ea69dfe9f8836afa19e79fcb34984909fca5173c",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/ea69dfe9f8836afa19e79fcb34984909fca5173c"
+    },
+    {
+      "path": "kernels/linear_attention/gdn_prefill_fwd/h100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6873529bae3b886d6686b877085c583b9d87b01f",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/6873529bae3b886d6686b877085c583b9d87b01f"
+    },
+    {
+      "path": "kernels/linear_attention/gdn_prefill_fwd/h100/from_agent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a64df0e18a8867e13dc069f28323ef9c320c052",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/8a64df0e18a8867e13dc069f28323ef9c320c052"
+    },
+    {
+      "path": "kernels/linear_attention/gdn_prefill_fwd/h100/from_agent/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8676dc7c8ddf2087fea5559d0ffa1f08a678c4a0",
+      "size": 77848,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/8676dc7c8ddf2087fea5559d0ffa1f08a678c4a0"
+    },
+    {
+      "path": "kernels/linear_attention/gdn_prefill_fwd/h100/gen0",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a1b4b449652a41cc411178363f87059e390c37a",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/2a1b4b449652a41cc411178363f87059e390c37a"
+    },
+    {
+      "path": "kernels/linear_attention/gdn_prefill_fwd/h100/gen0/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19f45738e37b7870ee43a50dac373abbb6c3d3da",
+      "size": 125572,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/19f45738e37b7870ee43a50dac373abbb6c3d3da"
+    },
+    {
+      "path": "kernels/linear_attention/gdn_prefill_varlen",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3ece5ddfb291cc83a7bc63b97930ef7f25453ca5",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/3ece5ddfb291cc83a7bc63b97930ef7f25453ca5"
+    },
+    {
+      "path": "kernels/linear_attention/gdn_prefill_varlen/b200",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f640aa11186ebc7eb5181e85cbee1a34d8fd48eb",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/f640aa11186ebc7eb5181e85cbee1a34d8fd48eb"
+    },
+    {
+      "path": "kernels/linear_attention/gdn_prefill_varlen/b200/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c77498ded8669a9db2f83642359d642d0f3d569",
+      "size": 180486,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/9c77498ded8669a9db2f83642359d642d0f3d569"
+    },
+    {
+      "path": "kernels/linear_attention/recurrent_kda_prefill",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49fafd2d13f3794e68fd611e0e4b3a592fb8d946",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/49fafd2d13f3794e68fd611e0e4b3a592fb8d946"
+    },
+    {
+      "path": "kernels/linear_attention/recurrent_kda_prefill/b200",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e0db0baeb5506453cba761f5753db75c3220da9",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/5e0db0baeb5506453cba761f5753db75c3220da9"
+    },
+    {
+      "path": "kernels/linear_attention/recurrent_kda_prefill/b200/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "547d0b27cf24f7b913f2cb29b3cc2670c13dea08",
+      "size": 812618,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/547d0b27cf24f7b913f2cb29b3cc2670c13dea08"
+    },
+    {
+      "path": "kernels/sparse_attention",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "98a8ecd632a85bd43f86903c69e8799b071fa71b",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/98a8ecd632a85bd43f86903c69e8799b071fa71b"
+    },
+    {
+      "path": "kernels/sparse_attention/dsa_indexer_bwd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "99751bc2b98f1c723eb84613a9514a2c02c153c4",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/99751bc2b98f1c723eb84613a9514a2c02c153c4"
+    },
+    {
+      "path": "kernels/sparse_attention/dsa_indexer_bwd/h100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ecda43bc52394f54078d537b0e34c66ed118ce7d",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/ecda43bc52394f54078d537b0e34c66ed118ce7d"
+    },
+    {
+      "path": "kernels/sparse_attention/dsa_indexer_bwd/h100/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afd6b3089646e5826710f9d997e2856119a44af2",
+      "size": 78901,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/afd6b3089646e5826710f9d997e2856119a44af2"
+    },
+    {
+      "path": "kernels/sparse_attention/dsa_score_recompute",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01f5f03cc631e1213473f0499ad5090cffe97d85",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/01f5f03cc631e1213473f0499ad5090cffe97d85"
+    },
+    {
+      "path": "kernels/sparse_attention/dsa_score_recompute/h100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "516c10d12c4a76fe74fd07e7eea45e048be2e545",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/516c10d12c4a76fe74fd07e7eea45e048be2e545"
+    },
+    {
+      "path": "kernels/sparse_attention/dsa_score_recompute/h100/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1eba9c38bf610a536e36ba6a085e75f1cffa9da9",
+      "size": 41129,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/1eba9c38bf610a536e36ba6a085e75f1cffa9da9"
+    },
+    {
+      "path": "kernels/sparse_attention/dsa_sparse_bwd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e8bd823675a7f25a49a4cc2eef2715857ef819f7",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/e8bd823675a7f25a49a4cc2eef2715857ef819f7"
+    },
+    {
+      "path": "kernels/sparse_attention/dsa_sparse_bwd/h100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e7b8830e3c45b64c2438040a26c70dd6fba4b18d",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/e7b8830e3c45b64c2438040a26c70dd6fba4b18d"
+    },
+    {
+      "path": "kernels/sparse_attention/dsa_sparse_bwd/h100/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "656947044886f7c123e04f2e1ea982637e65852c",
+      "size": 91147,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/656947044886f7c123e04f2e1ea982637e65852c"
+    },
+    {
+      "path": "kernels/sparse_attention/dsv41_fused_attn_rope_cast",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2ae6baf366126721b2d76b34928f299c25b57add",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/2ae6baf366126721b2d76b34928f299c25b57add"
+    },
+    {
+      "path": "kernels/sparse_attention/dsv41_fused_attn_rope_cast/b200",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "86cb51ea8b39b8e7a81be793a3085eec92830c8d",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/86cb51ea8b39b8e7a81be793a3085eec92830c8d"
+    },
+    {
+      "path": "kernels/sparse_attention/dsv41_fused_attn_rope_cast/b200/dsa.cu",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43262afc4d9baa0710772ca30c45bf6b922ab8e1",
+      "size": 39879,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/43262afc4d9baa0710772ca30c45bf6b922ab8e1"
+    },
+    {
+      "path": "kernels/sparse_attention/dsv41_fused_attn_rope_cast/b200/dsa_ptx.cuh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa00431f3df60bad3d8bd398be4a102fc8334322",
+      "size": 16470,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/fa00431f3df60bad3d8bd398be4a102fc8334322"
+    },
+    {
+      "path": "kernels/sparse_attention/dsv41_fused_attn_rope_cast/b200/kernel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4079f8df4f629545c03109c9990cc393a0dbbfcb",
+      "size": 3066,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/4079f8df4f629545c03109c9990cc393a0dbbfcb"
+    },
+    {
+      "path": "local.env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e84a27dc982a104d8015f80afdef7d60db180b9a",
+      "size": 831,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/e84a27dc982a104d8015f80afdef7d60db180b9a"
+    },
+    {
+      "path": "meta",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8eeb83c4e6d3f7901ac83f30b6d2cf32d81a9373",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/8eeb83c4e6d3f7901ac83f30b6d2cf32d81a9373"
+    },
+    {
+      "path": "meta/cuda",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0796a6deb8982bd2b5ce65d881c0209e092104dd",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/0796a6deb8982bd2b5ce65d881c0209e092104dd"
+    },
+    {
+      "path": "meta/cuda/distill_blackbox_prompt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65b9951581edaefea49f10a1c0f1e66c83874990",
+      "size": 32632,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/65b9951581edaefea49f10a1c0f1e66c83874990"
+    },
+    {
+      "path": "meta/cuda/distill_prompt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d8217a5fa5e4cf1f2f86e3734ec954a488f244f",
+      "size": 28576,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6d8217a5fa5e4cf1f2f86e3734ec954a488f244f"
+    },
+    {
+      "path": "meta/cuda/kb_harvest_prompt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3663010dd5fb37db459d3716316cc9c946c1788f",
+      "size": 8442,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/3663010dd5fb37db459d3716316cc9c946c1788f"
+    },
+    {
+      "path": "meta/cuda/kb_recipe_prompt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bbb488bebeac9c71d018c7463732eb4799ee079",
+      "size": 6560,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/1bbb488bebeac9c71d018c7463732eb4799ee079"
+    },
+    {
+      "path": "meta/cuda/patch_prompt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42d733c0d4c4f7a2567fa3ada1bc2d33ab940c71",
+      "size": 13146,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/42d733c0d4c4f7a2567fa3ada1bc2d33ab940c71"
+    },
+    {
+      "path": "meta/cuda/recon_prompt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53fcd1b7dbadee48a688c025872c3455bfccb472",
+      "size": 43376,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/53fcd1b7dbadee48a688c025872c3455bfccb472"
+    },
+    {
+      "path": "meta/cuda/student_prompt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dab3d3fadceb3bbaec7effdaaa890bdf3f58d738",
+      "size": 21026,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/dab3d3fadceb3bbaec7effdaaa890bdf3f58d738"
+    },
+    {
+      "path": "meta/cuda/verdict_probe_brief.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94370f95c9cd9c199201e1e8173fbac3e44410e0",
+      "size": 5973,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/94370f95c9cd9c199201e1e8173fbac3e44410e0"
+    },
+    {
+      "path": "meta/diagnose_prompt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "349020823ab5e3e14b93a9bc058df9beb88ff7e3",
+      "size": 28858,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/349020823ab5e3e14b93a9bc058df9beb88ff7e3"
+    },
+    {
+      "path": "meta/distill_blackbox_prompt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d9a4005fb118d1b1b34292ae1bad9951a4db520",
+      "size": 32051,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/1d9a4005fb118d1b1b34292ae1bad9951a4db520"
+    },
+    {
+      "path": "meta/distill_prompt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5a26b3f55fd6dc33787256633d977ac669ab6e6",
+      "size": 28303,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a5a26b3f55fd6dc33787256633d977ac669ab6e6"
+    },
+    {
+      "path": "meta/kb_harvest_prompt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "908d2e0ca4e60572127cf9903d3ca3ba51953898",
+      "size": 8373,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/908d2e0ca4e60572127cf9903d3ca3ba51953898"
+    },
+    {
+      "path": "meta/kb_recipe_prompt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1f975d5d62086ad63a072cc2bcdcf8d71183355",
+      "size": 5952,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/b1f975d5d62086ad63a072cc2bcdcf8d71183355"
+    },
+    {
+      "path": "meta/m0_audit_prompt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ac545cf6dacf624ae6716db867865cdf3d9df97",
+      "size": 8699,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/1ac545cf6dacf624ae6716db867865cdf3d9df97"
+    },
+    {
+      "path": "meta/patch_prompt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dfad84d89b658c2db21bc515998ef97243a1ebe",
+      "size": 13023,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/7dfad84d89b658c2db21bc515998ef97243a1ebe"
+    },
+    {
+      "path": "meta/recon_prompt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c6fcf615fa7bc4573bf57e196546ef8170366bc",
+      "size": 42519,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/0c6fcf615fa7bc4573bf57e196546ef8170366bc"
+    },
+    {
+      "path": "meta/student_prompt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a47a99dc5a7168b2944cc851b61d71230ebe8099",
+      "size": 19785,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a47a99dc5a7168b2944cc851b61d71230ebe8099"
+    },
+    {
+      "path": "meta/verdict_probe_brief.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "937c2e4f34acbab475897949fcba0013f0bf2693",
+      "size": 5466,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/937c2e4f34acbab475897949fcba0013f0bf2693"
+    },
+    {
+      "path": "meta/verdict_probe_brief_audit.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9169f6db6586bb8078569993ae4aaf4d7715d934",
+      "size": 1762,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/9169f6db6586bb8078569993ae4aaf4d7715d934"
+    },
+    {
+      "path": "meta_milestone.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4b748c79b50a2f7f6f5db224eeef2fa5da47097",
+      "size": 57828,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/e4b748c79b50a2f7f6f5db224eeef2fa5da47097"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac50195c8f0be225e69c495754a37b7e51656844",
+      "size": 599,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/ac50195c8f0be225e69c495754a37b7e51656844"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c9eed516cd4ba2747d3abc71645aae878fcc130",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/2c9eed516cd4ba2747d3abc71645aae878fcc130"
+    },
+    {
+      "path": "scripts/agent-claude.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "394ea781a4c52c0dcfae942a1f9fc19df742e678",
+      "size": 1897,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/394ea781a4c52c0dcfae942a1f9fc19df742e678"
+    },
+    {
+      "path": "scripts/agent_policy_hook.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04316c3668d4f682f5dec10c338ad1e7a8e21584",
+      "size": 7550,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/04316c3668d4f682f5dec10c338ad1e7a8e21584"
+    },
+    {
+      "path": "scripts/blackbox-guard.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "713e3bfa6a1d15d2138a968a2ab696c64e85f385",
+      "size": 9213,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/713e3bfa6a1d15d2138a968a2ab696c64e85f385"
+    },
+    {
+      "path": "scripts/claude-goal.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1a9bc474c58b0e36aa421e2c46cb2e5e6b13e6a6",
+      "size": 44177,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/1a9bc474c58b0e36aa421e2c46cb2e5e6b13e6a6"
+    },
+    {
+      "path": "scripts/claude-goal.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "846c62fbd5e3251be0f8f389212d5cedb88c7500",
+      "size": 631,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/846c62fbd5e3251be0f8f389212d5cedb88c7500"
+    },
+    {
+      "path": "scripts/self_evolve.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c43ff4962580fcfc0339beb9915f72e8a8ccb1de",
+      "size": 5878,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c43ff4962580fcfc0339beb9915f72e8a8ccb1de"
+    },
+    {
+      "path": "scripts/timeout-run.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "88d8ab1518d8df3f3dc167657c3176dbf4dd1c36",
+      "size": 2793,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/88d8ab1518d8df3f3dc167657c3176dbf4dd1c36"
+    },
+    {
+      "path": "skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c81fe81db8f74bd6e0d2edd087fed8bff89d466",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/6c81fe81db8f74bd6e0d2edd087fed8bff89d466"
+    },
+    {
+      "path": "skills/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cd98b3041e35c52b50f6cb88cdab5f36efb5a31",
+      "size": 1442,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/7cd98b3041e35c52b50f6cb88cdab5f36efb5a31"
+    },
+    {
+      "path": "skills/job-env-check",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f919e95be2fc193aa205ac30ad687392d6ec6c01",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/f919e95be2fc193aa205ac30ad687392d6ec6c01"
+    },
+    {
+      "path": "skills/job-env-check/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fa710c82e0979b21f498c917067b42668ba1c82",
+      "size": 622,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/1fa710c82e0979b21f498c917067b42668ba1c82"
+    },
+    {
+      "path": "skills/job-env-check/job_env_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b4190170eb48f05f35d9999eeb4aa0484bda9c5",
+      "size": 3570,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/9b4190170eb48f05f35d9999eeb4aa0484bda9c5"
+    },
+    {
+      "path": "skills/lever-pricing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b6c9f13d87b79202eb9e6c23612060ff7d02d34d",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/b6c9f13d87b79202eb9e6c23612060ff7d02d34d"
+    },
+    {
+      "path": "skills/lever-pricing/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce9c7d6168f29bae551f2d84b7cbee0e9533ba89",
+      "size": 1278,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/ce9c7d6168f29bae551f2d84b7cbee0e9533ba89"
+    },
+    {
+      "path": "skills/lever-pricing/lever_pricing_run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c9afe143c775ac7a59df712db3675961542e688",
+      "size": 67820,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/3c9afe143c775ac7a59df712db3675961542e688"
+    },
+    {
+      "path": "skills/ncu-trace",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aeca554531ceee161a122e7b6c2f4f87d19fb710",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/aeca554531ceee161a122e7b6c2f4f87d19fb710"
+    },
+    {
+      "path": "skills/ncu-trace/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdc8bb60ee48c17aa29fd32c6f8475811f6e2755",
+      "size": 6671,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/bdc8bb60ee48c17aa29fd32c6f8475811f6e2755"
+    },
+    {
+      "path": "skills/orchestration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c21a005aa003828b09e669c90f2bd76e4ab2e3a",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/7c21a005aa003828b09e669c90f2bd76e4ab2e3a"
+    },
+    {
+      "path": "skills/orchestration/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48a05557230b9393a7eea34f5f4a57c1ce4e6125",
+      "size": 1090,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/48a05557230b9393a7eea34f5f4a57c1ce4e6125"
+    },
+    {
+      "path": "skills/orchestration/orch_census_run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "858c470cbb07bca2511d2f91e0078ebe5135224a",
+      "size": 13722,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/858c470cbb07bca2511d2f91e0078ebe5135224a"
+    },
+    {
+      "path": "skills/orchestration/orch_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "916b5c8a52478883f6953cd89772797e4be7b2a6",
+      "size": 58253,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/916b5c8a52478883f6953cd89772797e4be7b2a6"
+    },
+    {
+      "path": "skills/orchestration/role_exposure_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5e8d6a6425ec624084b0175a809f97d685d6efc",
+      "size": 18676,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c5e8d6a6425ec624084b0175a809f97d685d6efc"
+    },
+    {
+      "path": "skills/sass",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "059ce2ca8684106e305756136d3bcaeeb0af7f5e",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/059ce2ca8684106e305756136d3bcaeeb0af7f5e"
+    },
+    {
+      "path": "skills/sass/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fdc8c7b2ac948d631077dc2aad5dbd976846c78",
+      "size": 1433,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6fdc8c7b2ac948d631077dc2aad5dbd976846c78"
+    },
+    {
+      "path": "skills/sass/launch_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0eb80a1dbf2bde9bfe61bce8c918388efabc291d",
+      "size": 11222,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/0eb80a1dbf2bde9bfe61bce8c918388efabc291d"
+    },
+    {
+      "path": "skills/sass/sass_census.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8479e3820dc2213554d3393c07b1f0f538df3234",
+      "size": 12770,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/8479e3820dc2213554d3393c07b1f0f538df3234"
+    },
+    {
+      "path": "skills/sass/sass_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "721d7319e85f13d8bb5ea506fda58f535f2b7f24",
+      "size": 11042,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/721d7319e85f13d8bb5ea506fda58f535f2b7f24"
+    },
+    {
+      "path": "skills/sass/sched_live_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ceb3e7de4d29190e3d6ec7888135cf2129e2d32b",
+      "size": 39871,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/ceb3e7de4d29190e3d6ec7888135cf2129e2d32b"
+    },
+    {
+      "path": "skills/sass/struct_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23bfd6557d109c05747d699ca52ba749359e7849",
+      "size": 24953,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/23bfd6557d109c05747d699ca52ba749359e7849"
+    },
+    {
+      "path": "skills/stall",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab65683f561494abbd99987d1bcc988b20b79774",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/ab65683f561494abbd99987d1bcc988b20b79774"
+    },
+    {
+      "path": "skills/stall/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4e751ce4968a7d02da161e62931a2e672caf824",
+      "size": 818,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c4e751ce4968a7d02da161e62931a2e672caf824"
+    },
+    {
+      "path": "skills/stall/stall_price_run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75ccb691e9386306403cf5f284207a6330d228e1",
+      "size": 20689,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/75ccb691e9386306403cf5f284207a6330d228e1"
+    },
+    {
+      "path": "skills/stall/stall_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1c56c5f0478bfe923788ee10d77d9bfd6659617",
+      "size": 31933,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c1c56c5f0478bfe923788ee10d77d9bfd6659617"
+    },
+    {
+      "path": "skills/timeline",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eebacc7a023f836af92ce462679d6b0fbcaeab0c",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/eebacc7a023f836af92ce462679d6b0fbcaeab0c"
+    },
+    {
+      "path": "skills/timeline/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a06f6d0e1afb72397cda1bb25814685196f7b1e2",
+      "size": 1119,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a06f6d0e1afb72397cda1bb25814685196f7b1e2"
+    },
+    {
+      "path": "skills/timeline/pm_timeline_run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8677538fb9394306aa2a7f55360f5984acff1024",
+      "size": 3181,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/8677538fb9394306aa2a7f55360f5984acff1024"
+    },
+    {
+      "path": "skills/timeline/pm_timeline_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "554c6fab7a0baa80fc58520bc86475e66404df88",
+      "size": 15545,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/554c6fab7a0baa80fc58520bc86475e66404df88"
+    },
+    {
+      "path": "skills/timeline/timeline_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfd925c0bc23816959d4f3a63989cdb74c3b3ea4",
+      "size": 83965,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/dfd925c0bc23816959d4f3a63989cdb74c3b3ea4"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09ec9357cba5891b93b6148ee94497b5835a1fe7",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/09ec9357cba5891b93b6148ee94497b5835a1fe7"
+    },
+    {
+      "path": "src/forgekernel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "56e6cd771131d68c5bce8a739920e68bcf95789f",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/56e6cd771131d68c5bce8a739920e68bcf95789f"
+    },
+    {
+      "path": "src/forgekernel/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0ec394357dae80e1fd36ccbdc9c8bc3bcc21af9",
+      "size": 149,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a0ec394357dae80e1fd36ccbdc9c8bc3bcc21af9"
+    },
+    {
+      "path": "src/forgekernel/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26508466068daf00e5e3429c7c59f70710b13459",
+      "size": 3996,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/26508466068daf00e5e3429c7c59f70710b13459"
+    },
+    {
+      "path": "src/forgekernel/agents.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eff89ed721dde8c0429bf7912f0182bbc28618c5",
+      "size": 1348,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/eff89ed721dde8c0429bf7912f0182bbc28618c5"
+    },
+    {
+      "path": "src/forgekernel/baseline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f8b1c0b6df16084cd0ba971c79cb1687ba697cc",
+      "size": 22038,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/4f8b1c0b6df16084cd0ba971c79cb1687ba697cc"
+    },
+    {
+      "path": "src/forgekernel/baseline_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aef78f01e19feb57a75b8610dd2da16aabd172fd",
+      "size": 24771,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/aef78f01e19feb57a75b8610dd2da16aabd172fd"
+    },
+    {
+      "path": "src/forgekernel/binref.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01f86929e9b70db7735eac8277e3def5471886a9",
+      "size": 21143,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/01f86929e9b70db7735eac8277e3def5471886a9"
+    },
+    {
+      "path": "src/forgekernel/binref_tool.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11da59b46fcc386fdece02d1fce26bbc438dd18a",
+      "size": 7940,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/11da59b46fcc386fdece02d1fce26bbc438dd18a"
+    },
+    {
+      "path": "src/forgekernel/card_template",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9b5b4ab317cc43fbd98e3082ea8e9effd780dd32",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/9b5b4ab317cc43fbd98e3082ea8e9effd780dd32"
+    },
+    {
+      "path": "src/forgekernel/card_template/.gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02c0adbe2fe1fa7b5fce1049d5a7f61dfef89d02",
+      "size": 1345,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/02c0adbe2fe1fa7b5fce1049d5a7f61dfef89d02"
+    },
+    {
+      "path": "src/forgekernel/card_template/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79721f4349a5fec5c495e7b63788a14d238de322",
+      "size": 507,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/79721f4349a5fec5c495e7b63788a14d238de322"
+    },
+    {
+      "path": "src/forgekernel/card_template/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "900a7368874b6323f399973e8464a6e26de9f642",
+      "size": 52890,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/900a7368874b6323f399973e8464a6e26de9f642"
+    },
+    {
+      "path": "src/forgekernel/card_template/eval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0aae6e52919dd950dd8733208b20eb8914efff05",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/0aae6e52919dd950dd8733208b20eb8914efff05"
+    },
+    {
+      "path": "src/forgekernel/card_template/eval/closed_ref.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "206080f778da918cf7ffb7eebb6ad7f0a1cd4843",
+      "size": 35337,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/206080f778da918cf7ffb7eebb6ad7f0a1cd4843"
+    },
+    {
+      "path": "src/forgekernel/card_template/eval/leaderboard.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35f2f578ffa363de0de1d0bb68328239bf3ef500",
+      "size": 137970,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/35f2f578ffa363de0de1d0bb68328239bf3ef500"
+    },
+    {
+      "path": "src/forgekernel/card_template/eval/ncu_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b6bc2e6130b80dab0fbeeca3e2b4c485fa630fd",
+      "size": 448,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/4b6bc2e6130b80dab0fbeeca3e2b4c485fa630fd"
+    },
+    {
+      "path": "src/forgekernel/card_template/eval/precision.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e113f7c39c338c2631b2278726ac04db63b2598",
+      "size": 19042,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/5e113f7c39c338c2631b2278726ac04db63b2598"
+    },
+    {
+      "path": "src/forgekernel/card_template/eval/timing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5f1068392ddadeff99a64ffe4aa327ef81a8943",
+      "size": 42298,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a5f1068392ddadeff99a64ffe4aa327ef81a8943"
+    },
+    {
+      "path": "src/forgekernel/card_template/submit.local.toml.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5df898ca5ced28730920c53be2d0c1dd4af8b8d",
+      "size": 227,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c5df898ca5ced28730920c53be2d0c1dd4af8b8d"
+    },
+    {
+      "path": "src/forgekernel/card_template/submit.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fad7968e2d21f4ec5e8c4e495d8b74b8adc1ee6",
+      "size": 945,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/9fad7968e2d21f4ec5e8c4e495d8b74b8adc1ee6"
+    },
+    {
+      "path": "src/forgekernel/card_template/window.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5751a24be0a7cf25d28c1dc87d88a7724b2ebcd",
+      "size": 8134,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f5751a24be0a7cf25d28c1dc87d88a7724b2ebcd"
+    },
+    {
+      "path": "src/forgekernel/inner",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f256871d0484910028c16845f9f5249007c2f95e",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/f256871d0484910028c16845f9f5249007c2f95e"
+    },
+    {
+      "path": "src/forgekernel/inner/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac33d2a532203727a23857fe12a3996d821426d6",
+      "size": 483,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/ac33d2a532203727a23857fe12a3996d821426d6"
+    },
+    {
+      "path": "src/forgekernel/inner/ncu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c863e18bbdfc1b02f3c5916e26a679f8b236a946",
+      "size": 38572,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c863e18bbdfc1b02f3c5916e26a679f8b236a946"
+    },
+    {
+      "path": "src/forgekernel/inner/results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42346f0fa5841f4fb5d1d34c6ea91c90aabe9616",
+      "size": 2781,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/42346f0fa5841f4fb5d1d34c6ea91c90aabe9616"
+    },
+    {
+      "path": "src/forgekernel/inner/trajectory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "534a317576e83c0b695e5fe8a62d08c367c89d41",
+      "size": 15974,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/534a317576e83c0b695e5fe8a62d08c367c89d41"
+    },
+    {
+      "path": "src/forgekernel/inner/workspace.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c6e5af08fffe2ada12187f9ff5c6e8236205efb",
+      "size": 1221,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/8c6e5af08fffe2ada12187f9ff5c6e8236205efb"
+    },
+    {
+      "path": "src/forgekernel/judge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4025ac3594d27c7b78943a97db62e4ad9a90940",
+      "size": 13068,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a4025ac3594d27c7b78943a97db62e4ad9a90940"
+    },
+    {
+      "path": "src/forgekernel/launch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd099fdafc85aed8c0f23dc5afa4024ee6b1d5d9",
+      "size": 31526,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/cd099fdafc85aed8c0f23dc5afa4024ee6b1d5d9"
+    },
+    {
+      "path": "src/forgekernel/leaderboard.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f131864708c06a3c88e36645fcf1c51f0b329ca",
+      "size": 78661,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/3f131864708c06a3c88e36645fcf1c51f0b329ca"
+    },
+    {
+      "path": "src/forgekernel/localenv.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48bf8be307b9eeb677a7a0c134490a5eeb9a0bd0",
+      "size": 5017,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/48bf8be307b9eeb677a7a0c134490a5eeb9a0bd0"
+    },
+    {
+      "path": "src/forgekernel/loop",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "76e91c104ea1b8893e9e8c9765c48d65d806c39e",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/76e91c104ea1b8893e9e8c9765c48d65d806c39e"
+    },
+    {
+      "path": "src/forgekernel/loop/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bac1becf3a97a046825d91e6a460cb8e348f0c66",
+      "size": 680,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/bac1becf3a97a046825d91e6a460cb8e348f0c66"
+    },
+    {
+      "path": "src/forgekernel/loop/agent_policy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efaa2baa59338359105cad0a0d60694abe595f8f",
+      "size": 32986,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/efaa2baa59338359105cad0a0d60694abe595f8f"
+    },
+    {
+      "path": "src/forgekernel/loop/agentctx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cace2a4974f456133b9d778ed95118d6e561319",
+      "size": 17814,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/1cace2a4974f456133b9d778ed95118d6e561319"
+    },
+    {
+      "path": "src/forgekernel/loop/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f46fb20b4c5912a862b115ec87de3f9fc064fda",
+      "size": 177406,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/1f46fb20b4c5912a862b115ec87de3f9fc064fda"
+    },
+    {
+      "path": "src/forgekernel/loop/driver.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73a0a793e7c900f8264f53f27d8ebed7d0a49a22",
+      "size": 674392,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/73a0a793e7c900f8264f53f27d8ebed7d0a49a22"
+    },
+    {
+      "path": "src/forgekernel/loop/dsl_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9ee78da996ab9e90d771cc6a7eaa3a0afa16d28",
+      "size": 10045,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f9ee78da996ab9e90d771cc6a7eaa3a0afa16d28"
+    },
+    {
+      "path": "src/forgekernel/loop/goal_ref.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "effca153b0868bdd4f86effc27b873c0d9ee5575",
+      "size": 75672,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/effca153b0868bdd4f86effc27b873c0d9ee5575"
+    },
+    {
+      "path": "src/forgekernel/loop/harness_guard.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bc2d694a6cf3a5c777258613dcfc334ae93296f",
+      "size": 7543,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6bc2d694a6cf3a5c777258613dcfc334ae93296f"
+    },
+    {
+      "path": "src/forgekernel/loop/harvest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a0ae514ce9f87db16d43925b871909fdd82f01a",
+      "size": 3878,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/9a0ae514ce9f87db16d43925b871909fdd82f01a"
+    },
+    {
+      "path": "src/forgekernel/loop/job_env.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "388b7f8768b1b45bcda7fab973c2c2bdf99d4315",
+      "size": 2155,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/388b7f8768b1b45bcda7fab973c2c2bdf99d4315"
+    },
+    {
+      "path": "src/forgekernel/loop/kb_lint.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68d08419f5248a0b4a1dc62e4b4bad53d61320dd",
+      "size": 20362,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/68d08419f5248a0b4a1dc62e4b4bad53d61320dd"
+    },
+    {
+      "path": "src/forgekernel/loop/lang_mode.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce504fadede86371dc9e834dca5ff9dbeb6174f0",
+      "size": 5462,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/ce504fadede86371dc9e834dca5ff9dbeb6174f0"
+    },
+    {
+      "path": "src/forgekernel/loop/meta_shapes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "556222ae1b56eb2eb729d64ccfe320dc7e85554f",
+      "size": 39009,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/556222ae1b56eb2eb729d64ccfe320dc7e85554f"
+    },
+    {
+      "path": "src/forgekernel/loop/parse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1d233ec3b4ec649e8959222e8ed7909b8ea87a2",
+      "size": 32996,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c1d233ec3b4ec649e8959222e8ed7909b8ea87a2"
+    },
+    {
+      "path": "src/forgekernel/loop/precision_gate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f6e0cc767cf3c57e1aa024fde79a79954ddfb0d",
+      "size": 11804,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6f6e0cc767cf3c57e1aa024fde79a79954ddfb0d"
+    },
+    {
+      "path": "src/forgekernel/meta_trajectory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27d2188c894d87c29e8ff0cba2b673a6adf87277",
+      "size": 14444,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/27d2188c894d87c29e8ff0cba2b673a6adf87277"
+    },
+    {
+      "path": "src/forgekernel/milestone.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32a7eac5b88a070e0dada885cbd9eed1bfb0a2e6",
+      "size": 45718,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/32a7eac5b88a070e0dada885cbd9eed1bfb0a2e6"
+    },
+    {
+      "path": "src/forgekernel/monitor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a793ded238028e5239d47f61c9d87db7673f798",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/0a793ded238028e5239d47f61c9d87db7673f798"
+    },
+    {
+      "path": "src/forgekernel/monitor/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ea93add106c85924b7ee057fcfc04d64cf86dbe",
+      "size": 17446,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/8ea93add106c85924b7ee057fcfc04d64cf86dbe"
+    },
+    {
+      "path": "src/forgekernel/monitor/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b19674dc4789fd211ed8747ba50a1091009dd5d2",
+      "size": 4405,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/b19674dc4789fd211ed8747ba50a1091009dd5d2"
+    },
+    {
+      "path": "src/forgekernel/monitor/runtime",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7afe22721fd91ab91092996fc010b25b83f2eb09",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/7afe22721fd91ab91092996fc010b25b83f2eb09"
+    },
+    {
+      "path": "src/forgekernel/monitor/runtime/hook",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "98cffcc584c9aeaad219686c8b08ccd027bd8dc9",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/98cffcc584c9aeaad219686c8b08ccd027bd8dc9"
+    },
+    {
+      "path": "src/forgekernel/monitor/runtime/hook/fk_monitor_hook.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49c6c261123c21ed6c9845279c6d01aa4685855e",
+      "size": 22126,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/49c6c261123c21ed6c9845279c6d01aa4685855e"
+    },
+    {
+      "path": "src/forgekernel/monitor/runtime/hook/sitecustomize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0bbc05725149458ee672aa3aeade974460ee1d3",
+      "size": 1264,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/d0bbc05725149458ee672aa3aeade974460ee1d3"
+    },
+    {
+      "path": "src/forgekernel/monitor/runtime/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01d48afaece02d140c00c056fb9b9e9f49d1489c",
+      "size": 9570,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/01d48afaece02d140c00c056fb9b9e9f49d1489c"
+    },
+    {
+      "path": "src/forgekernel/paths.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a79a29514f205367d2079328ec7c108be1c4560e",
+      "size": 1934,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a79a29514f205367d2079328ec7c108be1c4560e"
+    },
+    {
+      "path": "src/forgekernel/provider.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95d514ce7d53878add992a8c3f2ce52165ac1069",
+      "size": 2514,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/95d514ce7d53878add992a8c3f2ce52165ac1069"
+    },
+    {
+      "path": "src/forgekernel/resume",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e55b3c0c98c23d9b5602fb9d635868051b7bafc0",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/e55b3c0c98c23d9b5602fb9d635868051b7bafc0"
+    },
+    {
+      "path": "src/forgekernel/resume/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fe91480f6ffd9b8ba21d062bafe1b08a882bd31",
+      "size": 528,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/4fe91480f6ffd9b8ba21d062bafe1b08a882bd31"
+    },
+    {
+      "path": "src/forgekernel/resume/invalidation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38d86c7d3dc6965d641acdbd61f67cb14ecbf1c1",
+      "size": 4790,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/38d86c7d3dc6965d641acdbd61f67cb14ecbf1c1"
+    },
+    {
+      "path": "src/forgekernel/runs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "458dc4f46f89502d9e7ace2c48fc10603de42304",
+      "size": 6009,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/458dc4f46f89502d9e7ace2c48fc10603de42304"
+    },
+    {
+      "path": "src/forgekernel/scaffold.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec0ab87ddcaea748a6bf78ac8fd9492fa1ff65cf",
+      "size": 18610,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/ec0ab87ddcaea748a6bf78ac8fd9492fa1ff65cf"
+    },
+    {
+      "path": "src/forgekernel/sealref.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e57ee9b23f5d6fcf20c2647a1622670358435261",
+      "size": 16944,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/e57ee9b23f5d6fcf20c2647a1622670358435261"
+    },
+    {
+      "path": "src/forgekernel/sealref_tool.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c48ec5c90010fb6a9128af5484c36beebc6e1ec6",
+      "size": 2859,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c48ec5c90010fb6a9128af5484c36beebc6e1ec6"
+    },
+    {
+      "path": "src/forgekernel/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ce33ec256bcafe6dad572f97237455f6cbd2219d",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/ce33ec256bcafe6dad572f97237455f6cbd2219d"
+    },
+    {
+      "path": "src/forgekernel/skills/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f37c5beba9e2c2ac057118da9ecb2345b06a463",
+      "size": 1679,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/7f37c5beba9e2c2ac057118da9ecb2345b06a463"
+    },
+    {
+      "path": "src/forgekernel/submit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "92b10e15408f2cebfe09f6296ee3a3220301a935",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/92b10e15408f2cebfe09f6296ee3a3220301a935"
+    },
+    {
+      "path": "src/forgekernel/submit/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "529e81b279e1a1dc56420fb59b9d317cd49f1f61",
+      "size": 433,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/529e81b279e1a1dc56420fb59b9d317cd49f1f61"
+    },
+    {
+      "path": "src/forgekernel/submit/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebd0fbe5bc03dab3a26784abb82a44c26136a746",
+      "size": 97,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/ebd0fbe5bc03dab3a26784abb82a44c26136a746"
+    },
+    {
+      "path": "src/forgekernel/submit/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0314288c6ea69c3f56a2bc5f2b569d2a24ce43c",
+      "size": 2924,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/d0314288c6ea69c3f56a2bc5f2b569d2a24ce43c"
+    },
+    {
+      "path": "src/forgekernel/submit/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e5c1be56b92775341916a8ff7d2792d08d6e924",
+      "size": 4319,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/8e5c1be56b92775341916a8ff7d2792d08d6e924"
+    },
+    {
+      "path": "src/forgekernel/submit/direct.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80f09d085c28317336125a20936a4eb181db19e0",
+      "size": 15600,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/80f09d085c28317336125a20936a4eb181db19e0"
+    },
+    {
+      "path": "src/forgekernel/submit/jobs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb5559c38904b7dff079cfb40f931a0e3baaebbc",
+      "size": 7967,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/eb5559c38904b7dff079cfb40f931a0e3baaebbc"
+    },
+    {
+      "path": "src/forgekernel/task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be7105f0cea8e27cd6d8d1d2c6b0b81623badd9b",
+      "size": 29661,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/be7105f0cea8e27cd6d8d1d2c6b0b81623badd9b"
+    },
+    {
+      "path": "src/forgekernel/taskcard.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2e243b23f8697707524e28b3afe866e889d9d4c",
+      "size": 21270,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f2e243b23f8697707524e28b3afe866e889d9d4c"
+    },
+    {
+      "path": "src/forgekernel/timing_audit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b694ab2534d60839bd9e00b4527f785f2051e45",
+      "size": 19262,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/0b694ab2534d60839bd9e00b4527f785f2051e45"
+    },
+    {
+      "path": "src/forgekernel/window_contract.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "334a26ab0a62d64ed66e64f8c812057d8c620901",
+      "size": 59185,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/334a26ab0a62d64ed66e64f8c812057d8c620901"
+    },
+    {
+      "path": "tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fcc70b078a09fd341f49ce8650855a321300a8f1",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/fcc70b078a09fd341f49ce8650855a321300a8f1"
+    },
+    {
+      "path": "tasks/_template",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "02e4dee4fcdb2c5d2338f3928641e9a56bbc8c97",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/02e4dee4fcdb2c5d2338f3928641e9a56bbc8c97"
+    },
+    {
+      "path": "tasks/_template/description.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9eb69672352273b455433f7a0ef36c83a769b872",
+      "size": 529,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/9eb69672352273b455433f7a0ef36c83a769b872"
+    },
+    {
+      "path": "tasks/_template/shapes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d802aaa62d32af5c4efdbcdf60ca9da26140cd1d",
+      "size": 108,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/d802aaa62d32af5c4efdbcdf60ca9da26140cd1d"
+    },
+    {
+      "path": "tasks/_template/task.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "488ffdb98bc32887c0e6dcf3494f4eb17bd4a84a",
+      "size": 1645,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/488ffdb98bc32887c0e6dcf3494f4eb17bd4a84a"
+    },
+    {
+      "path": "tasks/rmsnorm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3965c99f13881b812cb24556a2e131a0a7c09663",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/3965c99f13881b812cb24556a2e131a0a7c09663"
+    },
+    {
+      "path": "tasks/rmsnorm/description.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3badbb8d53c4491ad60fb34e530429b6ff93616a",
+      "size": 794,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/3badbb8d53c4491ad60fb34e530429b6ff93616a"
+    },
+    {
+      "path": "tasks/rmsnorm/reference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "afddbda45ba22eeac9f2ef4fd0ecc01d12378786",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/afddbda45ba22eeac9f2ef4fd0ecc01d12378786"
+    },
+    {
+      "path": "tasks/rmsnorm/reference/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bd4df740a427a31a3dfbd6ebdd36a3cb75793e2",
+      "size": 211,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6bd4df740a427a31a3dfbd6ebdd36a3cb75793e2"
+    },
+    {
+      "path": "tasks/rmsnorm/shapes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fc00a0f87572a886ba2d58a2a9922b378043894",
+      "size": 110,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/0fc00a0f87572a886ba2d58a2a9922b378043894"
+    },
+    {
+      "path": "tasks/rmsnorm/task.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69479c524ea03096f377bce91d2b2eae24887500",
+      "size": 537,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/69479c524ea03096f377bce91d2b2eae24887500"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab502d08e44d51b6c92532b5e351e5dfbb591305",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/ab502d08e44d51b6c92532b5e351e5dfbb591305"
+    },
+    {
+      "path": "tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d690c0be57c1ca6ede3b874573b8073d29268f9",
+      "size": 817,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/4d690c0be57c1ca6ede3b874573b8073d29268f9"
+    },
+    {
+      "path": "tests/fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23c337b6d04ad76af5b873650403af308f2eccc3",
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/trees/23c337b6d04ad76af5b873650403af308f2eccc3"
+    },
+    {
+      "path": "tests/fixtures/infeasible_replay.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "803a06d2d05803241a9dec05baad3114b846c869",
+      "size": 2502,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/803a06d2d05803241a9dec05baad3114b846c869"
+    },
+    {
+      "path": "tests/fixtures/ncu_sample.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37875a8ea98496151438eab0e48e984c6223c912",
+      "size": 4415,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/37875a8ea98496151438eab0e48e984c6223c912"
+    },
+    {
+      "path": "tests/fixtures/stub-claude.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df261683db858279b17058da05c794e3bea5c777",
+      "size": 5648,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/df261683db858279b17058da05c794e3bea5c777"
+    },
+    {
+      "path": "tests/test_agent_policy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e447d63801a22cb0f92608dbb3af9e2917edcc1",
+      "size": 29327,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/2e447d63801a22cb0f92608dbb3af9e2917edcc1"
+    },
+    {
+      "path": "tests/test_agentctx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96b8a6b30457edd95b9936d0978f8c5b06a93b38",
+      "size": 11430,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/96b8a6b30457edd95b9936d0978f8c5b06a93b38"
+    },
+    {
+      "path": "tests/test_baseline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d66c21f1ddd18a831ac96a27aafb6e37d7808db",
+      "size": 21094,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/0d66c21f1ddd18a831ac96a27aafb6e37d7808db"
+    },
+    {
+      "path": "tests/test_binref.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91bbd47576ce614f05484781fcfc1b046d2a2540",
+      "size": 24101,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/91bbd47576ce614f05484781fcfc1b046d2a2540"
+    },
+    {
+      "path": "tests/test_blackbox_fixes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ab264a72a2382378c707168e8932a6b2189463c",
+      "size": 8725,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6ab264a72a2382378c707168e8932a6b2189463c"
+    },
+    {
+      "path": "tests/test_blackbox_guard.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93e767b9c531aab2936e6e48b6d280ec4afe8047",
+      "size": 11550,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/93e767b9c531aab2936e6e48b6d280ec4afe8047"
+    },
+    {
+      "path": "tests/test_claude_goal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6780487d01cfc4df1044c58852c40ea6aef90e1",
+      "size": 16764,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a6780487d01cfc4df1044c58852c40ea6aef90e1"
+    },
+    {
+      "path": "tests/test_cli_window_findings_collision.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "861db973c7c8acff453098fd021c4a66e647d8b1",
+      "size": 1988,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/861db973c7c8acff453098fd021c4a66e647d8b1"
+    },
+    {
+      "path": "tests/test_clock_lock_refusal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d85defba7066572befa8f5c401ed4e8c688130b7",
+      "size": 2914,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/d85defba7066572befa8f5c401ed4e8c688130b7"
+    },
+    {
+      "path": "tests/test_cluster_aware.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de091d44bd5131858a3c64790780fda98c1de692",
+      "size": 11849,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/de091d44bd5131858a3c64790780fda98c1de692"
+    },
+    {
+      "path": "tests/test_correctness_monitor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25d032d3e3781b273949f8f3aed76f736d7877fd",
+      "size": 29133,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/25d032d3e3781b273949f8f3aed76f736d7877fd"
+    },
+    {
+      "path": "tests/test_cuda_mode.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc9105cae82ce00cb28dabdb434a830c18247395",
+      "size": 26858,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/dc9105cae82ce00cb28dabdb434a830c18247395"
+    },
+    {
+      "path": "tests/test_direct_delivery.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "887c34f10e53addeef0b9362dafefcfd4587f997",
+      "size": 10698,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/887c34f10e53addeef0b9362dafefcfd4587f997"
+    },
+    {
+      "path": "tests/test_dsl_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9c8436cf849501b0cd10c3f3abec79bc4a69e27",
+      "size": 11316,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c9c8436cf849501b0cd10c3f3abec79bc4a69e27"
+    },
+    {
+      "path": "tests/test_examples.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2d5addb1e69adb50ca5a75600a31c74815ffbec",
+      "size": 1205,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f2d5addb1e69adb50ca5a75600a31c74815ffbec"
+    },
+    {
+      "path": "tests/test_false_win_guard.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aded1d11f21298db52b8e30ab360417aaa7a5f05",
+      "size": 10328,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/aded1d11f21298db52b8e30ab360417aaa7a5f05"
+    },
+    {
+      "path": "tests/test_gap_queue.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5be1c7360244aa5b64745acdef2bc0e55f982444",
+      "size": 9576,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/5be1c7360244aa5b64745acdef2bc0e55f982444"
+    },
+    {
+      "path": "tests/test_goal_ref.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a863946de3495d919762721d8025a837391ecef1",
+      "size": 25541,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a863946de3495d919762721d8025a837391ecef1"
+    },
+    {
+      "path": "tests/test_harness_guard.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cbfc3a4133780c0795e908bd4fa49b1dbbd5dd4",
+      "size": 13371,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/4cbfc3a4133780c0795e908bd4fa49b1dbbd5dd4"
+    },
+    {
+      "path": "tests/test_harvest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae41ed61f9f6993956947ce1f8e2ee5189e9037e",
+      "size": 3577,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/ae41ed61f9f6993956947ce1f8e2ee5189e9037e"
+    },
+    {
+      "path": "tests/test_idle_iters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "285c6f5d9f4b3f1571c25a896135ffa03c4e6f93",
+      "size": 20731,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/285c6f5d9f4b3f1571c25a896135ffa03c4e6f93"
+    },
+    {
+      "path": "tests/test_inner_results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b47a68d41554a5f2aab390e0031e528a972954f4",
+      "size": 1841,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/b47a68d41554a5f2aab390e0031e528a972954f4"
+    },
+    {
+      "path": "tests/test_inner_trajectory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da2ba82a70ab4aea1af5e5a8a392cad1c0e6908a",
+      "size": 9119,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/da2ba82a70ab4aea1af5e5a8a392cad1c0e6908a"
+    },
+    {
+      "path": "tests/test_inner_workspace.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1422f171594d7553718a14fa21d6769d0407186e",
+      "size": 1512,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/1422f171594d7553718a14fa21d6769d0407186e"
+    },
+    {
+      "path": "tests/test_job_env.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cb71bede2862808080cbdc411cf4177531bff1a",
+      "size": 20469,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/9cb71bede2862808080cbdc411cf4177531bff1a"
+    },
+    {
+      "path": "tests/test_kb_arch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dea876723d187049acf19c8c73a5b5fd11ae882",
+      "size": 10044,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/0dea876723d187049acf19c8c73a5b5fd11ae882"
+    },
+    {
+      "path": "tests/test_kb_axis_harvest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dc0c4f3e533f27782c9b12227a52845d059ed47",
+      "size": 10895,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6dc0c4f3e533f27782c9b12227a52845d059ed47"
+    },
+    {
+      "path": "tests/test_kb_lint.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e5bbee6f59e7a84f6729a4152533807cfb2fb2f",
+      "size": 12695,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/4e5bbee6f59e7a84f6729a4152533807cfb2fb2f"
+    },
+    {
+      "path": "tests/test_launch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f98e32be3165d375c38670825b9fa09ec6beed3",
+      "size": 29013,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/6f98e32be3165d375c38670825b9fa09ec6beed3"
+    },
+    {
+      "path": "tests/test_launch_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a7d9f1a2aafab46d58266fb1e1975713ae52580",
+      "size": 5871,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/0a7d9f1a2aafab46d58266fb1e1975713ae52580"
+    },
+    {
+      "path": "tests/test_leaderboard.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc41611dd22e9998a6c51d4db4aaa3e022f8c1c5",
+      "size": 40337,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/dc41611dd22e9998a6c51d4db4aaa3e022f8c1c5"
+    },
+    {
+      "path": "tests/test_leaderboard_cuda_student.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b67dbec33011b14e28fad3525c66352230757988",
+      "size": 11263,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/b67dbec33011b14e28fad3525c66352230757988"
+    },
+    {
+      "path": "tests/test_leaderboard_runtime.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9ef0f912deaa40471b98f0b25afe591d7b8b7bc",
+      "size": 46604,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f9ef0f912deaa40471b98f0b25afe591d7b8b7bc"
+    },
+    {
+      "path": "tests/test_lever_pricing_run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12919c240704d5da9b3732867c1897305d4afdb7",
+      "size": 59024,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/12919c240704d5da9b3732867c1897305d4afdb7"
+    },
+    {
+      "path": "tests/test_loop_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f89f1e19ee051652025777bf1da2afa0812a364",
+      "size": 61127,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/2f89f1e19ee051652025777bf1da2afa0812a364"
+    },
+    {
+      "path": "tests/test_loop_driver.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3555d54f4698bf613ab865169041214bc1ba1c0d",
+      "size": 448791,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/3555d54f4698bf613ab865169041214bc1ba1c0d"
+    },
+    {
+      "path": "tests/test_loop_parse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bb455b00a56442fbca3f90a81218df4d0a2f778",
+      "size": 23925,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/7bb455b00a56442fbca3f90a81218df4d0a2f778"
+    },
+    {
+      "path": "tests/test_meta_shapes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dc5a81453445ecaa79e4b8825adb7693d659c3a",
+      "size": 30058,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/4dc5a81453445ecaa79e4b8825adb7693d659c3a"
+    },
+    {
+      "path": "tests/test_meta_trajectory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac616810b7d95febb07bb043c68336faf62ba85e",
+      "size": 7535,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/ac616810b7d95febb07bb043c68336faf62ba85e"
+    },
+    {
+      "path": "tests/test_milestone.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92b71a9c43eb8ce7426d4d8c3b0c9eabe4edbcb9",
+      "size": 38650,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/92b71a9c43eb8ce7426d4d8c3b0c9eabe4edbcb9"
+    },
+    {
+      "path": "tests/test_multi_workload_perf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acedb87d5c68e0604968f755b25ecb2cda8225f2",
+      "size": 22047,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/acedb87d5c68e0604968f755b25ecb2cda8225f2"
+    },
+    {
+      "path": "tests/test_ncu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00b497c5e2b40d70a063c3357964fcccd5ef0631",
+      "size": 21088,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/00b497c5e2b40d70a063c3357964fcccd5ef0631"
+    },
+    {
+      "path": "tests/test_node_hygiene.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f055758ce851da6bb83a9b93d16dfdd4b440c37a",
+      "size": 2592,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f055758ce851da6bb83a9b93d16dfdd4b440c37a"
+    },
+    {
+      "path": "tests/test_orch_census_run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a7eed66975c3e7b8ab5890f0e2670983c068fb7",
+      "size": 7531,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/3a7eed66975c3e7b8ab5890f0e2670983c068fb7"
+    },
+    {
+      "path": "tests/test_orch_summary_axes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae5c3be9c0533e648604e55b2a89bec3760d4535",
+      "size": 2958,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/ae5c3be9c0533e648604e55b2a89bec3760d4535"
+    },
+    {
+      "path": "tests/test_orch_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baa4cd27496cae372b205d384e92e02c6813b980",
+      "size": 25631,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/baa4cd27496cae372b205d384e92e02c6813b980"
+    },
+    {
+      "path": "tests/test_pm_timeline_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3db92d6c62db9be719f70612cc70e95bc510e4da",
+      "size": 4608,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/3db92d6c62db9be719f70612cc70e95bc510e4da"
+    },
+    {
+      "path": "tests/test_precision_gate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73eb21483132c67adcde5f5cc554b25bc653dc16",
+      "size": 9990,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/73eb21483132c67adcde5f5cc554b25bc653dc16"
+    },
+    {
+      "path": "tests/test_precision_measure.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16bb28ee4604fbcbfcfefeb78431c12e6f870d9e",
+      "size": 13584,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/16bb28ee4604fbcbfcfefeb78431c12e6f870d9e"
+    },
+    {
+      "path": "tests/test_price_staleness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc303e01bf1144e32436631916906f0bd5de6b47",
+      "size": 22858,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/dc303e01bf1144e32436631916906f0bd5de6b47"
+    },
+    {
+      "path": "tests/test_reopen_in_place.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "422169307c2085e3f145375341540b65756a3712",
+      "size": 8164,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/422169307c2085e3f145375341540b65756a3712"
+    },
+    {
+      "path": "tests/test_repo_hygiene.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "220ed0319e3f504a58478abb624b9fd7425fa52f",
+      "size": 1589,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/220ed0319e3f504a58478abb624b9fd7425fa52f"
+    },
+    {
+      "path": "tests/test_resume_invalidation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc7d7711392164cdc3dcecba28dc7e4d46ae50c5",
+      "size": 3089,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/cc7d7711392164cdc3dcecba28dc7e4d46ae50c5"
+    },
+    {
+      "path": "tests/test_role_exposure_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3252a1a2a3abae055e4ffdf17c8564e89903dad5",
+      "size": 8899,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/3252a1a2a3abae055e4ffdf17c8564e89903dad5"
+    },
+    {
+      "path": "tests/test_runs_localenv.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef652e0d8bb660f28484afa35e4cdd49157dc825",
+      "size": 4680,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/ef652e0d8bb660f28484afa35e4cdd49157dc825"
+    },
+    {
+      "path": "tests/test_sass_census.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e7758f94fe650f77c5230945c3f7affdb29f9c4",
+      "size": 2463,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/5e7758f94fe650f77c5230945c3f7affdb29f9c4"
+    },
+    {
+      "path": "tests/test_sass_precision.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e9a105e50365b40922489cf7d625bde1dfd7e25",
+      "size": 5452,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/4e9a105e50365b40922489cf7d625bde1dfd7e25"
+    },
+    {
+      "path": "tests/test_sass_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca4822d002d64048afe2feaaf9f44957d4905ebc",
+      "size": 6448,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/ca4822d002d64048afe2feaaf9f44957d4905ebc"
+    },
+    {
+      "path": "tests/test_scaffold.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f91ae5529438118f3157b905e9122ed35945c6e9",
+      "size": 10604,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/f91ae5529438118f3157b905e9122ed35945c6e9"
+    },
+    {
+      "path": "tests/test_sched_live_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c53510569478bb7aa02a25eacda858e2e6c2c717",
+      "size": 20228,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c53510569478bb7aa02a25eacda858e2e6c2c717"
+    },
+    {
+      "path": "tests/test_sealref.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d51b4a7933f28745f8f72730c008fdb55b9bfd64",
+      "size": 20954,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/d51b4a7933f28745f8f72730c008fdb55b9bfd64"
+    },
+    {
+      "path": "tests/test_self_evolve.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "761208642ff4f6e9e9227c564787d2c3c1ec5a35",
+      "size": 4480,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/761208642ff4f6e9e9227c564787d2c3c1ec5a35"
+    },
+    {
+      "path": "tests/test_skills.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11d676f04be67f384646ba7e91c3747118898c21",
+      "size": 1988,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/11d676f04be67f384646ba7e91c3747118898c21"
+    },
+    {
+      "path": "tests/test_small_kernel_pricing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6fd0b4e24ca7c96525985840ce77a00b613460b",
+      "size": 13405,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a6fd0b4e24ca7c96525985840ce77a00b613460b"
+    },
+    {
+      "path": "tests/test_stall_price_run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cef2e0b92e09aa8c7e8a3b4128f46ff7fd79aea9",
+      "size": 14757,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/cef2e0b92e09aa8c7e8a3b4128f46ff7fd79aea9"
+    },
+    {
+      "path": "tests/test_stall_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e2e4d409f969d74af91d631d9c3760bc8e634d0",
+      "size": 3252,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/3e2e4d409f969d74af91d631d9c3760bc8e634d0"
+    },
+    {
+      "path": "tests/test_struct_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d82737e5151c3a0c5c1603ddc7f3f052ea166dd5",
+      "size": 9221,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/d82737e5151c3a0c5c1603ddc7f3f052ea166dd5"
+    },
+    {
+      "path": "tests/test_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0e8f380ea50b76c68097f5eb463a576ac8cf5f4",
+      "size": 11058,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/e0e8f380ea50b76c68097f5eb463a576ac8cf5f4"
+    },
+    {
+      "path": "tests/test_task_suite.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69e408aee6848d01bf525601a4db6cf3bf47187c",
+      "size": 10396,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/69e408aee6848d01bf525601a4db6cf3bf47187c"
+    },
+    {
+      "path": "tests/test_teacher_entry_reuse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39a1b5a0139253c9d9ac6aa6927c0492b55bed55",
+      "size": 7720,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/39a1b5a0139253c9d9ac6aa6927c0492b55bed55"
+    },
+    {
+      "path": "tests/test_template_closed_ref.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fab124b6763e6a7783240cf7f097900d5f89bfe",
+      "size": 20571,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/5fab124b6763e6a7783240cf7f097900d5f89bfe"
+    },
+    {
+      "path": "tests/test_template_paired_timing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fc35eb065fae4fcec1d3969967affd30304563b",
+      "size": 8576,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/1fc35eb065fae4fcec1d3969967affd30304563b"
+    },
+    {
+      "path": "tests/test_template_timing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc515c1280e9b7571a043b7d047f1a3e3e764bb0",
+      "size": 13216,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/bc515c1280e9b7571a043b7d047f1a3e3e764bb0"
+    },
+    {
+      "path": "tests/test_timeline_driver.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4168e5ab7e77fda3d75292bcffa4d8625c635f8",
+      "size": 32488,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/c4168e5ab7e77fda3d75292bcffa4d8625c635f8"
+    },
+    {
+      "path": "tests/test_timeline_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3951bbb0c1a2538f30515ccdfc585a4c8bf74ed",
+      "size": 49667,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a3951bbb0c1a2538f30515ccdfc585a4c8bf74ed"
+    },
+    {
+      "path": "tests/test_timeline_probe_overlay.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edf3ebd6f47a6d538fb2535047c43decbcc5d6a3",
+      "size": 3423,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/edf3ebd6f47a6d538fb2535047c43decbcc5d6a3"
+    },
+    {
+      "path": "tests/test_timeout_run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64065710c4ac076482bcbdacc9268eaf62558503",
+      "size": 1460,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/64065710c4ac076482bcbdacc9268eaf62558503"
+    },
+    {
+      "path": "tests/test_timing_audit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92dd1b0ed634d8e5feacdf4dfd9ad9d8030e212e",
+      "size": 10878,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/92dd1b0ed634d8e5feacdf4dfd9ad9d8030e212e"
+    },
+    {
+      "path": "tests/test_wgmma_serial.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2f7513b09602a762526928e9578f43585e5390b",
+      "size": 6526,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/a2f7513b09602a762526928e9578f43585e5390b"
+    },
+    {
+      "path": "tests/test_window_contract.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23f8d4075c3bdbf99e12701bb06cef0a493bf138",
+      "size": 43044,
+      "url": "https://api.github.com/repos/OpenBMB/ForgeKernel/git/blobs/23f8d4075c3bdbf99e12701bb06cef0a493bf138"
+    }
+  ],
+  "truncated": false
+}

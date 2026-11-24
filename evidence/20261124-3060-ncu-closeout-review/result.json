@@ -1,0 +1,9 @@
+{
+  "status": "SCOPED_CLOSEOUT_FINGERPRINTS_AND_DOCUMENTATION_PASS",
+  "closeout_evidence_receipts_verified": 5,
+  "runtime_files_unchanged": 12,
+  "document_links_verified": 197,
+  "original_p6_incomplete_checkboxes_retained": true,
+  "new_gpu_work": false,
+  "new_model_calls": 0
+}

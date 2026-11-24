@@ -1,0 +1,161 @@
+{
+  "sha": "423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+  "node_id": "C_kwDONFg7JtoAKDQyMzIxN2Q5ZmRhOTFlMGMyZDY3ZTRhNDNiZjYyZjk2ZjZkMTA0ZjE",
+  "commit": {
+    "author": {
+      "name": "SebastianFisher",
+      "email": "66392483+SebastianFisher@users.noreply.github.com",
+      "date": "2026-03-05T08:38:15Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-03-05T08:38:15Z"
+    },
+    "message": "update all legacy python commands to UV + document integration (#143)\n\n* fixing torch import missing, replacing some python3 with 'uv run'\n\n* update known integrations\n\n* link ongoing PRs\n\n---------\n\nCo-authored-by: Simon Guo <simonguo@stanford.edu>",
+    "tree": {
+      "sha": "c4de9ae283314a272a8bd08bec3b246dd8605086",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/trees/c4de9ae283314a272a8bd08bec3b246dd8605086"
+    },
+    "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/git/commits/423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpqUD3CRC1aQ7uu5UhlAAAWwIQACrGdFDVV7ynHX1R8rBz2MqW\nqJkrdWjtqQZpJcXk/MlXX7IPmyKBsg2WMo8peyoAOUBe12jIeFnRyQ6h2CSQY7JV\nMdVH0yni5RL1q17cW5WesvZtSRnmtECvxRMM0UFQUu98cb0XWIDibM1oT3yIr/3l\nLrfM3pilxscQ4eKXyF09fRzc63iZMXqoHsfeNa8HVSvjlkWf/9vMdODFPjUTPwSI\n14Vk1mwHwHz0rAShhepwOzlsFDcjKZuC8JEgvffNaPnFMewJgwJX1Ef6Cr8f6uDf\nVkSk2c+915u19CiY6GHbwv1zVPk4bjv83mDgWAqLsGEWHqJJRKOqHNUY+L6bVz9X\ng0mb8T1vG0h7qalQvocnE9lWdehZ0r4FM5jy0ayL1Uc0cVTi/j84XgkpkIYeGE9x\nKvVG8O8YfsDWTJKGtE5w2eC5zx7CM7RApfEELNkZ/+z6HumKCwGB79sAgGN/46Je\no9U9TQUKPSk5TFdcArprqLoI3gpEMrGBXZnKtB0UsIoAjfiU1FZjb9IZ9o4KCkJj\nVFGW1pMNK5D1o59hqopsPQv3zkBtl55AxMWZhuG4Q7gS8k9k54Z0FbbiYiITxWpK\np3qpPBZhYiEkq+Ot3L4t9c3XLuVwAvT2Ig4SCxocC4WsiLql2tYBW9AMC1pB3Oqd\nMrZl0NCE5/P7UQM3bPRj\n=jgGv\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree c4de9ae283314a272a8bd08bec3b246dd8605086\nparent 7a0fae93624b60b8e9b67a862acabb5dbf8f0951\nauthor SebastianFisher <66392483+SebastianFisher@users.noreply.github.com> 1772699895 -0800\ncommitter GitHub <noreply@github.com> 1772699895 -0800\n\nupdate all legacy python commands to UV + document integration (#143)\n\n* fixing torch import missing, replacing some python3 with 'uv run'\n\n* update known integrations\n\n* link ongoing PRs\n\n---------\n\nCo-authored-by: Simon Guo <simonguo@stanford.edu>",
+      "verified_at": "2026-03-05T08:38:16Z"
+    }
+  },
+  "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/commits/423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+  "html_url": "https://github.com/ScalingIntelligence/KernelBench/commit/423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+  "comments_url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/commits/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/comments",
+  "author": {
+    "login": "sebastianfisher",
+    "id": 66392483,
+    "node_id": "MDQ6VXNlcjY2MzkyNDgz",
+    "avatar_url": "https://avatars.githubusercontent.com/u/66392483?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sebastianfisher",
+    "html_url": "https://github.com/sebastianfisher",
+    "followers_url": "https://api.github.com/users/sebastianfisher/followers",
+    "following_url": "https://api.github.com/users/sebastianfisher/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sebastianfisher/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sebastianfisher/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sebastianfisher/subscriptions",
+    "organizations_url": "https://api.github.com/users/sebastianfisher/orgs",
+    "repos_url": "https://api.github.com/users/sebastianfisher/repos",
+    "events_url": "https://api.github.com/users/sebastianfisher/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sebastianfisher/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "7a0fae93624b60b8e9b67a862acabb5dbf8f0951",
+      "url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/commits/7a0fae93624b60b8e9b67a862acabb5dbf8f0951",
+      "html_url": "https://github.com/ScalingIntelligence/KernelBench/commit/7a0fae93624b60b8e9b67a862acabb5dbf8f0951"
+    }
+  ],
+  "stats": {
+    "total": 61,
+    "additions": 38,
+    "deletions": 23
+  },
+  "files": [
+    {
+      "sha": "36e2edfe47bfeefb46e144393d31bb5cebcd4765",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 13,
+      "changes": 40,
+      "blob_url": "https://github.com/ScalingIntelligence/KernelBench/blob/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/README.md",
+      "raw_url": "https://github.com/ScalingIntelligence/KernelBench/raw/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/README.md",
+      "contents_url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/contents/README.md?ref=423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+      "patch": "@@ -1,5 +1,7 @@\n # KernelBench: Can LLMs Write Efficient GPU Kernels? [ICML '25]\n-A benchmark for evaluating LLMs' ability to generate efficient GPU kernels\n+A benchmark and environment for evaluating LLMs' ability to generate efficient GPU kernels\n+\n+Specifically we task LLM to generate correct and efficient CUDA / DSL kernels for PyTorch programs on a target GPU.\n \n [arXiv](https://arxiv.org/html/2502.10517v1) | [blog post](https://scalingintelligence.stanford.edu/blogs/kernelbench/) | [HuggingFace Dataset](https://huggingface.co/datasets/ScalingIntelligence/KernelBench) \n \n@@ -16,7 +18,7 @@ The Huggingface [dataset](https://huggingface.co/datasets/ScalingIntelligence/Ke\n This repo provides core functionality for KernelBench and an easy-to-use set of scripts for evaluation. It is not intended to provide complex agentic scaffolds that solve this task; we recommend cloning and modifying this repo for your experiment, or using it as a git submodule.\n \n ## \ud83d\udc4b Task Description\n-We structure the problem for LLM to transpile operators described in PyTorch to CUDA kernels, at whatever level of granularity it desires to.\n+We structure the problem for LLMs to transpile operators described in PyTorch to CUDA kernels, at whatever level of granularity they desire.\n ![KernelBenchMascot](./assets/figures/KernelBenchWorkFlow.png)\n \n We construct KernelBench to have 4 Levels of categories:\n@@ -34,8 +36,8 @@ We are actively extending KernelBench to other DSLs beyond `cuda` as well (see b\n ## \u2696\ufe0f Evaluation\n #### Methodology\n To evaluate model-generated kernels, we need to check if they:\n-- **is correct \u2705**: check against reference torch operators `n_correctness` times on randomized inputs.\n-- **is performant \u23f1\ufe0f**: compare against reference torch operators `n_trial` times to measure speedup between runtimes.\n+- **are correct \u2705**: check against reference torch operators `n_correctness` times on randomized inputs.\n+- **are performant \u23f1\ufe0f**: compare against reference torch operators `n_trial` times to measure speedup between runtimes.\n \n Check out `src/eval.py` for details on how we implement correctness check and timing and `EVAL.md` for notes on evaluation and benchmarking guidelines [WIP].\n \n@@ -116,19 +118,19 @@ It is easier to get started with a single problem. This will fetch the problem,\n uv run python scripts/generate_and_eval_single_sample.py dataset_src=huggingface level=2 problem_id=40 server_type=google model_name=gemini/gemini-2.5-flash\n \n # dataset_src could be \"local\" or \"huggingface\"\n-# add .verbose_logging for more visbility\n+# add .verbose_logging for more visibility\n ```\n \n **What you might need to modify**\n-* **`gpu_arch`** - Depend on your GPU, you might need to adjust the `gpu_arch` argument to reflect your hardware.\n+* **`gpu_arch`** - Depending on your GPU, you might need to adjust the `gpu_arch` argument to reflect your hardware.\n * **`precision`** - You can specify the precision of tensor by `precision=fp32`. Currently all of our reported results are `fp32` but we added support for `fp16` & `bf16`.\n *  **`backend`** - We are also supporting other GPU programming languages beyond `cuda`. For example, simply specify `backend=triton` or `backend=hip`. For now we support NVIDIA GPUs with programming frameworks and DSLs: `cuda`, `triton`, `cute`, `tilelang`, `thunderkittens`. \n \n Note for AMD GPUs: Use `hip` backend, `gpu_arch` currently supported: `gfx942`, `gfx950`.\n \n Note on setting up ThunderKittens (TK) locally: to use `backend=thunderkittens`, you need to git clone the ThunderKittens repo and set the following environment variable to point to your local ThunderKittens directory, `export THUNDERKITTENS_ROOT=<PATH to ThunderKittens folder>`, and all ThunderKitten programs as shown in the [example](src/kernelbench/prompts/model_new_ex_add_thunderkittens.py), should contain `tk_root = os.environ.get(\"THUNDERKITTENS_ROOT\", \"/root/ThunderKittens\")`, which enable the kernel to include the right TK primitives. In addition, we only support BF16 for TK right now.\n \n-Check the config fields for comprehensive set of options. Note we provide the model with a one-shot example by default along with the minimum set of info; you can check out other prompt settings or construct your own in `src/prompt_constructor_toml.py`.\n+Check the config fields for a comprehensive set of options. Note we provide the model with a one-shot example by default along with the minimum set of info; you can check out other prompt settings or construct your own in `src/prompt_constructor_toml.py`.\n \n ### Run on all problems \n \n@@ -149,20 +151,30 @@ We provide `scripts/benchmark_eval_analysis.py` to analyze the eval results to c\n uv run python scripts/benchmark_eval_analysis.py run_name=test_hf_level_1 level=1 hardware=L40S_matx3 baseline=baseline_time_torch\n ```\n If you are using a different hardware, you can generate the baseline time with `scripts/generate_baseline_time.py` script.\n-We provide some reference baseline times a variety of NVIDIA GPUs across generations in `results/timing`, but we recommend you to generate your own baseline time for more accurate results (cluster power, software version, all affects timing result). See `results/timing/README.md` for more details.\n+We provide some reference baseline times for a variety of NVIDIA GPUs across generations in `results/timing`, but we recommend you generate your own baseline time for more accurate results (cluster power, software version, all affect timing results). See `results/timing/README.md` for more details.\n \n-### Multi-Turn Framework & Integrations\n-We have also releaed the test-time framework [Caesar](https://github.com/ScalingIntelligence/caesar) that are used in the multi-turn / iterative refinement experiments in our paper. You can use or modify this framework for high-throughput test-time scaling (both sequential and parallel) targeting KernelBench problems.\n+## \ud83d\udee3\ufe0f Upcoming Roadmap\n+Check out our [roadmap](https://github.com/ScalingIntelligence/KernelBench/issues/74) for what we plan to add as features. We welcome community contributions and discussions in these directions. \n \n+## \ud83d\udd0c Integration \n You can also use KernelBench as a library for your projects, for example: `from kernelbench import timing`, `from kernelbench import eval as kb_eval`, or `from kernelbench.utils import set_gpu_arch`.\n \n-## \ud83d\udee3\ufe0f Upcoming Roadmap\n-Check out our [roadmap](https://github.com/ScalingIntelligence/KernelBench/issues/74) for what we plan to add as features. We welcome community contirbutions in these directions. \n+- **Adapter with Harbor** \u2014 We are integrating with [Harbor](https://harborframework.com/docs) to enable higher-throughput eval and richer evaluation of agentic performance beyond model pass@1/k. *([Ongoing](https://github.com/harbor-framework/harbor/pull/999))*\n+\n+- **Multi-Turn / Test-Time Scaling** \u2014 [Caesar](https://github.com/ScalingIntelligence/caesar) is our throughput-oriented multi-turn inference engine (ICML '25), used for the iterative refinement experiments in the paper. It runs generation trajectories in batch, feeding back correctness, runtime, and profiling signals across turns for sequential test-time scaling.\n+\n+- **Reinforcement Learning (RLVR)** \u2014 [kernelbench-tinker](https://github.com/ScalingIntelligence/kernelbench-tinker) is an end-to-end integration with Thinking Machines Lab's [Tinker RL library](https://github.com/thinking-machines-lab/tinker). The pipeline has the policy model generate kernels, evaluates them on cloud GPUs via Modal, and converts results into RL rewards \u2014 a minimal playground for experimenting with RLVR on GPU kernel optimization.\n+\n+- **Evolutionary Search** \u2014 Evolutionary search like AlphaEvolve has shown promise for discovering innovative solutions for optimization problems. We are working on an integration for [OpenEvolve](https://github.com/algorithmicsuperintelligence/openevolve). Releasing soon.\n+\n+- **Roofline / Max Speedup Analysis** \u2014   *(Experimental, WIP)* [simple-torchroofline](https://github.com/simonguozirui/simple-torchroofline) provides analytical roofline analysis for PyTorch programs, estimating the speed-of-light (SoL) compute and memory bounds for a target GPU \u2014 no hardware required. Combined with hardware counter-based profiling for empirical roofline analysis, this helps sanity-check whether a reported speedup is physically realistic. \n+\n \n ## \ud83d\udd0d Known Usage\n Since release, we have gotten a lot of interest from researchers, research labs, and companies that use KernelBench to explore this direction. We have documented [known usage](https://docs.google.com/document/d/e/2PACX-1vTjS-UMH1HB5n_PENq2k-3YRfXIXkqKIKeNC2zcWMyLPdl4Jrwvdk4dNDVSsM8ybKrCxZB7GJq1slZF/pub) of KernelBench and related efforts towards automated kernel generations. If you are using KernelBench, we love to hear more about it!\n \n-Disclaimer: KernelBench is designed as an open-source evaluation framework and toolkit. The KernelBench team does not review, validate, or endorse individual kernels or reported results. Users are responsible for independently verifying any results obtained using the framework. Please check out `EVAL.md` for more guidance on benchmarking and evaluating kernels.\n+Disclaimer: KernelBench is designed as an **open-source** evaluation framework and toolkit. The KernelBench team does not review, validate, or endorse individual kernels or reported results. Users are responsible for independently verifying any results obtained using the framework. Please check out `EVAL.md` for more guidance on benchmarking and evaluating kernels.\n+\n \n ## \ud83e\udeaa License\n MIT. Check `LICENSE.md` for more details.\n@@ -180,3 +192,5 @@ MIT. Check `LICENSE.md` for more details.\n       url={https://arxiv.org/abs/2502.10517}, \n }\n ```\n+\n+We are grateful for the support from [GPU Mode](https://gpu-mode.github.io/popcorn/), [PyTorch](https://pytorch.org/), [Modal Labs](https://modal.com/blog/accelerating-ai-research-case-study) and the broader open-source community that made this project possible."
+    },
+    {
+      "sha": "1143477048e1bb5252fbf23365ba1994a225c950",
+      "filename": "results/timing/README.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/ScalingIntelligence/KernelBench/blob/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/results%2Ftiming%2FREADME.md",
+      "raw_url": "https://github.com/ScalingIntelligence/KernelBench/raw/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/results%2Ftiming%2FREADME.md",
+      "contents_url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/contents/results%2Ftiming%2FREADME.md?ref=423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+      "patch": "@@ -30,10 +30,10 @@ For timing, we measure wall clock time. We warm up 3 times and collect runtime s\n \n ### Run on your own cluster\n Since your cluster might be different from ours (different GPU, different power setting, etc.), you can create the baseline results on your own cluster.\n-Take a look at `python3 scripts/generate_baseline_time.py` to see how to set and run timing results.\n+Take a look at `uv run python scripts/generate_baseline_time.py` to see how to set and run timing results.\n \n ### Run on modal\n-To gather baseline on modal, take a look at `python3 scripts/generate_baseline_time_modal.py` to see how we are doing it.\n+To gather baseline on modal, take a look at `uv run python scripts/generate_baseline_time_modal.py` to see how we are doing it.\n \n ### Hardware\n "
+    },
+    {
+      "sha": "ee1b9753dcf1c38e813af930649dad27e19572a8",
+      "filename": "scripts/benchmark_eval_analysis.py",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/ScalingIntelligence/KernelBench/blob/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/scripts%2Fbenchmark_eval_analysis.py",
+      "raw_url": "https://github.com/ScalingIntelligence/KernelBench/raw/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/scripts%2Fbenchmark_eval_analysis.py",
+      "contents_url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/contents/scripts%2Fbenchmark_eval_analysis.py?ref=423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+      "patch": "@@ -17,13 +17,13 @@\n \n Usage:\n ```\n-python3 scripts/benchmark_eval_analysis.py run_name=<run_name> level=<level> hardware=<hardware> baseline=<baseline>\n+uv run python scripts/benchmark_eval_analysis.py run_name=<run_name> level=<level> hardware=<hardware> baseline=<baseline>\n ```\n hardware + baseline should correspond to the results/timing/hardware/baseline.json file\n \n Optional path overrides (for external tools like leaderboards):\n ```\n-python3 scripts/benchmark_eval_analysis.py run_name=<run_name> level=<level> hardware=<hardware> baseline=<baseline> \\\n+uv run python scripts/benchmark_eval_analysis.py run_name=<run_name> level=<level> hardware=<hardware> baseline=<baseline> \\\n     baseline_file=/path/to/baseline.json \\\n     eval_results_dir=/path/to/runs \\\n     output_file=/path/to/output.json"
+    },
+    {
+      "sha": "78ed1ef7f5b540c8252f551e9171324be8002e49",
+      "filename": "scripts/generate_and_eval_single_sample.py",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/ScalingIntelligence/KernelBench/blob/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/scripts%2Fgenerate_and_eval_single_sample.py",
+      "raw_url": "https://github.com/ScalingIntelligence/KernelBench/raw/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/scripts%2Fgenerate_and_eval_single_sample.py",
+      "contents_url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/contents/scripts%2Fgenerate_and_eval_single_sample.py?ref=423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+      "patch": "@@ -19,7 +19,7 @@\n Easiest way to get started, to test a single problem for experimentation or debugging\n \n Example usage:\n-python3 scripts/generate_and_eval_single_sample.py dataset_src=huggingface level=1 problem_id=1 eval_mode=local server_type=google model_name=gemini/gemini-2.5-flash max_tokens=8192 temperature=0.0\n+uv run python scripts/generate_and_eval_single_sample.py dataset_src=huggingface level=1 problem_id=1 eval_mode=local server_type=google model_name=gemini/gemini-2.5-flash max_tokens=8192 temperature=0.0\n \"\"\"\n \n REPO_TOP_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))"
+    },
+    {
+      "sha": "c6f852a6aae192483637376dc4225a81bd0ca255",
+      "filename": "scripts/run_and_check.py",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "changes": 10,
+      "blob_url": "https://github.com/ScalingIntelligence/KernelBench/blob/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/scripts%2Frun_and_check.py",
+      "raw_url": "https://github.com/ScalingIntelligence/KernelBench/raw/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/scripts%2Frun_and_check.py",
+      "contents_url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/contents/scripts%2Frun_and_check.py?ref=423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+      "patch": "@@ -64,18 +64,18 @@\n ====================================================\n Usage:\n 1. PyTorch reference is a local file (local eval)\n-python3 scripts/run_and_check.py ref_origin=local ref_arch_src_path=src/kernelbench/prompts/model_ex_add.py kernel_src_path=src/kernelbench/prompts/model_new_ex_add.py eval_mode=local\n-python3 scripts/run_and_check.py ref_origin=local ref_arch_src_path=src/kernelbench/prompts/few_shot/model_ex_tiled_matmul.py kernel_src_path=src/kernelbench/prompts/few_shot/model_new_ex_tiled_matmul.py eval_mode=local\n+uv run python scripts/run_and_check.py ref_origin=local ref_arch_src_path=src/kernelbench/prompts/model_ex_add.py kernel_src_path=src/kernelbench/prompts/model_new_ex_add.py eval_mode=local\n+uv run python scripts/run_and_check.py ref_origin=local ref_arch_src_path=src/kernelbench/prompts/few_shot/model_ex_tiled_matmul.py kernel_src_path=src/kernelbench/prompts/few_shot/model_new_ex_tiled_matmul.py eval_mode=local\n \n \n 2. PyTorch reference is a kernelbench problem (local eval)\n-python3 scripts/run_and_check.py ref_origin=kernelbench level=<level> problem_id=<problem_id> kernel_src_path=<path to model-generated kernel> eval_mode=local\n+uv run python scripts/run_and_check.py ref_origin=kernelbench level=<level> problem_id=<problem_id> kernel_src_path=<path to model-generated kernel> eval_mode=local\n \n 3. PyTorch reference is a local file (modal eval on cloud GPU)\n-python3 scripts/run_and_check.py ref_origin=local ref_arch_src_path=src/kernelbench/prompts/model_ex_add.py kernel_src_path=src/kernelbench/prompts/model_new_ex_add.py eval_mode=modal gpu=H100\n+uv run python scripts/run_and_check.py ref_origin=local ref_arch_src_path=src/kernelbench/prompts/model_ex_add.py kernel_src_path=src/kernelbench/prompts/model_new_ex_add.py eval_mode=modal gpu=H100\n \n 4. PyTorch reference is a kernelbench problem (modal eval on cloud GPU)\n-python3 scripts/run_and_check.py ref_origin=kernelbench level=<level> problem_id=<problem_id> kernel_src_path=<path to model-generated kernel> eval_mode=modal gpu=L40S\n+uv run python scripts/run_and_check.py ref_origin=kernelbench level=<level> problem_id=<problem_id> kernel_src_path=<path to model-generated kernel> eval_mode=modal gpu=L40S\n ====================================================\n \n \"\"\""
+    },
+    {
+      "sha": "d2d1b1752b94b53c603024ebcd43a3548abd3fa5",
+      "filename": "src/kernelbench/utils.py",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/ScalingIntelligence/KernelBench/blob/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/src%2Fkernelbench%2Futils.py",
+      "raw_url": "https://github.com/ScalingIntelligence/KernelBench/raw/423217d9fda91e0c2d67e4a43bf62f96f6d104f1/src%2Fkernelbench%2Futils.py",
+      "contents_url": "https://api.github.com/repos/ScalingIntelligence/KernelBench/contents/src%2Fkernelbench%2Futils.py?ref=423217d9fda91e0c2d67e4a43bf62f96f6d104f1",
+      "patch": "@@ -15,6 +15,7 @@\n import os\n import json\n from tqdm import tqdm\n+import torch\n from importlib.resources import files, as_file\n \n # API clients"
+    }
+  ]
+}

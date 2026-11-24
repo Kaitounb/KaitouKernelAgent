@@ -1,0 +1,50 @@
+[
+  {
+    "repository": "meta-pytorch/KernelAgent",
+    "revision": "e0647170da36ef9b059ac0bd3d60103aa4ed378b",
+    "path": "utils/providers/base.py",
+    "git_blob": "a77bfc7e091a6651fe38be3c4b0c57ba496388c5",
+    "sha256": "52cba18b1476ea28e3715abdcefa7423d32f59970993d6a70bb542a5afef7cc2",
+    "url": "https://raw.githubusercontent.com/meta-pytorch/KernelAgent/e0647170da36ef9b059ac0bd3d60103aa4ed378b/utils/providers/base.py"
+  },
+  {
+    "repository": "meta-pytorch/KernelAgent",
+    "revision": "e0647170da36ef9b059ac0bd3d60103aa4ed378b",
+    "path": "utils/providers/openai_base.py",
+    "git_blob": "3351ace6c7983a42c3951c658370653cdbc30991",
+    "sha256": "8b0391b4d18318d6cb5168a7641447941569aba03c0eaaf14fd5fe01acda7c26",
+    "url": "https://raw.githubusercontent.com/meta-pytorch/KernelAgent/e0647170da36ef9b059ac0bd3d60103aa4ed378b/utils/providers/openai_base.py"
+  },
+  {
+    "repository": "meta-pytorch/KernelAgent",
+    "revision": "e0647170da36ef9b059ac0bd3d60103aa4ed378b",
+    "path": "utils/providers/openai_provider.py",
+    "git_blob": "9a21d989d95b1bc1afe30764e9843de5cf51ad88",
+    "sha256": "47896caa775090eaefa24bf5b57da4a347e214261cdb748d07bfd49617d09317",
+    "url": "https://raw.githubusercontent.com/meta-pytorch/KernelAgent/e0647170da36ef9b059ac0bd3d60103aa4ed378b/utils/providers/openai_provider.py"
+  },
+  {
+    "repository": "meta-pytorch/KernelAgent",
+    "revision": "e0647170da36ef9b059ac0bd3d60103aa4ed378b",
+    "path": "utils/providers/env_config.py",
+    "git_blob": "3238580bcbba47eb779f6bfa952961777e19e4ba",
+    "sha256": "b5245478ff7a179a9adbe849b1b79dbe5891e4ec06fd28764de320e2bbbb3a32",
+    "url": "https://raw.githubusercontent.com/meta-pytorch/KernelAgent/e0647170da36ef9b059ac0bd3d60103aa4ed378b/utils/providers/env_config.py"
+  },
+  {
+    "repository": "meta-pytorch/KernelAgent",
+    "revision": "e0647170da36ef9b059ac0bd3d60103aa4ed378b",
+    "path": "utils/providers/model_config.py",
+    "git_blob": "83ece7144a44b7e573be1540faa5d991c31219b9",
+    "sha256": "ce375dc44e749c50e55d0f3ef13a08555e5dd6266567428ff7ef30fe38bdd7b9",
+    "url": "https://raw.githubusercontent.com/meta-pytorch/KernelAgent/e0647170da36ef9b059ac0bd3d60103aa4ed378b/utils/providers/model_config.py"
+  },
+  {
+    "repository": "meta-pytorch/KernelAgent",
+    "revision": "e0647170da36ef9b059ac0bd3d60103aa4ed378b",
+    "path": "utils/providers/models.py",
+    "git_blob": "563205efa40446fc3b5fdbf08644fd2678170836",
+    "sha256": "6303c648c3996ac0a3db8a6d30352c738a5a15373ab67da48f4c510e506538c5",
+    "url": "https://raw.githubusercontent.com/meta-pytorch/KernelAgent/e0647170da36ef9b059ac0bd3d60103aa4ed378b/utils/providers/models.py"
+  }
+]

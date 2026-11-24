@@ -1,0 +1,21 @@
+{
+  "status": "AUDIT_PASS_PREVIEW",
+  "version": "0.1.3rc2",
+  "raw_files_verified": 419,
+  "cpu_tests": 54,
+  "gpu_outputs": 7,
+  "gpu_attempts": 9,
+  "expected_faults_rejected": 2,
+  "boundary_pass": true,
+  "rollback_pass": true,
+  "actual_package_rollback_pass": false,
+  "wheel_sha256": "5b45358a5dd5b8608760faedf3442546bc51fa48db87680db95095db33190412",
+  "image_id": "sha256:6ce2012265c68b8553adf8d7807dcf47972a9156d1c7f0a2a64db11f9827e55a",
+  "target_binding": {
+    "gpu_uuid": "GPU-0140b895-e4e9-7c67-aba1-c7a953df1847",
+    "driver_version": "580.95.05"
+  },
+  "new_model_calls": 0,
+  "new_event_samples": 0,
+  "production_release": false
+}
