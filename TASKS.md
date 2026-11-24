@@ -185,6 +185,11 @@ P4-01工程数学验收（2026-11-22）：同一随机FP64输入、head up-proje
 - [x] **3060-NCU-02 真实公开kernel采集及审计**：固定生产cuBLAS/512³，3次kernel×19指标全部有效；原ncu-rep可重新导入，CSV逐指标一致，三输出CPU FP64最大误差4.291534e-6。成功38文件、首次启动前0kernel权限失败29文件逐SHA审计通过。可信管理员诊断边界独立，生产worker零cap不改；0新CUDA/模型/正式Event/私有数据。[审计](evidence/20261124-3060-ncu-smoke-v2/verification.json)。
 - [x] **ENGINEERING-CLOSEOUT 当前交付范围结项**：3060 GEMM与原3070 Attention/MLA、NCU及原始证据/运行/回退/镜像和工具备份就绪。NCU后再次实查qualified、原包指针/证书不变、GPU空闲/170W/无项目容器。结项manifest明确完整原计划并非逐项全通过，原P6范围/3070 GEMM/通用源码/学习延期不冒充通过。[结项](docs/PROJECT_CLOSEOUT.md) · [清单](releases/project-closeout-20261124/manifest.json)。
 
+## GitHub与简历交付（2026-11-24）
+
+- [x] **PUBLICATION-01 公开源码仓库**：按用户指定名称建立[Kaitounb/KaitouKernelAgent](https://github.com/Kaitounb/KaitouKernelAgent)，发布核心源码、CUDA产物、测试、上游归属与公开验收摘要；独立Git快照54项CPU回归通过，已知凭据与常见令牌扫描无匹配。私有连接/API key/独立清单、镜像和大型归档未上传，原本地证据不改。
+- [x] **RESUME-01 第二项目更新**：TexPage第二项目由Ascend Agent替换为当前NVIDIA KernelAgent，写入真实闭环/NCU/实卡验收/回退结果与新GitHub链接；第一项目及专业技能/奖项原文逐段保持，编译一页且日志通过。原/新LaTeX及截图仅在本机.private备份，未进入GitHub。
+
 ## 当前交付顺序
 
 工程阶段已按上述范围结项；NCU亦已完成。后续按运行文档使用/维护，新研究或学习任务按用户新指令另行开始。
